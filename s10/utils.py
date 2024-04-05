@@ -346,7 +346,7 @@ def run_lr_finder(model, criterion, start_lr, train_loader, optimizer,
 
     """
     from torch_lr_finder import LRFinder
-
+    get_device()
     print(f"\n\nRunning LR finder... 🔍👀 \nStart LR: {start_lr}, End LR: {max_lr}, iterations: {num_iterations},"
           f" step mode: {step_mode}\n")
 
@@ -354,6 +354,7 @@ def run_lr_finder(model, criterion, start_lr, train_loader, optimizer,
         optimizer = get_optimizer(model=model, optim_type=optimizer_type, lr=start_lr, weight_decay=weight_decay)
 
     lr_finder = LRFinder(model, optimizer, criterion, device=get_device())
+    print(f"\nRunning LR Range Test...")
     lr_finder.range_test(train_loader, end_lr=max_lr, num_iter=num_iterations, step_mode=step_mode)
     lr_finder.plot(log_lr=log_lr)
     lr_finder.reset()
@@ -721,9 +722,4 @@ def display_misclassified_images(batches, true_labels_list, predicted_labels_lis
 
 
 if __name__ == "__main__":
-    pass
-    # mean, sdev = get_mean_and_std(torchvision.datasets.CIFAR10(root="./data", train=True,
-    #                                                            download=True,
-    #                                                            transform=transforms.Compose([transforms.ToTensor()])))
-    #
-    # print(mean, sdev)
+    get_device()
