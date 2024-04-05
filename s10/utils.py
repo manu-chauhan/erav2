@@ -38,7 +38,9 @@ def get_device():
     """
     Returns available torch device
     """
-    return torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"\n=========================================\nDevice: {device}")
+    return device
 
 
 def get_mean_and_std(dataset):
