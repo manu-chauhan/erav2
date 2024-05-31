@@ -11,8 +11,13 @@ def get_config():
         "lang_tgt": "it",
         "model_folder": "weights",
         "model_basename": "tmodel_",
-        "preload": True,
-        "param_sharing": False,
+        "preload": False,
+        "param_sharing": True,
+         'anneal_strategy'   : "linear",
+           'three_phase'       : True,
+            'gradient_accumulation': False,
+            'accumulation_steps': 4,
+             'h': 8,
         "tokenizer_file": "tokenizer_{0}.json",
         "experiment_name": "runs/tmodel"}
 
