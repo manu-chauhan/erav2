@@ -15,7 +15,7 @@ def get_config():
         "param_sharing": True,
          'anneal_strategy'   : "linear",
            'three_phase'       : True,
-            'gradient_accumulation': False,
+            'gradient_accumulation': True,
             'accumulation_steps': 4,
              'h': 8,
         "tokenizer_file": "tokenizer_{0}.json",
