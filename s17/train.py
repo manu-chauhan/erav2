@@ -27,7 +27,19 @@ from torch.utils.tensorboard import SummaryWriter
 torch.cuda.empty_cache()
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:12240"
 config = get_config()
+import glob
 
+def get_last_saved_model(config):
+    model_directory = config['model_folder']
+    model_pattern = config['model_basename'] + "*.pt"
+    model_files = glob.glob(os.path.join(model_directory, model_pattern))
+    model_files.sort(key=os.path.getmtime, reverse=True)
+
+    if model_files:
+        print(model_files)
+        return model_files[0]
+    else:
+        return None
 def greedy_decode(model, source, source_mask, tokenizer_src, tokenizer_tgt, max_len, device):
     
     
@@ -288,7 +300,7 @@ def train_model(config):
     # scheduler = None
 
     # if a model is specified for preload before training then load it
-    run_val = True
+    run_val = False
     initial_epoch = 0
     global_step = 0
     lrs = []
@@ -402,93 +414,95 @@ def train_model(config):
 
     if run_val:
         run_validation(model=model,
-                       validation_ds=val_dataloader,
+                       val_dataloader=val_dataloader,
                        tokenizer_src=tokenizer_src,
                        tokenizer_tgt=tokenizer_tgt,
                        max_len=config['seq_len'],
-                       device=device, print_msg=lambda msg: batch_iterator.write(msg),
+                       device=device, 
+                    #    print_msg=None, #lambda msg: batch_iterator.write(msg),
                        global_step=global_step,
                        writer=writer,
-                       num_examples=2)
+                    #    num_examples=2
+                       )
 
 
-def run_validation(model,
-                   validation_ds,
-                   tokenizer_src,
-                   tokenizer_tgt,
-                   max_len,
-                   device,
-                   print_msg,
-                   global_step,
-                   writer,
-                   num_examples: 2):
-    model.eval()
-    count = 0
+# def run_validation(model,
+#                    validation_ds,
+#                    tokenizer_src,
+#                    tokenizer_tgt,
+#                    max_len,
+#                    device,
+#                    print_msg,
+#                    global_step,
+#                    writer,
+#                    num_examples: 2):
+#     model.eval()
+#     count = 0
 
-    source_texts = []
-    excepted = []
-    predicted = []
+#     source_texts = []
+#     excepted = []
+#     predicted = []
 
-    try:
-        # get console window width
-        with os.popen('stty size', 'r') as console:
-            _, console_width = console.read().split()
-            console_width = int(console_width)
-    except:
-        console_width = 80
+#     try:
+#         # get console window width
+#         with os.popen('stty size', 'r') as console:
+#             _, console_width = console.read().split()
+#             console_width = int(console_width)
+#     except:
+#         console_width = 80
 
-    with torch.no_grad():
-        for batch in validation_ds:
-            count += 1
-            encoder_input = batch['encoder_input'].to(device, non_blocking=True)
-            encoder_mask = batch['encoder_mask'].to(device, non_blocking=True)
+#     with torch.no_grad():
+#         for batch in validation_ds:
+#             count += 1
+#             encoder_input = batch['encoder_input'].to(device, non_blocking=True)
+#             encoder_mask = batch['encoder_mask'].to(device, non_blocking=True)
 
-            # check that the batch siz is 1
-            assert encoder_input.size(0) == 1, "Batch size for val loader must be 1"
+#             # check that the batch siz is 1
+#             assert encoder_input.size(0) == 1, "Batch size for val loader must be 1"
 
-            model_out = greedy_decode(model=model,
-                                      source=encoder_input,
-                                      source_mask=encoder_mask,
-                                      tokenizer_src=tokenizer_src,
-                                      tokenizer_tgt=tokenizer_tgt,
-                                      max_len=max_len,
-                                      device=device)
+#             model_out = greedy_decode(model=model,
+#                                       source=encoder_input,
+#                                       source_mask=encoder_mask,
+#                                       tokenizer_src=tokenizer_src,
+#                                       tokenizer_tgt=tokenizer_tgt,
+#                                       max_len=max_len,
+#                                       device=device)
 
-            source_text = batch['src_text'][0]
-            target_text = batch['tgt_text'][0]
-            model_out_text = tokenizer_tgt.decode(
-                model_out.detach().cpu().numpy())
+#             source_text = batch['src_text'][0]
+#             target_text = batch['tgt_text'][0]
+#             model_out_text = tokenizer_tgt.decode(
+#                 model_out.detach().cpu().numpy())
 
-            source_texts.append(source_text)
-            excepted.append(target_text)
-            predicted.append(model_out_text)
+#             source_texts.append(source_text)
+#             excepted.append(target_text)
+#             predicted.append(model_out_text)
 
-            if count <= num_examples:
-                # print source, target and model output
-                print_msg('-' * console_width)
-                print_msg(f"{f'SOURCE: ':>12}{source_text}")
-                print_msg(f"{f'TARGET: ':>12}{target_text}")
-                print_msg(f"{f'PREDICTED: ':>12}{model_out_text}")
-                print_msg('-' * console_width)
+#             if count <= num_examples:
+#                 # print source, target and model output
+#                 print('-' * console_width)
+#                 print(f"===={f'SOURCE: ':>12}{source_text}")
+#                 print(f"===={f'TARGET: ':>12}{target_text}")
+#                 print(f"===={f'PREDICTED: ':>12}{model_out_text}")
+#                 print('-' * console_width)
 
-    if writer:
-        # Character error rate
-        metric = torchmetrics.CharErrorRate()
-        cer = metric(predicted, excepted)
-        writer.add_scalar('validation CER', cer, global_step)
-        writer.flush()
+#     if writer:
+#         # Character error rate
+#         metric = torchmetrics.CharErrorRate()
+#         cer = metric(predicted, excepted)
+#         writer.add_scalar('validation CER', cer, global_step)
+#         writer.flush()
 
-        # Word error rate
-        metric = torchmetrics.WordErrorRate()
-        wer = metric(predicted, excepted)
-        writer.add_scalar('validation WER', wer, global_step)
-        writer.flush()
+#         # Word error rate
+#         metric = torchmetrics.WordErrorRate()
+#         wer = metric(predicted, excepted)
+#         writer.add_scalar('validation WER', wer, global_step)
+#         writer.flush()
 
-        # Compute BLEU metric
-        metric = torchmetrics.BLEUScore()
-        bleu = metric(predicted, excepted)
-        writer.add_scalar('validation BLEU', bleu, global_step)
-        writer.flush()
+#         # Compute BLEU metric
+#         metric = torchmetrics.BLEUScore()
+#         bleu = metric(predicted, excepted)
+#         writer.add_scalar('validation BLEU', bleu, global_step)
+#         writer.flush()
             
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
