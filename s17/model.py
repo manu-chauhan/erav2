@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import math
 from config_file import get_config
-
+import torch.nn.functional as F
 config = get_config()
 
 
@@ -136,11 +136,14 @@ class MultiheadAttentionBlock(nn.Module):
         key = key.view(key.shape[0], key.shape[1], self.h, self.d_k).transpose(1,2)
         value = value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2)
 
-        x, self.attenstion_scores = MultiheadAttentionBlock.attention(query=query,
-                                                                      key=key,
-                                                                      value=value,
-                                                                      mask=mask,
-                                                                      dropout=self.dropout)
+        # x, self.attenstion_scores = MultiheadAttentionBlock.attention(query=query,
+        #                                                               key=key,
+        #                                                               value=value,
+        #                                                               mask=mask,
+        #                                                               dropout=self.dropout)
+
+        with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=True, enable_mem_efficient=True):
+            x = F.scaled_dot_product_attention(query=query, key=key, value=value, attn_mask=mask.bool(), dropout_p=0.1)
         
         # Now combine all heads together
         # (batch, h, seq_len, d_k) -> (batch, seq_len, h, d_k) --> (batch, -1 (remaining seq_len), h * d_k (it was d_model))
