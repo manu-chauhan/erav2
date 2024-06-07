@@ -2,8 +2,6 @@ import multiprocessing
 import os
 from pathlib import Path
 import warnings
-
-# Huggingface datasets and tokenizers
 from datasets import load_dataset
 from tokenizers import Tokenizer
 from tokenizers.models import WordLevel
