@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset
 
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
 class BillingualDataset(Dataset):
     def __init__(self, ds, tokenizer_src, tokenizer_tgt, src_lang, tgt_lang, seq_len):
         super().__init__()
@@ -12,9 +14,9 @@ class BillingualDataset(Dataset):
         self.src_lang = src_lang
         self.tgt_lang = tgt_lang
         
-        self.sos_token = torch.tensor([tokenizer_tgt.token_to_id("[SOS]")], dtype = torch.int64)
-        self.eos_token = torch.tensor([tokenizer_tgt.token_to_id("[EOS]")], dtype = torch.int64)
-        self.pad_token = torch.tensor([tokenizer_tgt.token_to_id("[PAD]")], dtype = torch.int64)
+        self.sos_token = torch.tensor([tokenizer_tgt.token_to_id("[SOS]")], dtype = torch.int8)
+        self.eos_token = torch.tensor([tokenizer_tgt.token_to_id("[EOS]")], dtype = torch.int8)
+        self.pad_token = torch.tensor([tokenizer_tgt.token_to_id("[PAD]")], dtype = torch.int8)
         
     def __len__(self):
         return len(self.ds)
@@ -68,7 +70,7 @@ class BillingualDataset(Dataset):
         # <decoder input token ids>, <EOS>, <PAD>, ... <PAD>
         label = torch.cat(
             [
-                torch.tensor(dec_input_tokens, dtype=torch.int64),
+                torch.tensor(dec_input_tokens, dtype=torch.int32),
                 self.eos_token,
                 # torch.tensor([self.pad_token] *
                 #              dec_num_padding_tokens, dtype=torch.int32)

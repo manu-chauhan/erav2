@@ -1,6 +1,10 @@
 import torch
 import torch.nn as nn
 import math
+import torch.nn.functional as F
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
+torch.backends.cuda.enable_flash_sdp(enabled=True)
 
 class LayerNormalization(nn.Module):
 
@@ -96,24 +100,24 @@ class MultiHeadAttentionBlock(nn.Module):
         self.w_o = nn.Linear(d_model, d_model, bias=False) # Wo
         self.dropout = nn.Dropout(dropout)
 
-    @staticmethod
-    def attention(query, key, value, mask, dropout: nn.Dropout):
-        d_k = query.shape[-1]
-        # Just apply the formula from the paper
-        # (batch, h, seq_len, d_k) --> (batch, h, seq_len, seq_len)
-        attention_scores = (query @ key.transpose(-2, -1)) / math.sqrt(d_k)
-        #S16
-        _MASKING_VALUE=-1e30 if attention_scores.dtype==torch.float32 else -1e4
-        if mask is not None:
-            # Write a very low value (indicating -inf) to the positions where mask == 0
-            # attention_scores.masked_fill_(mask == 0, -1e9)
-            attention_scores.masked_fill_(mask==0, value=_MASKING_VALUE)
-        attention_scores = attention_scores.softmax(dim=-1) # (batch, h, seq_len, seq_len) # Apply softmax
-        if dropout is not None:
-            attention_scores = dropout(attention_scores)
-        # (batch, h, seq_len, seq_len) --> (batch, h, seq_len, d_k)
-        # return attention scores which can be used for visualization
-        return (attention_scores @ value), attention_scores
+    # @staticmethod
+    # def attention(query, key, value, mask, dropout: nn.Dropout):
+    #     d_k = query.shape[-1]
+    #     # Just apply the formula from the paper
+    #     # (batch, h, seq_len, d_k) --> (batch, h, seq_len, seq_len)
+    #     attention_scores = (query @ key.transpose(-2, -1)) / math.sqrt(d_k)
+    #     #S16
+    #     _MASKING_VALUE=-1e30 if attention_scores.dtype==torch.float32 else -1e4
+    #     if mask is not None:
+    #         # Write a very low value (indicating -inf) to the positions where mask == 0
+    #         # attention_scores.masked_fill_(mask == 0, -1e9)
+    #         attention_scores.masked_fill_(mask==0, value=_MASKING_VALUE)
+    #     attention_scores = attention_scores.softmax(dim=-1) # (batch, h, seq_len, seq_len) # Apply softmax
+    #     if dropout is not None:
+    #         attention_scores = dropout(attention_scores)
+    #     # (batch, h, seq_len, seq_len) --> (batch, h, seq_len, d_k)
+    #     # return attention scores which can be used for visualization
+    #     return (attention_scores @ value), attention_scores
 
     def forward(self, q, k, v, mask):
         query = self.w_q(q) # (batch, seq_len, d_model) --> (batch, seq_len, d_model)
@@ -126,7 +130,14 @@ class MultiHeadAttentionBlock(nn.Module):
         value = value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2)
 
         # Calculate attention
-        x, self.attention_scores = MultiHeadAttentionBlock.attention(query, key, value, mask, self.dropout)
+        # x, self.attention_scores = MultiHeadAttentionBlock.attention(query, 
+        #                                                              key, 
+        #                                                              value, 
+        #                                                              mask, 
+        #                                                              self.dropout)
+        
+        # with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False, enable_mem_efficient=False):
+        x = F.scaled_dot_product_attention(query=query, key=key, value=value, attn_mask=mask.bool(), dropout_p=0.1)
         
         # Combine all the heads together
         # (batch, h, seq_len, d_k) --> (batch, seq_len, h, d_k) --> (batch, seq_len, d_model)

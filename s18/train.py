@@ -24,7 +24,8 @@ import glob
 
 PAD_TOKEN = 0.0
 torch.cuda.amp.autocast(enabled=True)
-
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
 
 def get_last_saved_model(config):
     model_directory = config['model_folder']
@@ -290,16 +291,13 @@ def train_model(config):
                 proj_output = model.project(decoder_output)
 
                 # compare output and label
-                label = batch['label'].to(device)  # (b, seq_len)
+                label = batch['label'].type(torch.LongTensor).to(device)  # (b, seq_len)
 
                 # compute the loss using cross entropy
                 loss = loss_fn(proj_output.view(-1, tgt_vocab_size), label.view(-1))
                 if accumulate_gradients:
                     loss = loss / accumulate_gradients_steps
 
-            # loss.backward()
-            # optimizer.step()
-            # optimizer.zero_grad(set_to_none=True)
 
             # Scales loss. Calls ``backward()`` on scaled loss to create scaled gradients.
             scaler.scale(loss).backward()
@@ -312,18 +310,19 @@ def train_model(config):
                 scaler.step(optimizer)
                 scaler.update()
                 optimizer.zero_grad(set_to_none=True)
+
             # if scheduler is not None:
             scheduler.step()
+
             lr_v = scheduler.get_last_lr()
             lrs.append(lr_v)
+
             if accumulate_gradients:
                 batch_iterator.set_postfix(
                     {"Accumulated scaled loss": f"{loss.item() * accumulate_gradients_steps:8.5f}", "lr": f"{lr_v}"})
             else:
                 batch_iterator.set_postfix({"loss": f"{loss.item():8.5f}", "lr": f"{lr_v}"})
-            # else:
-            #     batch_iterator.set_postfix({"loss": f"{loss.item() * accumulate_gradients_steps:8.5f}"})
-
+           
             # log the loss
             writer.add_scalar('train loss', loss.item(), global_step)
             writer.flush()
