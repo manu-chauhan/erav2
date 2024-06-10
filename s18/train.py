@@ -450,7 +450,7 @@ def collate_fn(batch):
     pad_token = batch[0]['pad_token']
 
     for b in batch:
-        if b['encoder_token_len'] < 2 or b['encoder_token_len'] > 150 or \
+        if b['encoder_token_len'] < 5 or b['encoder_token_len'] > 200 or \
                 (b['decoder_token_len'] > b['encoder_token_len'] + 10):
             continue
 

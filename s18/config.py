@@ -16,7 +16,7 @@ def get_config():
         'param_sharing'     : True,
         'gradient_accumulation': False,
         'accumulation_steps': 4,
-        "seq_len": 350,
+        "seq_len": 200,
         "d_model": 512,
         "d_ff": 2048,
         "lang_src": "en",
