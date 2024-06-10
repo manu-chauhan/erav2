@@ -439,7 +439,8 @@ def collate_fn(batch):
     """
     # encoder_token_max_len = max(x["encoder_token_len"] for x in batch) + 2
     # decoder_token_max_len = max(x["decoder_token_len"] for x in batch) + 1
-
+    
+    batch.sort(key=lambda x: x['encoder_token_len'])
     encoder_inputs = []
     decoder_inputs = []
     encoder_masks = []
