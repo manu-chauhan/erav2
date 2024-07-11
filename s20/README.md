@@ -28,10 +28,11 @@ In general, a long string being represented by a single token implies that that 
 
 ## Fun with glitch tokens: 
 #### Taken on 29th June 2024 (Andrej's Tokenization video is 4th month old now... these issues still on ChatGPT, hackerNews discussion 1 year old !)
-1. ![img1](images/Screenshot 2024-06-29 131202.png)
-2. ![img1](images/Screenshot 2024-06-29 131228.png)
-3. ![img1](images/Screenshot 2024-06-29 131410.png)
-4. ![img1](images/Screenshot 2024-06-29 132208.png)
+1. ![img1](images/Screenshot-2024-06-29-131202.png)
+2. ![img2](images/Screenshot-2024-06-29-131228.png)
+3. ![img3](images/Screenshot-2024-06-29-131410.png)
+4. ![img4](images/Screenshot-2024-06-29-132208.png)
+
 
 ### Why this breaks things???
 src: https://news.ycombinator.com/item?id=36245187
