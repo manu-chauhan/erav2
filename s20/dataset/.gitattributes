@@ -1,0 +1,12 @@
+JayasI filter=lfs diff=lfs merge=lfs -text
+Kabeera filter=lfs diff=lfs merge=lfs -text
+Mahabharat filter=lfs diff=lfs merge=lfs -text
+combined_from_crawler-json.txt filter=lfs diff=lfs merge=lfs -text
+01-custom-1.txt filter=lfs diff=lfs merge=lfs -text
+Rahima filter=lfs diff=lfs merge=lfs -text
+cakra filter=lfs diff=lfs merge=lfs -text
+custom-2-mix.txt filter=lfs diff=lfs merge=lfs -text
+kaggle_hindi_dataset filter=lfs diff=lfs merge=lfs -text
+tulasidaas filter=lfs diff=lfs merge=lfs -text
+सामवेद[[:space:]]सम्पूर्ण[[:space:]]हिंदी[[:space:]]भाष्य_hocr_searchtext filter=lfs diff=lfs merge=lfs -text
+Meera filter=lfs diff=lfs merge=lfs -text
