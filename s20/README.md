@@ -111,28 +111,7 @@ src: https://www.regular-expressions.info/unicode.html
 
 ### LLAMA3 Tokenizer in browser: https://belladoreai.github.io/llama3-tokenizer-js/example-demo/build/
 
-## Created a simple Web Crawler too (via Scrapy library).. [I mean... why not ?? 😅] 
-1. Output in crawled-new-hindi-data-mix.json
-2. needs to be processed and cleaned up to combine rows of text data together
-3. although Hindi + extended Devanagari unicode points is all what is extracted
-4. Used
-   `Devanagari + Vedic + Extended Devanagari Unicode blocks`
-   >    ```hindi_pattern = r"[\u0900-\u097F\u1CD0-\u1CFF\uA8E0-\uA8FF]+"```  
-    
-   >    ```compiled = re.compile(pattern=hindi_pattern, flags=re.IGNORECASE)```
-5. start URLs for Web-Crawler:
-   > start_urls = ['https://www.aajtak.in/',
-                  'https://www.amarujala.com/?src=mainmenu',
-                  'https://ndtv.in/',
-                  'https://ndtv.in/cricket/zim-vs-ind-2nd-t20i-abhishek-sharma-bat-s-10minute-tsunami-thats-how-zimbabwe-was-robbed-in-two-parts-hindi-6054491#pfrom=home-khabar_moretop'
-                  'https://storymirror.com/read/hindi/story/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%95%E0%A4%B2/tag',
-                  'https://www.achhikhabar.com/hindi-stories/',
-                  'https://hindi.webdunia.com/kids-stories/story-done-compare-yourself-with-others-118060900051_1.html',
-                  'https://www.sarita.in/story/social-story',
-   >               'https://www.bhaskar.com/'
-                  ]
-
-### Resources for dataset preparation:
+## Resources for dataset preparation:
 1. [hindi_text_ltrc](https://github.com/cltk/hindi_text_ltrc/tree/master)
     1. contains classical texts
    2. Kabeera
@@ -182,6 +161,28 @@ Tokenization follows the training process closely, in the sense that new inputs 
 4. Applying the merge rules learned in order on those splits
 
 
+
+## Created a simple Web Crawler too via Scrapy library... yeah... I mean... why not ?? 😅 
+1. Output in crawled-new-hindi-data-mix.json
+2. needs to be processed and cleaned up to combine rows of text data together
+3. although Hindi + extended Devanagari unicode points is all what is extracted
+4. Used
+   `Devanagari + Vedic + Extended Devanagari Unicode blocks`
+   >    ```hindi_pattern = r"[\u0900-\u097F\u1CD0-\u1CFF\uA8E0-\uA8FF]+"```  
+    
+   >    ```compiled = re.compile(pattern=hindi_pattern, flags=re.IGNORECASE)```
+5. start URLs for Web-Crawler:
+   > start_urls = ['https://www.aajtak.in/',
+                  'https://www.amarujala.com/?src=mainmenu',
+                  'https://ndtv.in/',
+                  'https://ndtv.in/cricket/zim-vs-ind-2nd-t20i-abhishek-sharma-bat-s-10minute-tsunami-thats-how-zimbabwe-was-robbed-in-two-parts-hindi-6054491#pfrom=home-khabar_moretop'
+                  'https://storymirror.com/read/hindi/story/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%95%E0%A4%B2/tag',
+                  'https://www.achhikhabar.com/hindi-stories/',
+                  'https://hindi.webdunia.com/kids-stories/story-done-compare-yourself-with-others-118060900051_1.html',
+                  'https://www.sarita.in/story/social-story',
+   >               'https://www.bhaskar.com/'
+                  ]
+
 ## Notes:
 
 The key idea was:
@@ -190,10 +191,7 @@ The key idea was:
 3. This helps
    1. To experiment with various hyper-parameters
    2.  and track quality of tokens generated and subsequent merges
-   3. Allow BPE to pick most common byte-pairs more from initial dataset... to pick phonemes 
-2. Then 
-Saari matra jo similar ho 'm | 've | 's ke wo collect as per GPT2 pattern to start
+   3. Allow BPE to pick most common byte-pairs more from initial dataset... to pick phonemes
 
-Hindi text samajhna and observe kya usual occurence hai
 
-Hinglish would pose a nother challenge !!!! But must be included. Bcoz aaj|aj kal|kl yhi|yehi normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi language these days. 
+Hinglish would pose a another challenge !!!! But must be included. Bcoz aaj|aj kal|kl yhi|yehi normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi language these days. 
