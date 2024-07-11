@@ -182,6 +182,8 @@ Tokenization follows the training process closely, in the sense that new inputs 
                   'https://www.sarita.in/story/social-story',
    >               'https://www.bhaskar.com/'
                   ]
+> To run :$ scrapy runspider spiders/myspider.py -o crawled-new-hindi-data-mix.json
+
 
 ## Notes:
 
@@ -194,4 +196,7 @@ The key idea was:
    3. Allow BPE to pick most common byte-pairs more from initial dataset... to pick phonemes
 
 
-Hinglish would pose a another challenge !!!! But must be included. Bcoz aaj|aj kal|kl yhi|yehi normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi language these days. 
+#### Observation: 
+1. Hinglish (in real use cases) would pose another challenge !!!! But must be included(later). Bcoz aaj|aj kal|kl yhi|yehi normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi language these days. 
+
+2. Any other language than English is under threat now unless Neuralink is adopted so thoughts and speech are transcribed and stored into DB, OR get multilingual keyboards(less likely to work and adopted ?)
