@@ -1,4 +1,6 @@
 import regex as re
+
+import utilities
 from .base import Tokenizer, get_stats, merge
 
 # from .BasicTokenizer import BasicTokenizer
@@ -14,20 +16,23 @@ Vedic Extensions: \u1CD0 to \u1CFF
 Extended Devanagari: \uA8E0 to \uA8FF
 """
 # ignore case in compile below
-HINDI_PATTERN = r"""[ \t\n\r\f\v]?|[^\r\n\p{Devanagari}\p{N}]?+\p{Devanagari}+|\p{N}{1,}| ?[^\s\p{Devanagari}+\p{N}]++[\r\n]*|\s*[\r\n]|\s+(?!\S)|\s+"""
+SIMPLE_HINDI_PATTERN = r"""[\t\n\r\f\v]?|[^\r\n\p{Devanagari}\p{N}]?+\p{Devanagari}+|\\p{N}{1,}| ?[^\s\p{Devanagari}+\p{N}]++[\r\n]*|\s*[\r\n]*|\s+(?!\S)|\s+"""
+EXTENDED_HINDI_PATTERN = r"""[\t\n\r\f\v]?|[^\r\n\p{Devanagari}\uA8E0-\uA8FF\u1CD0-\u1CFF\p{N}]?+[\p{Devanagari}\uA8E0-\uA8FF\u1CD0-\u1CFF]+|\p{N}{1,}| ?[^\s\p{Devanagari}+\p{N}\uA8E0-\uA8FF\u1CD0-\u1CFF]++[\r\n]*|\s*[\r\n]*|\s+(?!\S)|\s+"""
 
 
 class HindiTokenizer(Tokenizer):
     def __init__(self, pattern=None):
         super().__init__()
-        self.pattern = HINDI_PATTERN if pattern is None else pattern
-        self.compiled_pattern = re.compile(self.pattern, re.IGNORECASE)
+        self.pattern = SIMPLE_HINDI_PATTERN if pattern is None else pattern
+        self.compiled_pattern = re.compile(self.pattern, re.IGNORECASE, re.UNICODE)
         self.special_tokens = {}
         self.inverse_special_tokens = {}
         self.merges = None
         self.vocab = None
 
+    @utilities.log_to_file("HindiTokenizer-train.log")
     def train(self, text, vocab_size, verbose=False):
+        print("\nTraining...for HindiTokenizer")
         assert vocab_size >= 256
         num_merges = vocab_size - 256
 
@@ -35,7 +40,7 @@ class HindiTokenizer(Tokenizer):
         text_chunks = re.findall(self.compiled_pattern, text)
 
         # input text preprocessing
-        ids = [list(ch.encode("utf-8")) for ch in text_chunks]
+        ids = [list(ch.encode("utf-8")) for ch in text_chunks if len(ch) > 1]
 
         # iteratively merge the MOST COMMON pair from the text
         # use same merge dict if exists
@@ -75,7 +80,9 @@ class HindiTokenizer(Tokenizer):
         self.special_tokens = special_tokens
         self.inverse_special_tokens = {v: k for k, v in special_tokens.items()}
 
+    @utilities.log_to_file("HindiTokenizer-decode.log")
     def decode(self, ids):
+        print("\nDecoding...for HindiTokenizer")
         # given ids (list of integers), return Python string
         part_bytes = []
         for idx in ids:
@@ -120,6 +127,7 @@ class HindiTokenizer(Tokenizer):
             ids.extend(chunk_ids)
         return ids
 
+    @utilities.log_to_file("HindiTokenizer-encode.log")
     def encode(self, text, allowed_special="none_raise"):
         """
         Unlike encode_ordinary, this function handles special tokens.

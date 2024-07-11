@@ -34,7 +34,7 @@ class HindiSpider(scrapy.Spider):
             txt = re.findall(compiled, paragraph.get())
             if len(txt) > 2:
                 yield {
-                    'text': txt
+                    'text': " ".join(txt)
                 }
 
         # Follow links to other pages
