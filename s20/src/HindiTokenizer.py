@@ -126,7 +126,7 @@ class HindiTokenizer(Tokenizer):
                     break
 
             # mint a new token as the pair was already not in merges: assign it the next available id
-            idx = 1 + len(self.vocab) - 1
+            idx = len(self.vocab)
 
             # replace all occurrences of pair in ids with idx
             ids = [merge(chunk_ids, pair, idx) for chunk_ids in ids]
