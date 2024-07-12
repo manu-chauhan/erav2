@@ -52,7 +52,6 @@ class HindiTokenizer(Tokenizer):
                     ० १ २ ३ ४ ५ ६ ७ ८ ९ . 
                     | , ॥
                     """)
-        self._build_vocab()
 
         super().__init__()
 
@@ -79,6 +78,8 @@ class HindiTokenizer(Tokenizer):
 
     @utilities.log_to_file("HindiTokenizer-train.log")
     def train(self, text, vocab_size, verbose=False, default_initial_vocab_size=256, encoding="utf-8"):
+        if self.vocab is None:
+            self._build_vocab()
 
         print("\n`Training`...for HindiTokenizer")
 
