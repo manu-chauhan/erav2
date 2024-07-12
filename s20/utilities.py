@@ -1,4 +1,5 @@
 import fileinput
+import json
 import os
 import pathlib
 import sys
@@ -79,12 +80,12 @@ def read_from_all_files(all_files_to_read: List[Union[str, pathlib.Path]], batch
         print("\n=========\nReading dataset done\n=============")
 
 
-def read_chunks_from_file(file_path, chunk_size=4 * 1024 * 1024):
+def read_chunks_from_file(file_path, chunk_size=4 * 1024 * 1024, encoding="utf-8"):
     """
     helper function to yield chunk_size of data read from the file_path given
     """
     file_path = os.path.abspath(file_path)
-    with open(file_path, 'r', encoding="utf-8") as f:
+    with open(file_path, 'r', encoding=encoding) as f:
         for chunk in iter(lambda: f.read(chunk_size), b''):
             yield chunk
 
@@ -100,7 +101,7 @@ def get_all_text_dataset(path: str | pathlib.Path, file_type=".txt") -> List:
     # first convert json data to text and then process text
     convert_json_data_to_text_and_process_text(dir_path="./web-scrapper",
                                                file_type=".json",
-                                               output_file_path="./dataset/combined_from_crawler-json.txt")  # fill find all json files recursively and convert to text
+                                               output_file_path="./dataset/combined_from_crawler-json.txt")
 
     for txt_file in pathlib.Path(path).rglob('*' + file_type):
         files.append(txt_file)
@@ -117,7 +118,7 @@ def convert_json_data_to_text_and_process_text(dir_path, file_type=".json", outp
     Helper function to convert JSON data to text and then process the text
 
     """
-    import json
+
     with open(output_file_path, "w", encoding="utf-8") as f_out:
         for json_file in pathlib.Path(dir_path).rglob('*' + file_type):
             with open(json_file, "r", encoding="utf-8") as f:

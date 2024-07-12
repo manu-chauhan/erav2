@@ -1,2146 +1,13 @@
-merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 295801 occurrences
-merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 97809 occurrences
-merge 3/100: (32, 256) -> 258 (b' \xe0\xa4') had 79829 occurrences
-merge 4/100: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 32881 occurrences
-merge 5/100: (257, 141) -> 260 (b'\xe0\xa5\x8d') had 23521 occurrences
-merge 6/100: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 23417 occurrences
-merge 7/100: (257, 135) -> 262 (b'\xe0\xa5\x87') had 20176 occurrences
-merge 8/100: (260, 256) -> 263 (b'\xe0\xa5\x8d\xe0\xa4') had 17712 occurrences
-merge 9/100: (259, 256) -> 264 (b'\xe0\xa4\xbe\xe0\xa4') had 17408 occurrences
-merge 10/100: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 12967 occurrences
-merge 11/100: (257, 128) -> 266 (b'\xe0\xa5\x80') had 12888 occurrences
-merge 12/100: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 10610 occurrences
-merge 13/100: (258, 149) -> 268 (b' \xe0\xa4\x95') had 10520 occurrences
-merge 14/100: (256, 130) -> 269 (b'\xe0\xa4\x82') had 10358 occurrences
-merge 15/100: (257, 139) -> 270 (b'\xe0\xa5\x8b') had 10123 occurrences
-merge 16/100: (256, 149) -> 271 (b'\xe0\xa4\x95') had 9716 occurrences
-merge 17/100: (256, 164) -> 272 (b'\xe0\xa4\xa4') had 9486 occurrences
-merge 18/100: (257, 129) -> 273 (b'\xe0\xa5\x81') had 8195 occurrences
-merge 19/100: (256, 185) -> 274 (b'\xe0\xa4\xb9') had 7502 occurrences
-merge 20/100: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 7155 occurrences
-merge 21/100: (32, 257) -> 276 (b' \xe0\xa5') had 6656 occurrences
-merge 22/100: (258, 184) -> 277 (b' \xe0\xa4\xb8') had 6585 occurrences
-merge 23/100: (258, 185) -> 278 (b' \xe0\xa4\xb9') had 6335 occurrences
-merge 24/100: (256, 174) -> 279 (b'\xe0\xa4\xae') had 5639 occurrences
-merge 25/100: (258, 170) -> 280 (b' \xe0\xa4\xaa') had 5400 occurrences
-merge 26/100: (257, 136) -> 281 (b'\xe0\xa5\x88') had 5192 occurrences
-merge 27/100: (256, 175) -> 282 (b'\xe0\xa4\xaf') had 5108 occurrences
-merge 28/100: (260, 261) -> 283 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 4763 occurrences
-merge 29/100: (258, 174) -> 284 (b' \xe0\xa4\xae') had 4721 occurrences
-merge 30/100: (32, 10) -> 285 (b' \n') had 4061 occurrences
-merge 31/100: (256, 178) -> 286 (b'\xe0\xa4\xb2') had 4015 occurrences
-merge 32/100: (256, 181) -> 287 (b'\xe0\xa4\xb5') had 3963 occurrences
-merge 33/100: (263, 175) -> 288 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 3746 occurrences
-merge 34/100: (256, 170) -> 289 (b'\xe0\xa4\xaa') had 3723 occurrences
-merge 35/100: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 3569 occurrences
-merge 36/100: (276, 164) -> 291 (b' \xe0\xa5\xa4') had 3488 occurrences
-merge 37/100: (256, 151) -> 292 (b'\xe0\xa4\x97') had 3441 occurrences
-merge 38/100: (258, 168) -> 293 (b' \xe0\xa4\xa8') had 3331 occurrences
-merge 39/100: (32, 32) -> 294 (b'  ') had 3319 occurrences
-merge 40/100: (258, 156) -> 295 (b' \xe0\xa4\x9c') had 3301 occurrences
-merge 41/100: (257, 164) -> 296 (b'\xe0\xa5\xa4') had 3150 occurrences
-merge 42/100: (261, 263) -> 297 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 3148 occurrences
-merge 43/100: (258, 172) -> 298 (b' \xe0\xa4\xac') had 3136 occurrences
-merge 44/100: (258, 166) -> 299 (b' \xe0\xa4\xa6') had 3133 occurrences
-merge 45/100: (258, 181) -> 300 (b' \xe0\xa4\xb5') had 3084 occurrences
-merge 46/100: (278, 281) -> 301 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 2945 occurrences
-merge 47/100: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2896 occurrences
-merge 48/100: (259, 261) -> 303 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 2730 occurrences
-merge 49/100: (256, 156) -> 304 (b'\xe0\xa4\x9c') had 2729 occurrences
-merge 50/100: (264, 168) -> 305 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2719 occurrences
-merge 51/100: (258, 164) -> 306 (b' \xe0\xa4\xa4') had 2686 occurrences
-merge 52/100: (273, 256) -> 307 (b'\xe0\xa5\x81\xe0\xa4') had 2545 occurrences
-merge 53/100: (262, 269) -> 308 (b'\xe0\xa5\x87\xe0\xa4\x82') had 2392 occurrences
-merge 54/100: (263, 164) -> 309 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 2372 occurrences
-merge 55/100: (258, 133) -> 310 (b' \xe0\xa4\x85') had 2320 occurrences
-merge 56/100: (256, 172) -> 311 (b'\xe0\xa4\xac') had 2311 occurrences
-merge 57/100: (258, 173) -> 312 (b' \xe0\xa4\xad') had 2204 occurrences
-merge 58/100: (258, 137) -> 313 (b' \xe0\xa4\x89') had 2112 occurrences
-merge 59/100: (258, 176) -> 314 (b' \xe0\xa4\xb0') had 2073 occurrences
-merge 60/100: (267, 262) -> 315 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 2061 occurrences
-merge 61/100: (256, 182) -> 316 (b'\xe0\xa4\xb6') had 2026 occurrences
-merge 62/100: (258, 178) -> 317 (b' \xe0\xa4\xb2') had 1906 occurrences
-merge 63/100: (258, 151) -> 318 (b' \xe0\xa4\x97') had 1876 occurrences
-merge 64/100: (270, 269) -> 319 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 1865 occurrences
-merge 65/100: (291, 296) -> 320 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 1864 occurrences
-merge 66/100: (276, 165) -> 321 (b' \xe0\xa5\xa5') had 1805 occurrences
-merge 67/100: (256, 154) -> 322 (b'\xe0\xa4\x9a') had 1657 occurrences
-merge 68/100: (258, 154) -> 323 (b' \xe0\xa4\x9a') had 1640 occurrences
-merge 69/100: (258, 134) -> 324 (b' \xe0\xa4\x86') had 1629 occurrences
-merge 70/100: (264, 164) -> 325 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 1553 occurrences
-merge 71/100: (265, 282) -> 326 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 1549 occurrences
-merge 72/100: (294, 294) -> 327 (b'    ') had 1506 occurrences
-merge 73/100: (256, 188) -> 328 (b'\xe0\xa4\xbc') had 1464 occurrences
-merge 74/100: (268, 261) -> 329 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 1414 occurrences
-merge 75/100: (274, 266) -> 330 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 1387 occurrences
-merge 76/100: (271, 262) -> 331 (b'\xe0\xa4\x95\xe0\xa5\x87') had 1385 occurrences
-merge 77/100: (256, 161) -> 332 (b'\xe0\xa4\xa1') had 1340 occurrences
-merge 78/100: (258, 175) -> 333 (b' \xe0\xa4\xaf') had 1329 occurrences
-merge 79/100: (256, 183) -> 334 (b'\xe0\xa4\xb7') had 1325 occurrences
-merge 80/100: (258, 182) -> 335 (b' \xe0\xa4\xb6') had 1299 occurrences
-merge 81/100: (272, 259) -> 336 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 1294 occurrences
-merge 82/100: (268, 262) -> 337 (b' \xe0\xa4\x95\xe0\xa5\x87') had 1284 occurrences
-merge 83/100: (148, 261) -> 338 (b'\x94\xe0\xa4\xb0') had 1282 occurrences
-merge 84/100: (275, 262) -> 339 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 1277 occurrences
-merge 85/100: (263, 181) -> 340 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 1270 occurrences
-merge 86/100: (268, 270) -> 341 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 1270 occurrences
-merge 87/100: (256, 163) -> 342 (b'\xe0\xa4\xa3') had 1269 occurrences
-merge 88/100: (256, 167) -> 343 (b'\xe0\xa4\xa7') had 1266 occurrences
-merge 89/100: (264, 175) -> 344 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 1259 occurrences
-merge 90/100: (258, 165) -> 345 (b' \xe0\xa4\xa5') had 1231 occurrences
-merge 91/100: (256, 173) -> 346 (b'\xe0\xa4\xad') had 1227 occurrences
-merge 92/100: (44, 10) -> 347 (b',\n') had 1189 occurrences
-merge 93/100: (258, 338) -> 348 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 1185 occurrences
-merge 94/100: (278, 270) -> 349 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 1175 occurrences
-merge 95/100: (277, 262) -> 350 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 1135 occurrences
-merge 96/100: (265, 272) -> 351 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 1130 occurrences
-merge 97/100: (257, 131) -> 352 (b'\xe0\xa5\x83') had 1095 occurrences
-merge 98/100: (267, 263) -> 353 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 1092 occurrences
-merge 99/100: (268, 266) -> 354 (b' \xe0\xa4\x95\xe0\xa5\x80') had 1074 occurrences
-merge 100/100: (256, 150) -> 355 (b'\xe0\xa4\x96') had 1069 occurrences
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 314833 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 118967 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 62064 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 39071 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 36085 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 33827 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 23999 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 20085 occurrences
-merge 9/50: (256, 191) -> 264 (b'\xe0\xa4\xbf') had 15010 occurrences
-merge 10/50: (256, 176) -> 265 (b'\xe0\xa4\xb0') had 14990 occurrences
-merge 11/50: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 14827 occurrences
-merge 12/50: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 14191 occurrences
-merge 13/50: (256, 149) -> 268 (b'\xe0\xa4\x95') had 12870 occurrences
-merge 14/50: (256, 168) -> 269 (b'\xe0\xa4\xa8') had 12335 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 10291 occurrences
-merge 16/50: (32, 10) -> 271 (b' \n') had 10000 occurrences
-merge 17/50: (256, 184) -> 272 (b'\xe0\xa4\xb8') had 9477 occurrences
-merge 18/50: (256, 130) -> 273 (b'\xe0\xa4\x82') had 9435 occurrences
-merge 19/50: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 9184 occurrences
-merge 20/50: (256, 174) -> 275 (b'\xe0\xa4\xae') had 9164 occurrences
-merge 21/50: (257, 128) -> 276 (b'\xe0\xa5\x80') had 8851 occurrences
-merge 22/50: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 8068 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7644 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 6746 occurrences
-merge 25/50: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 6354 occurrences
-merge 26/50: (277, 266) -> 281 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 6194 occurrences
-merge 27/50: (260, 175) -> 282 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 5744 occurrences
-merge 28/50: (256, 170) -> 283 (b'\xe0\xa4\xaa') had 5656 occurrences
-merge 29/50: (258, 170) -> 284 (b' \xe0\xa4\xaa') had 5512 occurrences
-merge 30/50: (258, 184) -> 285 (b' \xe0\xa4\xb8') had 5473 occurrences
-merge 31/50: (256, 175) -> 286 (b'\xe0\xa4\xaf') had 5247 occurrences
-merge 32/50: (258, 149) -> 287 (b' \xe0\xa4\x95') had 5073 occurrences
-merge 33/50: (258, 185) -> 288 (b' \xe0\xa4\xb9') had 4626 occurrences
-merge 34/50: (260, 164) -> 289 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 4543 occurrences
-merge 35/50: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 4254 occurrences
-merge 36/50: (32, 257) -> 291 (b' \xe0\xa5') had 4105 occurrences
-merge 37/50: (258, 181) -> 292 (b' \xe0\xa4\xb5') had 3917 occurrences
-merge 38/50: (260, 181) -> 293 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 3756 occurrences
-merge 39/50: (270, 256) -> 294 (b'\xe0\xa5\x81\xe0\xa4') had 3371 occurrences
-merge 40/50: (258, 174) -> 295 (b' \xe0\xa4\xae') had 3354 occurrences
-merge 41/50: (262, 176) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3238 occurrences
-merge 42/50: (257, 136) -> 297 (b'\xe0\xa5\x88') had 3205 occurrences
-merge 43/50: (258, 164) -> 298 (b' \xe0\xa4\xa4') had 3196 occurrences
-merge 44/50: (256, 182) -> 299 (b'\xe0\xa4\xb6') had 3152 occurrences
-merge 45/50: (262, 168) -> 300 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2984 occurrences
-merge 46/50: (256, 151) -> 301 (b'\xe0\xa4\x97') had 2931 occurrences
-merge 47/50: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2804 occurrences
-merge 48/50: (258, 166) -> 303 (b' \xe0\xa4\xa6') had 2656 occurrences
-merge 49/50: (256, 178) -> 304 (b'\xe0\xa4\xb2') had 2574 occurrences
-merge 50/50: (265, 260) -> 305 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 2572 occurrences
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 314833 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 118967 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 62064 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 39071 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 36085 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 33827 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 23999 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 20085 occurrences
-merge 9/50: (256, 191) -> 264 (b'\xe0\xa4\xbf') had 15010 occurrences
-merge 10/50: (256, 176) -> 265 (b'\xe0\xa4\xb0') had 14990 occurrences
-merge 11/50: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 14827 occurrences
-merge 12/50: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 14191 occurrences
-merge 13/50: (256, 149) -> 268 (b'\xe0\xa4\x95') had 12870 occurrences
-merge 14/50: (256, 168) -> 269 (b'\xe0\xa4\xa8') had 12335 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 10291 occurrences
-merge 16/50: (32, 10) -> 271 (b' \n') had 10000 occurrences
-merge 17/50: (256, 184) -> 272 (b'\xe0\xa4\xb8') had 9477 occurrences
-merge 18/50: (256, 130) -> 273 (b'\xe0\xa4\x82') had 9435 occurrences
-merge 19/50: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 9184 occurrences
-merge 20/50: (256, 174) -> 275 (b'\xe0\xa4\xae') had 9164 occurrences
-merge 21/50: (257, 128) -> 276 (b'\xe0\xa5\x80') had 8851 occurrences
-merge 22/50: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 8068 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7644 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 6746 occurrences
-merge 25/50: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 6354 occurrences
-merge 26/50: (277, 266) -> 281 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 6194 occurrences
-merge 27/50: (260, 175) -> 282 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 5744 occurrences
-merge 28/50: (256, 170) -> 283 (b'\xe0\xa4\xaa') had 5656 occurrences
-merge 29/50: (258, 170) -> 284 (b' \xe0\xa4\xaa') had 5512 occurrences
-merge 30/50: (258, 184) -> 285 (b' \xe0\xa4\xb8') had 5473 occurrences
-merge 31/50: (256, 175) -> 286 (b'\xe0\xa4\xaf') had 5247 occurrences
-merge 32/50: (258, 149) -> 287 (b' \xe0\xa4\x95') had 5073 occurrences
-merge 33/50: (258, 185) -> 288 (b' \xe0\xa4\xb9') had 4626 occurrences
-merge 34/50: (260, 164) -> 289 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 4543 occurrences
-merge 35/50: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 4254 occurrences
-merge 36/50: (32, 257) -> 291 (b' \xe0\xa5') had 4105 occurrences
-merge 37/50: (258, 181) -> 292 (b' \xe0\xa4\xb5') had 3917 occurrences
-merge 38/50: (260, 181) -> 293 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 3756 occurrences
-merge 39/50: (270, 256) -> 294 (b'\xe0\xa5\x81\xe0\xa4') had 3371 occurrences
-merge 40/50: (258, 174) -> 295 (b' \xe0\xa4\xae') had 3354 occurrences
-merge 41/50: (262, 176) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3238 occurrences
-merge 42/50: (257, 136) -> 297 (b'\xe0\xa5\x88') had 3205 occurrences
-merge 43/50: (258, 164) -> 298 (b' \xe0\xa4\xa4') had 3196 occurrences
-merge 44/50: (256, 182) -> 299 (b'\xe0\xa4\xb6') had 3152 occurrences
-merge 45/50: (262, 168) -> 300 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2984 occurrences
-merge 46/50: (256, 151) -> 301 (b'\xe0\xa4\x97') had 2931 occurrences
-merge 47/50: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2804 occurrences
-merge 48/50: (258, 166) -> 303 (b' \xe0\xa4\xa6') had 2656 occurrences
-merge 49/50: (256, 178) -> 304 (b'\xe0\xa4\xb2') had 2574 occurrences
-merge 50/50: (265, 260) -> 305 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 2572 occurrences
+b'fetch: 30 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (31/31), 9.6 GB | 0 B/s, done.\n'
 
-Training...for HindiTokenizer
-merge 1/300: (224, 164) -> 256 (b'\xe0\xa4') had 295801 occurrences
-merge 2/300: (224, 165) -> 257 (b'\xe0\xa5') had 97809 occurrences
-merge 3/300: (32, 256) -> 258 (b' \xe0\xa4') had 79829 occurrences
-merge 4/300: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 32881 occurrences
-merge 5/300: (257, 141) -> 260 (b'\xe0\xa5\x8d') had 23521 occurrences
-merge 6/300: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 23417 occurrences
-merge 7/300: (257, 135) -> 262 (b'\xe0\xa5\x87') had 20176 occurrences
-merge 8/300: (260, 256) -> 263 (b'\xe0\xa5\x8d\xe0\xa4') had 17712 occurrences
-merge 9/300: (259, 256) -> 264 (b'\xe0\xa4\xbe\xe0\xa4') had 17408 occurrences
-merge 10/300: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 12967 occurrences
-merge 11/300: (257, 128) -> 266 (b'\xe0\xa5\x80') had 12888 occurrences
-merge 12/300: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 10610 occurrences
-merge 13/300: (258, 149) -> 268 (b' \xe0\xa4\x95') had 10520 occurrences
-merge 14/300: (256, 130) -> 269 (b'\xe0\xa4\x82') had 10358 occurrences
-merge 15/300: (257, 139) -> 270 (b'\xe0\xa5\x8b') had 10123 occurrences
-merge 16/300: (256, 149) -> 271 (b'\xe0\xa4\x95') had 9716 occurrences
-merge 17/300: (256, 164) -> 272 (b'\xe0\xa4\xa4') had 9486 occurrences
-merge 18/300: (257, 129) -> 273 (b'\xe0\xa5\x81') had 8195 occurrences
-merge 19/300: (256, 185) -> 274 (b'\xe0\xa4\xb9') had 7502 occurrences
-merge 20/300: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 7155 occurrences
-merge 21/300: (32, 257) -> 276 (b' \xe0\xa5') had 6656 occurrences
-merge 22/300: (258, 184) -> 277 (b' \xe0\xa4\xb8') had 6585 occurrences
-merge 23/300: (258, 185) -> 278 (b' \xe0\xa4\xb9') had 6335 occurrences
-merge 24/300: (256, 174) -> 279 (b'\xe0\xa4\xae') had 5639 occurrences
-merge 25/300: (258, 170) -> 280 (b' \xe0\xa4\xaa') had 5400 occurrences
-merge 26/300: (257, 136) -> 281 (b'\xe0\xa5\x88') had 5192 occurrences
-merge 27/300: (256, 175) -> 282 (b'\xe0\xa4\xaf') had 5108 occurrences
-merge 28/300: (260, 261) -> 283 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 4763 occurrences
-merge 29/300: (258, 174) -> 284 (b' \xe0\xa4\xae') had 4721 occurrences
-merge 30/300: (32, 10) -> 285 (b' \n') had 4061 occurrences
-merge 31/300: (256, 178) -> 286 (b'\xe0\xa4\xb2') had 4015 occurrences
-merge 32/300: (256, 181) -> 287 (b'\xe0\xa4\xb5') had 3963 occurrences
-merge 33/300: (263, 175) -> 288 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 3746 occurrences
-merge 34/300: (256, 170) -> 289 (b'\xe0\xa4\xaa') had 3723 occurrences
-merge 35/300: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 3569 occurrences
-merge 36/300: (276, 164) -> 291 (b' \xe0\xa5\xa4') had 3488 occurrences
-merge 37/300: (256, 151) -> 292 (b'\xe0\xa4\x97') had 3441 occurrences
-merge 38/300: (258, 168) -> 293 (b' \xe0\xa4\xa8') had 3331 occurrences
-merge 39/300: (32, 32) -> 294 (b'  ') had 3319 occurrences
-merge 40/300: (258, 156) -> 295 (b' \xe0\xa4\x9c') had 3301 occurrences
-merge 41/300: (257, 164) -> 296 (b'\xe0\xa5\xa4') had 3150 occurrences
-merge 42/300: (261, 263) -> 297 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 3148 occurrences
-merge 43/300: (258, 172) -> 298 (b' \xe0\xa4\xac') had 3136 occurrences
-merge 44/300: (258, 166) -> 299 (b' \xe0\xa4\xa6') had 3133 occurrences
-merge 45/300: (258, 181) -> 300 (b' \xe0\xa4\xb5') had 3084 occurrences
-merge 46/300: (278, 281) -> 301 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 2945 occurrences
-merge 47/300: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2896 occurrences
-merge 48/300: (259, 261) -> 303 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 2730 occurrences
-merge 49/300: (256, 156) -> 304 (b'\xe0\xa4\x9c') had 2729 occurrences
-merge 50/300: (264, 168) -> 305 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2719 occurrences
-merge 51/300: (258, 164) -> 306 (b' \xe0\xa4\xa4') had 2686 occurrences
-merge 52/300: (273, 256) -> 307 (b'\xe0\xa5\x81\xe0\xa4') had 2545 occurrences
-merge 53/300: (262, 269) -> 308 (b'\xe0\xa5\x87\xe0\xa4\x82') had 2392 occurrences
-merge 54/300: (263, 164) -> 309 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 2372 occurrences
-merge 55/300: (258, 133) -> 310 (b' \xe0\xa4\x85') had 2320 occurrences
-merge 56/300: (256, 172) -> 311 (b'\xe0\xa4\xac') had 2311 occurrences
-merge 57/300: (258, 173) -> 312 (b' \xe0\xa4\xad') had 2204 occurrences
-merge 58/300: (258, 137) -> 313 (b' \xe0\xa4\x89') had 2112 occurrences
-merge 59/300: (258, 176) -> 314 (b' \xe0\xa4\xb0') had 2073 occurrences
-merge 60/300: (267, 262) -> 315 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 2061 occurrences
-merge 61/300: (256, 182) -> 316 (b'\xe0\xa4\xb6') had 2026 occurrences
-merge 62/300: (258, 178) -> 317 (b' \xe0\xa4\xb2') had 1906 occurrences
-merge 63/300: (258, 151) -> 318 (b' \xe0\xa4\x97') had 1876 occurrences
-merge 64/300: (270, 269) -> 319 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 1865 occurrences
-merge 65/300: (291, 296) -> 320 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 1864 occurrences
-merge 66/300: (276, 165) -> 321 (b' \xe0\xa5\xa5') had 1805 occurrences
-merge 67/300: (256, 154) -> 322 (b'\xe0\xa4\x9a') had 1657 occurrences
-merge 68/300: (258, 154) -> 323 (b' \xe0\xa4\x9a') had 1640 occurrences
-merge 69/300: (258, 134) -> 324 (b' \xe0\xa4\x86') had 1629 occurrences
-merge 70/300: (264, 164) -> 325 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 1553 occurrences
-merge 71/300: (265, 282) -> 326 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 1549 occurrences
-merge 72/300: (294, 294) -> 327 (b'    ') had 1506 occurrences
-merge 73/300: (256, 188) -> 328 (b'\xe0\xa4\xbc') had 1464 occurrences
-merge 74/300: (268, 261) -> 329 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 1414 occurrences
-merge 75/300: (274, 266) -> 330 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 1387 occurrences
-merge 76/300: (271, 262) -> 331 (b'\xe0\xa4\x95\xe0\xa5\x87') had 1385 occurrences
-merge 77/300: (256, 161) -> 332 (b'\xe0\xa4\xa1') had 1340 occurrences
-merge 78/300: (258, 175) -> 333 (b' \xe0\xa4\xaf') had 1329 occurrences
-merge 79/300: (256, 183) -> 334 (b'\xe0\xa4\xb7') had 1325 occurrences
-merge 80/300: (258, 182) -> 335 (b' \xe0\xa4\xb6') had 1299 occurrences
-merge 81/300: (272, 259) -> 336 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 1294 occurrences
-merge 82/300: (268, 262) -> 337 (b' \xe0\xa4\x95\xe0\xa5\x87') had 1284 occurrences
-merge 83/300: (148, 261) -> 338 (b'\x94\xe0\xa4\xb0') had 1282 occurrences
-merge 84/300: (275, 262) -> 339 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 1277 occurrences
-merge 85/300: (263, 181) -> 340 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 1270 occurrences
-merge 86/300: (268, 270) -> 341 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 1270 occurrences
-merge 87/300: (256, 163) -> 342 (b'\xe0\xa4\xa3') had 1269 occurrences
-merge 88/300: (256, 167) -> 343 (b'\xe0\xa4\xa7') had 1266 occurrences
-merge 89/300: (264, 175) -> 344 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 1259 occurrences
-merge 90/300: (258, 165) -> 345 (b' \xe0\xa4\xa5') had 1231 occurrences
-merge 91/300: (256, 173) -> 346 (b'\xe0\xa4\xad') had 1227 occurrences
-merge 92/300: (44, 10) -> 347 (b',\n') had 1189 occurrences
-merge 93/300: (258, 338) -> 348 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 1185 occurrences
-merge 94/300: (278, 270) -> 349 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 1175 occurrences
-merge 95/300: (277, 262) -> 350 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 1135 occurrences
-merge 96/300: (265, 272) -> 351 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 1130 occurrences
-merge 97/300: (257, 131) -> 352 (b'\xe0\xa5\x83') had 1095 occurrences
-merge 98/300: (267, 263) -> 353 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 1092 occurrences
-merge 99/300: (268, 266) -> 354 (b' \xe0\xa4\x95\xe0\xa5\x80') had 1074 occurrences
-merge 100/300: (256, 150) -> 355 (b'\xe0\xa4\x96') had 1069 occurrences
-merge 101/300: (284, 308) -> 356 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 1054 occurrences
-merge 102/300: (280, 283) -> 357 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 1048 occurrences
-merge 103/300: (264, 184) -> 358 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 1037 occurrences
-merge 104/300: (258, 189) -> 359 (b' \xe0\xa4\xbd') had 1034 occurrences
-merge 105/300: (256, 159) -> 360 (b'\xe0\xa4\x9f') had 1031 occurrences
-merge 106/300: (330, 269) -> 361 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 1026 occurrences
-merge 107/300: (264, 178) -> 362 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 1013 occurrences
-merge 108/300: (280, 261) -> 363 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 1007 occurrences
-merge 109/300: (291, 10) -> 364 (b' \xe0\xa5\xa4\n') had 1000 occurrences
-merge 110/300: (296, 10) -> 365 (b'\xe0\xa5\xa4\n') had 984 occurrences
-merge 111/300: (264, 174) -> 366 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 932 occurrences
-merge 112/300: (272, 262) -> 367 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 916 occurrences
-merge 113/300: (300, 265) -> 368 (b' \xe0\xa4\xb5\xe0\xa4\xbf') had 901 occurrences
-merge 114/300: (258, 135) -> 369 (b' \xe0\xa4\x87') had 899 occurrences
-merge 115/300: (273, 261) -> 370 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 899 occurrences
-merge 116/300: (267, 259) -> 371 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 898 occurrences
-merge 117/300: (312, 266) -> 372 (b' \xe0\xa4\xad\xe0\xa5\x80') had 888 occurrences
-merge 118/300: (321, 10) -> 373 (b' \xe0\xa5\xa5\n') had 880 occurrences
-merge 119/300: (257, 140) -> 374 (b'\xe0\xa5\x8c') had 862 occurrences
-merge 120/300: (264, 129) -> 375 (b'\xe0\xa4\xbe\xe0\xa4\x81') had 861 occurrences
-merge 121/300: (268, 259) -> 376 (b' \xe0\xa4\x95\xe0\xa4\xbe') had 860 occurrences
-merge 122/300: (332, 328) -> 377 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 858 occurrences
-merge 123/300: (293, 361) -> 378 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 839 occurrences
-merge 124/300: (265, 261) -> 379 (b'\xe0\xa4\xbf\xe0\xa4\xb0') had 838 occurrences
-merge 125/300: (271, 259) -> 380 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 835 occurrences
-merge 126/300: (299, 262) -> 381 (b' \xe0\xa4\xa6\xe0\xa5\x87') had 825 occurrences
-merge 127/300: (271, 266) -> 382 (b'\xe0\xa4\x95\xe0\xa5\x80') had 768 occurrences
-merge 128/300: (265, 267) -> 383 (b'\xe0\xa4\xbf\xe0\xa4\xa8') had 762 occurrences
-merge 129/300: (256, 165) -> 384 (b'\xe0\xa4\xa5') had 749 occurrences
-merge 130/300: (326, 259) -> 385 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 748 occurrences
+=========
+Reading dataset
+=============
 
-Training...for HindiTokenizer
-merge 1/300: (224, 164) -> 256 (b'\xe0\xa4') had 295801 occurrences
-merge 2/300: (224, 165) -> 257 (b'\xe0\xa5') had 97809 occurrences
-merge 3/300: (32, 256) -> 258 (b' \xe0\xa4') had 79829 occurrences
-merge 4/300: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 32881 occurrences
-merge 5/300: (257, 141) -> 260 (b'\xe0\xa5\x8d') had 23521 occurrences
-merge 6/300: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 23417 occurrences
-merge 7/300: (257, 135) -> 262 (b'\xe0\xa5\x87') had 20176 occurrences
-merge 8/300: (260, 256) -> 263 (b'\xe0\xa5\x8d\xe0\xa4') had 17712 occurrences
-merge 9/300: (259, 256) -> 264 (b'\xe0\xa4\xbe\xe0\xa4') had 17408 occurrences
-merge 10/300: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 12967 occurrences
-merge 11/300: (257, 128) -> 266 (b'\xe0\xa5\x80') had 12888 occurrences
-merge 12/300: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 10610 occurrences
-merge 13/300: (258, 149) -> 268 (b' \xe0\xa4\x95') had 10520 occurrences
-merge 14/300: (256, 130) -> 269 (b'\xe0\xa4\x82') had 10358 occurrences
-merge 15/300: (257, 139) -> 270 (b'\xe0\xa5\x8b') had 10123 occurrences
-merge 16/300: (256, 149) -> 271 (b'\xe0\xa4\x95') had 9716 occurrences
-merge 17/300: (256, 164) -> 272 (b'\xe0\xa4\xa4') had 9486 occurrences
-merge 18/300: (257, 129) -> 273 (b'\xe0\xa5\x81') had 8195 occurrences
-merge 19/300: (256, 185) -> 274 (b'\xe0\xa4\xb9') had 7502 occurrences
-merge 20/300: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 7155 occurrences
-merge 21/300: (32, 257) -> 276 (b' \xe0\xa5') had 6656 occurrences
-merge 22/300: (258, 184) -> 277 (b' \xe0\xa4\xb8') had 6585 occurrences
-merge 23/300: (258, 185) -> 278 (b' \xe0\xa4\xb9') had 6335 occurrences
-merge 24/300: (256, 174) -> 279 (b'\xe0\xa4\xae') had 5639 occurrences
-merge 25/300: (258, 170) -> 280 (b' \xe0\xa4\xaa') had 5400 occurrences
-merge 26/300: (257, 136) -> 281 (b'\xe0\xa5\x88') had 5192 occurrences
-merge 27/300: (256, 175) -> 282 (b'\xe0\xa4\xaf') had 5108 occurrences
-merge 28/300: (260, 261) -> 283 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 4763 occurrences
-merge 29/300: (258, 174) -> 284 (b' \xe0\xa4\xae') had 4721 occurrences
-merge 30/300: (32, 10) -> 285 (b' \n') had 4061 occurrences
-merge 31/300: (256, 178) -> 286 (b'\xe0\xa4\xb2') had 4015 occurrences
-merge 32/300: (256, 181) -> 287 (b'\xe0\xa4\xb5') had 3963 occurrences
-merge 33/300: (263, 175) -> 288 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 3746 occurrences
-merge 34/300: (256, 170) -> 289 (b'\xe0\xa4\xaa') had 3723 occurrences
-merge 35/300: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 3569 occurrences
-merge 36/300: (276, 164) -> 291 (b' \xe0\xa5\xa4') had 3488 occurrences
-merge 37/300: (256, 151) -> 292 (b'\xe0\xa4\x97') had 3441 occurrences
-merge 38/300: (258, 168) -> 293 (b' \xe0\xa4\xa8') had 3331 occurrences
-merge 39/300: (32, 32) -> 294 (b'  ') had 3319 occurrences
-merge 40/300: (258, 156) -> 295 (b' \xe0\xa4\x9c') had 3301 occurrences
-merge 41/300: (257, 164) -> 296 (b'\xe0\xa5\xa4') had 3150 occurrences
-merge 42/300: (261, 263) -> 297 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 3148 occurrences
-merge 43/300: (258, 172) -> 298 (b' \xe0\xa4\xac') had 3136 occurrences
-merge 44/300: (258, 166) -> 299 (b' \xe0\xa4\xa6') had 3133 occurrences
-merge 45/300: (258, 181) -> 300 (b' \xe0\xa4\xb5') had 3084 occurrences
-merge 46/300: (278, 281) -> 301 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 2945 occurrences
-merge 47/300: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2896 occurrences
-merge 48/300: (259, 261) -> 303 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 2730 occurrences
-merge 49/300: (256, 156) -> 304 (b'\xe0\xa4\x9c') had 2729 occurrences
-merge 50/300: (264, 168) -> 305 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2719 occurrences
-merge 51/300: (258, 164) -> 306 (b' \xe0\xa4\xa4') had 2686 occurrences
-merge 52/300: (273, 256) -> 307 (b'\xe0\xa5\x81\xe0\xa4') had 2545 occurrences
-merge 53/300: (262, 269) -> 308 (b'\xe0\xa5\x87\xe0\xa4\x82') had 2392 occurrences
-merge 54/300: (263, 164) -> 309 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 2372 occurrences
-merge 55/300: (258, 133) -> 310 (b' \xe0\xa4\x85') had 2320 occurrences
-merge 56/300: (256, 172) -> 311 (b'\xe0\xa4\xac') had 2311 occurrences
-merge 57/300: (258, 173) -> 312 (b' \xe0\xa4\xad') had 2204 occurrences
-merge 58/300: (258, 137) -> 313 (b' \xe0\xa4\x89') had 2112 occurrences
-merge 59/300: (258, 176) -> 314 (b' \xe0\xa4\xb0') had 2073 occurrences
-merge 60/300: (267, 262) -> 315 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 2061 occurrences
-merge 61/300: (256, 182) -> 316 (b'\xe0\xa4\xb6') had 2026 occurrences
-merge 62/300: (258, 178) -> 317 (b' \xe0\xa4\xb2') had 1906 occurrences
-merge 63/300: (258, 151) -> 318 (b' \xe0\xa4\x97') had 1876 occurrences
-merge 64/300: (270, 269) -> 319 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 1865 occurrences
-merge 65/300: (291, 296) -> 320 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 1864 occurrences
-merge 66/300: (276, 165) -> 321 (b' \xe0\xa5\xa5') had 1805 occurrences
-merge 67/300: (256, 154) -> 322 (b'\xe0\xa4\x9a') had 1657 occurrences
-merge 68/300: (258, 154) -> 323 (b' \xe0\xa4\x9a') had 1640 occurrences
-merge 69/300: (258, 134) -> 324 (b' \xe0\xa4\x86') had 1629 occurrences
-merge 70/300: (264, 164) -> 325 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 1553 occurrences
-merge 71/300: (265, 282) -> 326 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 1549 occurrences
-merge 72/300: (294, 294) -> 327 (b'    ') had 1506 occurrences
-merge 73/300: (256, 188) -> 328 (b'\xe0\xa4\xbc') had 1464 occurrences
-merge 74/300: (268, 261) -> 329 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 1414 occurrences
-merge 75/300: (274, 266) -> 330 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 1387 occurrences
-merge 76/300: (271, 262) -> 331 (b'\xe0\xa4\x95\xe0\xa5\x87') had 1385 occurrences
-merge 77/300: (256, 161) -> 332 (b'\xe0\xa4\xa1') had 1340 occurrences
-merge 78/300: (258, 175) -> 333 (b' \xe0\xa4\xaf') had 1329 occurrences
-merge 79/300: (256, 183) -> 334 (b'\xe0\xa4\xb7') had 1325 occurrences
-merge 80/300: (258, 182) -> 335 (b' \xe0\xa4\xb6') had 1299 occurrences
-merge 81/300: (272, 259) -> 336 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 1294 occurrences
-merge 82/300: (268, 262) -> 337 (b' \xe0\xa4\x95\xe0\xa5\x87') had 1284 occurrences
-merge 83/300: (148, 261) -> 338 (b'\x94\xe0\xa4\xb0') had 1282 occurrences
-merge 84/300: (275, 262) -> 339 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 1277 occurrences
-merge 85/300: (263, 181) -> 340 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 1270 occurrences
-merge 86/300: (268, 270) -> 341 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 1270 occurrences
-merge 87/300: (256, 163) -> 342 (b'\xe0\xa4\xa3') had 1269 occurrences
-merge 88/300: (256, 167) -> 343 (b'\xe0\xa4\xa7') had 1266 occurrences
-merge 89/300: (264, 175) -> 344 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 1259 occurrences
-merge 90/300: (258, 165) -> 345 (b' \xe0\xa4\xa5') had 1231 occurrences
-merge 91/300: (256, 173) -> 346 (b'\xe0\xa4\xad') had 1227 occurrences
-merge 92/300: (44, 10) -> 347 (b',\n') had 1189 occurrences
-merge 93/300: (258, 338) -> 348 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 1185 occurrences
-merge 94/300: (278, 270) -> 349 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 1175 occurrences
-merge 95/300: (277, 262) -> 350 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 1135 occurrences
-merge 96/300: (265, 272) -> 351 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 1130 occurrences
-merge 97/300: (257, 131) -> 352 (b'\xe0\xa5\x83') had 1095 occurrences
-merge 98/300: (267, 263) -> 353 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 1092 occurrences
-merge 99/300: (268, 266) -> 354 (b' \xe0\xa4\x95\xe0\xa5\x80') had 1074 occurrences
-merge 100/300: (256, 150) -> 355 (b'\xe0\xa4\x96') had 1069 occurrences
-merge 101/300: (284, 308) -> 356 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 1054 occurrences
-merge 102/300: (280, 283) -> 357 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 1048 occurrences
-merge 103/300: (264, 184) -> 358 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 1037 occurrences
-merge 104/300: (258, 189) -> 359 (b' \xe0\xa4\xbd') had 1034 occurrences
-merge 105/300: (256, 159) -> 360 (b'\xe0\xa4\x9f') had 1031 occurrences
-merge 106/300: (330, 269) -> 361 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 1026 occurrences
-merge 107/300: (264, 178) -> 362 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 1013 occurrences
-merge 108/300: (280, 261) -> 363 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 1007 occurrences
-merge 109/300: (291, 10) -> 364 (b' \xe0\xa5\xa4\n') had 1000 occurrences
-merge 110/300: (296, 10) -> 365 (b'\xe0\xa5\xa4\n') had 984 occurrences
-merge 111/300: (264, 174) -> 366 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 932 occurrences
-merge 112/300: (272, 262) -> 367 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 916 occurrences
-merge 113/300: (300, 265) -> 368 (b' \xe0\xa4\xb5\xe0\xa4\xbf') had 901 occurrences
-merge 114/300: (258, 135) -> 369 (b' \xe0\xa4\x87') had 899 occurrences
-merge 115/300: (273, 261) -> 370 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 899 occurrences
-merge 116/300: (267, 259) -> 371 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 898 occurrences
-merge 117/300: (312, 266) -> 372 (b' \xe0\xa4\xad\xe0\xa5\x80') had 888 occurrences
-merge 118/300: (321, 10) -> 373 (b' \xe0\xa5\xa5\n') had 880 occurrences
-merge 119/300: (257, 140) -> 374 (b'\xe0\xa5\x8c') had 862 occurrences
-merge 120/300: (264, 129) -> 375 (b'\xe0\xa4\xbe\xe0\xa4\x81') had 861 occurrences
-merge 121/300: (268, 259) -> 376 (b' \xe0\xa4\x95\xe0\xa4\xbe') had 860 occurrences
-merge 122/300: (332, 328) -> 377 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 858 occurrences
-merge 123/300: (293, 361) -> 378 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 839 occurrences
-merge 124/300: (265, 261) -> 379 (b'\xe0\xa4\xbf\xe0\xa4\xb0') had 838 occurrences
-merge 125/300: (271, 259) -> 380 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 835 occurrences
-merge 126/300: (299, 262) -> 381 (b' \xe0\xa4\xa6\xe0\xa5\x87') had 825 occurrences
-merge 127/300: (271, 266) -> 382 (b'\xe0\xa4\x95\xe0\xa5\x80') had 768 occurrences
-merge 128/300: (265, 267) -> 383 (b'\xe0\xa4\xbf\xe0\xa4\xa8') had 762 occurrences
-merge 129/300: (256, 165) -> 384 (b'\xe0\xa4\xa5') had 749 occurrences
-merge 130/300: (326, 259) -> 385 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 748 occurrences
-merge 131/300: (277, 279) -> 386 (b' \xe0\xa4\xb8\xe0\xa4\xae') had 744 occurrences
-merge 132/300: (297, 181) -> 387 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 733 occurrences
-merge 133/300: (258, 167) -> 388 (b' \xe0\xa4\xa7') had 726 occurrences
-merge 134/300: (264, 185) -> 389 (b'\xe0\xa4\xbe\xe0\xa4\xb9') had 717 occurrences
-merge 135/300: (264, 156) -> 390 (b'\xe0\xa4\xbe\xe0\xa4\x9c') had 711 occurrences
-merge 136/300: (256, 129) -> 391 (b'\xe0\xa4\x81') had 710 occurrences
-merge 137/300: (301, 269) -> 392 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 707 occurrences
-merge 138/300: (279, 308) -> 393 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 705 occurrences
-merge 139/300: (263, 174) -> 394 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 704 occurrences
-merge 140/300: (143, 271) -> 395 (b'\x8f\xe0\xa4\x95') had 695 occurrences
-merge 141/300: (258, 150) -> 396 (b' \xe0\xa4\x96') had 677 occurrences
-merge 142/300: (266, 261) -> 397 (b'\xe0\xa5\x80\xe0\xa4\xb0') had 669 occurrences
-merge 143/300: (318, 282) -> 398 (b' \xe0\xa4\x97\xe0\xa4\xaf') had 668 occurrences
-merge 144/300: (271, 261) -> 399 (b'\xe0\xa4\x95\xe0\xa4\xb0') had 667 occurrences
-merge 145/300: (327, 327) -> 400 (b'        ') had 650 occurrences
-merge 146/300: (314, 274) -> 401 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 645 occurrences
-merge 147/300: (264, 149) -> 402 (b'\xe0\xa4\xbe\xe0\xa4\x95') had 629 occurrences
-merge 148/300: (268, 274) -> 403 (b' \xe0\xa4\x95\xe0\xa4\xb9') had 613 occurrences
-merge 149/300: (263, 183) -> 404 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 613 occurrences
-merge 150/300: (272, 265) -> 405 (b'\xe0\xa4\xa4\xe0\xa4\xbf') had 612 occurrences
-merge 151/300: (313, 275) -> 406 (b' \xe0\xa4\x89\xe0\xa4\xb8') had 610 occurrences
-merge 152/300: (264, 130) -> 407 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 602 occurrences
-merge 153/300: (256, 133) -> 408 (b'\xe0\xa4\x85') had 598 occurrences
-merge 154/300: (345, 259) -> 409 (b' \xe0\xa4\xa5\xe0\xa4\xbe') had 597 occurrences
-merge 155/300: (306, 270) -> 410 (b' \xe0\xa4\xa4\xe0\xa5\x8b') had 595 occurrences
-merge 156/300: (268, 265) -> 411 (b' \xe0\xa4\x95\xe0\xa4\xbf') had 593 occurrences
-merge 157/300: (167, 257) -> 412 (b'\xa7\xe0\xa5') had 589 occurrences
-merge 158/300: (272, 283) -> 413 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 589 occurrences
-merge 159/300: (273, 267) -> 414 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 588 occurrences
-merge 160/300: (264, 170) -> 415 (b'\xe0\xa4\xbe\xe0\xa4\xaa') had 588 occurrences
-merge 161/300: (278, 266) -> 416 (b' \xe0\xa4\xb9\xe0\xa5\x80') had 583 occurrences
-merge 162/300: (334, 263) -> 417 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 578 occurrences
-merge 163/300: (281, 269) -> 418 (b'\xe0\xa5\x88\xe0\xa4\x82') had 562 occurrences
-merge 164/300: (256, 160) -> 419 (b'\xe0\xa4\xa0') had 562 occurrences
-merge 165/300: (258, 395) -> 420 (b' \xe0\xa4\x8f\xe0\xa4\x95') had 553 occurrences
-merge 166/300: (264, 163) -> 421 (b'\xe0\xa4\xbe\xe0\xa4\xa3') had 548 occurrences
-merge 167/300: (226, 128) -> 422 (b'\xe2\x80') had 541 occurrences
-merge 168/300: (272, 266) -> 423 (b'\xe0\xa4\xa4\xe0\xa5\x80') had 539 occurrences
-merge 169/300: (277, 269) -> 424 (b' \xe0\xa4\xb8\xe0\xa4\x82') had 534 occurrences
-merge 170/300: (292, 259) -> 425 (b'\xe0\xa4\x97\xe0\xa4\xbe') had 529 occurrences
-merge 171/300: (168, 257) -> 426 (b'\xa8\xe0\xa5') had 525 occurrences
-merge 172/300: (264, 166) -> 427 (b'\xe0\xa4\xbe\xe0\xa4\xa6') had 513 occurrences
-merge 173/300: (258, 155) -> 428 (b' \xe0\xa4\x9b') had 503 occurrences
-merge 174/300: (265, 271) -> 429 (b'\xe0\xa4\xbf\xe0\xa4\x95') had 503 occurrences
-merge 175/300: (263, 167) -> 430 (b'\xe0\xa5\x8d\xe0\xa4\xa7') had 502 occurrences
-merge 176/300: (310, 289) -> 431 (b' \xe0\xa4\x85\xe0\xa4\xaa') had 498 occurrences
-merge 177/300: (32, 124) -> 432 (b' |') had 498 occurrences
-merge 178/300: (369, 275) -> 433 (b' \xe0\xa4\x87\xe0\xa4\xb8') had 494 occurrences
-merge 179/300: (258, 171) -> 434 (b' \xe0\xa4\xab') had 488 occurrences
-merge 180/300: (264, 181) -> 435 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 477 occurrences
-merge 181/300: (271, 270) -> 436 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 467 occurrences
-merge 182/300: (333, 274) -> 437 (b' \xe0\xa4\xaf\xe0\xa4\xb9') had 466 occurrences
-merge 183/300: (273, 279) -> 438 (b'\xe0\xa5\x81\xe0\xa4\xae') had 462 occurrences
-merge 184/300: (300, 274) -> 439 (b' \xe0\xa4\xb5\xe0\xa4\xb9') had 457 occurrences
-merge 185/300: (297, 163) -> 440 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa3') had 454 occurrences
-merge 186/300: (275, 309) -> 441 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4') had 451 occurrences
-merge 187/300: (288, 259) -> 442 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 450 occurrences
-merge 188/300: (284, 274) -> 443 (b' \xe0\xa4\xae\xe0\xa4\xb9') had 450 occurrences
-merge 189/300: (264, 151) -> 444 (b'\xe0\xa4\xbe\xe0\xa4\x97') had 443 occurrences
-merge 190/300: (265, 286) -> 445 (b'\xe0\xa4\xbf\xe0\xa4\xb2') had 443 occurrences
-merge 191/300: (258, 152) -> 446 (b' \xe0\xa4\x98') had 442 occurrences
-merge 192/300: (290, 430) -> 447 (b'\xe0\xa4\xa6\xe0\xa5\x8d\xe0\xa4\xa7') had 439 occurrences
-merge 193/300: (262, 261) -> 448 (b'\xe0\xa5\x87\xe0\xa4\xb0') had 438 occurrences
-merge 194/300: (263, 161) -> 449 (b'\xe0\xa5\x8d\xe0\xa4\xa1') had 437 occurrences
-merge 195/300: (278, 307) -> 450 (b' \xe0\xa4\xb9\xe0\xa5\x81\xe0\xa4') had 430 occurrences
-merge 196/300: (293, 262) -> 451 (b' \xe0\xa4\xa8\xe0\xa5\x87') had 424 occurrences
-merge 197/300: (271, 309) -> 452 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xa4') had 423 occurrences
-merge 198/300: (295, 270) -> 453 (b' \xe0\xa4\x9c\xe0\xa5\x8b') had 422 occurrences
-merge 199/300: (273, 272) -> 454 (b'\xe0\xa5\x81\xe0\xa4\xa4') had 419 occurrences
-merge 200/300: (292, 262) -> 455 (b'\xe0\xa4\x97\xe0\xa5\x87') had 414 occurrences
-merge 201/300: (267, 309) -> 456 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa4') had 410 occurrences
-merge 202/300: (297, 174) -> 457 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xae') had 404 occurrences
-merge 203/300: (264, 165) -> 458 (b'\xe0\xa4\xbe\xe0\xa4\xa5') had 402 occurrences
-merge 204/300: (271, 404) -> 459 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb7') had 402 occurrences
-merge 205/300: (276, 412) -> 460 (b' \xe0\xa5\xa7\xe0\xa5') had 396 occurrences
-merge 206/300: (304, 282) -> 461 (b'\xe0\xa4\x9c\xe0\xa4\xaf') had 389 occurrences
-merge 207/300: (346, 266) -> 462 (b'\xe0\xa4\xad\xe0\xa5\x80') had 386 occurrences
-merge 208/300: (317, 262) -> 463 (b' \xe0\xa4\xb2\xe0\xa5\x87') had 377 occurrences
-merge 209/300: (264, 182) -> 464 (b'\xe0\xa4\xbe\xe0\xa4\xb6') had 373 occurrences
-merge 210/300: (289, 261) -> 465 (b'\xe0\xa4\xaa\xe0\xa4\xb0') had 370 occurrences
-merge 211/300: (302, 391) -> 466 (b'\xe0\xa5\x82\xe0\xa4\x81') had 369 occurrences
-merge 212/300: (326, 262) -> 467 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x87') had 361 occurrences
-merge 213/300: (302, 261) -> 468 (b'\xe0\xa5\x82\xe0\xa4\xb0') had 359 occurrences
-merge 214/300: (256, 135) -> 469 (b'\xe0\xa4\x87') had 359 occurrences
-merge 215/300: (267, 266) -> 470 (b'\xe0\xa4\xa8\xe0\xa5\x80') had 353 occurrences
-merge 216/300: (263, 154) -> 471 (b'\xe0\xa5\x8d\xe0\xa4\x9a') had 348 occurrences
-merge 217/300: (263, 158) -> 472 (b'\xe0\xa5\x8d\xe0\xa4\x9e') had 348 occurrences
-merge 218/300: (277, 311) -> 473 (b' \xe0\xa4\xb8\xe0\xa4\xac') had 347 occurrences
-merge 219/300: (256, 143) -> 474 (b'\xe0\xa4\x8f') had 347 occurrences
-merge 220/300: (284, 418) -> 475 (b' \xe0\xa4\xae\xe0\xa5\x88\xe0\xa4\x82') had 346 occurrences
-merge 221/300: (398, 259) -> 476 (b' \xe0\xa4\x97\xe0\xa4\xaf\xe0\xa4\xbe') had 344 occurrences
-merge 222/300: (263, 168) -> 477 (b'\xe0\xa5\x8d\xe0\xa4\xa8') had 344 occurrences
-merge 223/300: (256, 136) -> 478 (b'\xe0\xa4\x88') had 343 occurrences
-merge 224/300: (276, 426) -> 479 (b' \xe0\xa5\xa8\xe0\xa5') had 342 occurrences
-merge 225/300: (264, 167) -> 480 (b'\xe0\xa4\xbe\xe0\xa4\xa7') had 335 occurrences
-merge 226/300: (169, 257) -> 481 (b'\xa9\xe0\xa5') had 334 occurrences
-merge 227/300: (265, 275) -> 482 (b'\xe0\xa4\xbf\xe0\xa4\xb8') had 329 occurrences
-merge 228/300: (287, 265) -> 483 (b'\xe0\xa4\xb5\xe0\xa4\xbf') had 324 occurrences
-merge 229/300: (384, 259) -> 484 (b'\xe0\xa4\xa5\xe0\xa4\xbe') had 324 occurrences
-merge 230/300: (286, 262) -> 485 (b'\xe0\xa4\xb2\xe0\xa5\x87') had 324 occurrences
-merge 231/300: (353, 166) -> 486 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa6') had 322 occurrences
-merge 232/300: (353, 185) -> 487 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xb9') had 319 occurrences
-merge 233/300: (345, 262) -> 488 (b' \xe0\xa4\xa5\xe0\xa5\x87') had 316 occurrences
-merge 234/300: (284, 307) -> 489 (b' \xe0\xa4\xae\xe0\xa5\x81\xe0\xa4') had 314 occurrences
-merge 235/300: (269, 292) -> 490 (b'\xe0\xa4\x82\xe0\xa4\x97') had 313 occurrences
-merge 236/300: (275, 266) -> 491 (b'\xe0\xa4\xb8\xe0\xa5\x80') had 310 occurrences
-merge 237/300: (370, 273) -> 492 (b'\xe0\xa5\x81\xe0\xa4\xb0\xe0\xa5\x81') had 310 occurrences
-merge 238/300: (275, 288) -> 493 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xaf') had 309 occurrences
-merge 239/300: (256, 162) -> 494 (b'\xe0\xa4\xa2') had 308 occurrences
-merge 240/300: (352, 272) -> 495 (b'\xe0\xa5\x83\xe0\xa4\xa4') had 307 occurrences
-merge 241/300: (295, 305) -> 496 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8') had 306 occurrences
-merge 242/300: (256, 137) -> 497 (b'\xe0\xa4\x89') had 306 occurrences
-merge 243/300: (277, 340) -> 498 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xb5') had 305 occurrences
-merge 244/300: (263, 170) -> 499 (b'\xe0\xa5\x8d\xe0\xa4\xaa') had 303 occurrences
-merge 245/300: (293, 265) -> 500 (b' \xe0\xa4\xa8\xe0\xa4\xbf') had 302 occurrences
-merge 246/300: (290, 262) -> 501 (b'\xe0\xa4\xa6\xe0\xa5\x87') had 301 occurrences
-merge 247/300: (277, 270) -> 502 (b' \xe0\xa4\xb8\xe0\xa5\x8b') had 296 occurrences
-merge 248/300: (63, 10) -> 503 (b'?\n') had 296 occurrences
-merge 249/300: (298, 274) -> 504 (b' \xe0\xa4\xac\xe0\xa4\xb9') had 290 occurrences
-merge 250/300: (256, 155) -> 505 (b'\xe0\xa4\x9b') had 288 occurrences
-merge 251/300: (300, 262) -> 506 (b' \xe0\xa4\xb5\xe0\xa5\x87') had 284 occurrences
-merge 252/300: (282, 259) -> 507 (b'\xe0\xa4\xaf\xe0\xa4\xbe') had 284 occurrences
-merge 253/300: (295, 325) -> 508 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa4') had 283 occurrences
-merge 254/300: (279, 260) -> 509 (b'\xe0\xa4\xae\xe0\xa5\x8d') had 281 occurrences
-merge 255/300: (432, 124) -> 510 (b' ||') had 281 occurrences
-merge 256/300: (289, 283) -> 511 (b'\xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 278 occurrences
-merge 257/300: (313, 267) -> 512 (b' \xe0\xa4\x89\xe0\xa4\xa8') had 278 occurrences
-merge 258/300: (381, 355) -> 513 (b' \xe0\xa4\xa6\xe0\xa5\x87\xe0\xa4\x96') had 275 occurrences
-merge 259/300: (303, 266) -> 514 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x80') had 275 occurrences
-merge 260/300: (273, 447) -> 515 (b'\xe0\xa5\x81\xe0\xa4\xa6\xe0\xa5\x8d\xe0\xa4\xa7') had 274 occurrences
-merge 261/300: (300, 288) -> 516 (b' \xe0\xa4\xb5\xe0\xa5\x8d\xe0\xa4\xaf') had 273 occurrences
-merge 262/300: (268, 307) -> 517 (b' \xe0\xa4\x95\xe0\xa5\x81\xe0\xa4') had 273 occurrences
-merge 263/300: (268, 385) -> 518 (b' \xe0\xa4\x95\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 272 occurrences
-merge 264/300: (286, 259) -> 519 (b'\xe0\xa4\xb2\xe0\xa4\xbe') had 268 occurrences
-merge 265/300: (307, 183) -> 520 (b'\xe0\xa5\x81\xe0\xa4\xb7') had 268 occurrences
-merge 266/300: (297, 165) -> 521 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa5') had 264 occurrences
-merge 267/300: (269, 290) -> 522 (b'\xe0\xa4\x82\xe0\xa4\xa6') had 262 occurrences
-merge 268/300: (305, 260) -> 523 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x8d') had 262 occurrences
-merge 269/300: (299, 270) -> 524 (b' \xe0\xa4\xa6\xe0\xa5\x8b') had 261 occurrences
-merge 270/300: (256, 134) -> 525 (b'\xe0\xa4\x86') had 259 occurrences
-merge 271/300: (421, 449) -> 526 (b'\xe0\xa4\xbe\xe0\xa4\xa3\xe0\xa5\x8d\xe0\xa4\xa1') had 256 occurrences
-merge 272/300: (261, 262) -> 527 (b'\xe0\xa4\xb0\xe0\xa5\x87') had 254 occurrences
-merge 273/300: (270, 271) -> 528 (b'\xe0\xa5\x8b\xe0\xa4\x95') had 253 occurrences
-merge 274/300: (272, 309) -> 529 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xa4') had 250 occurrences
-merge 275/300: (263, 165) -> 530 (b'\xe0\xa5\x8d\xe0\xa4\xa5') had 249 occurrences
-merge 276/300: (270, 292) -> 531 (b'\xe0\xa5\x8b\xe0\xa4\x97') had 247 occurrences
-merge 277/300: (268, 442) -> 532 (b' \xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 246 occurrences
-merge 278/300: (306, 438) -> 533 (b' \xe0\xa4\xa4\xe0\xa5\x81\xe0\xa4\xae') had 246 occurrences
-merge 279/300: (284, 267) -> 534 (b' \xe0\xa4\xae\xe0\xa4\xa8') had 246 occurrences
-merge 280/300: (311, 397) -> 535 (b'\xe0\xa4\xac\xe0\xa5\x80\xe0\xa4\xb0') had 244 occurrences
-merge 281/300: (304, 266) -> 536 (b'\xe0\xa4\x9c\xe0\xa5\x80') had 241 occurrences
-merge 282/300: (271, 303) -> 537 (b'\xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 238 occurrences
-merge 283/300: (314, 390) -> 538 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\x9c') had 236 occurrences
-merge 284/300: (431, 315) -> 539 (b' \xe0\xa4\x85\xe0\xa4\xaa\xe0\xa4\xa8\xe0\xa5\x87') had 234 occurrences
-merge 285/300: (335, 283) -> 540 (b' \xe0\xa4\xb6\xe0\xa5\x8d\xe0\xa4\xb0') had 233 occurrences
-merge 286/300: (313, 487) -> 541 (b' \xe0\xa4\x89\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xb9') had 233 occurrences
-merge 287/300: (344, 259) -> 542 (b'\xe0\xa4\xbe\xe0\xa4\xaf\xe0\xa4\xbe') had 232 occurrences
-merge 288/300: (345, 266) -> 543 (b' \xe0\xa4\xa5\xe0\xa5\x80') had 232 occurrences
-merge 289/300: (280, 274) -> 544 (b' \xe0\xa4\xaa\xe0\xa4\xb9') had 231 occurrences
-merge 290/300: (352, 417) -> 545 (b'\xe0\xa5\x83\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 229 occurrences
-merge 291/300: (273, 286) -> 546 (b'\xe0\xa5\x81\xe0\xa4\xb2') had 228 occurrences
-merge 292/300: (284, 445) -> 547 (b' \xe0\xa4\xae\xe0\xa4\xbf\xe0\xa4\xb2') had 228 occurrences
-merge 293/300: (400, 400) -> 548 (b'                ') had 226 occurrences
-merge 294/300: (265, 269) -> 549 (b'\xe0\xa4\xbf\xe0\xa4\x82') had 221 occurrences
-merge 295/300: (284, 448) -> 550 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\xb0') had 220 occurrences
-merge 296/300: (258, 161) -> 551 (b' \xe0\xa4\xa1') had 219 occurrences
-merge 297/300: (297, 156) -> 552 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x9c') had 218 occurrences
-merge 298/300: (504, 454) -> 553 (b' \xe0\xa4\xac\xe0\xa4\xb9\xe0\xa5\x81\xe0\xa4\xa4') had 215 occurrences
-merge 299/300: (256, 157) -> 554 (b'\xe0\xa4\x9d') had 214 occurrences
-merge 300/300: (289, 387) -> 555 (b'\xe0\xa4\xaa\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 214 occurrences
 
-Training...for HindiTokenizer
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 314833 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 118967 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 62064 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 39071 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 36085 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 33827 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 23999 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 20085 occurrences
-merge 9/50: (256, 191) -> 264 (b'\xe0\xa4\xbf') had 15010 occurrences
-merge 10/50: (256, 176) -> 265 (b'\xe0\xa4\xb0') had 14990 occurrences
-merge 11/50: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 14827 occurrences
-merge 12/50: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 14191 occurrences
-merge 13/50: (256, 149) -> 268 (b'\xe0\xa4\x95') had 12870 occurrences
-merge 14/50: (256, 168) -> 269 (b'\xe0\xa4\xa8') had 12335 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 10291 occurrences
-merge 16/50: (32, 10) -> 271 (b' \n') had 10000 occurrences
-merge 17/50: (256, 184) -> 272 (b'\xe0\xa4\xb8') had 9477 occurrences
-merge 18/50: (256, 130) -> 273 (b'\xe0\xa4\x82') had 9435 occurrences
-merge 19/50: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 9184 occurrences
-merge 20/50: (256, 174) -> 275 (b'\xe0\xa4\xae') had 9164 occurrences
-merge 21/50: (257, 128) -> 276 (b'\xe0\xa5\x80') had 8851 occurrences
-merge 22/50: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 8068 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7644 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 6746 occurrences
-merge 25/50: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 6354 occurrences
-merge 26/50: (277, 266) -> 281 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 6194 occurrences
-merge 27/50: (260, 175) -> 282 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 5744 occurrences
-merge 28/50: (256, 170) -> 283 (b'\xe0\xa4\xaa') had 5656 occurrences
-merge 29/50: (258, 170) -> 284 (b' \xe0\xa4\xaa') had 5512 occurrences
-merge 30/50: (258, 184) -> 285 (b' \xe0\xa4\xb8') had 5473 occurrences
-merge 31/50: (256, 175) -> 286 (b'\xe0\xa4\xaf') had 5247 occurrences
-merge 32/50: (258, 149) -> 287 (b' \xe0\xa4\x95') had 5073 occurrences
-merge 33/50: (258, 185) -> 288 (b' \xe0\xa4\xb9') had 4626 occurrences
-merge 34/50: (260, 164) -> 289 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 4543 occurrences
-merge 35/50: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 4254 occurrences
-merge 36/50: (32, 257) -> 291 (b' \xe0\xa5') had 4105 occurrences
-merge 37/50: (258, 181) -> 292 (b' \xe0\xa4\xb5') had 3917 occurrences
-merge 38/50: (260, 181) -> 293 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 3756 occurrences
-merge 39/50: (270, 256) -> 294 (b'\xe0\xa5\x81\xe0\xa4') had 3371 occurrences
-merge 40/50: (258, 174) -> 295 (b' \xe0\xa4\xae') had 3354 occurrences
-merge 41/50: (262, 176) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3238 occurrences
-merge 42/50: (257, 136) -> 297 (b'\xe0\xa5\x88') had 3205 occurrences
-merge 43/50: (258, 164) -> 298 (b' \xe0\xa4\xa4') had 3196 occurrences
-merge 44/50: (256, 182) -> 299 (b'\xe0\xa4\xb6') had 3152 occurrences
-merge 45/50: (262, 168) -> 300 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2984 occurrences
-merge 46/50: (256, 151) -> 301 (b'\xe0\xa4\x97') had 2931 occurrences
-merge 47/50: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2804 occurrences
-merge 48/50: (258, 166) -> 303 (b' \xe0\xa4\xa6') had 2656 occurrences
-merge 49/50: (256, 178) -> 304 (b'\xe0\xa4\xb2') had 2574 occurrences
-merge 50/50: (265, 260) -> 305 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 2572 occurrences
+Batch number=====================================================: 0
 
-Training...for HindiTokenizer
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 311471 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 118312 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 62787 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 38019 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 35130 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 34637 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 24877 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 20113 occurrences
-merge 9/50: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 15010 occurrences
-merge 10/50: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 14518 occurrences
-merge 11/50: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 13889 occurrences
-merge 12/50: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 13791 occurrences
-merge 13/50: (256, 168) -> 268 (b'\xe0\xa4\xa8') had 12632 occurrences
-merge 14/50: (256, 149) -> 269 (b'\xe0\xa4\x95') had 11868 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 11298 occurrences
-merge 16/50: (257, 128) -> 271 (b'\xe0\xa5\x80') had 10005 occurrences
-merge 17/50: (32, 10) -> 272 (b' \n') had 10000 occurrences
-merge 18/50: (256, 130) -> 273 (b'\xe0\xa4\x82') had 9326 occurrences
-merge 19/50: (256, 184) -> 274 (b'\xe0\xa4\xb8') had 8950 occurrences
-merge 20/50: (257, 139) -> 275 (b'\xe0\xa5\x8b') had 8755 occurrences
-merge 21/50: (256, 174) -> 276 (b'\xe0\xa4\xae') had 8513 occurrences
-merge 22/50: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 7645 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7330 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 7077 occurrences
-merge 25/50: (260, 175) -> 280 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 6147 occurrences
-merge 26/50: (256, 175) -> 281 (b'\xe0\xa4\xaf') had 6020 occurrences
-merge 27/50: (256, 185) -> 282 (b'\xe0\xa4\xb9') had 5795 occurrences
-merge 28/50: (277, 266) -> 283 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 5778 occurrences
-merge 29/50: (258, 170) -> 284 (b' \xe0\xa4\xaa') had 5628 occurrences
-merge 30/50: (258, 184) -> 285 (b' \xe0\xa4\xb8') had 5472 occurrences
-merge 31/50: (258, 149) -> 286 (b' \xe0\xa4\x95') had 5451 occurrences
-merge 32/50: (256, 170) -> 287 (b'\xe0\xa4\xaa') had 5341 occurrences
-merge 33/50: (258, 185) -> 288 (b' \xe0\xa4\xb9') had 4722 occurrences
-merge 34/50: (260, 164) -> 289 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 4300 occurrences
-merge 35/50: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 4142 occurrences
-merge 36/50: (258, 181) -> 291 (b' \xe0\xa4\xb5') had 4025 occurrences
-merge 37/50: (32, 257) -> 292 (b' \xe0\xa5') had 3782 occurrences
-merge 38/50: (264, 260) -> 293 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 3745 occurrences
-merge 39/50: (258, 174) -> 294 (b' \xe0\xa4\xae') had 3597 occurrences
-merge 40/50: (257, 136) -> 295 (b'\xe0\xa5\x88') had 3571 occurrences
-merge 41/50: (270, 256) -> 296 (b'\xe0\xa5\x81\xe0\xa4') had 3570 occurrences
-merge 42/50: (262, 168) -> 297 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 3514 occurrences
-merge 43/50: (258, 164) -> 298 (b' \xe0\xa4\xa4') had 3213 occurrences
-merge 44/50: (262, 176) -> 299 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3066 occurrences
-merge 45/50: (256, 182) -> 300 (b'\xe0\xa4\xb6') had 3023 occurrences
-merge 46/50: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 2859 occurrences
-merge 47/50: (257, 130) -> 302 (b'\xe0\xa5\x82') had 2650 occurrences
-merge 48/50: (260, 181) -> 303 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 2604 occurrences
-merge 49/50: (269, 263) -> 304 (b'\xe0\xa4\x95\xe0\xa5\x87') had 2541 occurrences
-merge 50/50: (256, 178) -> 305 (b'\xe0\xa4\xb2') had 2492 occurrences
-
-Training...for HindiTokenizer
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 318694 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 121808 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 63580 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 38342 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 35384 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 34667 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 25107 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 20690 occurrences
-merge 9/50: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 15458 occurrences
-merge 10/50: (257, 164) -> 265 (b'\xe0\xa5\xa4') had 14902 occurrences
-merge 11/50: (256, 191) -> 266 (b'\xe0\xa4\xbf') had 14457 occurrences
-merge 12/50: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 13191 occurrences
-merge 13/50: (256, 164) -> 268 (b'\xe0\xa4\xa4') had 13035 occurrences
-merge 14/50: (256, 149) -> 269 (b'\xe0\xa4\x95') had 12813 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 11294 occurrences
-merge 16/50: (257, 128) -> 271 (b'\xe0\xa5\x80') had 10201 occurrences
-merge 17/50: (257, 139) -> 272 (b'\xe0\xa5\x8b') had 10139 occurrences
-merge 18/50: (32, 10) -> 273 (b' \n') had 10000 occurrences
-merge 19/50: (256, 130) -> 274 (b'\xe0\xa4\x82') had 9930 occurrences
-merge 20/50: (256, 174) -> 275 (b'\xe0\xa4\xae') had 9158 occurrences
-merge 21/50: (256, 184) -> 276 (b'\xe0\xa4\xb8') had 9141 occurrences
-merge 22/50: (32, 265) -> 277 (b' \xe0\xa5\xa4') had 8159 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7591 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 6499 occurrences
-merge 25/50: (277, 265) -> 280 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 6231 occurrences
-merge 26/50: (256, 185) -> 281 (b'\xe0\xa4\xb9') had 6204 occurrences
-merge 27/50: (258, 170) -> 282 (b' \xe0\xa4\xaa') had 5721 occurrences
-merge 28/50: (260, 175) -> 283 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 5684 occurrences
-merge 29/50: (258, 149) -> 284 (b' \xe0\xa4\x95') had 5552 occurrences
-merge 30/50: (258, 184) -> 285 (b' \xe0\xa4\xb8') had 5541 occurrences
-merge 31/50: (256, 175) -> 286 (b'\xe0\xa4\xaf') had 5536 occurrences
-merge 32/50: (256, 170) -> 287 (b'\xe0\xa4\xaa') had 5255 occurrences
-merge 33/50: (256, 166) -> 288 (b'\xe0\xa4\xa6') had 4824 occurrences
-merge 34/50: (258, 185) -> 289 (b' \xe0\xa4\xb9') had 4691 occurrences
-merge 35/50: (260, 164) -> 290 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 4290 occurrences
-merge 36/50: (32, 257) -> 291 (b' \xe0\xa5') had 4053 occurrences
-merge 37/50: (262, 176) -> 292 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3596 occurrences
-merge 38/50: (258, 174) -> 293 (b' \xe0\xa4\xae') had 3566 occurrences
-merge 39/50: (258, 181) -> 294 (b' \xe0\xa4\xb5') had 3557 occurrences
-merge 40/50: (264, 260) -> 295 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 3478 occurrences
-merge 41/50: (270, 256) -> 296 (b'\xe0\xa5\x81\xe0\xa4') had 3408 occurrences
-merge 42/50: (257, 136) -> 297 (b'\xe0\xa5\x88') had 3338 occurrences
-merge 43/50: (256, 182) -> 298 (b'\xe0\xa4\xb6') had 3193 occurrences
-merge 44/50: (258, 164) -> 299 (b' \xe0\xa4\xa4') had 3047 occurrences
-merge 45/50: (262, 168) -> 300 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 2992 occurrences
-merge 46/50: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 2943 occurrences
-merge 47/50: (256, 151) -> 302 (b'\xe0\xa4\x97') had 2803 occurrences
-merge 48/50: (256, 178) -> 303 (b'\xe0\xa4\xb2') had 2739 occurrences
-merge 49/50: (269, 263) -> 304 (b'\xe0\xa4\x95\xe0\xa5\x87') had 2728 occurrences
-merge 50/50: (267, 263) -> 305 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 2541 occurrences
-
-Training...for HindiTokenizer
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 307242 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 117905 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 59745 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 38276 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 35440 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 32926 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 24253 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 19685 occurrences
-merge 9/50: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 15074 occurrences
-merge 10/50: (257, 164) -> 265 (b'\xe0\xa5\xa4') had 14577 occurrences
-merge 11/50: (256, 191) -> 266 (b'\xe0\xa4\xbf') had 14242 occurrences
-merge 12/50: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 13060 occurrences
-merge 13/50: (256, 164) -> 268 (b'\xe0\xa4\xa4') had 12619 occurrences
-merge 14/50: (256, 149) -> 269 (b'\xe0\xa4\x95') had 12246 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 10335 occurrences
-merge 16/50: (32, 10) -> 271 (b' \n') had 10000 occurrences
-merge 17/50: (257, 128) -> 272 (b'\xe0\xa5\x80') had 9610 occurrences
-merge 18/50: (257, 139) -> 273 (b'\xe0\xa5\x8b') had 9264 occurrences
-merge 19/50: (256, 130) -> 274 (b'\xe0\xa4\x82') had 9138 occurrences
-merge 20/50: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 8516 occurrences
-merge 21/50: (256, 174) -> 276 (b'\xe0\xa4\xae') had 8368 occurrences
-merge 22/50: (32, 265) -> 277 (b' \xe0\xa5\xa4') had 7987 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7639 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 7159 occurrences
-merge 25/50: (277, 265) -> 280 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 6118 occurrences
-merge 26/50: (256, 185) -> 281 (b'\xe0\xa4\xb9') had 5754 occurrences
-merge 27/50: (256, 170) -> 282 (b'\xe0\xa4\xaa') had 5530 occurrences
-merge 28/50: (258, 184) -> 283 (b' \xe0\xa4\xb8') had 5357 occurrences
-merge 29/50: (256, 175) -> 284 (b'\xe0\xa4\xaf') had 5250 occurrences
-merge 30/50: (260, 175) -> 285 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 5225 occurrences
-merge 31/50: (258, 170) -> 286 (b' \xe0\xa4\xaa') had 5185 occurrences
-merge 32/50: (256, 166) -> 287 (b'\xe0\xa4\xa6') had 5005 occurrences
-merge 33/50: (258, 149) -> 288 (b' \xe0\xa4\x95') had 4801 occurrences
-merge 34/50: (258, 185) -> 289 (b' \xe0\xa4\xb9') had 4300 occurrences
-merge 35/50: (264, 260) -> 290 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 4123 occurrences
-merge 36/50: (32, 257) -> 291 (b' \xe0\xa5') had 3902 occurrences
-merge 37/50: (260, 164) -> 292 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 3841 occurrences
-merge 38/50: (258, 181) -> 293 (b' \xe0\xa4\xb5') had 3838 occurrences
-merge 39/50: (262, 176) -> 294 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3311 occurrences
-merge 40/50: (256, 182) -> 295 (b'\xe0\xa4\xb6') had 3265 occurrences
-merge 41/50: (256, 183) -> 296 (b'\xe0\xa4\xb7') had 3248 occurrences
-merge 42/50: (257, 136) -> 297 (b'\xe0\xa5\x88') had 3239 occurrences
-merge 43/50: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 3221 occurrences
-merge 44/50: (258, 164) -> 299 (b' \xe0\xa4\xa4') had 2992 occurrences
-merge 45/50: (258, 174) -> 300 (b' \xe0\xa4\xae') had 2901 occurrences
-merge 46/50: (256, 178) -> 301 (b'\xe0\xa4\xb2') had 2830 occurrences
-merge 47/50: (256, 151) -> 302 (b'\xe0\xa4\x97') had 2754 occurrences
-merge 48/50: (258, 166) -> 303 (b' \xe0\xa4\xa6') had 2633 occurrences
-merge 49/50: (269, 263) -> 304 (b'\xe0\xa4\x95\xe0\xa5\x87') had 2584 occurrences
-merge 50/50: (256, 156) -> 305 (b'\xe0\xa4\x9c') had 2477 occurrences
-
-Training...for HindiTokenizer
-merge 1/50: (224, 164) -> 256 (b'\xe0\xa4') had 307242 occurrences
-merge 2/50: (224, 165) -> 257 (b'\xe0\xa5') had 117905 occurrences
-merge 3/50: (32, 256) -> 258 (b' \xe0\xa4') had 59745 occurrences
-merge 4/50: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 38276 occurrences
-merge 5/50: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 35440 occurrences
-merge 6/50: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 32926 occurrences
-merge 7/50: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 24253 occurrences
-merge 8/50: (257, 135) -> 263 (b'\xe0\xa5\x87') had 19685 occurrences
-merge 9/50: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 15074 occurrences
-merge 10/50: (257, 164) -> 265 (b'\xe0\xa5\xa4') had 14577 occurrences
-merge 11/50: (256, 191) -> 266 (b'\xe0\xa4\xbf') had 14242 occurrences
-merge 12/50: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 13060 occurrences
-merge 13/50: (256, 164) -> 268 (b'\xe0\xa4\xa4') had 12619 occurrences
-merge 14/50: (256, 149) -> 269 (b'\xe0\xa4\x95') had 12246 occurrences
-merge 15/50: (257, 129) -> 270 (b'\xe0\xa5\x81') had 10335 occurrences
-merge 16/50: (32, 10) -> 271 (b' \n') had 10000 occurrences
-merge 17/50: (257, 128) -> 272 (b'\xe0\xa5\x80') had 9610 occurrences
-merge 18/50: (257, 139) -> 273 (b'\xe0\xa5\x8b') had 9264 occurrences
-merge 19/50: (256, 130) -> 274 (b'\xe0\xa4\x82') had 9138 occurrences
-merge 20/50: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 8516 occurrences
-merge 21/50: (256, 174) -> 276 (b'\xe0\xa4\xae') had 8368 occurrences
-merge 22/50: (32, 265) -> 277 (b' \xe0\xa5\xa4') had 7987 occurrences
-merge 23/50: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 7639 occurrences
-merge 24/50: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 7159 occurrences
-merge 25/50: (277, 265) -> 280 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 6118 occurrences
-merge 26/50: (256, 185) -> 281 (b'\xe0\xa4\xb9') had 5754 occurrences
-merge 27/50: (256, 170) -> 282 (b'\xe0\xa4\xaa') had 5530 occurrences
-merge 28/50: (258, 184) -> 283 (b' \xe0\xa4\xb8') had 5357 occurrences
-merge 29/50: (256, 175) -> 284 (b'\xe0\xa4\xaf') had 5250 occurrences
-merge 30/50: (260, 175) -> 285 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 5225 occurrences
-merge 31/50: (258, 170) -> 286 (b' \xe0\xa4\xaa') had 5185 occurrences
-merge 32/50: (256, 166) -> 287 (b'\xe0\xa4\xa6') had 5005 occurrences
-merge 33/50: (258, 149) -> 288 (b' \xe0\xa4\x95') had 4801 occurrences
-merge 34/50: (258, 185) -> 289 (b' \xe0\xa4\xb9') had 4300 occurrences
-merge 35/50: (264, 260) -> 290 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 4123 occurrences
-merge 36/50: (32, 257) -> 291 (b' \xe0\xa5') had 3902 occurrences
-merge 37/50: (260, 164) -> 292 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 3841 occurrences
-merge 38/50: (258, 181) -> 293 (b' \xe0\xa4\xb5') had 3838 occurrences
-merge 39/50: (262, 176) -> 294 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 3311 occurrences
-merge 40/50: (256, 182) -> 295 (b'\xe0\xa4\xb6') had 3265 occurrences
-merge 41/50: (256, 183) -> 296 (b'\xe0\xa4\xb7') had 3248 occurrences
-merge 42/50: (257, 136) -> 297 (b'\xe0\xa5\x88') had 3239 occurrences
-merge 43/50: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 3221 occurrences
-merge 44/50: (258, 164) -> 299 (b' \xe0\xa4\xa4') had 2992 occurrences
-merge 45/50: (258, 174) -> 300 (b' \xe0\xa4\xae') had 2901 occurrences
-merge 46/50: (256, 178) -> 301 (b'\xe0\xa4\xb2') had 2830 occurrences
-merge 47/50: (256, 151) -> 302 (b'\xe0\xa4\x97') had 2754 occurrences
-merge 48/50: (258, 166) -> 303 (b' \xe0\xa4\xa6') had 2633 occurrences
-merge 49/50: (269, 263) -> 304 (b'\xe0\xa4\x95\xe0\xa5\x87') had 2584 occurrences
-merge 50/50: (256, 156) -> 305 (b'\xe0\xa4\x9c') had 2477 occurrences
-
-Training...for HindiTokenizer
-merge 1/500: (224, 164) -> 256 (b'\xe0\xa4') had 295801 occurrences
-merge 2/500: (224, 165) -> 257 (b'\xe0\xa5') had 97809 occurrences
-merge 3/500: (32, 256) -> 258 (b' \xe0\xa4') had 79829 occurrences
-merge 4/500: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 32881 occurrences
-merge 5/500: (257, 141) -> 260 (b'\xe0\xa5\x8d') had 23521 occurrences
-merge 6/500: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 23417 occurrences
-merge 7/500: (257, 135) -> 262 (b'\xe0\xa5\x87') had 20176 occurrences
-merge 8/500: (260, 256) -> 263 (b'\xe0\xa5\x8d\xe0\xa4') had 17712 occurrences
-merge 9/500: (259, 256) -> 264 (b'\xe0\xa4\xbe\xe0\xa4') had 17408 occurrences
-merge 10/500: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 12967 occurrences
-merge 11/500: (257, 128) -> 266 (b'\xe0\xa5\x80') had 12888 occurrences
-merge 12/500: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 10610 occurrences
-merge 13/500: (258, 149) -> 268 (b' \xe0\xa4\x95') had 10520 occurrences
-merge 14/500: (256, 130) -> 269 (b'\xe0\xa4\x82') had 10358 occurrences
-merge 15/500: (257, 139) -> 270 (b'\xe0\xa5\x8b') had 10123 occurrences
-merge 16/500: (256, 149) -> 271 (b'\xe0\xa4\x95') had 9716 occurrences
-merge 17/500: (256, 164) -> 272 (b'\xe0\xa4\xa4') had 9486 occurrences
-merge 18/500: (257, 129) -> 273 (b'\xe0\xa5\x81') had 8195 occurrences
-merge 19/500: (256, 185) -> 274 (b'\xe0\xa4\xb9') had 7502 occurrences
-merge 20/500: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 7155 occurrences
-merge 21/500: (32, 257) -> 276 (b' \xe0\xa5') had 6656 occurrences
-merge 22/500: (258, 184) -> 277 (b' \xe0\xa4\xb8') had 6585 occurrences
-merge 23/500: (258, 185) -> 278 (b' \xe0\xa4\xb9') had 6335 occurrences
-merge 24/500: (256, 174) -> 279 (b'\xe0\xa4\xae') had 5639 occurrences
-merge 25/500: (258, 170) -> 280 (b' \xe0\xa4\xaa') had 5400 occurrences
-merge 26/500: (257, 136) -> 281 (b'\xe0\xa5\x88') had 5192 occurrences
-merge 27/500: (256, 175) -> 282 (b'\xe0\xa4\xaf') had 5108 occurrences
-merge 28/500: (260, 261) -> 283 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 4763 occurrences
-merge 29/500: (258, 174) -> 284 (b' \xe0\xa4\xae') had 4721 occurrences
-merge 30/500: (32, 10) -> 285 (b' \n') had 4061 occurrences
-merge 31/500: (256, 178) -> 286 (b'\xe0\xa4\xb2') had 4015 occurrences
-merge 32/500: (256, 181) -> 287 (b'\xe0\xa4\xb5') had 3963 occurrences
-merge 33/500: (263, 175) -> 288 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 3746 occurrences
-merge 34/500: (256, 170) -> 289 (b'\xe0\xa4\xaa') had 3723 occurrences
-merge 35/500: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 3569 occurrences
-merge 36/500: (276, 164) -> 291 (b' \xe0\xa5\xa4') had 3488 occurrences
-merge 37/500: (256, 151) -> 292 (b'\xe0\xa4\x97') had 3441 occurrences
-merge 38/500: (258, 168) -> 293 (b' \xe0\xa4\xa8') had 3331 occurrences
-
-Training...for HindiTokenizer
-merge 1/500: (224, 164) -> 256 (b'\xe0\xa4') had 922105 occurrences
-merge 2/500: (224, 165) -> 257 (b'\xe0\xa5') had 335088 occurrences
-merge 3/500: (32, 256) -> 258 (b' \xe0\xa4') had 204680 occurrences
-merge 4/500: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 101376 occurrences
-merge 5/500: (257, 141) -> 260 (b'\xe0\xa5\x8d') had 100611 occurrences
-merge 6/500: (260, 256) -> 261 (b'\xe0\xa5\x8d\xe0\xa4') had 93659 occurrences
-merge 7/500: (259, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 69317 occurrences
-merge 8/500: (257, 135) -> 263 (b'\xe0\xa5\x87') had 60374 occurrences
-merge 9/500: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 45645 occurrences
-merge 10/500: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 42494 occurrences
-merge 11/500: (256, 164) -> 266 (b'\xe0\xa4\xa4') had 37466 occurrences
-merge 12/500: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 35577 occurrences
-merge 13/500: (257, 164) -> 268 (b'\xe0\xa5\xa4') had 35354 occurrences
-merge 14/500: (256, 149) -> 269 (b'\xe0\xa4\x95') had 34454 occurrences
-merge 15/500: (257, 128) -> 270 (b'\xe0\xa5\x80') had 31744 occurrences
-merge 16/500: (257, 129) -> 271 (b'\xe0\xa5\x81') had 29784 occurrences
-merge 17/500: (256, 130) -> 272 (b'\xe0\xa4\x82') had 29117 occurrences
-merge 18/500: (257, 139) -> 273 (b'\xe0\xa5\x8b') had 28062 occurrences
-merge 19/500: (256, 184) -> 274 (b'\xe0\xa4\xb8') had 25580 occurrences
-merge 20/500: (32, 10) -> 275 (b' \n') had 24061 occurrences
-merge 21/500: (256, 174) -> 276 (b'\xe0\xa4\xae') had 23316 occurrences
-merge 22/500: (258, 149) -> 277 (b' \xe0\xa4\x95') had 21044 occurrences
-merge 23/500: (261, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 19737 occurrences
-merge 24/500: (256, 185) -> 279 (b'\xe0\xa4\xb9') had 19651 occurrences
-merge 25/500: (32, 268) -> 280 (b' \xe0\xa5\xa4') had 19201 occurrences
-merge 26/500: (256, 181) -> 281 (b'\xe0\xa4\xb5') had 17786 occurrences
-merge 27/500: (258, 184) -> 282 (b' \xe0\xa4\xb8') had 17530 occurrences
-merge 28/500: (258, 170) -> 283 (b' \xe0\xa4\xaa') had 16540 occurrences
-merge 29/500: (256, 175) -> 284 (b'\xe0\xa4\xaf') had 16374 occurrences
-merge 30/500: (258, 185) -> 285 (b' \xe0\xa4\xb9') had 15683 occurrences
-merge 31/500: (261, 175) -> 286 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 15637 occurrences
-merge 32/500: (256, 170) -> 287 (b'\xe0\xa4\xaa') had 14720 occurrences
-merge 33/500: (280, 268) -> 288 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 13836 occurrences
-merge 34/500: (257, 136) -> 289 (b'\xe0\xa5\x88') had 11968 occurrences
-merge 35/500: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 11958 occurrences
-merge 36/500: (258, 174) -> 291 (b' \xe0\xa4\xae') had 11672 occurrences
-merge 37/500: (261, 164) -> 292 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 11405 occurrences
-merge 38/500: (32, 257) -> 293 (b' \xe0\xa5') had 11055 occurrences
-merge 39/500: (258, 181) -> 294 (b' \xe0\xa4\xb5') had 11026 occurrences
-merge 40/500: (264, 261) -> 295 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 10098 occurrences
-merge 41/500: (271, 256) -> 296 (b'\xe0\xa5\x81\xe0\xa4') had 9924 occurrences
-merge 42/500: (262, 176) -> 297 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 9313 occurrences
-merge 43/500: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 9217 occurrences
-merge 44/500: (258, 164) -> 299 (b' \xe0\xa4\xa4') had 9095 occurrences
-merge 45/500: (256, 178) -> 300 (b'\xe0\xa4\xb2') had 8829 occurrences
-merge 46/500: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 8648 occurrences
-merge 47/500: (256, 151) -> 302 (b'\xe0\xa4\x97') had 8451 occurrences
-merge 48/500: (257, 130) -> 303 (b'\xe0\xa5\x82') had 8350 occurrences
-merge 49/500: (256, 182) -> 304 (b'\xe0\xa4\xb6') had 8201 occurrences
-merge 50/500: (258, 168) -> 305 (b' \xe0\xa4\xa8') had 7902 occurrences
-merge 51/500: (256, 156) -> 306 (b'\xe0\xa4\x9c') had 7574 occurrences
-merge 52/500: (258, 172) -> 307 (b' \xe0\xa4\xac') had 7190 occurrences
-merge 53/500: (258, 156) -> 308 (b' \xe0\xa4\x9c') had 7139 occurrences
-merge 54/500: (267, 263) -> 309 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 6802 occurrences
-merge 55/500: (258, 137) -> 310 (b' \xe0\xa4\x89') had 6631 occurrences
-merge 56/500: (261, 181) -> 311 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 6563 occurrences
-merge 57/500: (269, 263) -> 312 (b'\xe0\xa4\x95\xe0\xa5\x87') had 6488 occurrences
-merge 58/500: (258, 133) -> 313 (b' \xe0\xa4\x85') had 6354 occurrences
-merge 59/500: (258, 173) -> 314 (b' \xe0\xa4\xad') had 6259 occurrences
-merge 60/500: (263, 272) -> 315 (b'\xe0\xa5\x87\xe0\xa4\x82') had 6039 occurrences
-merge 61/500: (285, 289) -> 316 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 6031 occurrences
-merge 62/500: (256, 183) -> 317 (b'\xe0\xa4\xb7') had 5969 occurrences
-merge 63/500: (265, 266) -> 318 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 5753 occurrences
-merge 64/500: (258, 176) -> 319 (b' \xe0\xa4\xb0') had 5625 occurrences
-merge 65/500: (262, 164) -> 320 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 5334 occurrences
-merge 66/500: (273, 272) -> 321 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 5250 occurrences
-merge 67/500: (274, 263) -> 322 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 4952 occurrences
-merge 68/500: (265, 284) -> 323 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4930 occurrences
-merge 69/500: (257, 131) -> 324 (b'\xe0\xa5\x83') had 4835 occurrences
-merge 70/500: (256, 154) -> 325 (b'\xe0\xa4\x9a') had 4818 occurrences
-merge 71/500: (258, 182) -> 326 (b' \xe0\xa4\xb6') had 4743 occurrences
-merge 72/500: (256, 163) -> 327 (b'\xe0\xa4\xa3') had 4730 occurrences
-merge 73/500: (256, 172) -> 328 (b'\xe0\xa4\xac') had 4688 occurrences
-merge 74/500: (267, 261) -> 329 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 4597 occurrences
-merge 75/500: (283, 278) -> 330 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 4578 occurrences
-merge 76/500: (258, 154) -> 331 (b' \xe0\xa4\x9a') had 4431 occurrences
-merge 77/500: (258, 134) -> 332 (b' \xe0\xa4\x86') had 4392 occurrences
-merge 78/500: (258, 151) -> 333 (b' \xe0\xa4\x97') had 4390 occurrences
-merge 79/500: (258, 175) -> 334 (b' \xe0\xa4\xaf') had 4369 occurrences
-merge 80/500: (258, 178) -> 335 (b' \xe0\xa4\xb2') had 4360 occurrences
-merge 81/500: (256, 173) -> 336 (b'\xe0\xa4\xad') had 4201 occurrences
-merge 82/500: (262, 174) -> 337 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 3994 occurrences
-merge 83/500: (277, 264) -> 338 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3882 occurrences
-merge 84/500: (262, 175) -> 339 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3708 occurrences
-merge 85/500: (256, 165) -> 340 (b'\xe0\xa4\xa5') had 3649 occurrences
-merge 86/500: (262, 156) -> 341 (b'\xe0\xa4\xbe\xe0\xa4\x9c') had 3628 occurrences
-merge 87/500: (256, 167) -> 342 (b'\xe0\xa4\xa7') had 3617 occurrences
-merge 88/500: (262, 184) -> 343 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3449 occurrences
-merge 89/500: (261, 174) -> 344 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 3352 occurrences
-merge 90/500: (262, 178) -> 345 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3325 occurrences
-merge 91/500: (276, 315) -> 346 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 3325 occurrences
-merge 92/500: (148, 264) -> 347 (b'\x94\xe0\xa4\xb0') had 3324 occurrences
-merge 93/500: (32, 32) -> 348 (b'  ') had 3322 occurrences
-merge 94/500: (261, 183) -> 349 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3225 occurrences
-merge 95/500: (285, 273) -> 350 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3197 occurrences
-merge 96/500: (269, 259) -> 351 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3156 occurrences
-merge 97/500: (294, 265) -> 352 (b' \xe0\xa4\xb5\xe0\xa4\xbf') had 3151 occurrences
-merge 98/500: (271, 266) -> 353 (b'\xe0\xa5\x81\xe0\xa4\xa4') had 3136 occurrences
-merge 99/500: (258, 347) -> 354 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 3118 occurrences
-merge 100/500: (167, 257) -> 355 (b'\xa7\xe0\xa5') had 3079 occurrences
-merge 101/500: (256, 161) -> 356 (b'\xe0\xa4\xa1') had 3059 occurrences
-merge 102/500: (258, 165) -> 357 (b' \xe0\xa4\xa5') had 3042 occurrences
-merge 103/500: (32, 124) -> 358 (b' |') had 3028 occurrences
-merge 104/500: (256, 188) -> 359 (b'\xe0\xa4\xbc') had 3022 occurrences
-merge 105/500: (266, 263) -> 360 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 2983 occurrences
-merge 106/500: (282, 276) -> 361 (b' \xe0\xa4\xb8\xe0\xa4\xae') had 2930 occurrences
-merge 107/500: (271, 264) -> 362 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 2870 occurrences
-merge 108/500: (269, 270) -> 363 (b'\xe0\xa4\x95\xe0\xa5\x80') had 2833 occurrences
-merge 109/500: (258, 135) -> 364 (b' \xe0\xa4\x87') had 2785 occurrences
-merge 110/500: (266, 265) -> 365 (b'\xe0\xa4\xa4\xe0\xa4\xbf') had 2770 occurrences
-merge 111/500: (295, 181) -> 366 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 2730 occurrences
-merge 112/500: (279, 270) -> 367 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 2729 occurrences
-merge 113/500: (262, 149) -> 368 (b'\xe0\xa4\xbe\xe0\xa4\x95') had 2681 occurrences
-merge 114/500: (293, 355) -> 369 (b' \xe0\xa5\xa7\xe0\xa5') had 2621 occurrences
-merge 115/500: (267, 292) -> 370 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa4') had 2605 occurrences
-merge 116/500: (257, 140) -> 371 (b'\xe0\xa5\x8c') had 2580 occurrences
-merge 117/500: (274, 292) -> 372 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4') had 2573 occurrences
-merge 118/500: (262, 130) -> 373 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 2551 occurrences
-merge 119/500: (317, 261) -> 374 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 2549 occurrences
-merge 120/500: (301, 263) -> 375 (b' \xe0\xa4\xa6\xe0\xa5\x87') had 2538 occurrences
-merge 121/500: (266, 259) -> 376 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 2494 occurrences
-merge 122/500: (262, 170) -> 377 (b'\xe0\xa4\xbe\xe0\xa4\xaa') had 2477 occurrences
-merge 123/500: (256, 150) -> 378 (b'\xe0\xa4\x96') had 2464 occurrences
-merge 124/500: (269, 273) -> 379 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 2459 occurrences
-merge 125/500: (269, 264) -> 380 (b'\xe0\xa4\x95\xe0\xa4\xb0') had 2423 occurrences
-merge 126/500: (293, 165) -> 381 (b' \xe0\xa5\xa5') had 2311 occurrences
-merge 127/500: (269, 349) -> 382 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb7') had 2308 occurrences
-merge 128/500: (262, 185) -> 383 (b'\xe0\xa4\xbe\xe0\xa4\xb9') had 2259 occurrences
-merge 129/500: (271, 276) -> 384 (b'\xe0\xa5\x81\xe0\xa4\xae') had 2219 occurrences
-merge 130/500: (258, 167) -> 385 (b' \xe0\xa4\xa7') had 2147 occurrences
-merge 131/500: (256, 133) -> 386 (b'\xe0\xa4\x85') had 2104 occurrences
-merge 132/500: (314, 270) -> 387 (b' \xe0\xa4\xad\xe0\xa5\x80') had 2055 occurrences
-merge 133/500: (261, 170) -> 388 (b'\xe0\xa5\x8d\xe0\xa4\xaa') had 2026 occurrences
-merge 134/500: (356, 359) -> 389 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 2022 occurrences
-merge 135/500: (316, 272) -> 390 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 2000 occurrences
-merge 136/500: (310, 274) -> 391 (b' \xe0\xa4\x89\xe0\xa4\xb8') had 1989 occurrences
-merge 137/500: (291, 279) -> 392 (b' \xe0\xa4\xae\xe0\xa4\xb9') had 1961 occurrences
-merge 138/500: (265, 264) -> 393 (b'\xe0\xa4\xbf\xe0\xa4\xb0') had 1943 occurrences
-merge 139/500: (283, 264) -> 394 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 1937 occurrences
-merge 140/500: (262, 129) -> 395 (b'\xe0\xa4\xbe\xe0\xa4\x81') had 1912 occurrences
-merge 141/500: (295, 174) -> 396 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xae') had 1898 occurrences
-merge 142/500: (323, 259) -> 397 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 1897 occurrences
-merge 143/500: (168, 257) -> 398 (b'\xa8\xe0\xa5') had 1895 occurrences
-merge 144/500: (265, 267) -> 399 (b'\xe0\xa4\xbf\xe0\xa4\xa8') had 1881 occurrences
-merge 145/500: (367, 272) -> 400 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 1872 occurrences
-merge 146/500: (226, 128) -> 401 (b'\xe2\x80') had 1867 occurrences
-merge 147/500: (285, 296) -> 402 (b' \xe0\xa4\xb9\xe0\xa5\x81\xe0\xa4') had 1848 occurrences
-merge 148/500: (256, 159) -> 403 (b'\xe0\xa4\x9f') had 1813 occurrences
-merge 149/500: (262, 166) -> 404 (b'\xe0\xa4\xbe\xe0\xa4\xa6') had 1797 occurrences
-merge 150/500: (358, 124) -> 405 (b' ||') had 1795 occurrences
-merge 151/500: (287, 264) -> 406 (b'\xe0\xa4\xaa\xe0\xa4\xb0') had 1785 occurrences
-merge 152/500: (256, 129) -> 407 (b'\xe0\xa4\x81') had 1754 occurrences
-merge 153/500: (271, 267) -> 408 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 1718 occurrences
-merge 154/500: (277, 279) -> 409 (b' \xe0\xa4\x95\xe0\xa4\xb9') had 1694 occurrences
-merge 155/500: (261, 168) -> 410 (b'\xe0\xa5\x8d\xe0\xa4\xa8') had 1674 occurrences
-merge 156/500: (262, 181) -> 411 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 1662 occurrences
-merge 157/500: (261, 167) -> 412 (b'\xe0\xa5\x8d\xe0\xa4\xa7') had 1654 occurrences
-merge 158/500: (319, 341) -> 413 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\x9c') had 1647 occurrences
-merge 159/500: (262, 163) -> 414 (b'\xe0\xa4\xbe\xe0\xa4\xa3') had 1641 occurrences
-merge 160/500: (285, 270) -> 415 (b' \xe0\xa4\xb9\xe0\xa5\x80') had 1617 occurrences
-merge 161/500: (364, 274) -> 416 (b' \xe0\xa4\x87\xe0\xa4\xb8') had 1565 occurrences
-merge 162/500: (274, 286) -> 417 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xaf') had 1553 occurrences
-merge 163/500: (305, 400) -> 418 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 1548 occurrences
-merge 164/500: (262, 151) -> 419 (b'\xe0\xa4\xbe\xe0\xa4\x97') had 1546 occurrences
-merge 165/500: (258, 143) -> 420 (b' \xe0\xa4\x8f') had 1538 occurrences
-merge 166/500: (323, 263) -> 421 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x87') had 1532 occurrences
-merge 167/500: (293, 398) -> 422 (b' \xe0\xa5\xa8\xe0\xa5') had 1530 occurrences
-merge 168/500: (45, 45) -> 423 (b'--') had 1529 occurrences
-merge 169/500: (298, 260) -> 424 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x8d') had 1526 occurrences
-merge 170/500: (329, 166) -> 425 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa6') had 1513 occurrences
-merge 171/500: (340, 259) -> 426 (b'\xe0\xa4\xa5\xe0\xa4\xbe') had 1511 occurrences
-merge 172/500: (267, 259) -> 427 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 1511 occurrences
-merge 173/500: (348, 348) -> 428 (b'    ') had 1506 occurrences
-merge 174/500: (266, 286) -> 429 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xaf') had 1502 occurrences
-merge 175/500: (281, 265) -> 430 (b'\xe0\xa4\xb5\xe0\xa4\xbf') had 1500 occurrences
-merge 176/500: (277, 273) -> 431 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 1496 occurrences
-merge 177/500: (353, 278) -> 432 (b'\xe0\xa5\x81\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 1490 occurrences
-merge 178/500: (296, 183) -> 433 (b'\xe0\xa5\x81\xe0\xa4\xb7') had 1488 occurrences
-merge 179/500: (266, 278) -> 434 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 1482 occurrences
-merge 180/500: (313, 287) -> 435 (b' \xe0\xa4\x85\xe0\xa4\xaa') had 1464 occurrences
-merge 181/500: (262, 154) -> 436 (b'\xe0\xa4\xbe\xe0\xa4\x9a') had 1459 occurrences
-merge 182/500: (266, 292) -> 437 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xa4') had 1448 occurrences
-merge 183/500: (276, 260) -> 438 (b'\xe0\xa4\xae\xe0\xa5\x8d') had 1447 occurrences
-merge 184/500: (270, 264) -> 439 (b'\xe0\xa5\x80\xe0\xa4\xb0') had 1429 occurrences
-merge 185/500: (319, 279) -> 440 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 1421 occurrences
-merge 186/500: (289, 272) -> 441 (b'\xe0\xa5\x88\xe0\xa4\x82') had 1389 occurrences
-merge 187/500: (333, 284) -> 442 (b' \xe0\xa4\x97\xe0\xa4\xaf') had 1380 occurrences
-merge 188/500: (277, 263) -> 443 (b' \xe0\xa4\x95\xe0\xa5\x87') had 1367 occurrences
-merge 189/500: (261, 165) -> 444 (b'\xe0\xa5\x8d\xe0\xa4\xa5') had 1359 occurrences
-merge 190/500: (262, 182) -> 445 (b'\xe0\xa4\xbe\xe0\xa4\xb6') had 1344 occurrences
-merge 191/500: (261, 158) -> 446 (b'\xe0\xa5\x8d\xe0\xa4\x9e') had 1331 occurrences
-merge 192/500: (287, 278) -> 447 (b'\xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 1328 occurrences
-merge 193/500: (266, 270) -> 448 (b'\xe0\xa4\xa4\xe0\xa5\x80') had 1319 occurrences
-merge 194/500: (294, 279) -> 449 (b' \xe0\xa4\xb5\xe0\xa4\xb9') had 1315 occurrences
-merge 195/500: (290, 412) -> 450 (b'\xe0\xa4\xa6\xe0\xa5\x8d\xe0\xa4\xa7') had 1303 occurrences
-merge 196/500: (282, 272) -> 451 (b' \xe0\xa4\xb8\xe0\xa4\x82') had 1299 occurrences
-merge 197/500: (277, 265) -> 452 (b' \xe0\xa4\x95\xe0\xa4\xbf') had 1295 occurrences
-merge 198/500: (357, 259) -> 453 (b' \xe0\xa4\xa5\xe0\xa4\xbe') had 1274 occurrences
-merge 199/500: (269, 292) -> 454 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xa4') had 1273 occurrences
-merge 200/500: (264, 263) -> 455 (b'\xe0\xa4\xb0\xe0\xa5\x87') had 1264 occurrences
-merge 201/500: (291, 263) -> 456 (b' \xe0\xa4\xae\xe0\xa5\x87') had 1257 occurrences
-merge 202/500: (282, 263) -> 457 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 1250 occurrences
-merge 203/500: (269, 297) -> 458 (b'\xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 1249 occurrences
-merge 204/500: (256, 137) -> 459 (b'\xe0\xa4\x89') had 1248 occurrences
-merge 205/500: (277, 270) -> 460 (b' \xe0\xa4\x95\xe0\xa5\x80') had 1232 occurrences
-merge 206/500: (283, 432) -> 461 (b' \xe0\xa4\xaa\xe0\xa5\x81\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 1228 occurrences
-merge 207/500: (299, 384) -> 462 (b' \xe0\xa4\xa4\xe0\xa5\x81\xe0\xa4\xae') had 1224 occurrences
-merge 208/500: (334, 279) -> 463 (b' \xe0\xa4\xaf\xe0\xa4\xb9') had 1193 occurrences
-merge 209/500: (44, 10) -> 464 (b',\n') had 1189 occurrences
-merge 210/500: (295, 163) -> 465 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa3') had 1174 occurrences
-merge 211/500: (169, 257) -> 466 (b'\xa9\xe0\xa5') had 1143 occurrences
-merge 212/500: (310, 267) -> 467 (b' \xe0\xa4\x89\xe0\xa4\xa8') had 1139 occurrences
-merge 213/500: (294, 263) -> 468 (b' \xe0\xa4\xb5\xe0\xa5\x87') had 1137 occurrences
-merge 214/500: (329, 168) -> 469 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa8') had 1130 occurrences
-merge 215/500: (256, 131) -> 470 (b'\xe0\xa4\x83') had 1119 occurrences
-merge 216/500: (261, 161) -> 471 (b'\xe0\xa5\x8d\xe0\xa4\xa1') had 1119 occurrences
-merge 217/500: (261, 154) -> 472 (b'\xe0\xa5\x8d\xe0\xa4\x9a') had 1114 occurrences
-merge 218/500: (256, 135) -> 473 (b'\xe0\xa4\x87') had 1093 occurrences
-merge 219/500: (308, 273) -> 474 (b' \xe0\xa4\x9c\xe0\xa5\x8b') had 1085 occurrences
-merge 220/500: (420, 269) -> 475 (b' \xe0\xa4\x8f\xe0\xa4\x95') had 1080 occurrences
-merge 221/500: (324, 266) -> 476 (b'\xe0\xa5\x83\xe0\xa4\xa4') had 1071 occurrences
-merge 222/500: (357, 263) -> 477 (b' \xe0\xa4\xa5\xe0\xa5\x87') had 1070 occurrences
-merge 223/500: (374, 159) -> 478 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4\x9f') had 1068 occurrences
-merge 224/500: (290, 263) -> 479 (b'\xe0\xa4\xa6\xe0\xa5\x87') had 1060 occurrences
-merge 225/500: (374, 160) -> 480 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4\xa0') had 1058 occurrences
-
-Training...for HindiTokenizer
-merge 1/250: (224, 164) -> 256 (b'\xe0\xa4') had 922105 occurrences
-merge 2/250: (224, 165) -> 257 (b'\xe0\xa5') had 335088 occurrences
-merge 3/250: (32, 256) -> 258 (b' \xe0\xa4') had 204680 occurrences
-merge 4/250: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 101376 occurrences
-merge 5/250: (257, 141) -> 260 (b'\xe0\xa5\x8d') had 100611 occurrences
-merge 6/250: (260, 256) -> 261 (b'\xe0\xa5\x8d\xe0\xa4') had 93659 occurrences
-merge 7/250: (259, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 69317 occurrences
-merge 8/250: (257, 135) -> 263 (b'\xe0\xa5\x87') had 60374 occurrences
-merge 9/250: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 45645 occurrences
-merge 10/250: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 42494 occurrences
-merge 11/250: (256, 164) -> 266 (b'\xe0\xa4\xa4') had 37466 occurrences
-merge 12/250: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 35577 occurrences
-merge 13/250: (257, 164) -> 268 (b'\xe0\xa5\xa4') had 35354 occurrences
-merge 14/250: (256, 149) -> 269 (b'\xe0\xa4\x95') had 34454 occurrences
-merge 15/250: (257, 128) -> 270 (b'\xe0\xa5\x80') had 31744 occurrences
-merge 16/250: (257, 129) -> 271 (b'\xe0\xa5\x81') had 29784 occurrences
-merge 17/250: (256, 130) -> 272 (b'\xe0\xa4\x82') had 29117 occurrences
-merge 18/250: (257, 139) -> 273 (b'\xe0\xa5\x8b') had 28062 occurrences
-merge 19/250: (256, 184) -> 274 (b'\xe0\xa4\xb8') had 25580 occurrences
-merge 20/250: (32, 10) -> 275 (b' \n') had 24061 occurrences
-merge 21/250: (256, 174) -> 276 (b'\xe0\xa4\xae') had 23316 occurrences
-merge 22/250: (258, 149) -> 277 (b' \xe0\xa4\x95') had 21044 occurrences
-merge 23/250: (261, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 19737 occurrences
-merge 24/250: (256, 185) -> 279 (b'\xe0\xa4\xb9') had 19651 occurrences
-merge 25/250: (32, 268) -> 280 (b' \xe0\xa5\xa4') had 19201 occurrences
-merge 26/250: (256, 181) -> 281 (b'\xe0\xa4\xb5') had 17786 occurrences
-merge 27/250: (258, 184) -> 282 (b' \xe0\xa4\xb8') had 17530 occurrences
-merge 28/250: (258, 170) -> 283 (b' \xe0\xa4\xaa') had 16540 occurrences
-merge 29/250: (256, 175) -> 284 (b'\xe0\xa4\xaf') had 16374 occurrences
-merge 30/250: (258, 185) -> 285 (b' \xe0\xa4\xb9') had 15683 occurrences
-merge 31/250: (261, 175) -> 286 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 15637 occurrences
-merge 32/250: (256, 170) -> 287 (b'\xe0\xa4\xaa') had 14720 occurrences
-merge 33/250: (280, 268) -> 288 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 13836 occurrences
-merge 34/250: (257, 136) -> 289 (b'\xe0\xa5\x88') had 11968 occurrences
-merge 35/250: (256, 166) -> 290 (b'\xe0\xa4\xa6') had 11958 occurrences
-merge 36/250: (258, 174) -> 291 (b' \xe0\xa4\xae') had 11672 occurrences
-merge 37/250: (261, 164) -> 292 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 11405 occurrences
-merge 38/250: (32, 257) -> 293 (b' \xe0\xa5') had 11055 occurrences
-merge 39/250: (258, 181) -> 294 (b' \xe0\xa4\xb5') had 11026 occurrences
-merge 40/250: (264, 261) -> 295 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 10098 occurrences
-merge 41/250: (271, 256) -> 296 (b'\xe0\xa5\x81\xe0\xa4') had 9924 occurrences
-merge 42/250: (262, 176) -> 297 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 9313 occurrences
-merge 43/250: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 9217 occurrences
-merge 44/250: (258, 164) -> 299 (b' \xe0\xa4\xa4') had 9095 occurrences
-merge 45/250: (256, 178) -> 300 (b'\xe0\xa4\xb2') had 8829 occurrences
-merge 46/250: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 8648 occurrences
-merge 47/250: (256, 151) -> 302 (b'\xe0\xa4\x97') had 8451 occurrences
-merge 48/250: (257, 130) -> 303 (b'\xe0\xa5\x82') had 8350 occurrences
-merge 49/250: (256, 182) -> 304 (b'\xe0\xa4\xb6') had 8201 occurrences
-merge 50/250: (258, 168) -> 305 (b' \xe0\xa4\xa8') had 7902 occurrences
-merge 51/250: (256, 156) -> 306 (b'\xe0\xa4\x9c') had 7574 occurrences
-merge 52/250: (258, 172) -> 307 (b' \xe0\xa4\xac') had 7190 occurrences
-merge 53/250: (258, 156) -> 308 (b' \xe0\xa4\x9c') had 7139 occurrences
-merge 54/250: (267, 263) -> 309 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 6802 occurrences
-merge 55/250: (258, 137) -> 310 (b' \xe0\xa4\x89') had 6631 occurrences
-merge 56/250: (261, 181) -> 311 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 6563 occurrences
-merge 57/250: (269, 263) -> 312 (b'\xe0\xa4\x95\xe0\xa5\x87') had 6488 occurrences
-merge 58/250: (258, 133) -> 313 (b' \xe0\xa4\x85') had 6354 occurrences
-merge 59/250: (258, 173) -> 314 (b' \xe0\xa4\xad') had 6259 occurrences
-merge 60/250: (263, 272) -> 315 (b'\xe0\xa5\x87\xe0\xa4\x82') had 6039 occurrences
-merge 61/250: (285, 289) -> 316 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 6031 occurrences
-merge 62/250: (256, 183) -> 317 (b'\xe0\xa4\xb7') had 5969 occurrences
-merge 63/250: (265, 266) -> 318 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 5753 occurrences
-merge 64/250: (258, 176) -> 319 (b' \xe0\xa4\xb0') had 5625 occurrences
-merge 65/250: (262, 164) -> 320 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 5334 occurrences
-merge 66/250: (273, 272) -> 321 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 5250 occurrences
-merge 67/250: (274, 263) -> 322 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 4952 occurrences
-merge 68/250: (265, 284) -> 323 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4930 occurrences
-merge 69/250: (257, 131) -> 324 (b'\xe0\xa5\x83') had 4835 occurrences
-merge 70/250: (256, 154) -> 325 (b'\xe0\xa4\x9a') had 4818 occurrences
-merge 71/250: (258, 182) -> 326 (b' \xe0\xa4\xb6') had 4743 occurrences
-merge 72/250: (256, 163) -> 327 (b'\xe0\xa4\xa3') had 4730 occurrences
-merge 73/250: (256, 172) -> 328 (b'\xe0\xa4\xac') had 4688 occurrences
-merge 74/250: (267, 261) -> 329 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 4597 occurrences
-merge 75/250: (283, 278) -> 330 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 4578 occurrences
-merge 76/250: (258, 154) -> 331 (b' \xe0\xa4\x9a') had 4431 occurrences
-merge 77/250: (258, 134) -> 332 (b' \xe0\xa4\x86') had 4392 occurrences
-merge 78/250: (258, 151) -> 333 (b' \xe0\xa4\x97') had 4390 occurrences
-merge 79/250: (258, 175) -> 334 (b' \xe0\xa4\xaf') had 4369 occurrences
-merge 80/250: (258, 178) -> 335 (b' \xe0\xa4\xb2') had 4360 occurrences
-merge 81/250: (256, 173) -> 336 (b'\xe0\xa4\xad') had 4201 occurrences
-merge 82/250: (262, 174) -> 337 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 3994 occurrences
-merge 83/250: (277, 264) -> 338 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3882 occurrences
-merge 84/250: (262, 175) -> 339 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3708 occurrences
-merge 85/250: (256, 165) -> 340 (b'\xe0\xa4\xa5') had 3649 occurrences
-merge 86/250: (262, 156) -> 341 (b'\xe0\xa4\xbe\xe0\xa4\x9c') had 3628 occurrences
-merge 87/250: (256, 167) -> 342 (b'\xe0\xa4\xa7') had 3617 occurrences
-merge 88/250: (262, 184) -> 343 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3449 occurrences
-merge 89/250: (261, 174) -> 344 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 3352 occurrences
-merge 90/250: (262, 178) -> 345 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3325 occurrences
-merge 91/250: (276, 315) -> 346 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 3325 occurrences
-merge 92/250: (148, 264) -> 347 (b'\x94\xe0\xa4\xb0') had 3324 occurrences
-merge 93/250: (32, 32) -> 348 (b'  ') had 3322 occurrences
-merge 94/250: (261, 183) -> 349 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3225 occurrences
-merge 95/250: (285, 273) -> 350 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3197 occurrences
-merge 96/250: (269, 259) -> 351 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3156 occurrences
-merge 97/250: (294, 265) -> 352 (b' \xe0\xa4\xb5\xe0\xa4\xbf') had 3151 occurrences
-merge 98/250: (271, 266) -> 353 (b'\xe0\xa5\x81\xe0\xa4\xa4') had 3136 occurrences
-merge 99/250: (258, 347) -> 354 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 3118 occurrences
-merge 100/250: (167, 257) -> 355 (b'\xa7\xe0\xa5') had 3079 occurrences
-merge 101/250: (256, 161) -> 356 (b'\xe0\xa4\xa1') had 3059 occurrences
-merge 102/250: (258, 165) -> 357 (b' \xe0\xa4\xa5') had 3042 occurrences
-merge 103/250: (32, 124) -> 358 (b' |') had 3028 occurrences
-merge 104/250: (256, 188) -> 359 (b'\xe0\xa4\xbc') had 3022 occurrences
-merge 105/250: (266, 263) -> 360 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 2983 occurrences
-merge 106/250: (282, 276) -> 361 (b' \xe0\xa4\xb8\xe0\xa4\xae') had 2930 occurrences
-merge 107/250: (271, 264) -> 362 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 2870 occurrences
-merge 108/250: (269, 270) -> 363 (b'\xe0\xa4\x95\xe0\xa5\x80') had 2833 occurrences
-merge 109/250: (258, 135) -> 364 (b' \xe0\xa4\x87') had 2785 occurrences
-merge 110/250: (266, 265) -> 365 (b'\xe0\xa4\xa4\xe0\xa4\xbf') had 2770 occurrences
-merge 111/250: (295, 181) -> 366 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 2730 occurrences
-merge 112/250: (279, 270) -> 367 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 2729 occurrences
-merge 113/250: (262, 149) -> 368 (b'\xe0\xa4\xbe\xe0\xa4\x95') had 2681 occurrences
-merge 114/250: (293, 355) -> 369 (b' \xe0\xa5\xa7\xe0\xa5') had 2621 occurrences
-merge 115/250: (267, 292) -> 370 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa4') had 2605 occurrences
-merge 116/250: (257, 140) -> 371 (b'\xe0\xa5\x8c') had 2580 occurrences
-merge 117/250: (274, 292) -> 372 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4') had 2573 occurrences
-merge 118/250: (262, 130) -> 373 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 2551 occurrences
-merge 119/250: (317, 261) -> 374 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 2549 occurrences
-merge 120/250: (301, 263) -> 375 (b' \xe0\xa4\xa6\xe0\xa5\x87') had 2538 occurrences
-merge 121/250: (266, 259) -> 376 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 2494 occurrences
-merge 122/250: (262, 170) -> 377 (b'\xe0\xa4\xbe\xe0\xa4\xaa') had 2477 occurrences
-merge 123/250: (256, 150) -> 378 (b'\xe0\xa4\x96') had 2464 occurrences
-merge 124/250: (269, 273) -> 379 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 2459 occurrences
-merge 125/250: (269, 264) -> 380 (b'\xe0\xa4\x95\xe0\xa4\xb0') had 2423 occurrences
-merge 126/250: (293, 165) -> 381 (b' \xe0\xa5\xa5') had 2311 occurrences
-merge 127/250: (269, 349) -> 382 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb7') had 2308 occurrences
-merge 128/250: (262, 185) -> 383 (b'\xe0\xa4\xbe\xe0\xa4\xb9') had 2259 occurrences
-merge 129/250: (271, 276) -> 384 (b'\xe0\xa5\x81\xe0\xa4\xae') had 2219 occurrences
-merge 130/250: (258, 167) -> 385 (b' \xe0\xa4\xa7') had 2147 occurrences
-merge 131/250: (256, 133) -> 386 (b'\xe0\xa4\x85') had 2104 occurrences
-merge 132/250: (314, 270) -> 387 (b' \xe0\xa4\xad\xe0\xa5\x80') had 2055 occurrences
-merge 133/250: (261, 170) -> 388 (b'\xe0\xa5\x8d\xe0\xa4\xaa') had 2026 occurrences
-merge 134/250: (356, 359) -> 389 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 2022 occurrences
-merge 135/250: (316, 272) -> 390 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 2000 occurrences
-merge 136/250: (310, 274) -> 391 (b' \xe0\xa4\x89\xe0\xa4\xb8') had 1989 occurrences
-merge 137/250: (291, 279) -> 392 (b' \xe0\xa4\xae\xe0\xa4\xb9') had 1961 occurrences
-merge 138/250: (265, 264) -> 393 (b'\xe0\xa4\xbf\xe0\xa4\xb0') had 1943 occurrences
-merge 139/250: (283, 264) -> 394 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 1937 occurrences
-merge 140/250: (262, 129) -> 395 (b'\xe0\xa4\xbe\xe0\xa4\x81') had 1912 occurrences
-merge 141/250: (295, 174) -> 396 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xae') had 1898 occurrences
-merge 142/250: (323, 259) -> 397 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 1897 occurrences
-merge 143/250: (168, 257) -> 398 (b'\xa8\xe0\xa5') had 1895 occurrences
-merge 144/250: (265, 267) -> 399 (b'\xe0\xa4\xbf\xe0\xa4\xa8') had 1881 occurrences
-merge 145/250: (367, 272) -> 400 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 1872 occurrences
-merge 146/250: (226, 128) -> 401 (b'\xe2\x80') had 1867 occurrences
-merge 147/250: (285, 296) -> 402 (b' \xe0\xa4\xb9\xe0\xa5\x81\xe0\xa4') had 1848 occurrences
-merge 148/250: (256, 159) -> 403 (b'\xe0\xa4\x9f') had 1813 occurrences
-merge 149/250: (262, 166) -> 404 (b'\xe0\xa4\xbe\xe0\xa4\xa6') had 1797 occurrences
-merge 150/250: (358, 124) -> 405 (b' ||') had 1795 occurrences
-merge 151/250: (287, 264) -> 406 (b'\xe0\xa4\xaa\xe0\xa4\xb0') had 1785 occurrences
-merge 152/250: (256, 129) -> 407 (b'\xe0\xa4\x81') had 1754 occurrences
-merge 153/250: (271, 267) -> 408 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 1718 occurrences
-merge 154/250: (277, 279) -> 409 (b' \xe0\xa4\x95\xe0\xa4\xb9') had 1694 occurrences
-merge 155/250: (261, 168) -> 410 (b'\xe0\xa5\x8d\xe0\xa4\xa8') had 1674 occurrences
-merge 156/250: (262, 181) -> 411 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 1662 occurrences
-merge 157/250: (261, 167) -> 412 (b'\xe0\xa5\x8d\xe0\xa4\xa7') had 1654 occurrences
-merge 158/250: (319, 341) -> 413 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\x9c') had 1647 occurrences
-merge 159/250: (262, 163) -> 414 (b'\xe0\xa4\xbe\xe0\xa4\xa3') had 1641 occurrences
-merge 160/250: (285, 270) -> 415 (b' \xe0\xa4\xb9\xe0\xa5\x80') had 1617 occurrences
-merge 161/250: (364, 274) -> 416 (b' \xe0\xa4\x87\xe0\xa4\xb8') had 1565 occurrences
-merge 162/250: (274, 286) -> 417 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xaf') had 1553 occurrences
-merge 163/250: (305, 400) -> 418 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 1548 occurrences
-merge 164/250: (262, 151) -> 419 (b'\xe0\xa4\xbe\xe0\xa4\x97') had 1546 occurrences
-merge 165/250: (258, 143) -> 420 (b' \xe0\xa4\x8f') had 1538 occurrences
-merge 166/250: (323, 263) -> 421 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x87') had 1532 occurrences
-merge 167/250: (293, 398) -> 422 (b' \xe0\xa5\xa8\xe0\xa5') had 1530 occurrences
-merge 168/250: (45, 45) -> 423 (b'--') had 1529 occurrences
-merge 169/250: (298, 260) -> 424 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x8d') had 1526 occurrences
-merge 170/250: (329, 166) -> 425 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa6') had 1513 occurrences
-merge 171/250: (340, 259) -> 426 (b'\xe0\xa4\xa5\xe0\xa4\xbe') had 1511 occurrences
-merge 172/250: (267, 259) -> 427 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 1511 occurrences
-merge 173/250: (348, 348) -> 428 (b'    ') had 1506 occurrences
-merge 174/250: (266, 286) -> 429 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xaf') had 1502 occurrences
-merge 175/250: (281, 265) -> 430 (b'\xe0\xa4\xb5\xe0\xa4\xbf') had 1500 occurrences
-merge 176/250: (277, 273) -> 431 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 1496 occurrences
-merge 177/250: (353, 278) -> 432 (b'\xe0\xa5\x81\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 1490 occurrences
-merge 178/250: (296, 183) -> 433 (b'\xe0\xa5\x81\xe0\xa4\xb7') had 1488 occurrences
-merge 179/250: (266, 278) -> 434 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 1482 occurrences
-merge 180/250: (313, 287) -> 435 (b' \xe0\xa4\x85\xe0\xa4\xaa') had 1464 occurrences
-merge 181/250: (262, 154) -> 436 (b'\xe0\xa4\xbe\xe0\xa4\x9a') had 1459 occurrences
-merge 182/250: (266, 292) -> 437 (b'\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xa4') had 1448 occurrences
-merge 183/250: (276, 260) -> 438 (b'\xe0\xa4\xae\xe0\xa5\x8d') had 1447 occurrences
-merge 184/250: (270, 264) -> 439 (b'\xe0\xa5\x80\xe0\xa4\xb0') had 1429 occurrences
-merge 185/250: (319, 279) -> 440 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 1421 occurrences
-merge 186/250: (289, 272) -> 441 (b'\xe0\xa5\x88\xe0\xa4\x82') had 1389 occurrences
-merge 187/250: (333, 284) -> 442 (b' \xe0\xa4\x97\xe0\xa4\xaf') had 1380 occurrences
-merge 188/250: (277, 263) -> 443 (b' \xe0\xa4\x95\xe0\xa5\x87') had 1367 occurrences
-merge 189/250: (261, 165) -> 444 (b'\xe0\xa5\x8d\xe0\xa4\xa5') had 1359 occurrences
-merge 190/250: (262, 182) -> 445 (b'\xe0\xa4\xbe\xe0\xa4\xb6') had 1344 occurrences
-merge 191/250: (261, 158) -> 446 (b'\xe0\xa5\x8d\xe0\xa4\x9e') had 1331 occurrences
-merge 192/250: (287, 278) -> 447 (b'\xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 1328 occurrences
-merge 193/250: (266, 270) -> 448 (b'\xe0\xa4\xa4\xe0\xa5\x80') had 1319 occurrences
-merge 194/250: (294, 279) -> 449 (b' \xe0\xa4\xb5\xe0\xa4\xb9') had 1315 occurrences
-merge 195/250: (290, 412) -> 450 (b'\xe0\xa4\xa6\xe0\xa5\x8d\xe0\xa4\xa7') had 1303 occurrences
-merge 196/250: (282, 272) -> 451 (b' \xe0\xa4\xb8\xe0\xa4\x82') had 1299 occurrences
-merge 197/250: (277, 265) -> 452 (b' \xe0\xa4\x95\xe0\xa4\xbf') had 1295 occurrences
-merge 198/250: (357, 259) -> 453 (b' \xe0\xa4\xa5\xe0\xa4\xbe') had 1274 occurrences
-merge 199/250: (269, 292) -> 454 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xa4') had 1273 occurrences
-merge 200/250: (264, 263) -> 455 (b'\xe0\xa4\xb0\xe0\xa5\x87') had 1264 occurrences
-merge 201/250: (291, 263) -> 456 (b' \xe0\xa4\xae\xe0\xa5\x87') had 1257 occurrences
-merge 202/250: (282, 263) -> 457 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 1250 occurrences
-merge 203/250: (269, 297) -> 458 (b'\xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 1249 occurrences
-merge 204/250: (256, 137) -> 459 (b'\xe0\xa4\x89') had 1248 occurrences
-merge 205/250: (277, 270) -> 460 (b' \xe0\xa4\x95\xe0\xa5\x80') had 1232 occurrences
-merge 206/250: (283, 432) -> 461 (b' \xe0\xa4\xaa\xe0\xa5\x81\xe0\xa4\xa4\xe0\xa5\x8d\xe0\xa4\xb0') had 1228 occurrences
-merge 207/250: (299, 384) -> 462 (b' \xe0\xa4\xa4\xe0\xa5\x81\xe0\xa4\xae') had 1224 occurrences
-merge 208/250: (334, 279) -> 463 (b' \xe0\xa4\xaf\xe0\xa4\xb9') had 1193 occurrences
-merge 209/250: (44, 10) -> 464 (b',\n') had 1189 occurrences
-merge 210/250: (295, 163) -> 465 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa3') had 1174 occurrences
-merge 211/250: (169, 257) -> 466 (b'\xa9\xe0\xa5') had 1143 occurrences
-merge 212/250: (310, 267) -> 467 (b' \xe0\xa4\x89\xe0\xa4\xa8') had 1139 occurrences
-merge 213/250: (294, 263) -> 468 (b' \xe0\xa4\xb5\xe0\xa5\x87') had 1137 occurrences
-merge 214/250: (329, 168) -> 469 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa8') had 1130 occurrences
-merge 215/250: (256, 131) -> 470 (b'\xe0\xa4\x83') had 1119 occurrences
-merge 216/250: (261, 161) -> 471 (b'\xe0\xa5\x8d\xe0\xa4\xa1') had 1119 occurrences
-merge 217/250: (261, 154) -> 472 (b'\xe0\xa5\x8d\xe0\xa4\x9a') had 1114 occurrences
-merge 218/250: (256, 135) -> 473 (b'\xe0\xa4\x87') had 1093 occurrences
-merge 219/250: (308, 273) -> 474 (b' \xe0\xa4\x9c\xe0\xa5\x8b') had 1085 occurrences
-merge 220/250: (420, 269) -> 475 (b' \xe0\xa4\x8f\xe0\xa4\x95') had 1080 occurrences
-merge 221/250: (324, 266) -> 476 (b'\xe0\xa5\x83\xe0\xa4\xa4') had 1071 occurrences
-merge 222/250: (357, 263) -> 477 (b' \xe0\xa4\xa5\xe0\xa5\x87') had 1070 occurrences
-merge 223/250: (374, 159) -> 478 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4\x9f') had 1068 occurrences
-merge 224/250: (290, 263) -> 479 (b'\xe0\xa4\xa6\xe0\xa5\x87') had 1060 occurrences
-merge 225/250: (374, 160) -> 480 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4\xa0') had 1058 occurrences
-merge 226/250: (291, 315) -> 481 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 1055 occurrences
-merge 227/250: (303, 407) -> 482 (b'\xe0\xa5\x82\xe0\xa4\x81') had 1050 occurrences
-merge 228/250: (305, 265) -> 483 (b' \xe0\xa4\xa8\xe0\xa4\xbf') had 1046 occurrences
-merge 229/250: (326, 278) -> 484 (b' \xe0\xa4\xb6\xe0\xa5\x8d\xe0\xa4\xb0') had 1039 occurrences
-merge 230/250: (258, 189) -> 485 (b' \xe0\xa4\xbd') had 1034 occurrences
-merge 231/250: (302, 259) -> 486 (b'\xe0\xa4\x97\xe0\xa4\xbe') had 1033 occurrences
-merge 232/250: (258, 150) -> 487 (b' \xe0\xa4\x96') had 1030 occurrences
-merge 233/250: (300, 263) -> 488 (b'\xe0\xa4\xb2\xe0\xa5\x87') had 1028 occurrences
-merge 234/250: (256, 160) -> 489 (b'\xe0\xa4\xa0') had 1026 occurrences
-merge 235/250: (295, 183) -> 490 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb7') had 1020 occurrences
-merge 236/250: (291, 441) -> 491 (b' \xe0\xa4\xae\xe0\xa5\x88\xe0\xa4\x82') had 1019 occurrences
-merge 237/250: (266, 260) -> 492 (b'\xe0\xa4\xa4\xe0\xa5\x8d') had 1009 occurrences
-merge 238/250: (303, 264) -> 493 (b'\xe0\xa5\x82\xe0\xa4\xb0') had 1008 occurrences
-merge 239/250: (262, 167) -> 494 (b'\xe0\xa4\xbe\xe0\xa4\xa7') had 1005 occurrences
-merge 240/250: (280, 10) -> 495 (b' \xe0\xa5\xa4\n') had 1000 occurrences
-merge 241/250: (276, 263) -> 496 (b'\xe0\xa4\xae\xe0\xa5\x87') had 990 occurrences
-merge 242/250: (286, 259) -> 497 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 989 occurrences
-merge 243/250: (268, 10) -> 498 (b'\xe0\xa5\xa4\n') had 984 occurrences
-merge 244/250: (262, 165) -> 499 (b'\xe0\xa4\xbe\xe0\xa4\xa5') had 981 occurrences
-merge 245/250: (306, 446) -> 500 (b'\xe0\xa4\x9c\xe0\xa5\x8d\xe0\xa4\x9e') had 961 occurrences
-merge 246/250: (299, 273) -> 501 (b' \xe0\xa4\xa4\xe0\xa5\x8b') had 957 occurrences
-merge 247/250: (304, 278) -> 502 (b'\xe0\xa4\xb6\xe0\xa5\x8d\xe0\xa4\xb0') had 953 occurrences
-merge 248/250: (375, 281) -> 503 (b' \xe0\xa4\xa6\xe0\xa5\x87\xe0\xa4\xb5') had 952 occurrences
-merge 249/250: (290, 265) -> 504 (b'\xe0\xa4\xa6\xe0\xa4\xbf') had 945 occurrences
-merge 250/250: (256, 143) -> 505 (b'\xe0\xa4\x8f') had 939 occurrences
-
-Training...for HindiTokenizer
-merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 944518 occurrences
-merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 357193 occurrences
-merge 3/100: (32, 256) -> 258 (b' \xe0\xa4') had 184636 occurrences
-merge 4/100: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 116200 occurrences
-merge 5/100: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 107124 occurrences
-merge 6/100: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 102338 occurrences
-merge 7/100: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 75134 occurrences
-merge 8/100: (257, 135) -> 263 (b'\xe0\xa5\x87') had 60369 occurrences
-merge 9/100: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 46762 occurrences
-merge 10/100: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 44046 occurrences
-merge 11/100: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 42945 occurrences
-merge 12/100: (256, 168) -> 267 (b'\xe0\xa4\xa8') had 39011 occurrences
-merge 13/100: (256, 164) -> 268 (b'\xe0\xa4\xa4') had 38340 occurrences
-merge 14/100: (256, 149) -> 269 (b'\xe0\xa4\x95') had 38103 occurrences
-merge 15/100: (257, 129) -> 270 (b'\xe0\xa5\x81') had 31951 occurrences
-merge 16/100: (32, 10) -> 271 (b' \n') had 30000 occurrences
-merge 17/100: (257, 128) -> 272 (b'\xe0\xa5\x80') had 29209 occurrences
-merge 18/100: (256, 130) -> 273 (b'\xe0\xa4\x82') had 28834 occurrences
-merge 19/100: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 28606 occurrences
-merge 20/100: (256, 174) -> 275 (b'\xe0\xa4\xae') had 26323 occurrences
-merge 21/100: (256, 184) -> 276 (b'\xe0\xa4\xb8') had 26121 occurrences
-merge 22/100: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 23705 occurrences
-merge 23/100: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 22660 occurrences
-merge 24/100: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 20933 occurrences
-merge 25/100: (277, 266) -> 280 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 17844 occurrences
-merge 26/100: (256, 185) -> 281 (b'\xe0\xa4\xb9') had 17818 occurrences
-merge 27/100: (265, 256) -> 282 (b'\xe0\xa4\xbf\xe0\xa4') had 16908 occurrences
-merge 28/100: (258, 184) -> 283 (b' \xe0\xa4\xb8') had 16842 occurrences
-merge 29/100: (260, 175) -> 284 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 16209 occurrences
-merge 30/100: (258, 170) -> 285 (b' \xe0\xa4\xaa') had 15746 occurrences
-merge 31/100: (258, 149) -> 286 (b' \xe0\xa4\x95') had 15368 occurrences
-merge 32/100: (256, 170) -> 287 (b'\xe0\xa4\xaa') had 14449 occurrences
-merge 33/100: (258, 185) -> 288 (b' \xe0\xa4\xb9') had 13519 occurrences
-merge 34/100: (256, 166) -> 289 (b'\xe0\xa4\xa6') had 13133 occurrences
-merge 35/100: (260, 164) -> 290 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 12265 occurrences
-merge 36/100: (264, 260) -> 291 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 11493 occurrences
-merge 37/100: (256, 175) -> 292 (b'\xe0\xa4\xaf') had 11445 occurrences
-merge 38/100: (32, 257) -> 293 (b' \xe0\xa5') had 11197 occurrences
-merge 39/100: (258, 181) -> 294 (b' \xe0\xa4\xb5') had 11109 occurrences
-merge 40/100: (262, 176) -> 295 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 10441 occurrences
-merge 41/100: (257, 136) -> 296 (b'\xe0\xa5\x88') had 10229 occurrences
-merge 42/100: (270, 256) -> 297 (b'\xe0\xa5\x81\xe0\xa4') had 10042 occurrences
-merge 43/100: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 9815 occurrences
-merge 44/100: (258, 174) -> 299 (b' \xe0\xa4\xae') had 9616 occurrences
-merge 45/100: (258, 164) -> 300 (b' \xe0\xa4\xa4') had 8780 occurrences
-merge 46/100: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 8367 occurrences
-merge 47/100: (269, 263) -> 302 (b'\xe0\xa4\x95\xe0\xa5\x87') had 8038 occurrences
-merge 48/100: (256, 182) -> 303 (b'\xe0\xa4\xb6') had 7980 occurrences
-merge 49/100: (256, 151) -> 304 (b'\xe0\xa4\x97') had 7867 occurrences
-merge 50/100: (257, 130) -> 305 (b'\xe0\xa5\x82') had 7413 occurrences
-merge 51/100: (256, 178) -> 306 (b'\xe0\xa4\xb2') had 7409 occurrences
-merge 52/100: (260, 181) -> 307 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 7234 occurrences
-merge 53/100: (267, 263) -> 308 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 7053 occurrences
-merge 54/100: (258, 168) -> 309 (b' \xe0\xa4\xa8') had 6600 occurrences
-merge 55/100: (258, 172) -> 310 (b' \xe0\xa4\xac') had 6591 occurrences
-merge 56/100: (256, 156) -> 311 (b'\xe0\xa4\x9c') had 6559 occurrences
-merge 57/100: (258, 173) -> 312 (b' \xe0\xa4\xad') had 6556 occurrences
-merge 58/100: (274, 273) -> 313 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 6430 occurrences
-merge 59/100: (258, 137) -> 314 (b' \xe0\xa4\x89') had 6391 occurrences
-merge 60/100: (258, 133) -> 315 (b' \xe0\xa4\x85') had 6341 occurrences
-merge 61/100: (257, 131) -> 316 (b'\xe0\xa5\x83') had 6303 occurrences
-merge 62/100: (265, 268) -> 317 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 6175 occurrences
-merge 63/100: (258, 176) -> 318 (b' \xe0\xa4\xb0') had 6111 occurrences
-merge 64/100: (276, 263) -> 319 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 5672 occurrences
-merge 65/100: (183, 260) -> 320 (b'\xb7\xe0\xa5\x8d\xe0\xa4') had 5512 occurrences
-merge 66/100: (263, 273) -> 321 (b'\xe0\xa5\x87\xe0\xa4\x82') had 5510 occurrences
-merge 67/100: (285, 278) -> 322 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 5246 occurrences
-merge 68/100: (258, 156) -> 323 (b' \xe0\xa4\x9c') had 5222 occurrences
-merge 69/100: (256, 163) -> 324 (b'\xe0\xa4\xa3') had 5220 occurrences
-merge 70/100: (256, 173) -> 325 (b'\xe0\xa4\xad') had 5196 occurrences
-merge 71/100: (267, 260) -> 326 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 5100 occurrences
-merge 72/100: (282, 175) -> 327 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4967 occurrences
-merge 73/100: (258, 175) -> 328 (b' \xe0\xa4\xaf') had 4868 occurrences
-merge 74/100: (262, 164) -> 329 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 4791 occurrences
-merge 75/100: (258, 182) -> 330 (b' \xe0\xa4\xb6') had 4753 occurrences
-merge 76/100: (258, 154) -> 331 (b' \xe0\xa4\x9a') had 4675 occurrences
-merge 77/100: (262, 156) -> 332 (b'\xe0\xa4\xbe\xe0\xa4\x9c') had 4659 occurrences
-merge 78/100: (256, 165) -> 333 (b'\xe0\xa4\xa5') had 4449 occurrences
-merge 79/100: (262, 174) -> 334 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 4433 occurrences
-merge 80/100: (256, 154) -> 335 (b'\xe0\xa4\x9a') had 4409 occurrences
-merge 81/100: (288, 296) -> 336 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 4251 occurrences
-merge 82/100: (258, 178) -> 337 (b' \xe0\xa4\xb2') had 4051 occurrences
-merge 83/100: (275, 321) -> 338 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 3956 occurrences
-merge 84/100: (256, 167) -> 339 (b'\xe0\xa4\xa7') had 3859 occurrences
-merge 85/100: (262, 184) -> 340 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3840 occurrences
-merge 86/100: (286, 264) -> 341 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3808 occurrences
-merge 87/100: (258, 134) -> 342 (b' \xe0\xa4\x86') had 3788 occurrences
-merge 88/100: (256, 172) -> 343 (b'\xe0\xa4\xac') had 3693 occurrences
-merge 89/100: (262, 175) -> 344 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3688 occurrences
-merge 90/100: (260, 183) -> 345 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3651 occurrences
-merge 91/100: (262, 178) -> 346 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3637 occurrences
-merge 92/100: (32, 124) -> 347 (b' |') had 3590 occurrences
-merge 93/100: (269, 272) -> 348 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3516 occurrences
-merge 94/100: (258, 151) -> 349 (b' \xe0\xa4\x97') had 3422 occurrences
-merge 95/100: (268, 263) -> 350 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 3380 occurrences
-merge 96/100: (291, 181) -> 351 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 3378 occurrences
-merge 97/100: (269, 274) -> 352 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3359 occurrences
-merge 98/100: (270, 264) -> 353 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 3328 occurrences
-merge 99/100: (260, 174) -> 354 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 3320 occurrences
-merge 100/100: (293, 167) -> 355 (b' \xe0\xa5\xa7') had 3279 occurrences
-
-Training...for HindiTokenizer
-merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 931293 occurrences
-merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 355997 occurrences
-merge 3/100: (32, 256) -> 258 (b' \xe0\xa4') had 182700 occurrences
-merge 4/100: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 114317 occurrences
-merge 5/100: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 105085 occurrences
-merge 6/100: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 101166 occurrences
-merge 7/100: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 73565 occurrences
-merge 8/100: (257, 135) -> 263 (b'\xe0\xa5\x87') had 58450 occurrences
-merge 9/100: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 46856 occurrences
-merge 10/100: (257, 164) -> 265 (b'\xe0\xa5\xa4') had 44169 occurrences
-merge 11/100: (256, 191) -> 266 (b'\xe0\xa4\xbf') had 43850 occurrences
-merge 12/100: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 39290 occurrences
-merge 13/100: (256, 168) -> 268 (b'\xe0\xa4\xa8') had 37715 occurrences
-merge 14/100: (256, 149) -> 269 (b'\xe0\xa4\x95') had 35889 occurrences
-merge 15/100: (257, 129) -> 270 (b'\xe0\xa5\x81') had 31602 occurrences
-merge 16/100: (32, 10) -> 271 (b' \n') had 30000 occurrences
-merge 17/100: (257, 128) -> 272 (b'\xe0\xa5\x80') had 29071 occurrences
-merge 18/100: (256, 130) -> 273 (b'\xe0\xa4\x82') had 28447 occurrences
-merge 19/100: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 28186 occurrences
-merge 20/100: (256, 174) -> 275 (b'\xe0\xa4\xae') had 26770 occurrences
-merge 21/100: (256, 184) -> 276 (b'\xe0\xa4\xb8') had 25715 occurrences
-merge 22/100: (32, 265) -> 277 (b' \xe0\xa5\xa4') had 24336 occurrences
-merge 23/100: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 21787 occurrences
-merge 24/100: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 20069 occurrences
-merge 25/100: (277, 265) -> 280 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 18533 occurrences
-merge 26/100: (256, 185) -> 281 (b'\xe0\xa4\xb9') had 18456 occurrences
-merge 27/100: (260, 175) -> 282 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 16858 occurrences
-merge 28/100: (258, 184) -> 283 (b' \xe0\xa4\xb8') had 16457 occurrences
-merge 29/100: (256, 175) -> 284 (b'\xe0\xa4\xaf') had 16260 occurrences
-merge 30/100: (256, 170) -> 285 (b'\xe0\xa4\xaa') had 15620 occurrences
-merge 31/100: (258, 170) -> 286 (b' \xe0\xa4\xaa') had 15491 occurrences
-merge 32/100: (258, 185) -> 287 (b' \xe0\xa4\xb9') had 15140 occurrences
-merge 33/100: (258, 149) -> 288 (b' \xe0\xa4\x95') had 14869 occurrences
-merge 34/100: (256, 166) -> 289 (b'\xe0\xa4\xa6') had 14331 occurrences
-merge 35/100: (264, 260) -> 290 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 12569 occurrences
-merge 36/100: (32, 257) -> 291 (b' \xe0\xa5') had 11758 occurrences
-merge 37/100: (257, 136) -> 292 (b'\xe0\xa5\x88') had 11562 occurrences
-merge 38/100: (260, 164) -> 293 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 11307 occurrences
-merge 39/100: (258, 181) -> 294 (b' \xe0\xa4\xb5') had 11247 occurrences
-merge 40/100: (270, 256) -> 295 (b'\xe0\xa5\x81\xe0\xa4') had 10925 occurrences
-merge 41/100: (262, 176) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 10352 occurrences
-merge 42/100: (258, 174) -> 297 (b' \xe0\xa4\xae') had 10049 occurrences
-merge 43/100: (256, 182) -> 298 (b'\xe0\xa4\xb6') had 9773 occurrences
-merge 44/100: (262, 168) -> 299 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 9668 occurrences
-merge 45/100: (258, 166) -> 300 (b' \xe0\xa4\xa6') had 9049 occurrences
-merge 46/100: (256, 178) -> 301 (b'\xe0\xa4\xb2') had 8926 occurrences
-merge 47/100: (258, 164) -> 302 (b' \xe0\xa4\xa4') had 8698 occurrences
-merge 48/100: (256, 183) -> 303 (b'\xe0\xa4\xb7') had 8074 occurrences
-merge 49/100: (260, 181) -> 304 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 7808 occurrences
-merge 50/100: (258, 168) -> 305 (b' \xe0\xa4\xa8') had 7588 occurrences
-merge 51/100: (257, 130) -> 306 (b'\xe0\xa5\x82') had 7484 occurrences
-merge 52/100: (256, 151) -> 307 (b'\xe0\xa4\x97') had 7435 occurrences
-merge 53/100: (269, 263) -> 308 (b'\xe0\xa4\x95\xe0\xa5\x87') had 7432 occurrences
-merge 54/100: (256, 156) -> 309 (b'\xe0\xa4\x9c') had 6682 occurrences
-merge 55/100: (268, 263) -> 310 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 6500 occurrences
-merge 56/100: (258, 173) -> 311 (b' \xe0\xa4\xad') had 6349 occurrences
-merge 57/100: (266, 267) -> 312 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 6332 occurrences
-merge 58/100: (257, 131) -> 313 (b'\xe0\xa5\x83') had 6117 occurrences
-merge 59/100: (258, 133) -> 314 (b' \xe0\xa4\x85') had 5952 occurrences
-merge 60/100: (258, 176) -> 315 (b' \xe0\xa4\xb0') had 5844 occurrences
-merge 61/100: (276, 263) -> 316 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 5835 occurrences
-merge 62/100: (258, 137) -> 317 (b' \xe0\xa4\x89') had 5804 occurrences
-merge 63/100: (262, 164) -> 318 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 5756 occurrences
-merge 64/100: (263, 273) -> 319 (b'\xe0\xa5\x87\xe0\xa4\x82') had 5736 occurrences
-merge 65/100: (258, 172) -> 320 (b' \xe0\xa4\xac') had 5525 occurrences
-merge 66/100: (287, 292) -> 321 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 5499 occurrences
-merge 67/100: (256, 173) -> 322 (b'\xe0\xa4\xad') had 5441 occurrences
-merge 68/100: (274, 273) -> 323 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 5427 occurrences
-merge 69/100: (258, 156) -> 324 (b' \xe0\xa4\x9c') had 5381 occurrences
-merge 70/100: (286, 278) -> 325 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 5302 occurrences
-merge 71/100: (258, 175) -> 326 (b' \xe0\xa4\xaf') had 4994 occurrences
-merge 72/100: (256, 163) -> 327 (b'\xe0\xa4\xa3') had 4923 occurrences
-merge 73/100: (258, 182) -> 328 (b' \xe0\xa4\xb6') had 4769 occurrences
-merge 74/100: (303, 260) -> 329 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 4593 occurrences
-merge 75/100: (256, 154) -> 330 (b'\xe0\xa4\x9a') had 4568 occurrences
-merge 76/100: (262, 156) -> 331 (b'\xe0\xa4\xbe\xe0\xa4\x9c') had 4530 occurrences
-merge 77/100: (268, 260) -> 332 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 4514 occurrences
-merge 78/100: (266, 284) -> 333 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4483 occurrences
-merge 79/100: (256, 167) -> 334 (b'\xe0\xa4\xa7') had 4354 occurrences
-merge 80/100: (262, 174) -> 335 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 4271 occurrences
-merge 81/100: (258, 154) -> 336 (b' \xe0\xa4\x9a') had 4165 occurrences
-merge 82/100: (256, 165) -> 337 (b'\xe0\xa4\xa5') had 4125 occurrences
-merge 83/100: (275, 319) -> 338 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 4089 occurrences
-merge 84/100: (262, 184) -> 339 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3899 occurrences
-merge 85/100: (288, 264) -> 340 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3781 occurrences
-merge 86/100: (258, 178) -> 341 (b' \xe0\xa4\xb2') had 3743 occurrences
-merge 87/100: (32, 124) -> 342 (b' |') had 3728 occurrences
-merge 88/100: (167, 257) -> 343 (b'\xa7\xe0\xa5') had 3560 occurrences
-merge 89/100: (269, 261) -> 344 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3558 occurrences
-merge 90/100: (256, 172) -> 345 (b'\xe0\xa4\xac') had 3538 occurrences
-merge 91/100: (270, 264) -> 346 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 3526 occurrences
-merge 92/100: (267, 263) -> 347 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 3481 occurrences
-merge 93/100: (258, 134) -> 348 (b' \xe0\xa4\x86') had 3477 occurrences
-merge 94/100: (262, 175) -> 349 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3476 occurrences
-merge 95/100: (262, 178) -> 350 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3347 occurrences
-merge 96/100: (260, 183) -> 351 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3281 occurrences
-merge 97/100: (258, 151) -> 352 (b' \xe0\xa4\x97') had 3275 occurrences
-merge 98/100: (268, 293) -> 353 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa4') had 3250 occurrences
-merge 99/100: (269, 274) -> 354 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3244 occurrences
-merge 100/100: (269, 272) -> 355 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3193 occurrences
-
-Training...for HindiTokenizer
-merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 936063 occurrences
-merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 355860 occurrences
-merge 3/100: (32, 256) -> 258 (b' \xe0\xa4') had 183935 occurrences
-merge 4/100: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 115993 occurrences
-merge 5/100: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 106934 occurrences
-merge 6/100: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 101537 occurrences
-merge 7/100: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 73273 occurrences
-merge 8/100: (257, 135) -> 263 (b'\xe0\xa5\x87') had 59359 occurrences
-merge 9/100: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 46814 occurrences
-merge 10/100: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 44017 occurrences
-merge 11/100: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 43554 occurrences
-merge 12/100: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 38714 occurrences
-merge 13/100: (256, 168) -> 268 (b'\xe0\xa4\xa8') had 37869 occurrences
-merge 14/100: (256, 149) -> 269 (b'\xe0\xa4\x95') had 36500 occurrences
-merge 15/100: (32, 10) -> 270 (b' \n') had 30000 occurrences
-merge 16/100: (257, 129) -> 271 (b'\xe0\xa5\x81') had 29664 occurrences
-merge 17/100: (257, 139) -> 272 (b'\xe0\xa5\x8b') had 28414 occurrences
-merge 18/100: (257, 128) -> 273 (b'\xe0\xa5\x80') had 28365 occurrences
-merge 19/100: (256, 130) -> 274 (b'\xe0\xa4\x82') had 28362 occurrences
-merge 20/100: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 26815 occurrences
-merge 21/100: (256, 174) -> 276 (b'\xe0\xa4\xae') had 26593 occurrences
-merge 22/100: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 23637 occurrences
-merge 23/100: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 22673 occurrences
-merge 24/100: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 20450 occurrences
-merge 25/100: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 18352 occurrences
-merge 26/100: (277, 266) -> 281 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 18339 occurrences
-merge 27/100: (258, 184) -> 282 (b' \xe0\xa4\xb8') had 16805 occurrences
-merge 28/100: (260, 175) -> 283 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 16685 occurrences
-merge 29/100: (256, 175) -> 284 (b'\xe0\xa4\xaf') had 16426 occurrences
-merge 30/100: (258, 170) -> 285 (b' \xe0\xa4\xaa') had 15869 occurrences
-merge 31/100: (258, 185) -> 286 (b' \xe0\xa4\xb9') had 15312 occurrences
-merge 32/100: (256, 170) -> 287 (b'\xe0\xa4\xaa') had 15071 occurrences
-merge 33/100: (258, 149) -> 288 (b' \xe0\xa4\x95') had 14916 occurrences
-merge 34/100: (256, 166) -> 289 (b'\xe0\xa4\xa6') had 13737 occurrences
-merge 35/100: (264, 260) -> 290 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 12645 occurrences
-merge 36/100: (32, 257) -> 291 (b' \xe0\xa5') had 12161 occurrences
-merge 37/100: (257, 136) -> 292 (b'\xe0\xa5\x88') had 11596 occurrences
-merge 38/100: (260, 164) -> 293 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 11424 occurrences
-merge 39/100: (258, 181) -> 294 (b' \xe0\xa4\xb5') had 11018 occurrences
-merge 40/100: (271, 256) -> 295 (b'\xe0\xa5\x81\xe0\xa4') had 10833 occurrences
-merge 41/100: (262, 168) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 10283 occurrences
-merge 42/100: (262, 176) -> 297 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 10219 occurrences
-merge 43/100: (258, 174) -> 298 (b' \xe0\xa4\xae') had 10141 occurrences
-merge 44/100: (256, 182) -> 299 (b'\xe0\xa4\xb6') had 9791 occurrences
-merge 45/100: (258, 166) -> 300 (b' \xe0\xa4\xa6') had 9084 occurrences
-merge 46/100: (258, 164) -> 301 (b' \xe0\xa4\xa4') had 8920 occurrences
-merge 47/100: (256, 178) -> 302 (b'\xe0\xa4\xb2') had 8092 occurrences
-merge 48/100: (256, 151) -> 303 (b'\xe0\xa4\x97') had 8051 occurrences
-merge 49/100: (257, 130) -> 304 (b'\xe0\xa5\x82') had 7606 occurrences
-merge 50/100: (260, 181) -> 305 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 7479 occurrences
-merge 51/100: (269, 263) -> 306 (b'\xe0\xa4\x95\xe0\xa5\x87') had 7362 occurrences
-merge 52/100: (256, 183) -> 307 (b'\xe0\xa4\xb7') had 7260 occurrences
-merge 53/100: (256, 156) -> 308 (b'\xe0\xa4\x9c') had 6733 occurrences
-merge 54/100: (268, 263) -> 309 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 6661 occurrences
-merge 55/100: (258, 173) -> 310 (b' \xe0\xa4\xad') had 6306 occurrences
-merge 56/100: (258, 137) -> 311 (b' \xe0\xa4\x89') had 6286 occurrences
-merge 57/100: (258, 168) -> 312 (b' \xe0\xa4\xa8') had 6123 occurrences
-merge 58/100: (258, 133) -> 313 (b' \xe0\xa4\x85') had 6056 occurrences
-merge 59/100: (272, 274) -> 314 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 5996 occurrences
-merge 60/100: (256, 163) -> 315 (b'\xe0\xa4\xa3') had 5932 occurrences
-merge 61/100: (258, 172) -> 316 (b' \xe0\xa4\xac') had 5901 occurrences
-merge 62/100: (275, 263) -> 317 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 5891 occurrences
-merge 63/100: (265, 267) -> 318 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 5801 occurrences
-merge 64/100: (262, 164) -> 319 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 5733 occurrences
-merge 65/100: (258, 176) -> 320 (b' \xe0\xa4\xb0') had 5704 occurrences
-merge 66/100: (285, 278) -> 321 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 5655 occurrences
-merge 67/100: (263, 274) -> 322 (b'\xe0\xa5\x87\xe0\xa4\x82') had 5576 occurrences
-merge 68/100: (268, 260) -> 323 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 5546 occurrences
-merge 69/100: (257, 131) -> 324 (b'\xe0\xa5\x83') had 5518 occurrences
-merge 70/100: (286, 292) -> 325 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 5482 occurrences
-merge 71/100: (258, 156) -> 326 (b' \xe0\xa4\x9c') had 5360 occurrences
-merge 72/100: (256, 173) -> 327 (b'\xe0\xa4\xad') had 5163 occurrences
-merge 73/100: (258, 175) -> 328 (b' \xe0\xa4\xaf') had 4946 occurrences
-merge 74/100: (265, 284) -> 329 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4822 occurrences
-merge 75/100: (256, 165) -> 330 (b'\xe0\xa4\xa5') had 4687 occurrences
-merge 76/100: (258, 182) -> 331 (b' \xe0\xa4\xb6') had 4658 occurrences
-merge 77/100: (256, 154) -> 332 (b'\xe0\xa4\x9a') had 4634 occurrences
-merge 78/100: (262, 174) -> 333 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 4253 occurrences
-merge 79/100: (258, 154) -> 334 (b' \xe0\xa4\x9a') had 4182 occurrences
-merge 80/100: (256, 172) -> 335 (b'\xe0\xa4\xac') had 4071 occurrences
-merge 81/100: (256, 167) -> 336 (b'\xe0\xa4\xa7') had 4036 occurrences
-merge 82/100: (276, 322) -> 337 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 3919 occurrences
-merge 83/100: (32, 124) -> 338 (b' |') had 3843 occurrences
-merge 84/100: (267, 263) -> 339 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 3806 occurrences
-merge 85/100: (307, 260) -> 340 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 3789 occurrences
-merge 86/100: (258, 178) -> 341 (b' \xe0\xa4\xb2') had 3766 occurrences
-merge 87/100: (288, 264) -> 342 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3753 occurrences
-merge 88/100: (260, 183) -> 343 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3661 occurrences
-merge 89/100: (269, 261) -> 344 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3645 occurrences
-merge 90/100: (260, 174) -> 345 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 3576 occurrences
-merge 91/100: (262, 175) -> 346 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3561 occurrences
-merge 92/100: (290, 181) -> 347 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 3557 occurrences
-merge 93/100: (167, 257) -> 348 (b'\xa7\xe0\xa5') had 3544 occurrences
-merge 94/100: (262, 156) -> 349 (b'\xe0\xa4\xbe\xe0\xa4\x9c') had 3531 occurrences
-merge 95/100: (262, 184) -> 350 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3523 occurrences
-merge 96/100: (258, 134) -> 351 (b' \xe0\xa4\x86') had 3517 occurrences
-merge 97/100: (258, 151) -> 352 (b' \xe0\xa4\x97') had 3448 occurrences
-merge 98/100: (262, 178) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3274 occurrences
-merge 99/100: (269, 273) -> 354 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3267 occurrences
-merge 100/100: (286, 272) -> 355 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3238 occurrences
-
-Training...for HindiTokenizer
-merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 910832 occurrences
-merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 347664 occurrences
-merge 3/100: (32, 256) -> 258 (b' \xe0\xa4') had 183182 occurrences
-merge 4/100: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 109564 occurrences
-merge 5/100: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 100771 occurrences
-merge 6/100: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 99363 occurrences
-merge 7/100: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 71657 occurrences
-merge 8/100: (257, 135) -> 263 (b'\xe0\xa5\x87') had 58849 occurrences
-merge 9/100: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 46190 occurrences
-merge 10/100: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 42173 occurrences
-merge 11/100: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 41668 occurrences
-merge 12/100: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 37721 occurrences
-merge 13/100: (256, 168) -> 268 (b'\xe0\xa4\xa8') had 37167 occurrences
-merge 14/100: (256, 149) -> 269 (b'\xe0\xa4\x95') had 35107 occurrences
-merge 15/100: (257, 129) -> 270 (b'\xe0\xa5\x81') had 30343 occurrences
-merge 16/100: (32, 10) -> 271 (b' \n') had 30000 occurrences
-merge 17/100: (257, 128) -> 272 (b'\xe0\xa5\x80') had 29459 occurrences
-merge 18/100: (256, 130) -> 273 (b'\xe0\xa4\x82') had 29215 occurrences
-merge 19/100: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 28802 occurrences
-merge 20/100: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 25420 occurrences
-merge 21/100: (256, 174) -> 276 (b'\xe0\xa4\xae') had 24314 occurrences
-merge 22/100: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 22818 occurrences
-merge 23/100: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 21457 occurrences
-merge 24/100: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 19468 occurrences
-merge 25/100: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 17553 occurrences
-merge 26/100: (277, 266) -> 281 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 17511 occurrences
-merge 27/100: (260, 175) -> 282 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 17081 occurrences
-merge 28/100: (258, 184) -> 283 (b' \xe0\xa4\xb8') had 17006 occurrences
-merge 29/100: (258, 149) -> 284 (b' \xe0\xa4\x95') had 16147 occurrences
-merge 30/100: (258, 185) -> 285 (b' \xe0\xa4\xb9') had 15939 occurrences
-merge 31/100: (256, 175) -> 286 (b'\xe0\xa4\xaf') had 15868 occurrences
-merge 32/100: (258, 170) -> 287 (b' \xe0\xa4\xaa') had 15033 occurrences
-merge 33/100: (256, 170) -> 288 (b'\xe0\xa4\xaa') had 14627 occurrences
-merge 34/100: (256, 166) -> 289 (b'\xe0\xa4\xa6') had 13393 occurrences
-merge 35/100: (257, 136) -> 290 (b'\xe0\xa5\x88') had 11959 occurrences
-merge 36/100: (260, 164) -> 291 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 11731 occurrences
-merge 37/100: (32, 257) -> 292 (b' \xe0\xa5') had 11305 occurrences
-merge 38/100: (258, 181) -> 293 (b' \xe0\xa4\xb5') had 11111 occurrences
-merge 39/100: (270, 256) -> 294 (b'\xe0\xa5\x81\xe0\xa4') had 10814 occurrences
-merge 40/100: (264, 260) -> 295 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 10281 occurrences
-merge 41/100: (262, 176) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 10106 occurrences
-merge 42/100: (258, 174) -> 297 (b' \xe0\xa4\xae') had 9610 occurrences
-merge 43/100: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 9580 occurrences
-merge 44/100: (256, 182) -> 299 (b'\xe0\xa4\xb6') had 8738 occurrences
-merge 45/100: (258, 164) -> 300 (b' \xe0\xa4\xa4') had 8525 occurrences
-merge 46/100: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 8332 occurrences
-merge 47/100: (256, 178) -> 302 (b'\xe0\xa4\xb2') had 7875 occurrences
-merge 48/100: (257, 130) -> 303 (b'\xe0\xa5\x82') had 7816 occurrences
-merge 49/100: (269, 263) -> 304 (b'\xe0\xa4\x95\xe0\xa5\x87') had 7360 occurrences
-merge 50/100: (256, 151) -> 305 (b'\xe0\xa4\x97') had 7026 occurrences
-merge 51/100: (256, 183) -> 306 (b'\xe0\xa4\xb7') had 6955 occurrences
-merge 52/100: (260, 181) -> 307 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 6699 occurrences
-merge 53/100: (258, 168) -> 308 (b' \xe0\xa4\xa8') had 6637 occurrences
-merge 54/100: (268, 263) -> 309 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 6499 occurrences
-merge 55/100: (256, 156) -> 310 (b'\xe0\xa4\x9c') had 6430 occurrences
-merge 56/100: (258, 172) -> 311 (b' \xe0\xa4\xac') had 6315 occurrences
-merge 57/100: (258, 173) -> 312 (b' \xe0\xa4\xad') had 6224 occurrences
-merge 58/100: (258, 133) -> 313 (b' \xe0\xa4\x85') had 6085 occurrences
-merge 59/100: (285, 290) -> 314 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 6028 occurrences
-merge 60/100: (258, 176) -> 315 (b' \xe0\xa4\xb0') had 5964 occurrences
-merge 61/100: (258, 137) -> 316 (b' \xe0\xa4\x89') had 5851 occurrences
-merge 62/100: (274, 273) -> 317 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 5809 occurrences
-merge 63/100: (275, 263) -> 318 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 5766 occurrences
-merge 64/100: (265, 267) -> 319 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 5675 occurrences
-merge 65/100: (257, 131) -> 320 (b'\xe0\xa5\x83') had 5587 occurrences
-merge 66/100: (263, 273) -> 321 (b'\xe0\xa5\x87\xe0\xa4\x82') had 5545 occurrences
-merge 67/100: (258, 156) -> 322 (b' \xe0\xa4\x9c') had 5352 occurrences
-merge 68/100: (256, 163) -> 323 (b'\xe0\xa4\xa3') had 5335 occurrences
-merge 69/100: (258, 175) -> 324 (b' \xe0\xa4\xaf') had 5283 occurrences
-merge 70/100: (287, 278) -> 325 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 5163 occurrences
-merge 71/100: (256, 154) -> 326 (b'\xe0\xa4\x9a') had 5132 occurrences
-merge 72/100: (262, 164) -> 327 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 5089 occurrences
-merge 73/100: (268, 260) -> 328 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 4897 occurrences
-merge 74/100: (256, 165) -> 329 (b'\xe0\xa4\xa5') had 4814 occurrences
-merge 75/100: (256, 173) -> 330 (b'\xe0\xa4\xad') had 4719 occurrences
-merge 76/100: (258, 182) -> 331 (b' \xe0\xa4\xb6') had 4670 occurrences
-merge 77/100: (265, 286) -> 332 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4502 occurrences
-merge 78/100: (262, 174) -> 333 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 4237 occurrences
-merge 79/100: (256, 167) -> 334 (b'\xe0\xa4\xa7') had 4166 occurrences
-merge 80/100: (258, 154) -> 335 (b' \xe0\xa4\x9a') had 4150 occurrences
-merge 81/100: (284, 264) -> 336 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3938 occurrences
-merge 82/100: (276, 321) -> 337 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 3856 occurrences
-merge 83/100: (279, 262) -> 338 (b'\xe0\xa4\xb5\xe0\xa4\xbe\xe0\xa4') had 3731 occurrences
-merge 84/100: (264, 262) -> 339 (b'\xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4') had 3706 occurrences
-merge 85/100: (256, 172) -> 340 (b'\xe0\xa4\xac') had 3678 occurrences
-merge 86/100: (258, 178) -> 341 (b' \xe0\xa4\xb2') had 3648 occurrences
-merge 87/100: (306, 260) -> 342 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 3633 occurrences
-merge 88/100: (267, 263) -> 343 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 3571 occurrences
-merge 89/100: (32, 124) -> 344 (b' |') had 3484 occurrences
-merge 90/100: (258, 134) -> 345 (b' \xe0\xa4\x86') had 3415 occurrences
-merge 91/100: (293, 265) -> 346 (b' \xe0\xa4\xb5\xe0\xa4\xbf') had 3399 occurrences
-merge 92/100: (269, 272) -> 347 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3383 occurrences
-merge 93/100: (260, 183) -> 348 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3360 occurrences
-merge 94/100: (269, 261) -> 349 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3300 occurrences
-merge 95/100: (269, 274) -> 350 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3290 occurrences
-merge 96/100: (285, 274) -> 351 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3204 occurrences
-merge 97/100: (262, 175) -> 352 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3181 occurrences
-merge 98/100: (258, 151) -> 353 (b' \xe0\xa4\x97') had 3180 occurrences
-merge 99/100: (292, 167) -> 354 (b' \xe0\xa5\xa7') had 3130 occurrences
-merge 100/100: (283, 276) -> 355 (b' \xe0\xa4\xb8\xe0\xa4\xae') had 3082 occurrences
-
-Training...for HindiTokenizer
-merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 910832 occurrences
-merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 347664 occurrences
-merge 3/100: (32, 256) -> 258 (b' \xe0\xa4') had 183182 occurrences
-merge 4/100: (257, 141) -> 259 (b'\xe0\xa5\x8d') had 109564 occurrences
-merge 5/100: (259, 256) -> 260 (b'\xe0\xa5\x8d\xe0\xa4') had 100771 occurrences
-merge 6/100: (256, 190) -> 261 (b'\xe0\xa4\xbe') had 99363 occurrences
-merge 7/100: (261, 256) -> 262 (b'\xe0\xa4\xbe\xe0\xa4') had 71657 occurrences
-merge 8/100: (257, 135) -> 263 (b'\xe0\xa5\x87') had 58849 occurrences
-merge 9/100: (256, 176) -> 264 (b'\xe0\xa4\xb0') had 46190 occurrences
-merge 10/100: (256, 191) -> 265 (b'\xe0\xa4\xbf') had 42173 occurrences
-merge 11/100: (257, 164) -> 266 (b'\xe0\xa5\xa4') had 41668 occurrences
-merge 12/100: (256, 164) -> 267 (b'\xe0\xa4\xa4') had 37721 occurrences
-merge 13/100: (256, 168) -> 268 (b'\xe0\xa4\xa8') had 37167 occurrences
-merge 14/100: (256, 149) -> 269 (b'\xe0\xa4\x95') had 35107 occurrences
-merge 15/100: (257, 129) -> 270 (b'\xe0\xa5\x81') had 30343 occurrences
-merge 16/100: (32, 10) -> 271 (b' \n') had 30000 occurrences
-merge 17/100: (257, 128) -> 272 (b'\xe0\xa5\x80') had 29459 occurrences
-merge 18/100: (256, 130) -> 273 (b'\xe0\xa4\x82') had 29215 occurrences
-merge 19/100: (257, 139) -> 274 (b'\xe0\xa5\x8b') had 28802 occurrences
-merge 20/100: (256, 184) -> 275 (b'\xe0\xa4\xb8') had 25420 occurrences
-merge 21/100: (256, 174) -> 276 (b'\xe0\xa4\xae') had 24314 occurrences
-merge 22/100: (32, 266) -> 277 (b' \xe0\xa5\xa4') had 22818 occurrences
-merge 23/100: (260, 176) -> 278 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 21457 occurrences
-merge 24/100: (256, 181) -> 279 (b'\xe0\xa4\xb5') had 19468 occurrences
-merge 25/100: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 17553 occurrences
-merge 26/100: (277, 266) -> 281 (b' \xe0\xa5\xa4\xe0\xa5\xa4') had 17511 occurrences
-merge 27/100: (260, 175) -> 282 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 17081 occurrences
-merge 28/100: (258, 184) -> 283 (b' \xe0\xa4\xb8') had 17006 occurrences
-merge 29/100: (258, 149) -> 284 (b' \xe0\xa4\x95') had 16147 occurrences
-merge 30/100: (258, 185) -> 285 (b' \xe0\xa4\xb9') had 15939 occurrences
-merge 31/100: (256, 175) -> 286 (b'\xe0\xa4\xaf') had 15868 occurrences
-merge 32/100: (258, 170) -> 287 (b' \xe0\xa4\xaa') had 15033 occurrences
-merge 33/100: (256, 170) -> 288 (b'\xe0\xa4\xaa') had 14627 occurrences
-merge 34/100: (256, 166) -> 289 (b'\xe0\xa4\xa6') had 13393 occurrences
-merge 35/100: (257, 136) -> 290 (b'\xe0\xa5\x88') had 11959 occurrences
-merge 36/100: (260, 164) -> 291 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 11731 occurrences
-merge 37/100: (32, 257) -> 292 (b' \xe0\xa5') had 11305 occurrences
-merge 38/100: (258, 181) -> 293 (b' \xe0\xa4\xb5') had 11111 occurrences
-merge 39/100: (270, 256) -> 294 (b'\xe0\xa5\x81\xe0\xa4') had 10814 occurrences
-merge 40/100: (264, 260) -> 295 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 10281 occurrences
-merge 41/100: (262, 176) -> 296 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 10106 occurrences
-merge 42/100: (258, 174) -> 297 (b' \xe0\xa4\xae') had 9610 occurrences
-merge 43/100: (262, 168) -> 298 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 9580 occurrences
-merge 44/100: (256, 182) -> 299 (b'\xe0\xa4\xb6') had 8738 occurrences
-merge 45/100: (258, 164) -> 300 (b' \xe0\xa4\xa4') had 8525 occurrences
-merge 46/100: (258, 166) -> 301 (b' \xe0\xa4\xa6') had 8332 occurrences
-merge 47/100: (256, 178) -> 302 (b'\xe0\xa4\xb2') had 7875 occurrences
-merge 48/100: (257, 130) -> 303 (b'\xe0\xa5\x82') had 7816 occurrences
-merge 49/100: (269, 263) -> 304 (b'\xe0\xa4\x95\xe0\xa5\x87') had 7360 occurrences
-merge 50/100: (256, 151) -> 305 (b'\xe0\xa4\x97') had 7026 occurrences
-merge 51/100: (256, 183) -> 306 (b'\xe0\xa4\xb7') had 6955 occurrences
-merge 52/100: (260, 181) -> 307 (b'\xe0\xa5\x8d\xe0\xa4\xb5') had 6699 occurrences
-merge 53/100: (258, 168) -> 308 (b' \xe0\xa4\xa8') had 6637 occurrences
-merge 54/100: (268, 263) -> 309 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 6499 occurrences
-merge 55/100: (256, 156) -> 310 (b'\xe0\xa4\x9c') had 6430 occurrences
-merge 56/100: (258, 172) -> 311 (b' \xe0\xa4\xac') had 6315 occurrences
-merge 57/100: (258, 173) -> 312 (b' \xe0\xa4\xad') had 6224 occurrences
-merge 58/100: (258, 133) -> 313 (b' \xe0\xa4\x85') had 6085 occurrences
-merge 59/100: (285, 290) -> 314 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 6028 occurrences
-merge 60/100: (258, 176) -> 315 (b' \xe0\xa4\xb0') had 5964 occurrences
-merge 61/100: (258, 137) -> 316 (b' \xe0\xa4\x89') had 5851 occurrences
-merge 62/100: (274, 273) -> 317 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 5809 occurrences
-merge 63/100: (275, 263) -> 318 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 5766 occurrences
-merge 64/100: (265, 267) -> 319 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 5675 occurrences
-merge 65/100: (257, 131) -> 320 (b'\xe0\xa5\x83') had 5587 occurrences
-merge 66/100: (263, 273) -> 321 (b'\xe0\xa5\x87\xe0\xa4\x82') had 5545 occurrences
-merge 67/100: (258, 156) -> 322 (b' \xe0\xa4\x9c') had 5352 occurrences
-merge 68/100: (256, 163) -> 323 (b'\xe0\xa4\xa3') had 5335 occurrences
-merge 69/100: (258, 175) -> 324 (b' \xe0\xa4\xaf') had 5283 occurrences
-merge 70/100: (287, 278) -> 325 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 5163 occurrences
-merge 71/100: (256, 154) -> 326 (b'\xe0\xa4\x9a') had 5132 occurrences
-merge 72/100: (262, 164) -> 327 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 5089 occurrences
-merge 73/100: (268, 260) -> 328 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 4897 occurrences
-merge 74/100: (256, 165) -> 329 (b'\xe0\xa4\xa5') had 4814 occurrences
-merge 75/100: (256, 173) -> 330 (b'\xe0\xa4\xad') had 4719 occurrences
-merge 76/100: (258, 182) -> 331 (b' \xe0\xa4\xb6') had 4670 occurrences
-merge 77/100: (265, 286) -> 332 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 4502 occurrences
-merge 78/100: (262, 174) -> 333 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 4237 occurrences
-merge 79/100: (256, 167) -> 334 (b'\xe0\xa4\xa7') had 4166 occurrences
-merge 80/100: (258, 154) -> 335 (b' \xe0\xa4\x9a') had 4150 occurrences
-merge 81/100: (284, 264) -> 336 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 3938 occurrences
-merge 82/100: (276, 321) -> 337 (b'\xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 3856 occurrences
-merge 83/100: (279, 262) -> 338 (b'\xe0\xa4\xb5\xe0\xa4\xbe\xe0\xa4') had 3731 occurrences
-merge 84/100: (264, 262) -> 339 (b'\xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4') had 3706 occurrences
-merge 85/100: (256, 172) -> 340 (b'\xe0\xa4\xac') had 3678 occurrences
-merge 86/100: (258, 178) -> 341 (b' \xe0\xa4\xb2') had 3648 occurrences
-merge 87/100: (306, 260) -> 342 (b'\xe0\xa4\xb7\xe0\xa5\x8d\xe0\xa4') had 3633 occurrences
-merge 88/100: (267, 263) -> 343 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 3571 occurrences
-merge 89/100: (32, 124) -> 344 (b' |') had 3484 occurrences
-merge 90/100: (258, 134) -> 345 (b' \xe0\xa4\x86') had 3415 occurrences
-merge 91/100: (293, 265) -> 346 (b' \xe0\xa4\xb5\xe0\xa4\xbf') had 3399 occurrences
-merge 92/100: (269, 272) -> 347 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3383 occurrences
-merge 93/100: (260, 183) -> 348 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 3360 occurrences
-merge 94/100: (269, 261) -> 349 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3300 occurrences
-merge 95/100: (269, 274) -> 350 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3290 occurrences
-merge 96/100: (285, 274) -> 351 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3204 occurrences
-merge 97/100: (262, 175) -> 352 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3181 occurrences
-merge 98/100: (258, 151) -> 353 (b' \xe0\xa4\x97') had 3180 occurrences
-merge 99/100: (292, 167) -> 354 (b' \xe0\xa5\xa7') had 3130 occurrences
-merge 100/100: (283, 276) -> 355 (b' \xe0\xa4\xb8\xe0\xa4\xae') had 3082 occurrences
-
-Training...for HindiTokenizer
-merge 1/400: (224, 164) -> 256 (b'\xe0\xa4') had 3916403 occurrences
-merge 2/400: (32, 256) -> 257 (b' \xe0\xa4') had 1242696 occurrences
-merge 3/400: (224, 165) -> 258 (b'\xe0\xa5') had 1115361 occurrences
-merge 4/400: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 446059 occurrences
-merge 5/400: (258, 135) -> 260 (b'\xe0\xa5\x87') had 384487 occurrences
-merge 6/400: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 286115 occurrences
-merge 7/400: (256, 130) -> 262 (b'\xe0\xa4\x82') had 252617 occurrences
-merge 8/400: (257, 149) -> 263 (b' \xe0\xa4\x95') had 211001 occurrences
-merge 9/400: (258, 128) -> 264 (b'\xe0\xa5\x80') had 208494 occurrences
-merge 10/400: (259, 256) -> 265 (b'\xe0\xa4\xbe\xe0\xa4') had 197796 occurrences
-merge 11/400: (258, 141) -> 266 (b'\xe0\xa5\x8d') had 184129 occurrences
-merge 12/400: (256, 191) -> 267 (b'\xe0\xa4\xbf') had 167431 occurrences
-merge 13/400: (267, 256) -> 268 (b'\xe0\xa4\xbf\xe0\xa4') had 156107 occurrences
-merge 14/400: (258, 139) -> 269 (b'\xe0\xa5\x8b') had 148155 occurrences
-merge 15/400: (266, 256) -> 270 (b'\xe0\xa5\x8d\xe0\xa4') had 142271 occurrences
-merge 16/400: (256, 168) -> 271 (b'\xe0\xa4\xa8') had 120862 occurrences
-merge 17/400: (260, 262) -> 272 (b'\xe0\xa5\x87\xe0\xa4\x82') had 116730 occurrences
-merge 18/400: (256, 149) -> 273 (b'\xe0\xa4\x95') had 105001 occurrences
-merge 19/400: (257, 184) -> 274 (b' \xe0\xa4\xb8') had 102140 occurrences
-merge 20/400: (257, 174) -> 275 (b' \xe0\xa4\xae') had 96021 occurrences
-merge 21/400: (257, 185) -> 276 (b' \xe0\xa4\xb9') had 95951 occurrences
-merge 22/400: (258, 136) -> 277 (b'\xe0\xa5\x88') had 84877 occurrences
-merge 23/400: (256, 184) -> 278 (b'\xe0\xa4\xb8') had 81369 occurrences
-merge 24/400: (257, 172) -> 279 (b' \xe0\xa4\xac') had 74320 occurrences
-merge 25/400: (256, 164) -> 280 (b'\xe0\xa4\xa4') had 73749 occurrences
-merge 26/400: (257, 170) -> 281 (b' \xe0\xa4\xaa') had 70980 occurrences
-merge 27/400: (259, 261) -> 282 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 68007 occurrences
-merge 28/400: (256, 178) -> 283 (b'\xe0\xa4\xb2') had 67337 occurrences
-merge 29/400: (260, 256) -> 284 (b'\xe0\xa5\x87\xe0\xa4') had 60104 occurrences
-merge 30/400: (256, 185) -> 285 (b'\xe0\xa4\xb9') had 55500 occurrences
-merge 31/400: (256, 174) -> 286 (b'\xe0\xa4\xae') had 55452 occurrences
-merge 32/400: (257, 168) -> 287 (b' \xe0\xa4\xa8') had 54620 occurrences
-merge 33/400: (257, 156) -> 288 (b' \xe0\xa4\x9c') had 51741 occurrences
-merge 34/400: (275, 272) -> 289 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 51623 occurrences
-merge 35/400: (265, 168) -> 290 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 51450 occurrences
-merge 36/400: (175, 259) -> 291 (b'\xaf\xe0\xa4\xbe') had 46774 occurrences
-merge 37/400: (276, 277) -> 292 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 45545 occurrences
-merge 38/400: (257, 176) -> 293 (b' \xe0\xa4\xb0') had 44626 occurrences
-merge 39/400: (262, 256) -> 294 (b'\xe0\xa4\x82\xe0\xa4') had 43419 occurrences
-merge 40/400: (257, 135) -> 295 (b' \xe0\xa4\x87') had 41902 occurrences
-merge 41/400: (263, 264) -> 296 (b' \xe0\xa4\x95\xe0\xa5\x80') had 40092 occurrences
-merge 42/400: (266, 261) -> 297 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 39240 occurrences
-merge 43/400: (258, 129) -> 298 (b'\xe0\xa5\x81') had 39157 occurrences
-merge 44/400: (257, 178) -> 299 (b' \xe0\xa4\xb2') had 38205 occurrences
-merge 45/400: (257, 164) -> 300 (b' \xe0\xa4\xa4') had 35689 occurrences
-merge 46/400: (257, 166) -> 301 (b' \xe0\xa4\xa6') had 34412 occurrences
-merge 47/400: (256, 151) -> 302 (b'\xe0\xa4\x97') had 33387 occurrences
-merge 48/400: (274, 260) -> 303 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 32908 occurrences
-merge 49/400: (256, 161) -> 304 (b'\xe0\xa4\xa1') had 31918 occurrences
-merge 50/400: (269, 262) -> 305 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 31451 occurrences
-merge 51/400: (258, 130) -> 306 (b'\xe0\xa5\x82') had 31247 occurrences
-merge 52/400: (263, 261) -> 307 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 31223 occurrences
-merge 53/400: (256, 166) -> 308 (b'\xe0\xa4\xa6') had 29639 occurrences
-merge 54/400: (257, 175) -> 309 (b' \xe0\xa4\xaf') had 28672 occurrences
-merge 55/400: (256, 188) -> 310 (b'\xe0\xa4\xbc') had 28484 occurrences
-merge 56/400: (288, 290) -> 311 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8') had 28162 occurrences
-merge 57/400: (256, 159) -> 312 (b'\xe0\xa4\x9f') had 27357 occurrences
-merge 58/400: (256, 172) -> 313 (b'\xe0\xa4\xac') had 26834 occurrences
-merge 59/400: (263, 260) -> 314 (b' \xe0\xa4\x95\xe0\xa5\x87') had 26640 occurrences
-merge 60/400: (270, 175) -> 315 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 26364 occurrences
-merge 61/400: (270, 159) -> 316 (b'\xe0\xa5\x8d\xe0\xa4\x9f') had 25607 occurrences
-merge 62/400: (256, 170) -> 317 (b'\xe0\xa4\xaa') had 25169 occurrences
-merge 63/400: (263, 269) -> 318 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 24771 occurrences
-merge 64/400: (257, 134) -> 319 (b' \xe0\xa4\x86') had 24727 occurrences
-merge 65/400: (257, 133) -> 320 (b' \xe0\xa4\x85') had 24716 occurrences
-merge 66/400: (295, 271) -> 321 (b' \xe0\xa4\x87\xe0\xa4\xa8') had 24263 occurrences
-merge 67/400: (268, 291) -> 322 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 23711 occurrences
-merge 68/400: (257, 173) -> 323 (b' \xe0\xa4\xad') had 22771 occurrences
-merge 69/400: (263, 259) -> 324 (b' \xe0\xa4\x95\xe0\xa4\xbe') had 22429 occurrences
-merge 70/400: (276, 269) -> 325 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 21443 occurrences
-merge 71/400: (256, 156) -> 326 (b'\xe0\xa4\x9c') had 21423 occurrences
-merge 72/400: (265, 135) -> 327 (b'\xe0\xa4\xbe\xe0\xa4\x87') had 21121 occurrences
-merge 73/400: (271, 260) -> 328 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 21058 occurrences
-merge 74/400: (258, 137) -> 329 (b'\xe0\xa5\x89') had 20607 occurrences
-merge 75/400: (257, 171) -> 330 (b' \xe0\xa4\xab') had 20314 occurrences
-merge 76/400: (304, 310) -> 331 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 20300 occurrences
-merge 77/400: (268, 143) -> 332 (b'\xe0\xa4\xbf\xe0\xa4\x8f') had 19869 occurrences
-merge 78/400: (281, 261) -> 333 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 19674 occurrences
-merge 79/400: (261, 270) -> 334 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 19214 occurrences
-merge 80/400: (257, 181) -> 335 (b' \xe0\xa4\xb5') had 18352 occurrences
-merge 81/400: (265, 178) -> 336 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 18280 occurrences
-merge 82/400: (257, 182) -> 337 (b' \xe0\xa4\xb6') had 17725 occurrences
-merge 83/400: (280, 259) -> 338 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 17494 occurrences
-merge 84/400: (268, 149) -> 339 (b'\xe0\xa4\xbf\xe0\xa4\x95') had 17435 occurrences
-merge 85/400: (268, 178) -> 340 (b'\xe0\xa4\xbf\xe0\xa4\xb2') had 17426 occurrences
-merge 86/400: (270, 184) -> 341 (b'\xe0\xa5\x8d\xe0\xa4\xb8') had 17354 occurrences
-merge 87/400: (261, 264) -> 342 (b'\xe0\xa4\xb0\xe0\xa5\x80') had 17315 occurrences
-merge 88/400: (292, 262) -> 343 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 17220 occurrences
-merge 89/400: (257, 137) -> 344 (b' \xe0\xa4\x89') had 16858 occurrences
-merge 90/400: (287, 260) -> 345 (b' \xe0\xa4\xa8\xe0\xa5\x87') had 16041 occurrences
-merge 91/400: (285, 264) -> 346 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 15446 occurrences
-merge 92/400: (257, 159) -> 347 (b' \xe0\xa4\x9f') had 15339 occurrences
-merge 93/400: (268, 175) -> 348 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 15131 occurrences
-merge 94/400: (278, 260) -> 349 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 14391 occurrences
-merge 95/400: (257, 151) -> 350 (b' \xe0\xa4\x97') had 14294 occurrences
-merge 96/400: (265, 136) -> 351 (b'\xe0\xa4\xbe\xe0\xa4\x88') had 14286 occurrences
-merge 97/400: (257, 145) -> 352 (b' \xe0\xa4\x91') had 14160 occurrences
-merge 98/400: (315, 265) -> 353 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4') had 14079 occurrences
-merge 99/400: (284, 159) -> 354 (b'\xe0\xa5\x87\xe0\xa4\x9f') had 14000 occurrences
-merge 100/400: (257, 154) -> 355 (b' \xe0\xa4\x9a') had 13897 occurrences
-merge 101/400: (346, 262) -> 356 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13892 occurrences
-merge 102/400: (279, 265) -> 357 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4') had 13799 occurrences
-merge 103/400: (284, 182) -> 358 (b'\xe0\xa5\x87\xe0\xa4\xb6') had 13760 occurrences
-merge 104/400: (287, 356) -> 359 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13615 occurrences
-merge 105/400: (256, 175) -> 360 (b'\xe0\xa4\xaf') had 13506 occurrences
-merge 106/400: (256, 143) -> 361 (b'\xe0\xa4\x8f') had 13443 occurrences
-merge 107/400: (307, 272) -> 362 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x82') had 13244 occurrences
-merge 108/400: (268, 164) -> 363 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 13225 occurrences
-merge 109/400: (285, 259) -> 364 (b'\xe0\xa4\xb9\xe0\xa4\xbe') had 12838 occurrences
-merge 110/400: (311, 332) -> 365 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\x8f') had 12660 occurrences
-merge 111/400: (282, 280) -> 366 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 12452 occurrences
-merge 112/400: (256, 171) -> 367 (b'\xe0\xa4\xab') had 12249 occurrences
-merge 113/400: (281, 297) -> 368 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 12177 occurrences
-merge 114/400: (257, 161) -> 369 (b' \xe0\xa4\xa1') had 12161 occurrences
-merge 115/400: (265, 181) -> 370 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 12112 occurrences
-merge 116/400: (270, 291) -> 371 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 11521 occurrences
-merge 117/400: (148, 261) -> 372 (b'\x94\xe0\xa4\xb0') had 11518 occurrences
-merge 118/400: (271, 259) -> 373 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 11282 occurrences
-merge 119/400: (279, 277) -> 374 (b' \xe0\xa4\xac\xe0\xa5\x88') had 11006 occurrences
-merge 120/400: (323, 366) -> 375 (b' \xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 10928 occurrences
-merge 121/400: (263, 371) -> 376 (b' \xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 10706 occurrences
-merge 122/400: (283, 260) -> 377 (b'\xe0\xa4\xb2\xe0\xa5\x87') had 10598 occurrences
-merge 123/400: (293, 285) -> 378 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 10543 occurrences
-merge 124/400: (294, 170) -> 379 (b'\xe0\xa4\x82\xe0\xa4\xaa') had 10495 occurrences
-merge 125/400: (270, 174) -> 380 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 10473 occurrences
-merge 126/400: (257, 143) -> 381 (b' \xe0\xa4\x8f') had 10472 occurrences
-merge 127/400: (302, 260) -> 382 (b'\xe0\xa4\x97\xe0\xa5\x87') had 10436 occurrences
-merge 128/400: (274, 273) -> 383 (b' \xe0\xa4\xb8\xe0\xa4\x95') had 10424 occurrences
-merge 129/400: (311, 272) -> 384 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87\xe0\xa4\x82') had 10318 occurrences
-merge 130/400: (256, 136) -> 385 (b'\xe0\xa4\x88') had 10276 occurrences
-merge 131/400: (268, 159) -> 386 (b'\xe0\xa4\xbf\xe0\xa4\x9f') had 10077 occurrences
-merge 132/400: (268, 181) -> 387 (b'\xe0\xa4\xbf\xe0\xa4\xb5') had 10050 occurrences
-merge 133/400: (309, 260) -> 388 (b' \xe0\xa4\xaf\xe0\xa5\x87') had 9895 occurrences
-merge 134/400: (257, 372) -> 389 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 9748 occurrences
-merge 135/400: (256, 154) -> 390 (b'\xe0\xa4\x9a') had 9735 occurrences
-merge 136/400: (282, 264) -> 391 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x80') had 9700 occurrences
-merge 137/400: (294, 151) -> 392 (b'\xe0\xa4\x82\xe0\xa4\x97') had 9643 occurrences
-merge 138/400: (263, 282) -> 393 (b' \xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 9603 occurrences
-merge 139/400: (275, 340) -> 394 (b' \xe0\xa4\xae\xe0\xa4\xbf\xe0\xa4\xb2') had 9415 occurrences
-
-Training...for HindiTokenizer
-merge 1/400: (224, 164) -> 256 (b'\xe0\xa4') had 3916403 occurrences
-merge 2/400: (32, 256) -> 257 (b' \xe0\xa4') had 1242696 occurrences
-merge 3/400: (224, 165) -> 258 (b'\xe0\xa5') had 1115361 occurrences
-merge 4/400: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 446059 occurrences
-merge 5/400: (258, 135) -> 260 (b'\xe0\xa5\x87') had 384487 occurrences
-merge 6/400: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 286115 occurrences
-merge 7/400: (256, 130) -> 262 (b'\xe0\xa4\x82') had 252617 occurrences
-merge 8/400: (257, 149) -> 263 (b' \xe0\xa4\x95') had 211001 occurrences
-merge 9/400: (258, 128) -> 264 (b'\xe0\xa5\x80') had 208494 occurrences
-merge 10/400: (259, 256) -> 265 (b'\xe0\xa4\xbe\xe0\xa4') had 197796 occurrences
-merge 11/400: (258, 141) -> 266 (b'\xe0\xa5\x8d') had 184129 occurrences
-merge 12/400: (256, 191) -> 267 (b'\xe0\xa4\xbf') had 167431 occurrences
-merge 13/400: (267, 256) -> 268 (b'\xe0\xa4\xbf\xe0\xa4') had 156107 occurrences
-merge 14/400: (258, 139) -> 269 (b'\xe0\xa5\x8b') had 148155 occurrences
-merge 15/400: (266, 256) -> 270 (b'\xe0\xa5\x8d\xe0\xa4') had 142271 occurrences
-merge 16/400: (256, 168) -> 271 (b'\xe0\xa4\xa8') had 120862 occurrences
-merge 17/400: (260, 262) -> 272 (b'\xe0\xa5\x87\xe0\xa4\x82') had 116730 occurrences
-merge 18/400: (256, 149) -> 273 (b'\xe0\xa4\x95') had 105001 occurrences
-merge 19/400: (257, 184) -> 274 (b' \xe0\xa4\xb8') had 102140 occurrences
-merge 20/400: (257, 174) -> 275 (b' \xe0\xa4\xae') had 96021 occurrences
-merge 21/400: (257, 185) -> 276 (b' \xe0\xa4\xb9') had 95951 occurrences
-merge 22/400: (258, 136) -> 277 (b'\xe0\xa5\x88') had 84877 occurrences
-merge 23/400: (256, 184) -> 278 (b'\xe0\xa4\xb8') had 81369 occurrences
-merge 24/400: (257, 172) -> 279 (b' \xe0\xa4\xac') had 74320 occurrences
-merge 25/400: (256, 164) -> 280 (b'\xe0\xa4\xa4') had 73749 occurrences
-
-Training...for HindiTokenizer
-merge 1/400: (224, 164) -> 256 (b'\xe0\xa4') had 3916403 occurrences
-merge 2/400: (32, 256) -> 257 (b' \xe0\xa4') had 1242696 occurrences
-merge 3/400: (224, 165) -> 258 (b'\xe0\xa5') had 1115361 occurrences
-merge 4/400: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 446059 occurrences
-merge 5/400: (258, 135) -> 260 (b'\xe0\xa5\x87') had 384487 occurrences
-merge 6/400: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 286115 occurrences
-merge 7/400: (256, 130) -> 262 (b'\xe0\xa4\x82') had 252617 occurrences
-merge 8/400: (257, 149) -> 263 (b' \xe0\xa4\x95') had 211001 occurrences
-merge 9/400: (258, 128) -> 264 (b'\xe0\xa5\x80') had 208494 occurrences
-merge 10/400: (259, 256) -> 265 (b'\xe0\xa4\xbe\xe0\xa4') had 197796 occurrences
-merge 11/400: (258, 141) -> 266 (b'\xe0\xa5\x8d') had 184129 occurrences
-merge 12/400: (256, 191) -> 267 (b'\xe0\xa4\xbf') had 167431 occurrences
-merge 13/400: (267, 256) -> 268 (b'\xe0\xa4\xbf\xe0\xa4') had 156107 occurrences
-merge 14/400: (258, 139) -> 269 (b'\xe0\xa5\x8b') had 148155 occurrences
-merge 15/400: (266, 256) -> 270 (b'\xe0\xa5\x8d\xe0\xa4') had 142271 occurrences
-merge 16/400: (256, 168) -> 271 (b'\xe0\xa4\xa8') had 120862 occurrences
-merge 17/400: (260, 262) -> 272 (b'\xe0\xa5\x87\xe0\xa4\x82') had 116730 occurrences
-merge 18/400: (256, 149) -> 273 (b'\xe0\xa4\x95') had 105001 occurrences
-merge 19/400: (257, 184) -> 274 (b' \xe0\xa4\xb8') had 102140 occurrences
-merge 20/400: (257, 174) -> 275 (b' \xe0\xa4\xae') had 96021 occurrences
-merge 21/400: (257, 185) -> 276 (b' \xe0\xa4\xb9') had 95951 occurrences
-merge 22/400: (258, 136) -> 277 (b'\xe0\xa5\x88') had 84877 occurrences
-merge 23/400: (256, 184) -> 278 (b'\xe0\xa4\xb8') had 81369 occurrences
-merge 24/400: (257, 172) -> 279 (b' \xe0\xa4\xac') had 74320 occurrences
-merge 25/400: (256, 164) -> 280 (b'\xe0\xa4\xa4') had 73749 occurrences
-
-Training...for HindiTokenizer
-merge 1/400: (224, 164) -> 256 (b'\xe0\xa4') had 3916403 occurrences
-merge 2/400: (32, 256) -> 257 (b' \xe0\xa4') had 1242696 occurrences
-merge 3/400: (224, 165) -> 258 (b'\xe0\xa5') had 1115361 occurrences
-merge 4/400: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 446059 occurrences
-merge 5/400: (258, 135) -> 260 (b'\xe0\xa5\x87') had 384487 occurrences
-merge 6/400: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 286115 occurrences
-merge 7/400: (256, 130) -> 262 (b'\xe0\xa4\x82') had 252617 occurrences
-merge 8/400: (257, 149) -> 263 (b' \xe0\xa4\x95') had 211001 occurrences
-merge 9/400: (258, 128) -> 264 (b'\xe0\xa5\x80') had 208494 occurrences
-merge 10/400: (259, 256) -> 265 (b'\xe0\xa4\xbe\xe0\xa4') had 197796 occurrences
-merge 11/400: (258, 141) -> 266 (b'\xe0\xa5\x8d') had 184129 occurrences
-merge 12/400: (256, 191) -> 267 (b'\xe0\xa4\xbf') had 167431 occurrences
-merge 13/400: (267, 256) -> 268 (b'\xe0\xa4\xbf\xe0\xa4') had 156107 occurrences
-merge 14/400: (258, 139) -> 269 (b'\xe0\xa5\x8b') had 148155 occurrences
-merge 15/400: (266, 256) -> 270 (b'\xe0\xa5\x8d\xe0\xa4') had 142271 occurrences
-merge 16/400: (256, 168) -> 271 (b'\xe0\xa4\xa8') had 120862 occurrences
-merge 17/400: (260, 262) -> 272 (b'\xe0\xa5\x87\xe0\xa4\x82') had 116730 occurrences
-merge 18/400: (256, 149) -> 273 (b'\xe0\xa4\x95') had 105001 occurrences
-merge 19/400: (257, 184) -> 274 (b' \xe0\xa4\xb8') had 102140 occurrences
-merge 20/400: (257, 174) -> 275 (b' \xe0\xa4\xae') had 96021 occurrences
-merge 21/400: (257, 185) -> 276 (b' \xe0\xa4\xb9') had 95951 occurrences
-merge 22/400: (258, 136) -> 277 (b'\xe0\xa5\x88') had 84877 occurrences
-merge 23/400: (256, 184) -> 278 (b'\xe0\xa4\xb8') had 81369 occurrences
 
 Training...for HindiTokenizer
 merge 1/400: (224, 164) -> 256 (b'\xe0\xa4') had 3916403 occurrences
@@ -2544,6 +411,10 @@ merge 398/400: (652, 505) -> 653 (b' \xe0\xa4\x91\xe0\xa4\xa8\xe0\xa4\xb2\xe0\xa
 merge 399/400: (406, 651) -> 654 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f\xe0\xa5\x87\xe0\xa4\xaa') had 3081 occurrences
 merge 400/400: (269, 271) -> 655 (b'\xe0\xa5\x8b\xe0\xa4\xa8') had 3057 occurrences
 
+
+Batch number=====================================================: 1
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 2288824 occurrences
 merge 2/100: (32, 256) -> 257 (b' \xe0\xa4') had 688197 occurrences
@@ -2645,6 +516,10 @@ merge 97/100: (259, 263) -> 352 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 8669 occurrenc
 merge 98/100: (269, 164) -> 353 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 8525 occurrences
 merge 99/100: (288, 260) -> 354 (b' \xe0\xa4\xa8\xe0\xa5\x87') had 8393 occurrences
 merge 100/100: (267, 184) -> 355 (b'\xe0\xa5\x8d\xe0\xa4\xb8') had 8162 occurrences
+
+
+Batch number=====================================================: 2
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 936664 occurrences
@@ -2748,6 +623,10 @@ merge 98/100: (269, 261) -> 353 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3329 occurrenc
 merge 99/100: (270, 264) -> 354 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 3299 occurrences
 merge 100/100: (269, 272) -> 355 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3295 occurrences
 
+
+Batch number=====================================================: 3
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 938831 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 352483 occurrences
@@ -2849,6 +728,10 @@ merge 97/100: (269, 274) -> 352 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3316 occurrenc
 merge 98/100: (269, 261) -> 353 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3281 occurrences
 merge 99/100: (290, 181) -> 354 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 3280 occurrences
 merge 100/100: (148, 264) -> 355 (b'\x94\xe0\xa4\xb0') had 3131 occurrences
+
+
+Batch number=====================================================: 4
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 934174 occurrences
@@ -2952,6 +835,10 @@ merge 98/100: (268, 293) -> 353 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa4') had 33
 merge 99/100: (262, 178) -> 354 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3327 occurrences
 merge 100/100: (260, 174) -> 355 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 3306 occurrences
 
+
+Batch number=====================================================: 5
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 934987 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 356141 occurrences
@@ -3053,6 +940,10 @@ merge 97/100: (269, 261) -> 352 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 3351 occurrenc
 merge 98/100: (262, 178) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3319 occurrences
 merge 99/100: (286, 274) -> 354 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3199 occurrences
 merge 100/100: (269, 274) -> 355 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3197 occurrences
+
+
+Batch number=====================================================: 6
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 921970 occurrences
@@ -3156,6 +1047,10 @@ merge 98/100: (262, 175) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3275 occurrenc
 merge 99/100: (269, 274) -> 354 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3248 occurrences
 merge 100/100: (284, 273) -> 355 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3226 occurrences
 
+
+Batch number=====================================================: 7
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 1080479 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 388425 occurrences
@@ -3257,6 +1152,10 @@ merge 97/100: (258, 178) -> 352 (b' \xe0\xa4\xb2') had 3945 occurrences
 merge 98/100: (262, 178) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 3901 occurrences
 merge 99/100: (258, 151) -> 354 (b' \xe0\xa4\x97') had 3881 occurrences
 merge 100/100: (267, 260) -> 355 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 3830 occurrences
+
+
+Batch number=====================================================: 8
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 941336 occurrences
@@ -3360,6 +1259,10 @@ merge 98/100: (268, 274) -> 353 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3415 occurrenc
 merge 99/100: (262, 149) -> 354 (b'\xe0\xa4\xbe\xe0\xa4\x95') had 3379 occurrences
 merge 100/100: (262, 184) -> 355 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3325 occurrences
 
+
+Batch number=====================================================: 9
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 939549 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 371115 occurrences
@@ -3461,6 +1364,10 @@ merge 97/100: (269, 263) -> 352 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 3307 occurrenc
 merge 98/100: (167, 257) -> 353 (b'\xa7\xe0\xa5') had 3292 occurrences
 merge 99/100: (274, 294) -> 354 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4') had 3277 occurrences
 merge 100/100: (268, 260) -> 355 (b'\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4') had 3245 occurrences
+
+
+Batch number=====================================================: 10
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 913245 occurrences
@@ -3564,6 +1471,10 @@ merge 98/100: (258, 350) -> 353 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 3202 occurren
 merge 99/100: (270, 268) -> 354 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 3197 occurrences
 merge 100/100: (262, 184) -> 355 (b'\xe0\xa4\xbe\xe0\xa4\xb8') had 3174 occurrences
 
+
+Batch number=====================================================: 11
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 947968 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 365705 occurrences
@@ -3665,6 +1576,10 @@ merge 97/100: (258, 134) -> 352 (b' \xe0\xa4\x86') had 3421 occurrences
 merge 98/100: (167, 257) -> 353 (b'\xa7\xe0\xa5') had 3400 occurrences
 merge 99/100: (268, 270) -> 354 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3360 occurrences
 merge 100/100: (285, 270) -> 355 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 3356 occurrences
+
+
+Batch number=====================================================: 12
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 964767 occurrences
@@ -3768,6 +1683,10 @@ merge 98/100: (262, 174) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 3519 occurrenc
 merge 99/100: (258, 134) -> 354 (b' \xe0\xa4\x86') had 3498 occurrences
 merge 100/100: (262, 175) -> 355 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 3442 occurrences
 
+
+Batch number=====================================================: 13
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 960037 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 368464 occurrences
@@ -3869,6 +1788,10 @@ merge 97/100: (267, 261) -> 352 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 3563 occurrenc
 merge 98/100: (268, 270) -> 353 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 3534 occurrences
 merge 99/100: (258, 151) -> 354 (b' \xe0\xa4\x97') had 3533 occurrences
 merge 100/100: (258, 178) -> 355 (b' \xe0\xa4\xb2') had 3514 occurrences
+
+
+Batch number=====================================================: 14
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 948917 occurrences
@@ -3972,6 +1895,10 @@ merge 98/100: (290, 181) -> 353 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xb5') had 33
 merge 99/100: (256, 172) -> 354 (b'\xe0\xa4\xac') had 3371 occurrences
 merge 100/100: (268, 274) -> 355 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3367 occurrences
 
+
+Batch number=====================================================: 15
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 948769 occurrences
 merge 2/100: (224, 165) -> 257 (b'\xe0\xa5') had 359513 occurrences
@@ -4073,6 +2000,10 @@ merge 97/100: (258, 134) -> 352 (b' \xe0\xa4\x86') had 3357 occurrences
 merge 98/100: (262, 170) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\xaa') had 3268 occurrences
 merge 99/100: (266, 261) -> 354 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 3252 occurrences
 merge 100/100: (268, 274) -> 355 (b'\xe0\xa4\x95\xe0\xa5\x80') had 3199 occurrences
+
+
+Batch number=====================================================: 16
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 3426003 occurrences
@@ -4176,6 +2107,10 @@ merge 98/100: (287, 269) -> 353 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 1
 merge 99/100: (256, 163) -> 354 (b'\xe0\xa4\xa3') had 11073 occurrences
 merge 100/100: (324, 278) -> 355 (b' \xe0\xa4\x87\xe0\xa4\xb8') had 10603 occurrences
 
+
+Batch number=====================================================: 17
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 5554802 occurrences
 merge 2/100: (32, 256) -> 257 (b' \xe0\xa4') had 1746777 occurrences
@@ -4277,6 +2212,10 @@ merge 97/100: (263, 130) -> 352 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 18377 occurren
 merge 98/100: (269, 143) -> 353 (b'\xe0\xa4\xbf\xe0\xa4\x8f') had 18233 occurrences
 merge 99/100: (269, 184) -> 354 (b'\xe0\xa4\xbf\xe0\xa4\xb8') had 18036 occurrences
 merge 100/100: (257, 165) -> 355 (b' \xe0\xa4\xa5') had 17991 occurrences
+
+
+Batch number=====================================================: 18
+
 
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 5760800 occurrences
@@ -4380,6 +2319,10 @@ merge 98/100: (264, 130) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 18895 occurren
 merge 99/100: (258, 164) -> 354 (b'\xe0\xa5\xa4') had 18490 occurrences
 merge 100/100: (268, 159) -> 355 (b'\xe0\xa5\x8d\xe0\xa4\x9f') had 18262 occurrences
 
+
+Batch number=====================================================: 19
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 5634291 occurrences
 merge 2/100: (32, 256) -> 257 (b' \xe0\xa4') had 1783571 occurrences
@@ -4482,6 +2425,10 @@ merge 98/100: (264, 130) -> 353 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 18883 occurren
 merge 99/100: (257, 165) -> 354 (b' \xe0\xa4\xa5') had 18745 occurrences
 merge 100/100: (256, 167) -> 355 (b'\xe0\xa4\xa7') had 18154 occurrences
 
+
+Batch number=====================================================: 20
+
+
 Training...for HindiTokenizer
 merge 1/100: (224, 164) -> 256 (b'\xe0\xa4') had 5663102 occurrences
 merge 2/100: (32, 256) -> 257 (b' \xe0\xa4') had 1777571 occurrences
@@ -4508,5 +2455,15 @@ merge 22/100: (256, 184) -> 277 (b'\xe0\xa4\xb8') had 109168 occurrences
 merge 23/100: (257, 170) -> 278 (b' \xe0\xa4\xaa') had 108031 occurrences
 merge 24/100: (258, 136) -> 279 (b'\xe0\xa5\x88') had 107104 occurrences
 merge 25/100: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 102191 occurrences
+b'fetch: 30 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (31/31), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+
+Batch number=====================================================: 0
+
 
 `Training`...for HindiTokenizer

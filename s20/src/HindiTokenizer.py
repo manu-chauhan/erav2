@@ -25,16 +25,30 @@ class HindiTokenizer(Tokenizer):
         super().__init__()
         self.pattern = SIMPLE_HINDI_PATTERN if pattern is None else pattern
         self.compiled_pattern = re.compile(self.pattern, re.IGNORECASE, re.UNICODE)
-        self.special_tokens = {}
         self.inverse_special_tokens = {}
         self.merges = None
         self.vocab = None
+        self.hindi_varnmala_and_key_units = """
+                    अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ
+                    ा ि ी ु ू ृॄ ॅॆ े ैॉ ॊ ो ौ                     
+                    क ख ग घ ङ क़ ख़ ग़ घ़ ङ़
+                    च छ ज झ ञ ज़ झ़ ञ़
+                    ट ठ ड ढ ण ड़ ढ़ ण़
+                    त थ द ध न त़ थ़ द़ ध़ ऩ
+                    प फ ब भ म प़ फ़ ब़ म़
+                    य र ल ळ व य़ ऱ ल़ ऴ व़
+                    श ष ॺ स ह श़ ष़ स़ ह़
+                    ० १ २ ३ ४ ५ ६ ७ ८ ९ . 
+                    , ? ! ; : - । ॥
+                    """
 
     @utilities.log_to_file("HindiTokenizer-train.log")
-    def train(self, text, vocab_size, verbose=False):
-        print("\nTraining...for HindiTokenizer")
-        assert vocab_size >= 256
-        num_merges = vocab_size - 256
+    def train(self, text, vocab_size, verbose=False, default_initial_vocab_size=256, encoding="utf-8"):
+
+        print("\n`Training`...for HindiTokenizer")
+
+        assert vocab_size >= default_initial_vocab_size
+        num_merges = vocab_size - default_initial_vocab_size
 
         # split the text up into text chunks
         text_chunks = re.findall(self.compiled_pattern, text)
@@ -44,11 +58,15 @@ class HindiTokenizer(Tokenizer):
 
         # iteratively merge the MOST COMMON pair from the text
         # use same merge dict if exists
-        merges = {} if self.vocab is None else self.merges  # to hold all merges (int, int) -> int
+        self.merges = {} if self.merges is None else self.merges  # to hold all merges (int, int) -> int
 
         # Use same vocab for this Tokenizer object if it exists
         # Tokenizer vocab:  int -> bytes
-        vocab = {idx: bytes([idx]) for idx in range(256)} if self.vocab is None else self.vocab
+        basic_hindi_alphabet = self.hindi_varnmala_and_key_units.strip().split()
+
+        self.vocab = {idx: basic_hindi_alphabet[idx].encode(encoding=encoding) for idx in
+                      range(len(basic_hindi_alphabet))} if self.vocab is None else self.vocab
+        # why was I even initializing with ASCII before (subconscious bias for english again !)??
 
         # run merging iteratively
         for i in range(num_merges):
@@ -60,19 +78,15 @@ class HindiTokenizer(Tokenizer):
             # find the pair with the highest count
             pair = max(stats, key=stats.get)
             # mint a new token: assign it the next available id
-            idx = 256 + i
+            idx = default_initial_vocab_size + i
             # replace all occurrences of pair in ids with idx
             ids = [merge(chunk_ids, pair, idx) for chunk_ids in ids]
             # save the merge
-            merges[pair] = idx
-            vocab[idx] = vocab[pair[0]] + vocab[pair[1]]
+            self.merges[pair] = idx
+            self.vocab[idx] = self.vocab[pair[0]] + self.vocab[pair[1]]
             # prints
             if verbose:
-                print(f"merge {i + 1}/{num_merges}: {pair} -> {idx} ({vocab[idx]}) had {stats[pair]} occurrences")
-
-        # save class variables
-        self.merges = merges  # used in encode()
-        self.vocab = vocab  # used in decode()
+                print(f"merge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]} occurrences")
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int

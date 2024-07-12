@@ -5,9 +5,31 @@ import utilities
 from src import HindiTokenizer, BasicTokenizer
 from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
-if __name__ == "__main__":
+
+@utilities.log_to_file("main.log")
+def main():
     BATCH_SIZE = 30_000
-    NUMBER_OF_BATCHES = 50  # None means read all batches
+    NUMBER_OF_BATCHES = 50  # None --> read all batches
+
+    """
+    HINDI_BASIC_UNITS_COUNT = 109
+    Came to be 109 count when splitting this on space, 1 for every character:
+    
+                    अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ
+                    ा ि ी ु ू ृॄ ॅॆ े ैॉ ॊ ो ौ                     
+                    क ख ग घ ङ क़ ख़ ग़ घ़ ङ़
+                    च छ ज झ ञ ज़ झ़ ञ़
+                    ट ठ ड ढ ण ड़ ढ़ ण़
+                    त थ द ध न त़ थ़ द़ ध़ ऩ
+                    प फ ब भ म प़ फ़ ब़ म़
+                    य र ल ळ व य़ ऱ ल़ ऴ व़
+                    श ष ॺ स ह श़ ष़ स़ ह़
+                    ० १ २ ३ ४ ५ ६ ७ ८ ९ . 
+                    , ? ! ; : - । ॥
+                    
+    """
+    HINDI_BASIC_UNITS_COUNT = 109  # read above comments: hindi_varnmala_and_basic_units.strip().split()
+
     tokenizer = HindiTokenizer(pattern=SIMPLE_HINDI_PATTERN)
     all_files = utilities.get_all_text_dataset("./dataset")
 
@@ -25,12 +47,16 @@ if __name__ == "__main__":
     # TODO joblib's Parallel should be used to use all CPU cores and update shared data structure to build vocab : to reduce time
 
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
-    initial_vocab_size = 400  # initial vocab size to start with, will include 0-255 ASCII chars and most frequent Hindi chars
-    vocab_increase_size = 100  # increase vocab size by this much for every batch, will reuse same tokenizer object and vocab
+    '''
+    initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
+    initial_vocab_size = 400
+    """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
+    vocab_increase_size = 100
 
     total_raw_text_len = 0
     start = time.perf_counter()
-    # run Tokenizer "train" on each batch ... using same Tokenizer object AND vocab
+
+    '''run Tokenizer "train" on each batch ... using same Tokenizer object AND vocab !'''
     for batch_idx, data_batch in enumerate(result):
         print(f"\n\nBatch number=====================================================: {batch_idx}\n")
 
@@ -38,15 +64,13 @@ if __name__ == "__main__":
 
         total_raw_text_len += len(batch_text)
 
-        # as using same tokenizer and same vocab so increasing VOCAB size by `initial_vocab_size` 1st time,
-        # initial_vocab_size + 256 is passed only for first iteration,
-        # for every subsequent batch iteration increase vocab by vocab_increase_size
-        # so first time 200 + 256 = 456, next time 100 (vocab_increase_size) + 456
         if batch_idx == 0:
-            tokenizer.train(text=batch_text, verbose=True,
-                            vocab_size=initial_vocab_size + 256)  # 256 is for 0-255 ASCII chars AND for consistency
+            tokenizer.train(text=batch_text, vocab_size=initial_vocab_size + HINDI_BASIC_UNITS_COUNT,
+                            verbose=True,
+                            )
         else:
-            tokenizer.train(text=batch_text, verbose=True, vocab_size=vocab_increase_size + 256)
+            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + HINDI_BASIC_UNITS_COUNT,
+                            verbose=True)
 
     end = time.perf_counter()
     print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
@@ -57,7 +81,7 @@ if __name__ == "__main__":
     print(f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
 
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE,
-                                           batch_num=NUMBER_OF_BATCHES)  # re-reading to encode
+                                           batch_num=NUMBER_OF_BATCHES)
 
     total_encoded_len = 0
 
@@ -85,3 +109,7 @@ if __name__ == "__main__":
     # dataset = get_data_batch(all_files)
     # print(dataset)
     # print(list(get_data_batch(all_files=dataset)))
+
+
+if __name__ == "__main__":
+    main()

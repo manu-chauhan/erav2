@@ -10,7 +10,27 @@ In general, a long string being represented by a single token implies that that 
 
 ![img.png](images/img-eng-hin.png)
 
-![img.png](images/img4.png)m
+![img.png](images/img4.png)
+
+## Some info about devanagari script:
+src : https://hindilanguage.info/devanagari/
+
+1. The ordering of the letters is according to (some) precise scientific principles.
+2. Each letter transcribes a distinct sound.
+3. It recognizes subtle distinctions in sound.
+
+## Hindi Alphabet:
+https://www.easyhindityping.com/hindi-alphabet
+
+## this takes back to memory lane !!
+![hindi alphabet](images/Hindi_Alphabet.png)
+
+![hindi-dependent-and-independent-vowels](images/hindi-dependent-and-independent-vowels-for-desktop.png)
+
+![hindi-consonants.png](images/hindi-consonants.png)
+
+![hindi-numerals.png](images/hindi-numerals.png)
+
 
 ## Important for getting info on UTF-8 and encoding in general 
 1. [2003 blog from co-founder and ex-CEO (2010-2019) of Stackoverflow : The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
