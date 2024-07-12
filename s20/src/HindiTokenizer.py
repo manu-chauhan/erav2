@@ -1,9 +1,20 @@
+from textwrap import dedent
+
 import regex as re
 
 import utilities
-from .base import Tokenizer, get_stats, merge
+from src.base import Tokenizer, get_stats, merge
 
-# from .BasicTokenizer import BasicTokenizer
+whitespace = ' \t\n\r\v\f'
+ascii_lowercase = 'abcdefghijklmnopqrstuvwxyz'
+ascii_uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+ascii_letters = ascii_lowercase + ascii_uppercase
+digits = '0123456789'
+hexdigits = digits + 'abcdef' + 'ABCDEF'
+octdigits = '01234567'
+punctuation = r"""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
+
+ascii_printable = whitespace + ascii_letters + hexdigits + punctuation
 
 # the main GPT text split patterns, see
 # https://github.com/openai/tiktoken/blob/main/tiktoken_ext/openai_public.py
@@ -21,14 +32,14 @@ EXTENDED_HINDI_PATTERN = r"""[\t\n\r\f\v]?|[^\r\n\p{Devanagari}\uA8E0-\uA8FF\u1C
 
 
 class HindiTokenizer(Tokenizer):
-    def __init__(self, pattern=None):
-        super().__init__()
+    def __init__(self, pattern=None, encoding="utf-8"):
         self.pattern = SIMPLE_HINDI_PATTERN if pattern is None else pattern
         self.compiled_pattern = re.compile(self.pattern, re.IGNORECASE, re.UNICODE)
         self.inverse_special_tokens = {}
         self.merges = None
         self.vocab = None
-        self.hindi_varnmala_and_key_units = """
+        self.encoding = encoding
+        self.hindi_varnmala_and_key_units = dedent("""
                     अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ
                     ा ि ी ु ू ृॄ ॅॆ े ैॉ ॊ ो ौ                     
                     क ख ग घ ङ क़ ख़ ग़ घ़ ङ़
@@ -39,8 +50,32 @@ class HindiTokenizer(Tokenizer):
                     य र ल ळ व य़ ऱ ल़ ऴ व़
                     श ष ॺ स ह श़ ष़ स़ ह़
                     ० १ २ ३ ४ ५ ६ ७ ८ ९ . 
-                    , ? ! ; : - । ॥
-                    """
+                    | , ॥
+                    """)
+        self._build_vocab()
+
+        super().__init__()
+
+    def _build_vocab(self):
+        '''add other important ASCII units except English letters'''
+
+        print("\n====================================\n\n"
+              "Building Hindi vocabulary with basic Hindi letters and key tokens and non-english ASCII letters")
+        self.vocab = {}
+        ascii_letters_encoded = ascii_letters.encode(encoding="utf-8")
+        for idx in range(256):
+            self.vocab[idx] = bytes([idx])
+
+        max_idx = max(self.vocab.keys()) + 1
+
+        basic_hindi_alphabet = self.hindi_varnmala_and_key_units.strip().split()
+
+        for idx in range(len(basic_hindi_alphabet)):
+            encoded_char = basic_hindi_alphabet[idx].encode(encoding=self.encoding)
+            if encoded_char not in self.vocab.values():  # just checking for repeating punctuations or special characters, had repeating entires like | , ; as had added in hindi alphabet too
+                self.vocab[idx + max_idx] = encoded_char
+
+        print("\n=================\nVocab initialisation done...")
 
     @utilities.log_to_file("HindiTokenizer-train.log")
     def train(self, text, vocab_size, verbose=False, default_initial_vocab_size=256, encoding="utf-8"):
@@ -59,14 +94,6 @@ class HindiTokenizer(Tokenizer):
         # iteratively merge the MOST COMMON pair from the text
         # use same merge dict if exists
         self.merges = {} if self.merges is None else self.merges  # to hold all merges (int, int) -> int
-
-        # Use same vocab for this Tokenizer object if it exists
-        # Tokenizer vocab:  int -> bytes
-        basic_hindi_alphabet = self.hindi_varnmala_and_key_units.strip().split()
-
-        self.vocab = {idx: basic_hindi_alphabet[idx].encode(encoding=encoding) for idx in
-                      range(len(basic_hindi_alphabet))} if self.vocab is None else self.vocab
-        # why was I even initializing with ASCII before (subconscious bias for english again !)??
 
         # run merging iteratively
         for i in range(num_merges):
@@ -185,39 +212,39 @@ class HindiTokenizer(Tokenizer):
                 ids.extend(self.encode_ordinary(part))
         return ids
 
-
-if __name__ == "__main__":
-    custom_text = """
-    <|endoftext|>ूज रहा है जहाँ चकित हो जन-जन देख अकाज
-सात वर्ष हो गये राह में, अटका कहाँ स्वराज?
-
-अटका कहाँ स्वराज? बोल दिल्ली! तू क्या कहती है?
-तू रानी बन गयी वेदना जनता क्यों सहती है?
-सबके भाग्य दबा रखे हैं किसने अपने कर में?
-उतरी थी जो विभा, हुई बंदिनी बता किस घर में
-
-समर शेष है, यह प्रकाश बंदीगृह से छूटेगा
-और नहीं तो तुझ पर पापिनी! महावज्र टूटेगा
-
-समर शेष है, उस स्वराज को सत्य बनाना होगा
-जिसका है ये न्यास उसे सत्वर पहुँचाना होगा
-धारा के मग में अनेक जो पर्वत खडे हुए हैं
-गंगा का पथ रोक इन्द्र के गज जो अडे हुए हैं
-
-कह दो उनसे झुके अगर तो जग मे यश पाएंगे
-अड़े रहे अगर तो ऐरावत पत्तों से बह जाऐंगे<|fim_prefix|><|endofprompt|>
-    """.strip()
-    special_tokens = {
-        '<|endoftext|>': 100257,
-        '<|fim_prefix|>': 100258,
-        '<|fim_middle|>': 100259,
-        '<|fim_suffix|>': 100260,
-        '<|endofprompt|>': 100276
-    }
-    text = custom_text
-    # create a Tokenizer and do 64 merges
-    tokenizer = HindiTokenizer()
-    tokenizer.train(text, 256 + 2, verbose=True)
-    tokenizer.register_special_tokens(special_tokens)
-    # verify that decode(encode(x)) == x
-    assert tokenizer.decode(tokenizer.encode(text, "all")) == text
+#
+# if __name__ == "__main__":
+#     custom_text = """
+#     <|endoftext|>ूज रहा है जहाँ चकित हो जन-जन देख अकाज
+# सात वर्ष हो गये राह में, अटका कहाँ स्वराज?
+#
+# अटका कहाँ स्वराज? बोल दिल्ली! तू क्या कहती है?
+# तू रानी बन गयी वेदना जनता क्यों सहती है?
+# सबके भाग्य दबा रखे हैं किसने अपने कर में?
+# उतरी थी जो विभा, हुई बंदिनी बता किस घर में
+#
+# समर शेष है, यह प्रकाश बंदीगृह से छूटेगा
+# और नहीं तो तुझ पर पापिनी! महावज्र टूटेगा
+#
+# समर शेष है, उस स्वराज को सत्य बनाना होगा
+# जिसका है ये न्यास उसे सत्वर पहुँचाना होगा
+# धारा के मग में अनेक जो पर्वत खडे हुए हैं
+# गंगा का पथ रोक इन्द्र के गज जो अडे हुए हैं
+#
+# कह दो उनसे झुके अगर तो जग मे यश पाएंगे
+# अड़े रहे अगर तो ऐरावत पत्तों से बह जाऐंगे<|fim_prefix|><|endofprompt|>
+#     """.strip()
+#     special_tokens = {
+#         '<|endoftext|>': 100257,
+#         '<|fim_prefix|>': 100258,
+#         '<|fim_middle|>': 100259,
+#         '<|fim_suffix|>': 100260,
+#         '<|endofprompt|>': 100276
+#     }
+#     text = custom_text
+#     # create a Tokenizer and do 64 merges
+#     tokenizer = HindiTokenizer()
+#     tokenizer.train(text, 256 + 2, verbose=True)
+#     tokenizer.register_special_tokens(special_tokens)
+#     # verify that decode(encode(x)) == x
+#     assert tokenizer.decode(tokenizer.encode(text, "all")) == text

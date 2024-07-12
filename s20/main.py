@@ -2,7 +2,7 @@ import subprocess
 import time
 
 import utilities
-from src import HindiTokenizer, BasicTokenizer
+from src import HindiTokenizer
 from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 
@@ -31,6 +31,7 @@ def main():
     HINDI_BASIC_UNITS_COUNT = 109  # read above comments: hindi_varnmala_and_basic_units.strip().split()
 
     tokenizer = HindiTokenizer(pattern=SIMPLE_HINDI_PATTERN)
+
     all_files = utilities.get_all_text_dataset("./dataset")
 
     # NOTE: first pull all LFS files; src: https://stackoverflow.com/a/72830455/3903762
@@ -65,11 +66,11 @@ def main():
         total_raw_text_len += len(batch_text)
 
         if batch_idx == 0:
-            tokenizer.train(text=batch_text, vocab_size=initial_vocab_size + HINDI_BASIC_UNITS_COUNT,
+            tokenizer.train(text=batch_text, vocab_size=initial_vocab_size + 256 + HINDI_BASIC_UNITS_COUNT,
                             verbose=True,
                             )
         else:
-            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + HINDI_BASIC_UNITS_COUNT,
+            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + 256 + HINDI_BASIC_UNITS_COUNT,
                             verbose=True)
 
     end = time.perf_counter()
