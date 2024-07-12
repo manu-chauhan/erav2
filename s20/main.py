@@ -9,7 +9,7 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 @utilities.log_to_file("main.log")
 def main():
     BATCH_SIZE = 30_000
-    NUMBER_OF_BATCHES = None  # --> read all batches
+    NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
 
     """
     HINDI_BASIC_UNITS_COUNT = 109
@@ -77,7 +77,7 @@ def main():
     print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
 
     # save the tokenizer object
-    tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-400_initial_vocab-100_next_batches")
+    tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-200_initial_vocab-50_next_batches")
 
     print(f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
 

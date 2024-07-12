@@ -116,6 +116,7 @@ class HindiTokenizer:
         # use same merge dict if exists
         self.merges = {} if self.merges is None else self.merges  # to hold all merges (int, int) -> int
 
+        just_replacing_counter = 0
         # run merging iteratively
         for i in range(num_merges):
             # count the number of times every consecutive pair appears
@@ -128,10 +129,12 @@ class HindiTokenizer:
             pair = max(stats, key=stats.get)
 
             while pair in self.merges:
+                just_replacing_counter += 1
                 print(f"\nPair: {pair} already in merged tokens... replacing in IDS...")
                 # pair was previously merged ... use this first to update IDS
                 # No need to add to merges and vocab, use previously seen and stored token
                 already_merged_idx = self.merges[pair]
+                print(f"with.. id.. {already_merged_idx}")
 
                 # just replace already merged pairs in ids and get new ids and no need to again add to merges and vocab
                 ids = [merge(chunk_ids, pair, already_merged_idx) for chunk_ids in ids]
@@ -162,6 +165,9 @@ class HindiTokenizer:
 
             if verbose:
                 print(f"merge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]} occurrences")
+
+            # if just_replacing_counter > 100:
+            #     break
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int
