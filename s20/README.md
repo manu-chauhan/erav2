@@ -170,6 +170,8 @@ src: https://www.regular-expressions.info/unicode.html
 15. Complete first 5 parts from Rashmirathi: https://www.ishangirdhar.com/rashmi-rathi/
 16. Another by Dinkar: https://hindi-kavita.com/HindiParshuramKiPrateekshaDinkar.php#Parshuram11
 17. [वर्णमाला](https://anp.wikipedia.org/wiki/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BE#:~:text=%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%8B%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%A4%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A5%87,%E0%A5%AA%20%E0%A4%B8%E0%A4%82%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%9E%E0%A5%8D%E0%A4%9C%E0%A4%A8%20%E0%A4%B9%E0%A5%8B%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%E0%A5%A4)
+18. Hinglish (English + Hindi dataset): https://huggingface.co/datasets/festvox/cmu_hinglish_dog?row=2
+
 
 
 #### Tokenization algorithm

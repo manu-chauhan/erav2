@@ -9,7 +9,7 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 @utilities.log_to_file("main.log")
 def main():
     BATCH_SIZE = 30_000
-    NUMBER_OF_BATCHES = 50  # None --> read all batches
+    NUMBER_OF_BATCHES = None  # --> read all batches
 
     """
     HINDI_BASIC_UNITS_COUNT = 109
@@ -24,11 +24,11 @@ def main():
                     प फ ब भ म प़ फ़ ब़ म़
                     य र ल ळ व य़ ऱ ल़ ऴ व़
                     श ष ॺ स ह श़ ष़ स़ ह़
-                    ० १ २ ३ ४ ५ ६ ७ ८ ९ . 
-                    , ? ! ; : - । ॥
+                    ० १ २ ३ ४ ५ ६ ७ ८ ९ 
+                    ॥
                     
     """
-    HINDI_BASIC_UNITS_COUNT = 109  # read above comments: hindi_varnmala_and_basic_units.strip().split()
+    # HINDI_BASIC_UNITS_COUNT = 109  # read above comments: hindi_varnmala_and_basic_units.strip().split()
 
     tokenizer = HindiTokenizer(pattern=SIMPLE_HINDI_PATTERN)
 
@@ -70,14 +70,14 @@ def main():
                             verbose=True,
                             )
         else:
-            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + 256 ,
+            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + 256,
                             verbose=True)
 
     end = time.perf_counter()
     print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
 
     # save the tokenizer object
-    tokenizer.save(file_prefix="hindi-30k_batchsize-50_batches-400_initial_vocab-100_next_batches")
+    tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-400_initial_vocab-100_next_batches")
 
     print(f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
 
