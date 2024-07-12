@@ -59,9 +59,10 @@ class HindiTokenizer(Tokenizer):
         '''add other important ASCII units except English letters'''
 
         print("\n====================================\n\n"
-              "Building Hindi vocabulary with basic Hindi letters and key tokens and non-english ASCII letters")
+              "Building initial Hindi vocabulary with basic Hindi letters and key tokens")
         self.vocab = {}
-        ascii_letters_encoded = ascii_letters.encode(encoding="utf-8")
+        ascii_letters_encoded = ascii_letters.encode(
+            encoding="utf-8")  # was using this to ignore ASCII English letters, revisit/todo, hindi usage with English or day to day usage and chats may include english letter and what to fill with those blank idxes?
         for idx in range(256):
             self.vocab[idx] = bytes([idx])
 
@@ -105,14 +106,35 @@ class HindiTokenizer(Tokenizer):
                 get_stats(chunk_ids, stats)
             # find the pair with the highest count
             pair = max(stats, key=stats.get)
-            # mint a new token: assign it the next available id
-            idx = default_initial_vocab_size + i
+
+            while pair in self.merges:
+                # pair was previously merged ... use this first to update IDS
+                # No need to add to merges and vocab, use previously stored token
+                already_merged_idx = self.merges[pair]
+
+                # just replace already merged pairs in ids and get new ids and no need to again add to merges and vocab
+                ids = merge(ids, pair, already_merged_idx)
+
+                stats = get_stats(ids)  # get updated stats now
+
+                # just avoiding merging when ids become less than 2
+                if stats and len(ids) >= 2:
+                    pair = max(stats, key=stats.get)
+                else:
+                    # no new merges found in this incoming data batch
+                    print(f"\n\nstopping merges as no new byte pair found in the current batch")
+                    break
+
+            # mint a new token as the pair was already not in merges: assign it the next available id
+            idx = 1 + len(self.vocab) - 1
+
             # replace all occurrences of pair in ids with idx
             ids = [merge(chunk_ids, pair, idx) for chunk_ids in ids]
+
             # save the merge
             self.merges[pair] = idx
             self.vocab[idx] = self.vocab[pair[0]] + self.vocab[pair[1]]
-            # prints
+
             if verbose:
                 print(f"merge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]} occurrences")
 

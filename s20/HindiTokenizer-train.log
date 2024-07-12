@@ -4516,3 +4516,492 @@ merge 25/100: (256, 185) -> 280 (b'\xe0\xa4\xb9') had 102191 occurrences
 `Training`...for HindiTokenizer
 
 `Training`...for HindiTokenizer
+
+====================================
+
+Building Hindi vocabulary with basic Hindi letters and key tokens and non-english ASCII letters
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+merge 1/509: (224, 164) -> 256 (b'\xe0\xa4') had 3915224 occurrences
+merge 2/509: (32, 256) -> 257 (b' \xe0\xa4') had 1242389 occurrences
+merge 3/509: (224, 165) -> 258 (b'\xe0\xa5') had 1114998 occurrences
+merge 4/509: (256, 190) -> 259 (b'\xe0\xa4\xbe') had 445898 occurrences
+merge 5/509: (258, 135) -> 260 (b'\xe0\xa5\x87') had 384337 occurrences
+merge 6/509: (256, 176) -> 261 (b'\xe0\xa4\xb0') had 286031 occurrences
+merge 7/509: (256, 130) -> 262 (b'\xe0\xa4\x82') had 252543 occurrences
+merge 8/509: (257, 149) -> 263 (b' \xe0\xa4\x95') had 210946 occurrences
+merge 9/509: (258, 128) -> 264 (b'\xe0\xa5\x80') had 208433 occurrences
+merge 10/509: (259, 256) -> 265 (b'\xe0\xa4\xbe\xe0\xa4') had 197717 occurrences
+merge 11/509: (258, 141) -> 266 (b'\xe0\xa5\x8d') had 184052 occurrences
+merge 12/509: (256, 191) -> 267 (b'\xe0\xa4\xbf') had 167393 occurrences
+merge 13/509: (267, 256) -> 268 (b'\xe0\xa4\xbf\xe0\xa4') had 156068 occurrences
+merge 14/509: (258, 139) -> 269 (b'\xe0\xa5\x8b') had 148105 occurrences
+merge 15/509: (266, 256) -> 270 (b'\xe0\xa5\x8d\xe0\xa4') had 142197 occurrences
+merge 16/509: (256, 168) -> 271 (b'\xe0\xa4\xa8') had 120807 occurrences
+merge 17/509: (260, 262) -> 272 (b'\xe0\xa5\x87\xe0\xa4\x82') had 116684 occurrences
+merge 18/509: (256, 149) -> 273 (b'\xe0\xa4\x95') had 104962 occurrences
+merge 19/509: (257, 184) -> 274 (b' \xe0\xa4\xb8') had 102103 occurrences
+merge 20/509: (257, 174) -> 275 (b' \xe0\xa4\xae') had 95992 occurrences
+merge 21/509: (257, 185) -> 276 (b' \xe0\xa4\xb9') had 95927 occurrences
+merge 22/509: (258, 136) -> 277 (b'\xe0\xa5\x88') had 84861 occurrences
+merge 23/509: (256, 184) -> 278 (b'\xe0\xa4\xb8') had 81345 occurrences
+merge 24/509: (257, 172) -> 279 (b' \xe0\xa4\xac') had 74309 occurrences
+merge 25/509: (256, 164) -> 280 (b'\xe0\xa4\xa4') had 73736 occurrences
+merge 26/509: (257, 170) -> 281 (b' \xe0\xa4\xaa') had 70960 occurrences
+merge 27/509: (259, 261) -> 282 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 67985 occurrences
+merge 28/509: (256, 178) -> 283 (b'\xe0\xa4\xb2') had 67309 occurrences
+merge 29/509: (260, 256) -> 284 (b'\xe0\xa5\x87\xe0\xa4') had 60074 occurrences
+merge 30/509: (256, 185) -> 285 (b'\xe0\xa4\xb9') had 55468 occurrences
+merge 31/509: (256, 174) -> 286 (b'\xe0\xa4\xae') had 55439 occurrences
+merge 32/509: (257, 168) -> 287 (b' \xe0\xa4\xa8') had 54598 occurrences
+merge 33/509: (257, 156) -> 288 (b' \xe0\xa4\x9c') had 51729 occurrences
+merge 34/509: (275, 272) -> 289 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 51609 occurrences
+merge 35/509: (265, 168) -> 290 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 51427 occurrences
+merge 36/509: (175, 259) -> 291 (b'\xaf\xe0\xa4\xbe') had 46761 occurrences
+merge 37/509: (276, 277) -> 292 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 45539 occurrences
+merge 38/509: (257, 176) -> 293 (b' \xe0\xa4\xb0') had 44603 occurrences
+merge 39/509: (262, 256) -> 294 (b'\xe0\xa4\x82\xe0\xa4') had 43406 occurrences
+merge 40/509: (257, 135) -> 295 (b' \xe0\xa4\x87') had 41889 occurrences
+merge 41/509: (263, 264) -> 296 (b' \xe0\xa4\x95\xe0\xa5\x80') had 40084 occurrences
+merge 42/509: (266, 261) -> 297 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 39237 occurrences
+merge 43/509: (258, 129) -> 298 (b'\xe0\xa5\x81') had 39146 occurrences
+merge 44/509: (257, 178) -> 299 (b' \xe0\xa4\xb2') had 38189 occurrences
+merge 45/509: (257, 164) -> 300 (b' \xe0\xa4\xa4') had 35676 occurrences
+merge 46/509: (257, 166) -> 301 (b' \xe0\xa4\xa6') had 34408 occurrences
+merge 47/509: (256, 151) -> 302 (b'\xe0\xa4\x97') had 33371 occurrences
+merge 48/509: (274, 260) -> 303 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 32896 occurrences
+merge 49/509: (256, 161) -> 304 (b'\xe0\xa4\xa1') had 31909 occurrences
+merge 50/509: (269, 262) -> 305 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 31443 occurrences
+merge 51/509: (258, 130) -> 306 (b'\xe0\xa5\x82') had 31239 occurrences
+merge 52/509: (263, 261) -> 307 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 31205 occurrences
+merge 53/509: (256, 166) -> 308 (b'\xe0\xa4\xa6') had 29633 occurrences
+merge 54/509: (257, 175) -> 309 (b' \xe0\xa4\xaf') had 28657 occurrences
+merge 55/509: (256, 188) -> 310 (b'\xe0\xa4\xbc') had 28499 occurrences
+merge 56/509: (288, 290) -> 311 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8') had 28150 occurrences
+merge 57/509: (256, 159) -> 312 (b'\xe0\xa4\x9f') had 27338 occurrences
+merge 58/509: (256, 172) -> 313 (b'\xe0\xa4\xac') had 26829 occurrences
+merge 59/509: (263, 260) -> 314 (b' \xe0\xa4\x95\xe0\xa5\x87') had 26633 occurrences
+merge 60/509: (270, 175) -> 315 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 26357 occurrences
+merge 61/509: (270, 159) -> 316 (b'\xe0\xa5\x8d\xe0\xa4\x9f') had 25588 occurrences
+merge 62/509: (256, 170) -> 317 (b'\xe0\xa4\xaa') had 25159 occurrences
+merge 63/509: (263, 269) -> 318 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 24759 occurrences
+merge 64/509: (257, 134) -> 319 (b' \xe0\xa4\x86') had 24726 occurrences
+merge 65/509: (257, 133) -> 320 (b' \xe0\xa4\x85') had 24712 occurrences
+merge 66/509: (295, 271) -> 321 (b' \xe0\xa4\x87\xe0\xa4\xa8') had 24248 occurrences
+merge 67/509: (268, 291) -> 322 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 23711 occurrences
+merge 68/509: (257, 173) -> 323 (b' \xe0\xa4\xad') had 22770 occurrences
+merge 69/509: (263, 259) -> 324 (b' \xe0\xa4\x95\xe0\xa4\xbe') had 22421 occurrences
+merge 70/509: (276, 269) -> 325 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 21437 occurrences
+merge 71/509: (256, 156) -> 326 (b'\xe0\xa4\x9c') had 21417 occurrences
+merge 72/509: (265, 135) -> 327 (b'\xe0\xa4\xbe\xe0\xa4\x87') had 21106 occurrences
+merge 73/509: (271, 260) -> 328 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 21051 occurrences
+merge 74/509: (258, 137) -> 329 (b'\xe0\xa5\x89') had 20599 occurrences
+merge 75/509: (257, 171) -> 330 (b' \xe0\xa4\xab') had 20311 occurrences
+merge 76/509: (304, 310) -> 331 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 20291 occurrences
+merge 77/509: (268, 143) -> 332 (b'\xe0\xa4\xbf\xe0\xa4\x8f') had 19863 occurrences
+merge 78/509: (281, 261) -> 333 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 19662 occurrences
+merge 79/509: (261, 270) -> 334 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 19205 occurrences
+merge 80/509: (257, 181) -> 335 (b' \xe0\xa4\xb5') had 18351 occurrences
+merge 81/509: (265, 178) -> 336 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 18277 occurrences
+merge 82/509: (257, 182) -> 337 (b' \xe0\xa4\xb6') had 17714 occurrences
+merge 83/509: (280, 259) -> 338 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 17488 occurrences
+merge 84/509: (268, 149) -> 339 (b'\xe0\xa4\xbf\xe0\xa4\x95') had 17432 occurrences
+merge 85/509: (268, 178) -> 340 (b'\xe0\xa4\xbf\xe0\xa4\xb2') had 17423 occurrences
+merge 86/509: (270, 184) -> 341 (b'\xe0\xa5\x8d\xe0\xa4\xb8') had 17336 occurrences
+merge 87/509: (261, 264) -> 342 (b'\xe0\xa4\xb0\xe0\xa5\x80') had 17312 occurrences
+merge 88/509: (292, 262) -> 343 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 17220 occurrences
+merge 89/509: (257, 137) -> 344 (b' \xe0\xa4\x89') had 16858 occurrences
+merge 90/509: (287, 260) -> 345 (b' \xe0\xa4\xa8\xe0\xa5\x87') had 16036 occurrences
+merge 91/509: (285, 264) -> 346 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 15436 occurrences
+merge 92/509: (257, 159) -> 347 (b' \xe0\xa4\x9f') had 15325 occurrences
+merge 93/509: (268, 175) -> 348 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 15130 occurrences
+merge 94/509: (278, 260) -> 349 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 14380 occurrences
+merge 95/509: (257, 151) -> 350 (b' \xe0\xa4\x97') had 14297 occurrences
+merge 96/509: (265, 136) -> 351 (b'\xe0\xa4\xbe\xe0\xa4\x88') had 14274 occurrences
+merge 97/509: (257, 145) -> 352 (b' \xe0\xa4\x91') had 14145 occurrences
+merge 98/509: (315, 265) -> 353 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4') had 14076 occurrences
+merge 99/509: (284, 159) -> 354 (b'\xe0\xa5\x87\xe0\xa4\x9f') had 13991 occurrences
+merge 100/509: (257, 154) -> 355 (b' \xe0\xa4\x9a') had 13898 occurrences
+merge 101/509: (346, 262) -> 356 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13883 occurrences
+merge 102/509: (279, 265) -> 357 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4') had 13793 occurrences
+merge 103/509: (284, 182) -> 358 (b'\xe0\xa5\x87\xe0\xa4\xb6') had 13760 occurrences
+merge 104/509: (287, 356) -> 359 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13606 occurrences
+merge 105/509: (256, 175) -> 360 (b'\xe0\xa4\xaf') had 13506 occurrences
+merge 106/509: (256, 143) -> 361 (b'\xe0\xa4\x8f') had 13438 occurrences
+merge 107/509: (307, 272) -> 362 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x82') had 13232 occurrences
+merge 108/509: (268, 164) -> 363 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 13221 occurrences
+merge 109/509: (285, 259) -> 364 (b'\xe0\xa4\xb9\xe0\xa4\xbe') had 12832 occurrences
+merge 110/509: (311, 332) -> 365 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\x8f') had 12654 occurrences
+merge 111/509: (282, 280) -> 366 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 12452 occurrences
+merge 112/509: (256, 171) -> 367 (b'\xe0\xa4\xab') had 12240 occurrences
+merge 113/509: (281, 297) -> 368 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 12177 occurrences
+merge 114/509: (257, 161) -> 369 (b' \xe0\xa4\xa1') had 12164 occurrences
+merge 115/509: (265, 181) -> 370 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 12108 occurrences
+merge 116/509: (148, 261) -> 371 (b'\x94\xe0\xa4\xb0') had 11518 occurrences
+merge 117/509: (270, 291) -> 372 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 11517 occurrences
+merge 118/509: (271, 259) -> 373 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 11279 occurrences
+merge 119/509: (279, 277) -> 374 (b' \xe0\xa4\xac\xe0\xa5\x88') had 11006 occurrences
+merge 120/509: (323, 366) -> 375 (b' \xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 10928 occurrences
+merge 121/509: (263, 372) -> 376 (b' \xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 10702 occurrences
+merge 122/509: (283, 260) -> 377 (b'\xe0\xa4\xb2\xe0\xa5\x87') had 10592 occurrences
+merge 123/509: (293, 285) -> 378 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 10537 occurrences
+merge 124/509: (294, 170) -> 379 (b'\xe0\xa4\x82\xe0\xa4\xaa') had 10492 occurrences
+merge 125/509: (270, 174) -> 380 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 10473 occurrences
+merge 126/509: (257, 143) -> 381 (b' \xe0\xa4\x8f') had 10469 occurrences
+merge 127/509: (302, 260) -> 382 (b'\xe0\xa4\x97\xe0\xa5\x87') had 10430 occurrences
+merge 128/509: (274, 273) -> 383 (b' \xe0\xa4\xb8\xe0\xa4\x95') had 10424 occurrences
+merge 129/509: (311, 272) -> 384 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87\xe0\xa4\x82') had 10315 occurrences
+merge 130/509: (256, 136) -> 385 (b'\xe0\xa4\x88') had 10276 occurrences
+merge 131/509: (268, 159) -> 386 (b'\xe0\xa4\xbf\xe0\xa4\x9f') had 10068 occurrences
+merge 132/509: (268, 181) -> 387 (b'\xe0\xa4\xbf\xe0\xa4\xb5') had 10050 occurrences
+merge 133/509: (309, 260) -> 388 (b' \xe0\xa4\xaf\xe0\xa5\x87') had 9892 occurrences
+merge 134/509: (257, 371) -> 389 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 9748 occurrences
+merge 135/509: (256, 154) -> 390 (b'\xe0\xa4\x9a') had 9734 occurrences
+merge 136/509: (282, 264) -> 391 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x80') had 9700 occurrences
+merge 137/509: (294, 151) -> 392 (b'\xe0\xa4\x82\xe0\xa4\x97') had 9640 occurrences
+merge 138/509: (263, 282) -> 393 (b' \xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 9603 occurrences
+merge 139/509: (275, 340) -> 394 (b' \xe0\xa4\xae\xe0\xa4\xbf\xe0\xa4\xb2') had 9415 occurrences
+merge 140/509: (300, 273) -> 395 (b' \xe0\xa4\xa4\xe0\xa4\x95') had 9359 occurrences
+merge 141/509: (273, 341) -> 396 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb8') had 9269 occurrences
+merge 142/509: (288, 265) -> 397 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4') had 9256 occurrences
+merge 143/509: (302, 259) -> 398 (b'\xe0\xa4\x97\xe0\xa4\xbe') had 9238 occurrences
+merge 144/509: (278, 316) -> 399 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 9211 occurrences
+merge 145/509: (279, 331) -> 400 (b' \xe0\xa4\xac\xe0\xa4\xa1\xe0\xa4\xbc') had 9134 occurrences
+merge 146/509: (286, 280) -> 401 (b'\xe0\xa4\xae\xe0\xa4\xa4') had 9091 occurrences
+merge 147/509: (296, 401) -> 402 (b' \xe0\xa4\x95\xe0\xa5\x80\xe0\xa4\xae\xe0\xa4\xa4') had 8907 occurrences
+merge 148/509: (344, 256) -> 403 (b' \xe0\xa4\x89\xe0\xa4') had 8883 occurrences
+merge 149/509: (284, 151) -> 404 (b'\xe0\xa5\x87\xe0\xa4\x97') had 8846 occurrences
+merge 150/509: (271, 264) -> 405 (b'\xe0\xa4\xa8\xe0\xa5\x80') had 8722 occurrences
+merge 151/509: (274, 316) -> 406 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 8678 occurrences
+merge 152/509: (256, 173) -> 407 (b'\xe0\xa4\xad') had 8640 occurrences
+merge 153/509: (262, 273) -> 408 (b'\xe0\xa4\x82\xe0\xa4\x95') had 8627 occurrences
+merge 154/509: (294, 161) -> 409 (b'\xe0\xa4\x82\xe0\xa4\xa1') had 8566 occurrences
+merge 155/509: (290, 260) -> 410 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87') had 8403 occurrences
+merge 156/509: (263, 379) -> 411 (b' \xe0\xa4\x95\xe0\xa4\x82\xe0\xa4\xaa') had 8401 occurrences
+merge 157/509: (258, 140) -> 412 (b'\xe0\xa5\x8c') had 8375 occurrences
+merge 158/509: (273, 269) -> 413 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 8190 occurrences
+merge 159/509: (298, 261) -> 414 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 8048 occurrences
+merge 160/509: (256, 181) -> 415 (b'\xe0\xa4\xb5') had 8046 occurrences
+merge 161/509: (334, 168) -> 416 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 8039 occurrences
+merge 162/509: (386, 416) -> 417 (b'\xe0\xa4\xbf\xe0\xa4\x9f\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7953 occurrences
+merge 163/509: (300, 269) -> 418 (b' \xe0\xa4\xa4\xe0\xa5\x8b') had 7886 occurrences
+merge 164/509: (257, 150) -> 419 (b' \xe0\xa4\x96') had 7663 occurrences
+merge 165/509: (269, 331) -> 420 (b'\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc') had 7651 occurrences
+merge 166/509: (256, 167) -> 421 (b'\xe0\xa4\xa7') had 7639 occurrences
+merge 167/509: (374, 408) -> 422 (b' \xe0\xa4\xac\xe0\xa5\x88\xe0\xa4\x82\xe0\xa4\x95') had 7579 occurrences
+merge 168/509: (270, 149) -> 423 (b'\xe0\xa5\x8d\xe0\xa4\x95') had 7543 occurrences
+merge 169/509: (302, 264) -> 424 (b'\xe0\xa4\x97\xe0\xa5\x80') had 7541 occurrences
+merge 170/509: (293, 417) -> 425 (b' \xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\x9f\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7433 occurrences
+merge 171/509: (277, 278) -> 426 (b'\xe0\xa5\x88\xe0\xa4\xb8') had 7401 occurrences
+merge 172/509: (364, 262) -> 427 (b'\xe0\xa4\xb9\xe0\xa4\xbe\xe0\xa4\x82') had 7275 occurrences
+merge 173/509: (279, 271) -> 428 (b' \xe0\xa4\xac\xe0\xa4\xa8') had 7222 occurrences
+merge 174/509: (265, 150) -> 429 (b'\xe0\xa4\xbe\xe0\xa4\x96') had 7132 occurrences
+merge 175/509: (397, 143) -> 430 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\x8f') had 7050 occurrences
+merge 176/509: (268, 161) -> 431 (b'\xe0\xa4\xbf\xe0\xa4\xa1') had 7041 occurrences
+merge 177/509: (256, 291) -> 432 (b'\xe0\xa4\xaf\xe0\xa4\xbe') had 7007 occurrences
+merge 178/509: (284, 156) -> 433 (b'\xe0\xa5\x87\xe0\xa4\x9c') had 6975 occurrences
+merge 179/509: (353, 156) -> 434 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x9c') had 6974 occurrences
+merge 180/509: (279, 434) -> 435 (b' \xe0\xa4\xac\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x9c') had 6967 occurrences
+merge 181/509: (272, 382) -> 436 (b'\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\x97\xe0\xa5\x87') had 6931 occurrences
+merge 182/509: (378, 260) -> 437 (b' \xe0\xa4\xb0\xe0\xa4\xb9\xe0\xa5\x87') had 6815 occurrences
+merge 183/509: (270, 164) -> 438 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 6764 occurrences
+merge 184/509: (276, 264) -> 439 (b' \xe0\xa4\xb9\xe0\xa5\x80') had 6685 occurrences
+merge 185/509: (256, 182) -> 440 (b'\xe0\xa4\xb6') had 6663 occurrences
+merge 186/509: (308, 282) -> 441 (b'\xe0\xa4\xa6\xe0\xa4\xbe\xe0\xa4\xb0') had 6640 occurrences
+merge 187/509: (281, 285) -> 442 (b' \xe0\xa4\xaa\xe0\xa4\xb9') had 6592 occurrences
+merge 188/509: (327, 271) -> 443 (b'\xe0\xa4\xbe\xe0\xa4\x87\xe0\xa4\xa8') had 6461 occurrences
+merge 189/509: (348, 305) -> 444 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x8b\xe0\xa4\x82') had 6426 occurrences
+merge 190/509: (357, 164) -> 445 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4\xa4') had 6271 occurrences
+merge 191/509: (273, 260) -> 446 (b'\xe0\xa4\x95\xe0\xa5\x87') had 6138 occurrences
+merge 192/509: (274, 336) -> 447 (b' \xe0\xa4\xb8\xe0\xa4\xbe\xe0\xa4\xb2') had 6106 occurrences
+merge 193/509: (273, 259) -> 448 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 6098 occurrences
+merge 194/509: (280, 260) -> 449 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 6083 occurrences
+merge 195/509: (299, 332) -> 450 (b' \xe0\xa4\xb2\xe0\xa4\xbf\xe0\xa4\x8f') had 5983 occurrences
+merge 196/509: (298, 271) -> 451 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 5944 occurrences
+merge 197/509: (442, 377) -> 452 (b' \xe0\xa4\xaa\xe0\xa4\xb9\xe0\xa4\xb2\xe0\xa5\x87') had 5918 occurrences
+merge 198/509: (286, 264) -> 453 (b'\xe0\xa4\xae\xe0\xa5\x80') had 5886 occurrences
+merge 199/509: (309, 269) -> 454 (b' \xe0\xa4\xaf\xe0\xa5\x8b') had 5806 occurrences
+merge 200/509: (329, 283) -> 455 (b'\xe0\xa5\x89\xe0\xa4\xb2') had 5748 occurrences
+merge 201/509: (347, 277) -> 456 (b' \xe0\xa4\x9f\xe0\xa5\x88') had 5725 occurrences
+merge 202/509: (287, 387) -> 457 (b' \xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\xb5') had 5695 occurrences
+merge 203/509: (260, 273) -> 458 (b'\xe0\xa5\x87\xe0\xa4\x95') had 5690 occurrences
+merge 204/509: (457, 358) -> 459 (b' \xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\xb5\xe0\xa5\x87\xe0\xa4\xb6') had 5674 occurrences
+merge 205/509: (272, 278) -> 460 (b'\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\xb8') had 5656 occurrences
+merge 206/509: (283, 259) -> 461 (b'\xe0\xa4\xb2\xe0\xa4\xbe') had 5559 occurrences
+merge 207/509: (456, 396) -> 462 (b' \xe0\xa4\x9f\xe0\xa5\x88\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb8') had 5553 occurrences
+merge 208/509: (323, 264) -> 463 (b' \xe0\xa4\xad\xe0\xa5\x80') had 5552 occurrences
+merge 209/509: (162, 310) -> 464 (b'\xa2\xe0\xa4\xbc') had 5551 occurrences
+merge 210/509: (315, 269) -> 465 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa5\x8b') had 5546 occurrences
+merge 211/509: (309, 427) -> 466 (b' \xe0\xa4\xaf\xe0\xa4\xb9\xe0\xa4\xbe\xe0\xa4\x82') had 5520 occurrences
+merge 212/509: (281, 306) -> 467 (b' \xe0\xa4\xaa\xe0\xa5\x82') had 5498 occurrences
+merge 213/509: (295, 278) -> 468 (b' \xe0\xa4\x87\xe0\xa4\xb8') had 5466 occurrences
+merge 214/509: (383, 338) -> 469 (b' \xe0\xa4\xb8\xe0\xa4\x95\xe0\xa4\xa4\xe0\xa4\xbe') had 5448 occurrences
+merge 215/509: (279, 326) -> 470 (b' \xe0\xa4\xac\xe0\xa4\x9c') had 5431 occurrences
+merge 216/509: (299, 429) -> 471 (b' \xe0\xa4\xb2\xe0\xa4\xbe\xe0\xa4\x96') had 5424 occurrences
+merge 217/509: (325, 424) -> 472 (b' \xe0\xa4\xb9\xe0\xa5\x8b\xe0\xa4\x97\xe0\xa5\x80') had 5420 occurrences
+merge 218/509: (400, 264) -> 473 (b' \xe0\xa4\xac\xe0\xa4\xa1\xe0\xa4\xbc\xe0\xa5\x80') had 5367 occurrences
+merge 219/509: (280, 261) -> 474 (b'\xe0\xa4\xa4\xe0\xa4\xb0') had 5358 occurrences
+merge 220/509: (307, 380) -> 475 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xae') had 5353 occurrences
+merge 221/509: (475, 390) -> 476 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xae\xe0\xa4\x9a') had 5351 occurrences
+merge 222/509: (470, 312) -> 477 (b' \xe0\xa4\xac\xe0\xa4\x9c\xe0\xa4\x9f') had 5345 occurrences
+merge 223/509: (280, 264) -> 478 (b'\xe0\xa4\xa4\xe0\xa5\x80') had 5314 occurrences
+merge 224/509: (294, 166) -> 479 (b'\xe0\xa4\x82\xe0\xa4\xa6') had 5306 occurrences
+merge 225/509: (261, 305) -> 480 (b'\xe0\xa4\xb0\xe0\xa5\x8b\xe0\xa4\x82') had 5202 occurrences
+merge 226/509: (403, 155) -> 481 (b' \xe0\xa4\x89\xe0\xa4\x9b') had 5156 occurrences
+merge 227/509: (481, 336) -> 482 (b' \xe0\xa4\x89\xe0\xa4\x9b\xe0\xa4\xbe\xe0\xa4\xb2') had 5108 occurrences
+merge 228/509: (293, 265) -> 483 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4') had 5048 occurrences
+merge 229/509: (275, 282) -> 484 (b' \xe0\xa4\xae\xe0\xa4\xbe\xe0\xa4\xb0') had 5012 occurrences
+merge 230/509: (308, 264) -> 485 (b'\xe0\xa4\xa6\xe0\xa5\x80') had 5004 occurrences
+merge 231/509: (440, 271) -> 486 (b'\xe0\xa4\xb6\xe0\xa4\xa8') had 4979 occurrences
+merge 232/509: (300, 433) -> 487 (b' \xe0\xa4\xa4\xe0\xa5\x87\xe0\xa4\x9c') had 4968 occurrences
+merge 233/509: (297, 348) -> 488 (b'\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xaf') had 4965 occurrences
+merge 234/509: (258, 164) -> 489 (b'\xe0\xa5\xa4') had 4960 occurrences
+merge 235/509: (489, 10) -> 490 (b'\xe0\xa5\xa4\n') had 4940 occurrences
+merge 236/509: (261, 273) -> 491 (b'\xe0\xa4\xb0\xe0\xa4\x95') had 4926 occurrences
+merge 237/509: (274, 313) -> 492 (b' \xe0\xa4\xb8\xe0\xa4\xac') had 4920 occurrences
+merge 238/509: (297, 264) -> 493 (b'\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa5\x80') had 4910 occurrences
+merge 239/509: (487, 264) -> 494 (b' \xe0\xa4\xa4\xe0\xa5\x87\xe0\xa4\x9c\xe0\xa5\x80') had 4908 occurrences
+merge 240/509: (329, 273) -> 495 (b'\xe0\xa5\x89\xe0\xa4\x95') had 4865 occurrences
+merge 241/509: (273, 286) -> 496 (b'\xe0\xa4\x95\xe0\xa4\xae') had 4857 occurrences
+merge 242/509: (272, 486) -> 497 (b'\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\xb6\xe0\xa4\xa8') had 4840 occurrences
+merge 243/509: (166, 259) -> 498 (b'\xa6\xe0\xa4\xbe') had 4832 occurrences
+merge 244/509: (492, 349) -> 499 (b' \xe0\xa4\xb8\xe0\xa4\xac\xe0\xa4\xb8\xe0\xa5\x87') had 4801 occurrences
+merge 245/509: (263, 364) -> 500 (b' \xe0\xa4\x95\xe0\xa4\xb9\xe0\xa4\xbe') had 4793 occurrences
+merge 246/509: (265, 175) -> 501 (b'\xe0\xa4\xbe\xe0\xa4\xaf') had 4768 occurrences
+merge 247/509: (288, 353) -> 502 (b' \xe0\xa4\x9c\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4') had 4761 occurrences
+merge 248/509: (484, 423) -> 503 (b' \xe0\xa4\xae\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x95') had 4753 occurrences
+merge 249/509: (503, 354) -> 504 (b' \xe0\xa4\xae\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x95\xe0\xa5\x87\xe0\xa4\x9f') had 4741 occurrences
+merge 250/509: (283, 443) -> 505 (b'\xe0\xa4\xb2\xe0\xa4\xbe\xe0\xa4\x87\xe0\xa4\xa8') had 4735 occurrences
+merge 251/509: (502, 498) -> 506 (b' \xe0\xa4\x9c\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\xa6\xe0\xa4\xbe') had 4734 occurrences
+merge 252/509: (274, 286) -> 507 (b' \xe0\xa4\xb8\xe0\xa4\xae') had 4731 occurrences
+merge 253/509: (491, 282) -> 508 (b'\xe0\xa4\xb0\xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 4617 occurrences
+merge 254/509: (330, 426) -> 509 (b' \xe0\xa4\xab\xe0\xa5\x88\xe0\xa4\xb8') had 4590 occurrences
+merge 255/509: (268, 184) -> 510 (b'\xe0\xa4\xbf\xe0\xa4\xb8') had 4587 occurrences
+merge 256/509: (301, 260) -> 511 (b' \xe0\xa4\xa6\xe0\xa5\x87') had 4504 occurrences
+merge 257/509: (404, 259) -> 512 (b'\xe0\xa5\x87\xe0\xa4\x97\xe0\xa4\xbe') had 4494 occurrences
+merge 258/509: (269, 485) -> 513 (b'\xe0\xa5\x8b\xe0\xa4\xa6\xe0\xa5\x80') had 4483 occurrences
+merge 259/509: (411, 405) -> 514 (b' \xe0\xa4\x95\xe0\xa4\x82\xe0\xa4\xaa\xe0\xa4\xa8\xe0\xa5\x80') had 4452 occurrences
+merge 260/509: (263, 322) -> 515 (b' \xe0\xa4\x95\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 4289 occurrences
+merge 261/509: (257, 152) -> 516 (b' \xe0\xa4\x98') had 4288 occurrences
+merge 262/509: (301, 322) -> 517 (b' \xe0\xa4\xa6\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 4287 occurrences
+merge 263/509: (298, 317) -> 518 (b'\xe0\xa5\x81\xe0\xa4\xaa') had 4248 occurrences
+merge 264/509: (276, 351) -> 519 (b' \xe0\xa4\xb9\xe0\xa4\xbe\xe0\xa4\x88') had 4238 occurrences
+merge 265/509: (321, 496) -> 520 (b' \xe0\xa4\x87\xe0\xa4\xa8\xe0\xa4\x95\xe0\xa4\xae') had 4233 occurrences
+merge 266/509: (383, 449) -> 521 (b' \xe0\xa4\xb8\xe0\xa4\x95\xe0\xa4\xa4\xe0\xa5\x87') had 4227 occurrences
+merge 267/509: (404, 264) -> 522 (b'\xe0\xa5\x87\xe0\xa4\x97\xe0\xa5\x80') had 4223 occurrences
+merge 268/509: (278, 342) -> 523 (b'\xe0\xa4\xb8\xe0\xa4\xb0\xe0\xa5\x80') had 4220 occurrences
+merge 269/509: (274, 508) -> 524 (b' \xe0\xa4\xb8\xe0\xa4\xb0\xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 4202 occurrences
+merge 270/509: (262, 278) -> 525 (b'\xe0\xa4\x82\xe0\xa4\xb8') had 4185 occurrences
+merge 271/509: (334, 156) -> 526 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x9c') had 4142 occurrences
+merge 272/509: (319, 432) -> 527 (b' \xe0\xa4\x86\xe0\xa4\xaf\xe0\xa4\xbe') had 4137 occurrences
+merge 273/509: (301, 358) -> 528 (b' \xe0\xa4\xa6\xe0\xa5\x87\xe0\xa4\xb6') had 4096 occurrences
+merge 274/509: (326, 373) -> 529 (b'\xe0\xa4\x9c\xe0\xa4\xa8\xe0\xa4\xbe') had 4093 occurrences
+merge 275/509: (278, 438) -> 530 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4') had 4065 occurrences
+merge 276/509: (320, 421) -> 531 (b' \xe0\xa4\x85\xe0\xa4\xa7') had 4059 occurrences
+merge 277/509: (295, 409) -> 532 (b' \xe0\xa4\x87\xe0\xa4\x82\xe0\xa4\xa1') had 4043 occurrences
+merge 278/509: (337, 414) -> 533 (b' \xe0\xa4\xb6\xe0\xa5\x81\xe0\xa4\xb0') had 4040 occurrences
+merge 279/509: (265, 185) -> 534 (b'\xe0\xa4\xbe\xe0\xa4\xb9') had 4037 occurrences
+merge 280/509: (313, 306) -> 535 (b'\xe0\xa4\xac\xe0\xa5\x82') had 4020 occurrences
+merge 281/509: (275, 326) -> 536 (b' \xe0\xa4\xae\xe0\xa4\x9c') had 4015 occurrences
+merge 282/509: (536, 535) -> 537 (b' \xe0\xa4\xae\xe0\xa4\x9c\xe0\xa4\xac\xe0\xa5\x82') had 3995 occurrences
+merge 283/509: (335, 339) -> 538 (b' \xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\x95') had 3961 occurrences
+merge 284/509: (411, 271) -> 539 (b' \xe0\xa4\x95\xe0\xa4\x82\xe0\xa4\xaa\xe0\xa4\xa8') had 3916 occurrences
+merge 285/509: (298, 256) -> 540 (b'\xe0\xa5\x81\xe0\xa4') had 3891 occurrences
+merge 286/509: (532, 322) -> 541 (b' \xe0\xa4\x87\xe0\xa4\x82\xe0\xa4\xa1\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 3889 occurrences
+merge 287/509: (276, 286) -> 542 (b' \xe0\xa4\xb9\xe0\xa4\xae') had 3882 occurrences
+merge 288/509: (261, 313) -> 543 (b'\xe0\xa4\xb0\xe0\xa4\xac') had 3876 occurrences
+merge 289/509: (531, 339) -> 544 (b' \xe0\xa4\x85\xe0\xa4\xa7\xe0\xa4\xbf\xe0\xa4\x95') had 3864 occurrences
+merge 290/509: (483, 156) -> 545 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\x9c') had 3864 occurrences
+merge 291/509: (352, 399) -> 546 (b' \xe0\xa4\x91\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 3862 occurrences
+merge 292/509: (533, 306) -> 547 (b' \xe0\xa4\xb6\xe0\xa5\x81\xe0\xa4\xb0\xe0\xa5\x82') had 3859 occurrences
+merge 293/509: (281, 282) -> 548 (b' \xe0\xa4\xaa\xe0\xa4\xbe\xe0\xa4\xb0') had 3859 occurrences
+merge 294/509: (539, 444) -> 549 (b' \xe0\xa4\x95\xe0\xa4\x82\xe0\xa4\xaa\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x8b\xe0\xa4\x82') had 3827 occurrences
+merge 295/509: (454, 529) -> 550 (b' \xe0\xa4\xaf\xe0\xa5\x8b\xe0\xa4\x9c\xe0\xa4\xa8\xe0\xa4\xbe') had 3807 occurrences
+merge 296/509: (300, 264) -> 551 (b' \xe0\xa4\xa4\xe0\xa5\x80') had 3801 occurrences
+merge 297/509: (455, 261) -> 552 (b'\xe0\xa5\x89\xe0\xa4\xb2\xe0\xa4\xb0') had 3801 occurrences
+merge 298/509: (369, 552) -> 553 (b' \xe0\xa4\xa1\xe0\xa5\x89\xe0\xa4\xb2\xe0\xa4\xb0') had 3788 occurrences
+merge 299/509: (268, 171) -> 554 (b'\xe0\xa4\xbf\xe0\xa4\xab') had 3784 occurrences
+merge 300/509: (279, 308) -> 555 (b' \xe0\xa4\xac\xe0\xa4\xa6') had 3775 occurrences
+merge 301/509: (284, 175) -> 556 (b'\xe0\xa5\x87\xe0\xa4\xaf') had 3760 occurrences
+merge 302/509: (308, 259) -> 557 (b'\xe0\xa4\xa6\xe0\xa4\xbe') had 3737 occurrences
+merge 303/509: (257, 144) -> 558 (b' \xe0\xa4\x90') had 3725 occurrences
+merge 304/509: (488, 351) -> 559 (b'\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x88') had 3722 occurrences
+merge 305/509: (368, 407) -> 560 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xad') had 3715 occurrences
+merge 306/509: (368, 273) -> 561 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\x95') had 3715 occurrences
+merge 307/509: (560, 370) -> 562 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb5') had 3708 occurrences
+merge 308/509: (260, 399) -> 563 (b'\xe0\xa5\x87\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 3699 occurrences
+merge 309/509: (476, 391) -> 564 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xae\xe0\xa4\x9a\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x80') had 3689 occurrences
+merge 310/509: (335, 340) -> 565 (b' \xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\xb2') had 3686 occurrences
+merge 311/509: (320, 543) -> 566 (b' \xe0\xa4\x85\xe0\xa4\xb0\xe0\xa4\xac') had 3686 occurrences
+merge 312/509: (319, 361) -> 567 (b' \xe0\xa4\x86\xe0\xa4\x8f') had 3674 occurrences
+merge 313/509: (403, 160) -> 568 (b' \xe0\xa4\x89\xe0\xa4\xa0') had 3673 occurrences
+merge 314/509: (479, 264) -> 569 (b'\xe0\xa4\x82\xe0\xa4\xa6\xe0\xa5\x80') had 3669 occurrences
+merge 315/509: (330, 501) -> 570 (b' \xe0\xa4\xab\xe0\xa4\xbe\xe0\xa4\xaf') had 3659 occurrences
+merge 316/509: (565, 360) -> 571 (b' \xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\xb2\xe0\xa4\xaf') had 3659 occurrences
+merge 317/509: (344, 286) -> 572 (b' \xe0\xa4\x89\xe0\xa4\xae') had 3650 occurrences
+merge 318/509: (380, 264) -> 573 (b'\xe0\xa5\x8d\xe0\xa4\xae\xe0\xa5\x80') had 3649 occurrences
+merge 319/509: (562, 363) -> 574 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\xa4') had 3649 occurrences
+merge 320/509: (269, 328) -> 575 (b'\xe0\xa5\x8b\xe0\xa4\xa8\xe0\xa5\x87') had 3638 occurrences
+merge 321/509: (451, 322) -> 576 (b'\xe0\xa5\x81\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 3633 occurrences
+merge 322/509: (286, 277) -> 577 (b'\xe0\xa4\xae\xe0\xa5\x88') had 3623 occurrences
+merge 323/509: (272, 304) -> 578 (b'\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\xa1') had 3623 occurrences
+merge 324/509: (546, 559) -> 579 (b' \xe0\xa4\x91\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x88') had 3618 occurrences
+merge 325/509: (301, 576) -> 580 (b' \xe0\xa4\xa6\xe0\xa5\x81\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 3612 occurrences
+merge 326/509: (573, 308) -> 581 (b'\xe0\xa5\x8d\xe0\xa4\xae\xe0\xa5\x80\xe0\xa4\xa6') had 3605 occurrences
+merge 327/509: (263, 313) -> 582 (b' \xe0\xa4\x95\xe0\xa4\xac') had 3604 occurrences
+merge 328/509: (572, 581) -> 583 (b' \xe0\xa4\x89\xe0\xa4\xae\xe0\xa5\x8d\xe0\xa4\xae\xe0\xa5\x80\xe0\xa4\xa6') had 3604 occurrences
+merge 329/509: (275, 526) -> 584 (b' \xe0\xa4\xae\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x9c') had 3592 occurrences
+merge 330/509: (323, 370) -> 585 (b' \xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb5') had 3591 occurrences
+merge 331/509: (584, 261) -> 586 (b' \xe0\xa4\xae\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x9c\xe0\xa4\xb0') had 3583 occurrences
+merge 332/509: (528, 305) -> 587 (b' \xe0\xa4\xa6\xe0\xa5\x87\xe0\xa4\xb6\xe0\xa5\x8b\xe0\xa4\x82') had 3565 occurrences
+merge 333/509: (355, 259) -> 588 (b' \xe0\xa4\x9a\xe0\xa4\xbe') had 3561 occurrences
+merge 334/509: (394, 328) -> 589 (b' \xe0\xa4\xae\xe0\xa4\xbf\xe0\xa4\xb2\xe0\xa4\xa8\xe0\xa5\x87') had 3557 occurrences
+merge 335/509: (570, 557) -> 590 (b' \xe0\xa4\xab\xe0\xa4\xbe\xe0\xa4\xaf\xe0\xa4\xa6\xe0\xa4\xbe') had 3553 occurrences
+merge 336/509: (299, 354) -> 591 (b' \xe0\xa4\xb2\xe0\xa5\x87\xe0\xa4\x9f') had 3545 occurrences
+merge 337/509: (588, 569) -> 592 (b' \xe0\xa4\x9a\xe0\xa4\xbe\xe0\xa4\x82\xe0\xa4\xa6\xe0\xa5\x80') had 3544 occurrences
+merge 338/509: (402, 272) -> 593 (b' \xe0\xa4\x95\xe0\xa5\x80\xe0\xa4\xae\xe0\xa4\xa4\xe0\xa5\x87\xe0\xa4\x82') had 3542 occurrences
+merge 339/509: (567, 398) -> 594 (b' \xe0\xa4\x86\xe0\xa4\x8f\xe0\xa4\x97\xe0\xa4\xbe') had 3532 occurrences
+merge 340/509: (320, 317) -> 595 (b' \xe0\xa4\x85\xe0\xa4\xaa') had 3530 occurrences
+merge 341/509: (256, 157) -> 596 (b'\xe0\xa4\x9d') had 3529 occurrences
+merge 342/509: (355, 283) -> 597 (b' \xe0\xa4\x9a\xe0\xa4\xb2') had 3523 occurrences
+merge 343/509: (551, 523) -> 598 (b' \xe0\xa4\xa4\xe0\xa5\x80\xe0\xa4\xb8\xe0\xa4\xb0\xe0\xa5\x80') had 3523 occurrences
+merge 344/509: (337, 556) -> 599 (b' \xe0\xa4\xb6\xe0\xa5\x87\xe0\xa4\xaf') had 3522 occurrences
+merge 345/509: (591, 563) -> 600 (b' \xe0\xa4\xb2\xe0\xa5\x87\xe0\xa4\x9f\xe0\xa5\x87\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 3522 occurrences
+merge 346/509: (278, 363) -> 601 (b'\xe0\xa4\xb8\xe0\xa4\xbf\xe0\xa4\xa4') had 3510 occurrences
+merge 347/509: (400, 259) -> 602 (b' \xe0\xa4\xac\xe0\xa4\xa1\xe0\xa4\xbc\xe0\xa4\xbe') had 3508 occurrences
+merge 348/509: (312, 269) -> 603 (b'\xe0\xa4\x9f\xe0\xa5\x8b') had 3504 occurrences
+merge 349/509: (295, 413) -> 604 (b' \xe0\xa4\x87\xe0\xa4\x95\xe0\xa5\x8b') had 3499 occurrences
+merge 350/509: (568, 410) -> 605 (b' \xe0\xa4\x89\xe0\xa4\xa0\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87') had 3497 occurrences
+merge 351/509: (555, 283) -> 606 (b' \xe0\xa4\xac\xe0\xa4\xa6\xe0\xa4\xb2') had 3495 occurrences
+merge 352/509: (538, 601) -> 607 (b' \xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\x95\xe0\xa4\xb8\xe0\xa4\xbf\xe0\xa4\xa4') had 3492 occurrences
+merge 353/509: (545, 413) -> 608 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\x9c\xe0\xa4\x95\xe0\xa5\x8b') had 3491 occurrences
+merge 354/509: (604, 271) -> 609 (b' \xe0\xa4\x87\xe0\xa4\x95\xe0\xa5\x8b\xe0\xa4\xa8') had 3490 occurrences
+merge 355/509: (609, 329) -> 610 (b' \xe0\xa4\x87\xe0\xa4\x95\xe0\xa5\x8b\xe0\xa4\xa8\xe0\xa5\x89') had 3488 occurrences
+merge 356/509: (369, 387) -> 611 (b' \xe0\xa4\xa1\xe0\xa4\xbf\xe0\xa4\xb5') had 3488 occurrences
+merge 357/509: (428, 436) -> 612 (b' \xe0\xa4\xac\xe0\xa4\xa8\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\x97\xe0\xa5\x87') had 3486 occurrences
+merge 358/509: (275, 458) -> 613 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x95') had 3482 occurrences
+merge 359/509: (611, 431) -> 614 (b' \xe0\xa4\xa1\xe0\xa4\xbf\xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\xa1') had 3478 occurrences
+merge 360/509: (614, 578) -> 615 (b' \xe0\xa4\xa1\xe0\xa4\xbf\xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4\xa1\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\xa1') had 3478 occurrences
+merge 361/509: (287, 465) -> 616 (b' \xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa5\x8b') had 3476 occurrences
+merge 362/509: (616, 338) -> 617 (b' \xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa5\x8b\xe0\xa4\xa4\xe0\xa4\xbe') had 3476 occurrences
+merge 363/509: (293, 420) -> 618 (b' \xe0\xa4\xb0\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc') had 3476 occurrences
+merge 364/509: (618, 577) -> 619 (b' \xe0\xa4\xb0\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc\xe0\xa4\xae\xe0\xa5\x88') had 3476 occurrences
+merge 365/509: (619, 317) -> 620 (b' \xe0\xa4\xb0\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc\xe0\xa4\xae\xe0\xa5\x88\xe0\xa4\xaa') had 3476 occurrences
+merge 366/509: (256, 133) -> 621 (b'\xe0\xa4\x85') had 3449 occurrences
+merge 367/509: (306, 283) -> 622 (b'\xe0\xa5\x82\xe0\xa4\xb2') had 3449 occurrences
+merge 368/509: (307, 420) -> 623 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc') had 3448 occurrences
+merge 369/509: (507, 596) -> 624 (b' \xe0\xa4\xb8\xe0\xa4\xae\xe0\xa4\x9d') had 3447 occurrences
+merge 370/509: (293, 518) -> 625 (b' \xe0\xa4\xb0\xe0\xa5\x81\xe0\xa4\xaa') had 3402 occurrences
+merge 371/509: (430, 398) -> 626 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\x8f\xe0\xa4\x97\xe0\xa4\xbe') had 3385 occurrences
+merge 372/509: (267, 392) -> 627 (b'\xe0\xa4\xbf\xe0\xa4\x82\xe0\xa4\x97') had 3376 occurrences
+merge 373/509: (259, 392) -> 628 (b'\xe0\xa4\xbe\xe0\xa4\x82\xe0\xa4\x97') had 3375 occurrences
+merge 374/509: (558, 349) -> 629 (b' \xe0\xa4\x90\xe0\xa4\xb8\xe0\xa5\x87') had 3362 occurrences
+merge 375/509: (274, 530) -> 630 (b' \xe0\xa4\xb8\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4') had 3355 occurrences
+merge 376/509: (624, 272) -> 631 (b' \xe0\xa4\xb8\xe0\xa4\xae\xe0\xa4\x9d\xe0\xa5\x87\xe0\xa4\x82') had 3349 occurrences
+merge 377/509: (352, 603) -> 632 (b' \xe0\xa4\x91\xe0\xa4\x9f\xe0\xa5\x8b') had 3344 occurrences
+merge 378/509: (312, 260) -> 633 (b'\xe0\xa4\x9f\xe0\xa5\x87') had 3331 occurrences
+merge 379/509: (313, 297) -> 634 (b'\xe0\xa4\xac\xe0\xa5\x8d\xe0\xa4\xb0') had 3325 occurrences
+merge 380/509: (275, 628) -> 635 (b' \xe0\xa4\xae\xe0\xa4\xbe\xe0\xa4\x82\xe0\xa4\x97') had 3324 occurrences
+merge 381/509: (277, 286) -> 636 (b'\xe0\xa5\x88\xe0\xa4\xae') had 3323 occurrences
+merge 382/509: (256, 135) -> 637 (b'\xe0\xa4\x87') had 3320 occurrences
+merge 383/509: (362, 382) -> 638 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\x97\xe0\xa5\x87') had 3316 occurrences
+merge 384/509: (319, 317) -> 639 (b' \xe0\xa4\x86\xe0\xa4\xaa') had 3307 occurrences
+merge 385/509: (276, 327) -> 640 (b' \xe0\xa4\xb9\xe0\xa4\xbe\xe0\xa4\x87') had 3302 occurrences
+merge 386/509: (634, 431) -> 641 (b'\xe0\xa4\xac\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xa1') had 3302 occurrences
+merge 387/509: (640, 641) -> 642 (b' \xe0\xa4\xb9\xe0\xa4\xbe\xe0\xa4\x87\xe0\xa4\xac\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xa1') had 3293 occurrences
+merge 388/509: (630, 264) -> 643 (b' \xe0\xa4\xb8\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\xa4\xe0\xa5\x80') had 3291 occurrences
+merge 389/509: (281, 497) -> 644 (b' \xe0\xa4\xaa\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\xb6\xe0\xa4\xa8') had 3276 occurrences
+merge 390/509: (445, 305) -> 645 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4\xa4\xe0\xa5\x8b\xe0\xa4\x82') had 3269 occurrences
+merge 391/509: (393, 272) -> 646 (b' \xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x82') had 3268 occurrences
+merge 392/509: (290, 441) -> 647 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xa6\xe0\xa4\xbe\xe0\xa4\xb0') had 3252 occurrences
+merge 393/509: (337, 647) -> 648 (b' \xe0\xa4\xb6\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xa6\xe0\xa4\xbe\xe0\xa4\xb0') had 3250 occurrences
+merge 394/509: (307, 328) -> 649 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa4\xa8\xe0\xa5\x87') had 3239 occurrences
+merge 395/509: (275, 513) -> 650 (b' \xe0\xa4\xae\xe0\xa5\x8b\xe0\xa4\xa6\xe0\xa5\x80') had 3198 occurrences
+merge 396/509: (284, 170) -> 651 (b'\xe0\xa5\x87\xe0\xa4\xaa') had 3193 occurrences
+merge 397/509: (352, 271) -> 652 (b' \xe0\xa4\x91\xe0\xa4\xa8') had 3151 occurrences
+merge 398/509: (652, 505) -> 653 (b' \xe0\xa4\x91\xe0\xa4\xa8\xe0\xa4\xb2\xe0\xa4\xbe\xe0\xa4\x87\xe0\xa4\xa8') had 3141 occurrences
+merge 399/509: (406, 651) -> 654 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f\xe0\xa5\x87\xe0\xa4\xaa') had 3081 occurrences
+merge 400/509: (269, 271) -> 655 (b'\xe0\xa5\x8b\xe0\xa4\xa8') had 3057 occurrences
+merge 401/509: (264, 361) -> 656 (b'\xe0\xa5\x80\xe0\xa4\x8f') had 3017 occurrences
+merge 402/509: (256, 183) -> 657 (b'\xe0\xa4\xb7') had 2950 occurrences
+merge 403/509: (301, 268) -> 658 (b' \xe0\xa4\xa6\xe0\xa4\xbf\xe0\xa4') had 2947 occurrences
+merge 404/509: (509, 461) -> 659 (b' \xe0\xa4\xab\xe0\xa5\x88\xe0\xa4\xb8\xe0\xa4\xb2\xe0\xa4\xbe') had 2909 occurrences
+merge 405/509: (467, 342) -> 660 (b' \xe0\xa4\xaa\xe0\xa5\x82\xe0\xa4\xb0\xe0\xa5\x80') had 2860 occurrences
+merge 406/509: (270, 183) -> 661 (b'\xe0\xa5\x8d\xe0\xa4\xb7') had 2850 occurrences
+merge 407/509: (273, 264) -> 662 (b'\xe0\xa4\x95\xe0\xa5\x80') had 2847 occurrences
+merge 408/509: (269, 283) -> 663 (b'\xe0\xa5\x8b\xe0\xa4\xb2') had 2843 occurrences
+merge 409/509: (256, 150) -> 664 (b'\xe0\xa4\x96') had 2837 occurrences
+merge 410/509: (298, 283) -> 665 (b'\xe0\xa5\x81\xe0\xa4\xb2') had 2819 occurrences
+merge 411/509: (270, 156) -> 666 (b'\xe0\xa5\x8d\xe0\xa4\x9c') had 2798 occurrences
+merge 412/509: (297, 322) -> 667 (b'\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 2782 occurrences
+merge 413/509: (257, 165) -> 668 (b' \xe0\xa4\xa5') had 2747 occurrences
+merge 414/509: (320, 312) -> 669 (b' \xe0\xa4\x85\xe0\xa4\x9f') had 2730 occurrences
+merge 415/509: (294, 156) -> 670 (b'\xe0\xa4\x82\xe0\xa4\x9c') had 2619 occurrences
+merge 416/509: (360, 260) -> 671 (b'\xe0\xa4\xaf\xe0\xa5\x87') had 2617 occurrences
+merge 417/509: (422, 305) -> 672 (b' \xe0\xa4\xac\xe0\xa5\x88\xe0\xa4\x82\xe0\xa4\x95\xe0\xa5\x8b\xe0\xa4\x82') had 2600 occurrences
+merge 418/509: (279, 284) -> 673 (b' \xe0\xa4\xac\xe0\xa5\x87\xe0\xa4') had 2535 occurrences
+merge 419/509: (355, 534) -> 674 (b' \xe0\xa4\x9a\xe0\xa4\xbe\xe0\xa4\xb9') had 2531 occurrences
+merge 420/509: (304, 264) -> 675 (b'\xe0\xa4\xa1\xe0\xa5\x80') had 2530 occurrences
+merge 421/509: (281, 331) -> 676 (b' \xe0\xa4\xaa\xe0\xa4\xa1\xe0\xa4\xbc') had 2511 occurrences
+merge 422/509: (281, 426) -> 677 (b' \xe0\xa4\xaa\xe0\xa5\x88\xe0\xa4\xb8') had 2508 occurrences
+merge 423/509: (625, 671) -> 678 (b' \xe0\xa4\xb0\xe0\xa5\x81\xe0\xa4\xaa\xe0\xa4\xaf\xe0\xa5\x87') had 2494 occurrences
+merge 424/509: (561, 667) -> 679 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 2463 occurrences
+merge 425/509: (357, 166) -> 680 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4\xa6') had 2461 occurrences
+merge 426/509: (265, 291) -> 681 (b'\xe0\xa4\xbe\xe0\xa4\xaf\xe0\xa4\xbe') had 2452 occurrences
+merge 427/509: (309, 285) -> 682 (b' \xe0\xa4\xaf\xe0\xa4\xb9') had 2449 occurrences
+merge 428/509: (274, 575) -> 683 (b' \xe0\xa4\xb8\xe0\xa5\x8b\xe0\xa4\xa8\xe0\xa5\x87') had 2446 occurrences
+merge 429/509: (299, 302) -> 684 (b' \xe0\xa4\xb2\xe0\xa4\x97') had 2426 occurrences
+merge 430/509: (537, 280) -> 685 (b' \xe0\xa4\xae\xe0\xa4\x9c\xe0\xa4\xac\xe0\xa5\x82\xe0\xa4\xa4') had 2411 occurrences
+merge 431/509: (276, 298) -> 686 (b' \xe0\xa4\xb9\xe0\xa5\x81') had 2378 occurrences
+merge 432/509: (261, 259) -> 687 (b'\xe0\xa4\xb0\xe0\xa4\xbe') had 2371 occurrences
+merge 433/509: (511, 328) -> 688 (b' \xe0\xa4\xa6\xe0\xa5\x87\xe0\xa4\xa8\xe0\xa5\x87') had 2361 occurrences
+merge 434/509: (261, 260) -> 689 (b'\xe0\xa4\xb0\xe0\xa5\x87') had 2348 occurrences
+merge 435/509: (608, 657) -> 690 (b' \xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\x9c\xe0\xa4\x95\xe0\xa5\x8b\xe0\xa4\xb7') had 2344 occurrences
+merge 436/509: (273, 661) -> 691 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb7') had 2341 occurrences
+merge 437/509: (335, 334) -> 692 (b' \xe0\xa4\xb5\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 2338 occurrences
+merge 438/509: (610, 453) -> 693 (b' \xe0\xa4\x87\xe0\xa4\x95\xe0\xa5\x8b\xe0\xa4\xa8\xe0\xa5\x89\xe0\xa4\xae\xe0\xa5\x80') had 2337 occurrences
+merge 439/509: (256, 464) -> 694 (b'\xe0\xa4\xa2\xe0\xa4\xbc') had 2322 occurrences
+merge 440/509: (315, 306) -> 695 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa5\x82') had 2308 occurrences
+merge 441/509: (257, 167) -> 696 (b' \xe0\xa4\xa7') had 2307 occurrences
+merge 442/509: (293, 354) -> 697 (b' \xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x9f') had 2292 occurrences
+merge 443/509: (658, 150) -> 698 (b' \xe0\xa4\xa6\xe0\xa4\xbf\xe0\xa4\x96') had 2288 occurrences
+merge 444/509: (299, 272) -> 699 (b' \xe0\xa4\xb2\xe0\xa5\x87\xe0\xa4\x82') had 2269 occurrences
+merge 445/509: (350, 385) -> 700 (b' \xe0\xa4\x97\xe0\xa4\x88') had 2223 occurrences
+merge 446/509: (407, 264) -> 701 (b'\xe0\xa4\xad\xe0\xa5\x80') had 2218 occurrences
+merge 447/509: (320, 313) -> 702 (b' \xe0\xa4\x85\xe0\xa4\xac') had 2192 occurrences
+merge 448/509: (290, 264) -> 703 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x80') had 2188 occurrences
+merge 449/509: (282, 316) -> 704 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\x9f') had 2184 occurrences
+merge 450/509: (274, 284) -> 705 (b' \xe0\xa4\xb8\xe0\xa5\x87\xe0\xa4') had 2182 occurrences
+merge 451/509: (322, 262) -> 706 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x82') had 2179 occurrences
+merge 452/509: (301, 261) -> 707 (b' \xe0\xa4\xa6\xe0\xa4\xb0') had 2178 occurrences
+merge 453/509: (270, 161) -> 708 (b'\xe0\xa5\x8d\xe0\xa4\xa1') had 2168 occurrences
+merge 454/509: (406, 495) -> 709 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f\xe0\xa5\x89\xe0\xa4\x95') had 2155 occurrences
+merge 455/509: (260, 283) -> 710 (b'\xe0\xa5\x87\xe0\xa4\xb2') had 2154 occurrences
+merge 456/509: (297, 259) -> 711 (b'\xe0\xa5\x8d\xe0\xa4\xb0\xe0\xa4\xbe') had 2135 occurrences
+merge 457/509: (412, 261) -> 712 (b'\xe0\xa5\x8c\xe0\xa4\xb0') had 2133 occurrences
+merge 458/509: (263, 277) -> 713 (b' \xe0\xa4\x95\xe0\xa5\x88') had 2132 occurrences
+merge 459/509: (156, 282) -> 714 (b'\x9c\xe0\xa4\xbe\xe0\xa4\xb0') had 2118 occurrences
+merge 460/509: (319, 421) -> 715 (b' \xe0\xa4\x86\xe0\xa4\xa7') had 2117 occurrences
+merge 461/509: (164, 259) -> 716 (b'\xa4\xe0\xa4\xbe') had 2110 occurrences
+merge 462/509: (656, 278) -> 717 (b'\xe0\xa5\x80\xe0\xa4\x8f\xe0\xa4\xb8') had 2099 occurrences
+merge 463/509: (357, 714) -> 718 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xb0') had 2098 occurrences
+merge 464/509: (309, 306) -> 719 (b' \xe0\xa4\xaf\xe0\xa5\x82') had 2094 occurrences
+merge 465/509: (263, 510) -> 720 (b' \xe0\xa4\x95\xe0\xa4\xbf\xe0\xa4\xb8') had 2093 occurrences
+merge 466/509: (274, 423) -> 721 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x95') had 2080 occurrences
+merge 467/509: (257, 291) -> 722 (b' \xe0\xa4\xaf\xe0\xa4\xbe') had 2070 occurrences
+merge 468/509: (316, 297) -> 723 (b'\xe0\xa5\x8d\xe0\xa4\x9f\xe0\xa5\x8d\xe0\xa4\xb0') had 2070 occurrences
+merge 469/509: (276, 336) -> 724 (b' \xe0\xa4\xb9\xe0\xa4\xbe\xe0\xa4\xb2') had 2050 occurrences
+merge 470/509: (299, 260) -> 725 (b' \xe0\xa4\xb2\xe0\xa5\x87') had 2046 occurrences
+merge 471/509: (265, 171) -> 726 (b'\xe0\xa4\xbe\xe0\xa4\xab') had 2037 occurrences
+merge 472/509: (301, 269) -> 727 (b' \xe0\xa4\xa6\xe0\xa5\x8b') had 2027 occurrences
+merge 473/509: (352, 367) -> 728 (b' \xe0\xa4\x91\xe0\xa4\xab') had 2026 occurrences
+merge 474/509: (265, 174) -> 729 (b'\xe0\xa4\xbe\xe0\xa4\xae') had 1996 occurrences
+merge 475/509: (290, 259) -> 730 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xbe') had 1972 occurrences
+merge 476/509: (293, 664) -> 731 (b' \xe0\xa4\xb0\xe0\xa4\x96') had 1963 occurrences
+merge 477/509: (516, 312) -> 732 (b' \xe0\xa4\x98\xe0\xa4\x9f') had 1959 occurrences
+merge 478/509: (275, 412) -> 733 (b' \xe0\xa4\xae\xe0\xa5\x8c') had 1958 occurrences
+merge 479/509: (316, 264) -> 734 (b'\xe0\xa5\x8d\xe0\xa4\x9f\xe0\xa5\x80') had 1950 occurrences
+merge 480/509: (287, 695) -> 735 (b' \xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa5\x82') had 1946 occurrences
