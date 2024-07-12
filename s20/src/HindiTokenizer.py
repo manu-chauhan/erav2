@@ -1,6 +1,7 @@
 from textwrap import dedent
 
 import regex as re
+import unicodedata
 
 import utilities
 from src.base import Tokenizer, get_stats, merge
@@ -31,7 +32,24 @@ SIMPLE_HINDI_PATTERN = r"""[\t\n\r\f\v]?|[^\r\n\p{Devanagari}\p{N}]?+\p{Devanaga
 EXTENDED_HINDI_PATTERN = r"""[\t\n\r\f\v]?|[^\r\n\p{Devanagari}\uA8E0-\uA8FF\u1CD0-\u1CFF\p{N}]?+[\p{Devanagari}\uA8E0-\uA8FF\u1CD0-\u1CFF]+|\p{N}{1,}| ?[^\s\p{Devanagari}+\p{N}\uA8E0-\uA8FF\u1CD0-\u1CFF]++[\r\n]*|\s*[\r\n]*|\s+(?!\S)|\s+"""
 
 
-class HindiTokenizer(Tokenizer):
+def replace_control_characters(s: str) -> str:
+    chars = []
+    for ch in s:
+        if unicodedata.category(ch)[0] != "C":
+            chars.append(ch)  # this character is ok
+        else:
+            chars.append(f"\\u{ord(ch):04x}")  # escape
+    return "".join(chars)
+
+
+def render_token(t: bytes) -> str:
+    # pretty print a token, escaping control characters
+    s = t.decode('utf-8', errors='replace')
+    s = replace_control_characters(s)
+    return s
+
+
+class HindiTokenizer:
     def __init__(self, pattern=None, encoding="utf-8"):
         self.pattern = SIMPLE_HINDI_PATTERN if pattern is None else pattern
         self.compiled_pattern = re.compile(self.pattern, re.IGNORECASE, re.UNICODE)
@@ -49,8 +67,8 @@ class HindiTokenizer(Tokenizer):
                     प फ ब भ म प़ फ़ ब़ म़
                     य र ल ळ व य़ ऱ ल़ ऴ व़
                     श ष ॺ स ह श़ ष़ स़ ह़
-                    ० १ २ ३ ४ ५ ६ ७ ८ ९ . 
-                    | , ॥
+                    ० १ २ ३ ४ ५ ६ ७ ८ ९ 
+                    ॥
                     """)
 
         super().__init__()
@@ -72,8 +90,9 @@ class HindiTokenizer(Tokenizer):
 
         for idx in range(len(basic_hindi_alphabet)):
             encoded_char = basic_hindi_alphabet[idx].encode(encoding=self.encoding)
-            if encoded_char not in self.vocab.values():  # just checking for repeating punctuations or special characters, had repeating entires like | , ; as had added in hindi alphabet too
-                self.vocab[idx + max_idx] = encoded_char
+
+            new_idx = idx + max_idx
+            self.vocab[new_idx] = encoded_char
 
         print("\n=================\nVocab initialisation done...")
 
@@ -126,7 +145,7 @@ class HindiTokenizer(Tokenizer):
                     break
 
             # mint a new token as the pair was already not in merges: assign it the next available id
-            idx = len(self.vocab)
+            idx = len(self.vocab) + 1
 
             # replace all occurrences of pair in ids with idx
             ids = [merge(chunk_ids, pair, idx) for chunk_ids in ids]
@@ -235,7 +254,53 @@ class HindiTokenizer(Tokenizer):
                 ids.extend(self.encode_ordinary(part))
         return ids
 
-#
+    # directly from BPE repo
+    def save(self, file_prefix):
+        """
+        Saves two files: file_prefix.vocab and file_prefix.model
+        This is inspired (but not equivalent to!) sentencepiece's model saving:
+        - model file is the critical one, intended for load()
+        - vocab file is just a pretty printed version for human inspection only
+        """
+        print("Saving tokenizer...")
+        # write the model: to be used in load() later
+        model_file = file_prefix + ".model"
+        with open(model_file, 'w') as f:
+            # write the version, pattern and merges, that's all that's needed
+            f.write("minbpe v1\n")
+            f.write(f"{self.pattern}\n")
+            # write the special tokens, first the number of them, then each one
+            f.write(f"{len(self.special_tokens)}\n")
+            for special, idx in self.special_tokens.items():
+                f.write(f"{special} {idx}\n")
+            # the merges dict
+            for idx1, idx2 in self.merges:
+                f.write(f"{idx1} {idx2}\n")
+        # write the vocab: for the human to look at
+        vocab_file = file_prefix + ".vocab"
+        inverted_merges = {idx: pair for pair, idx in self.merges.items()}
+        with open(vocab_file, "w", encoding="utf-8") as f:
+            for idx, token in self.vocab.items():
+                # note: many tokens may be partial utf-8 sequences
+                # and cannot be decoded into valid strings. Here we're using
+                # errors='replace' to replace them with the replacement char �.
+                # this also means that we couldn't possibly use .vocab in load()
+                # because decoding in this way is a lossy operation!
+                s = render_token(token)
+                # find the children of this token, if any
+                if idx in inverted_merges:
+                    # if this token has children, render it nicely as a merge
+                    idx0, idx1 = inverted_merges[idx]
+                    s0 = render_token(self.vocab[idx0])
+                    s1 = render_token(self.vocab[idx1])
+                    f.write(f"[{s0}][{s1}] -> [{s}] {idx}\n")
+                else:
+                    # otherwise this is leaf token, just print it
+                    # (this should just be the first 256 tokens, the bytes)
+                    f.write(f"[{s}] {idx}\n")
+
+    #
+
 # if __name__ == "__main__":
 #     custom_text = """
 #     <|endoftext|>ूज रहा है जहाँ चकित हो जन-जन देख अकाज

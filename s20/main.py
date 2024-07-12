@@ -66,11 +66,11 @@ def main():
         total_raw_text_len += len(batch_text)
 
         if batch_idx == 0:
-            tokenizer.train(text=batch_text, vocab_size=initial_vocab_size + 256 + HINDI_BASIC_UNITS_COUNT,
+            tokenizer.train(text=batch_text, vocab_size=initial_vocab_size + 256,
                             verbose=True,
                             )
         else:
-            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + 256 + HINDI_BASIC_UNITS_COUNT,
+            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + 256 ,
                             verbose=True)
 
     end = time.perf_counter()

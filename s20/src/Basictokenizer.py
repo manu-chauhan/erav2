@@ -131,7 +131,7 @@ class BasicTokenizer(Tokenizer):
 
             # this most occurring pair not merged yet in any data batch
             #  generate a new token considering how many have been generated so far for the same tokenizer
-            idx = len(self.vocab)
+            idx = len(self.vocab) + 1
 
             # update current new generated tokens to add to self.merge_counter later
             current_batch_merge_counter += 1

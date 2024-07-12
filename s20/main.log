@@ -3899,3 +3899,58 @@ merge 7/509: (357, 176) -> 359 (b'\xe0\xa4\xb0') had 214121 occurrences
 merge 8/509: (149, 359) -> 359 (b'\x95\xe0\xa4\xb0') had 248717 occurrences
 merge 9/509: (359, 128) -> 359 (b'\x95\xe0\xa4\xb0\x80') had 208433 occurrences
 merge 10/509: (359, 141) -> 359 (b'\x95\xe0\xa4\xb0\x80\x8d') had 184052 occurrences
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+b'fetch: 31 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (31/31), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+merge 1/509: (224, 164) -> 357 (b'\xe0\xa4') had 3915224 occurrences
+merge 2/509: (32, 357) -> 358 (b' \xe0\xa4') had 1242389 occurrences
+merge 3/509: (224, 165) -> 359 (b'\xe0\xa5') had 1114998 occurrences
+merge 4/509: (357, 190) -> 359 (b'\xe0\xa4\xbe') had 445898 occurrences
+merge 5/509: (359, 135) -> 359 (b'\xe0\xa4\xbe\x87') had 384337 occurrences
+merge 6/509: (359, 357) -> 359 (b'\xe0\xa4\xbe\x87\xe0\xa4') had 491298 occurrences
+merge 7/509: (357, 176) -> 359 (b'\xe0\xa4\xb0') had 214121 occurrences
+merge 8/509: (149, 359) -> 359 (b'\x95\xe0\xa4\xb0') had 248717 occurrences
+merge 9/509: (359, 128) -> 359 (b'\x95\xe0\xa4\xb0\x80') had 208433 occurrences
+merge 10/509: (359, 141) -> 359 (b'\x95\xe0\xa4\xb0\x80\x8d') had 184052 occurrences
+b'fetch: 31 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (31/31), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
