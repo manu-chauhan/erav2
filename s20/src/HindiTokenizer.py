@@ -123,18 +123,24 @@ class HindiTokenizer:
             for chunk_ids in ids:
                 # passing in stats will update it in place, adding up counts
                 get_stats(chunk_ids, stats)
+
             # find the pair with the highest count
             pair = max(stats, key=stats.get)
 
             while pair in self.merges:
+                print(f"\nPair: {pair} already in merged tokens... replacing in IDS...")
                 # pair was previously merged ... use this first to update IDS
-                # No need to add to merges and vocab, use previously stored token
+                # No need to add to merges and vocab, use previously seen and stored token
                 already_merged_idx = self.merges[pair]
 
                 # just replace already merged pairs in ids and get new ids and no need to again add to merges and vocab
-                ids = merge(ids, pair, already_merged_idx)
+                ids = [merge(chunk_ids, pair, already_merged_idx) for chunk_ids in ids]
 
-                stats = get_stats(ids)  # get updated stats now
+                # get updated stats now, here ids are list of lists, so use above way of updating stats
+                stats = {}
+                for chunk_ids in ids:
+                    # passing in stats will update it in place
+                    get_stats(chunk_ids, stats)
 
                 # just avoiding merging when ids become less than 2
                 if stats and len(ids) >= 2:

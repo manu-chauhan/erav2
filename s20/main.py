@@ -50,9 +50,9 @@ def main():
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
     '''
     initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
-    initial_vocab_size = 400
+    initial_vocab_size = 200
     """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
-    vocab_increase_size = 100
+    vocab_increase_size = 50
 
     total_raw_text_len = 0
     start = time.perf_counter()
