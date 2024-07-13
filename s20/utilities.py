@@ -49,7 +49,8 @@ def log_to_file(file_name="Default.log"):
 
 def read_from_all_files(all_files_to_read: List[Union[str, pathlib.Path]], batch_size: int = 1000,
                         batch_num: int = None,
-                        encoding: str = "utf-8") -> List:
+                        encoding: str = "utf-8",
+                        reading_only_specific_files: List[str] = None) -> List:
     """
     bas basic generator that yields a batch of lines, leverages in-built fileinput for reading all files and using same file object
     :param all_files_to_read: list of file paths, str or Path
@@ -59,9 +60,17 @@ def read_from_all_files(all_files_to_read: List[Union[str, pathlib.Path]], batch
     """
     print("\n=========\nReading dataset\n=============")
     counter = 0
+    if reading_only_specific_files:
+        for idx, f_name in enumerate(all_files_to_read):
+            if not all(x in f_name for x in reading_only_specific_files):
+                all_files_to_read.pop(idx)
+
+    print(f"\nCount of files to read...{len(all_files_to_read)}")
+
     with fileinput.input(files=all_files_to_read,
                          encoding=encoding) as f:  # in-built fileinput to read all files, efficient, handles things internally
-        batch = []
+        if reading_only_specific_files:
+            batch = []
         for line in f:
             # print(f"file number: {f.fileno()}")
             # print(f"file-line number: {f.filelineno()}")

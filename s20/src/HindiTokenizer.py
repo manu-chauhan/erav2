@@ -97,7 +97,10 @@ class HindiTokenizer:
         print("\n=================\nVocab initialisation done...")
 
     @utilities.log_to_file("HindiTokenizer-train.log")
-    def train(self, text, vocab_size, verbose=False, default_initial_vocab_size=256, encoding="utf-8"):
+    def train(self, text, vocab_size, verbose=False, default_initial_vocab_size=256, encoding="utf-8",
+              save_tokenizer_at_train_end: bool = False,
+              prefix_for_save: str = "Hindi_Tokenizer"):
+
         if self.vocab is None:
             self._build_vocab()
 
@@ -105,6 +108,9 @@ class HindiTokenizer:
 
         assert vocab_size >= default_initial_vocab_size
         num_merges = vocab_size - default_initial_vocab_size
+
+        minting_new_token_merge = 0
+        stop_this_batch = False
 
         # split the text up into text chunks
         text_chunks = re.findall(self.compiled_pattern, text)
@@ -130,10 +136,15 @@ class HindiTokenizer:
 
             while pair in self.merges:
                 just_replacing_counter += 1
-                print(f"\nPair: {pair} already in merged tokens... replacing in IDS...")
+
+                if just_replacing_counter > 100 and minting_new_token_merge < 10:
+                    stop_this_batch = True
+                    break
+
                 # pair was previously merged ... use this first to update IDS
                 # No need to add to merges and vocab, use previously seen and stored token
                 already_merged_idx = self.merges[pair]
+                print(f"\nPair: {pair} already in merged tokens... replacing in IDS...")
                 print(f"with.. id.. {already_merged_idx}")
 
                 # just replace already merged pairs in ids and get new ids and no need to again add to merges and vocab
@@ -153,8 +164,13 @@ class HindiTokenizer:
                     print(f"\n\nstopping merges as no new byte pair found in the current batch")
                     break
 
+            if stop_this_batch is True:
+                break
+
             # mint a new token as the pair was already not in merges: assign it the next available id
             idx = len(self.vocab) + 1
+
+            minting_new_token_merge += 1
 
             # replace all occurrences of pair in ids with idx
             ids = [merge(chunk_ids, pair, idx) for chunk_ids in ids]
@@ -164,10 +180,11 @@ class HindiTokenizer:
             self.vocab[idx] = self.vocab[pair[0]] + self.vocab[pair[1]]
 
             if verbose:
-                print(f"merge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]} occurrences")
+                print(
+                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]} occurrences")
 
-            # if just_replacing_counter > 100:
-            #     break
+        if save_tokenizer_at_train_end:
+            self.save(file_prefix=prefix_for_save)
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int
