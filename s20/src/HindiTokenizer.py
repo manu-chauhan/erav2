@@ -1,3 +1,5 @@
+import os
+import pathlib
 from textwrap import dedent
 
 import regex as re
@@ -165,6 +167,11 @@ class HindiTokenizer:
             while pair in self.merges:
                 just_replacing_already_seen_tokens_counter += 1
 
+                '''A simple check that says: If  pairs are already seen in this batch 
+                and what happens more is just replacement of already existing pairs,
+                 way more than generating new tokens, best is to skip this batch... 
+                 [use those thresholds to experiment further]'''
+
                 if just_replacing_already_seen_tokens_counter > just_replacing_already_seen_tokens_counter_threshold \
                         and minting_new_token_for_merge_counter < minting_new_token_for_merge_threshold:
                     stop_this_batch = True
@@ -215,7 +222,7 @@ class HindiTokenizer:
         if save_tokenizer_at_train_end:
             if current_batch_num is not None and isinstance(current_batch_num, int):
                 current_batch_num = "batch_" + str(current_batch_num) + "_"
-            self.save(file_prefix=current_batch_num + prefix_for_save)
+            self.save(file_prefix=current_batch_num + prefix_for_save, save_to_folder=pathlib.Path("../saved_vocabs"))
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int
@@ -315,7 +322,7 @@ class HindiTokenizer:
         return ids
 
     # directly from BPE repo
-    def save(self, file_prefix):
+    def save(self, file_prefix, save_to_folder: pathlib.Path):
         """
         Saves two files: file_prefix.vocab and file_prefix.model
         This is inspired (but not equivalent to!) sentencepiece's model saving:
@@ -324,7 +331,12 @@ class HindiTokenizer:
         """
         print("Saving tokenizer...")
         # write the model: to be used in load() later
+        assert save_to_folder is not None and isinstance(save_to_folder,
+                                                         pathlib.Path), "the Path passed to store vocab and models seems to be wrong"
+
         model_file = file_prefix + ".model"
+        model_file = os.path.join(save_to_folder, model_file)
+
         with open(model_file, 'w') as f:
             f.write(f"{self.pattern}\n")
             # write the special tokens, first the number of them, then each one
@@ -334,8 +346,10 @@ class HindiTokenizer:
             # the merges dict
             for idx1, idx2 in self.merges:
                 f.write(f"{idx1} {idx2}\n")
-        # write the vocab: for the human to look at
+
+        # write the vocab
         vocab_file = file_prefix + ".vocab"
+        vocab_file = os.path.join(save_to_folder, vocab_file)
         inverted_merges = {idx: pair for pair, idx in self.merges.items()}
         with open(vocab_file, "w", encoding="utf-8") as f:
             for idx, token in self.vocab.items():

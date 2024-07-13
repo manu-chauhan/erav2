@@ -1,3 +1,4 @@
+import os
 import subprocess
 import time
 
@@ -8,21 +9,26 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 30_000
-    NUMBER_OF_BATCHES = 2  # None  # None --> read all batches of entire data from all files present in `dataset` dir
+    BATCH_SIZE = 50_000
+    NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
 
     '''
        initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
-    initial_vocab_size = 200
+    initial_vocab_size = 500
     """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
-    vocab_increase_size = 50
+    vocab_increase_size = 200
+    updated_vocab_size = 0  # just for changing vocab_increase_size usage based on how many batches hav passed
 
-    FILE_SAVE_PREFIX = (f"Hindi_Tokenizer-test-{NUMBER_OF_BATCHES}_batches-{BATCH_SIZE:_}_batchsize"
-                        f"-initial_vocab_size_{initial_vocab_size}-vocab_size_increase_per-batch_{vocab_increase_size}")
+    if NUMBER_OF_BATCHES is None:
 
+        FILE_SAVE_PREFIX = (f"Hindi_Tokenizer-test-all_batches-{BATCH_SIZE:_}_batchsize"
+                            f"-initial_vocab_size_{initial_vocab_size}")
+    else:
+        FILE_SAVE_PREFIX = (f"Hindi_Tokenizer-test-{NUMBER_OF_BATCHES}_batches-{BATCH_SIZE:_}_batchsize"
+                            f"-initial_vocab_size_{initial_vocab_size}")
     """
-    HINDI_BASIC_UNITS_COUNT = 109
-    Came to be 109 count when splitting this on space, 1 for every character:
+    HINDI_BASIC_UNITS_COUNT = 101
+    Came to be 101 count when splitting this on space, 1 for every character:
     
                     अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ
                     ा ि ी ु ू ृॄ ॅॆ े ैॉ ॊ ो ौ                     
@@ -37,7 +43,7 @@ def main():
                     ॥
                     
     """
-    # HINDI_BASIC_UNITS_COUNT = 109  # read above comments: hindi_varnmala_and_basic_units.strip().split()
+    # HINDI_BASIC_UNITS_COUNT = 101  # read above comments: hindi_varnmala_and_basic_units.strip().split() removed | , ? ; . as special ones are already in first 256 bytes
 
     tokenizer = HindiTokenizer(pattern=SIMPLE_HINDI_PATTERN)
 
@@ -57,7 +63,7 @@ def main():
     # TODO joblib's Parallel should be used to use all CPU cores and update shared data structure to build vocab : to reduce time
 
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
-
+    os.makedirs("saved_vocabs", exist_ok=True)
     total_raw_text_len = 0
     start = time.perf_counter()
 
@@ -78,8 +84,17 @@ def main():
                             prefix_for_save=FILE_SAVE_PREFIX
                             )
         else:
+            if batch_idx > 10:
+                updated_vocab_size = vocab_increase_size // 2
+            elif batch_idx > 20:
+                updated_vocab_size = vocab_increase_size // 3
+            elif batch_idx > 40:
+                updated_vocab_size = vocab_increase_size // 4
+            elif batch_idx > 60:
+                updated_vocab_size = 20
+
             tokenizer.train(text=batch_text,
-                            vocab_size=vocab_increase_size + 256,
+                            vocab_size=updated_vocab_size + 256,
                             current_batch_num=batch_idx + 1,
                             save_tokenizer_at_train_end=True,
                             prefix_for_save=FILE_SAVE_PREFIX,
