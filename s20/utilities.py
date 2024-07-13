@@ -69,8 +69,8 @@ def read_from_all_files(all_files_to_read: List[Union[str, pathlib.Path]], batch
 
     with fileinput.input(files=all_files_to_read,
                          encoding=encoding) as f:  # in-built fileinput to read all files, efficient, handles things internally
-        if reading_only_specific_files:
-            batch = []
+
+        batch = []
         for line in f:
             # print(f"file number: {f.fileno()}")
             # print(f"file-line number: {f.filelineno()}")
