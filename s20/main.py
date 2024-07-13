@@ -95,6 +95,8 @@ def main():
                 updated_vocab_size = vocab_increase_size // 4
             elif batch_idx > 60:
                 updated_vocab_size = 20
+            else:
+                updated_vocab_size = vocab_increase_size
 
             tokenizer.train(text=batch_text,
                             vocab_size=updated_vocab_size + 256,
