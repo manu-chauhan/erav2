@@ -22,7 +22,7 @@ src : https://hindilanguage.info/devanagari/
 ## Hindi Alphabet:
 https://www.easyhindityping.com/hindi-alphabet
 
-## this takes back to memory lane !!
+### nostalgia !!
 ![hindi alphabet](images/Hindi_Alphabet.png)
 
 ![hindi-dependent-and-independent-vowels](images/hindi-dependent-and-independent-vowels-for-desktop.png)
@@ -127,9 +127,9 @@ src: https://www.regular-expressions.info/unicode.html
 ![img.png](Devanagri-regex-test.png)
 
 
-### 100k GPT-4 Tokens list: https://gist.github.com/s-macke/ae83f6afb89794350f8d9a1ad8a09193
+#### 100k GPT-4 Tokens list: https://gist.github.com/s-macke/ae83f6afb89794350f8d9a1ad8a09193
 
-### LLAMA3 Tokenizer in browser: https://belladoreai.github.io/llama3-tokenizer-js/example-demo/build/
+#### LLAMA3 Tokenizer in browser: https://belladoreai.github.io/llama3-tokenizer-js/example-demo/build/
 
 ## Resources for dataset preparation:
 1. [hindi_text_ltrc](https://github.com/cltk/hindi_text_ltrc/tree/master)
@@ -170,7 +170,7 @@ src: https://www.regular-expressions.info/unicode.html
 15. Complete first 5 parts from Rashmirathi: https://www.ishangirdhar.com/rashmi-rathi/
 16. Another by Dinkar: https://hindi-kavita.com/HindiParshuramKiPrateekshaDinkar.php#Parshuram11
 17. [वर्णमाला](https://anp.wikipedia.org/wiki/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%BE#:~:text=%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%8B%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%A4%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A5%87,%E0%A5%AA%20%E0%A4%B8%E0%A4%82%E0%A4%AF%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%A4%20%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%9E%E0%A5%8D%E0%A4%9C%E0%A4%A8%20%E0%A4%B9%E0%A5%8B%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%E0%A5%A4)
-18. Hinglish (English + Hindi dataset): https://huggingface.co/datasets/festvox/cmu_hinglish_dog?row=2
+18. Hinglish (English + Hindi) dataset from CMU's professor on HuggingFace: https://huggingface.co/datasets/festvox/cmu_hinglish_dog?row=2
 
 
 
@@ -184,7 +184,7 @@ Tokenization follows the training process closely, in the sense that new inputs 
 
 
 
-## Created a simple Web Crawler too via Scrapy library... yeah... I mean... why not ?? 😅 
+## Created a simple Web Crawler too via Scrapy library... I mean... why not ?? 😅 
 1. Output in crawled-new-hindi-data-mix.json
 2. needs to be processed and cleaned up to combine rows of text data together
 3. although Hindi + extended Devanagari unicode points is all what is extracted
@@ -194,17 +194,23 @@ Tokenization follows the training process closely, in the sense that new inputs 
     
    >    ```compiled = re.compile(pattern=hindi_pattern, flags=re.IGNORECASE)```
 5. start URLs for Web-Crawler:
-   > start_urls = ['https://www.aajtak.in/',
-                  'https://www.amarujala.com/?src=mainmenu',
-                  'https://ndtv.in/',
-                  'https://ndtv.in/cricket/zim-vs-ind-2nd-t20i-abhishek-sharma-bat-s-10minute-tsunami-thats-how-zimbabwe-was-robbed-in-two-parts-hindi-6054491#pfrom=home-khabar_moretop'
-                  'https://storymirror.com/read/hindi/story/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%95%E0%A4%B2/tag',
-                  'https://www.achhikhabar.com/hindi-stories/',
-                  'https://hindi.webdunia.com/kids-stories/story-done-compare-yourself-with-others-118060900051_1.html',
-                  'https://www.sarita.in/story/social-story',
-   >               'https://www.bhaskar.com/'
+   
+   Picked few Hindi news websites (sue me ??🤨)
+
+   > start_urls = [
+   > 1. 'https://www.aajtak.in/',
+   > 2. 'https://www.amarujala.com/?src=mainmenu',
+   > 3. 'https://ndtv.in/',
+   > 4. 'https://ndtv.in/cricket/zim-vs-ind-2nd-t20i-abhishek-sharma-bat-s-10minute-tsunami-thats-how-zimbabwe-was-robbed-in-two-parts-hindi-6054491#pfrom=home-khabar_moretop' 
+   > 5. 'https://storymirror.com/read/hindi/story/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%95%E0%A4%B2/tag', 
+   > 6. 'https://www.achhikhabar.com/hindi-stories/',
+   > 7. 'https://hindi.webdunia.com/kids-stories/story-done-compare-yourself-with-others-118060900051_1.html',
+   > 8. 'https://www.sarita.in/story/social-story',
+   > 9. 'https://www.bhaskar.com/'
                   ]
 > To run :$ scrapy runspider spiders/myspider.py -o crawled-new-hindi-data-mix.json
+
+> Wrote code to pick dictionaries from this json and extract relevant data and join each sentence before writing to .txt file again as final step.
 
 
 ## Notes:
@@ -216,9 +222,13 @@ The key idea was:
    1. To experiment with various hyper-parameters
    2.  and track quality of tokens generated and subsequent merges
    3. Allow BPE to pick most common byte-pairs more from initial dataset... to pick phonemes
+4. Since I have a generator for reading entire dataset so had to modify code to include running vocab and merges
+5. This also introduced issue of finding same pairs in every batch so resolved by using same Tokenizer instance.
+6. But point 5 is a minor thing, main was to not have enough NEW pairs to find and merge in subsequent batches.
+7. Added Hinglish dataset too to have real world usage examples in day to day life (like chats and forums where mix of English and Hindi is prevalent)
 
 
-#### Observation: 
-1. Hinglish (in real use cases) would pose another challenge !!!! But must be included(later). Bcoz aaj|aj kal|kl yhi|yehi normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi language these days. 
-
+## Observation: 
+1. Hinglish (in real use cases) would pose another challenge !!!! But must be included. Bcoz aaj|aj kal|kl yhi|yehi normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi language these days.
 2. Any other language than English is under threat now unless Neuralink is adopted so thoughts and speech are transcribed and stored into DB, OR get multilingual keyboards(less likely to work and adopted ?)
+3. 

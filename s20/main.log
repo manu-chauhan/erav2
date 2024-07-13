@@ -13933,3 +13933,2258 @@ with.. id.. 634
 
 Pair: (370, 143) already in merged tokens... replacing in IDS...
 with.. id.. 434
+
+Pair: (367, 174) already in merged tokens... replacing in IDS...
+with.. id.. 581
+
+Pair: (370, 184) already in merged tokens... replacing in IDS...
+with.. id.. 635
+
+Pair: (373, 361) already in merged tokens... replacing in IDS...
+with.. id.. 475
+
+Pair: (367, 130) already in merged tokens... replacing in IDS...
+with.. id.. 600
+
+
+Batch number=====================================================: 43
+
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Pair: (360, 141) already in merged tokens... replacing in IDS...
+with.. id.. 368
+
+Pair: (359, 149) already in merged tokens... replacing in IDS...
+with.. id.. 365
+
+Pair: (361, 358) already in merged tokens... replacing in IDS...
+with.. id.. 367
+
+Pair: (360, 128) already in merged tokens... replacing in IDS...
+with.. id.. 366
+
+Pair: (358, 191) already in merged tokens... replacing in IDS...
+with.. id.. 369
+
+Pair: (358, 130) already in merged tokens... replacing in IDS...
+with.. id.. 364
+
+Pair: (368, 358) already in merged tokens... replacing in IDS...
+with.. id.. 372
+
+Pair: (369, 358) already in merged tokens... replacing in IDS...
+with.. id.. 370
+
+Pair: (360, 139) already in merged tokens... replacing in IDS...
+with.. id.. 371
+
+Pair: (358, 168) already in merged tokens... replacing in IDS...
+with.. id.. 373
+
+Pair: (359, 184) already in merged tokens... replacing in IDS...
+with.. id.. 376
+
+Pair: (358, 149) already in merged tokens... replacing in IDS...
+with.. id.. 375
+
+Pair: (359, 185) already in merged tokens... replacing in IDS...
+with.. id.. 378
+
+Pair: (359, 174) already in merged tokens... replacing in IDS...
+with.. id.. 377
+
+Pair: (358, 164) already in merged tokens... replacing in IDS...
+with.. id.. 382
+
+Pair: (358, 184) already in merged tokens... replacing in IDS...
+with.. id.. 380
+
+Pair: (359, 170) already in merged tokens... replacing in IDS...
+with.. id.. 383
+
+Pair: (360, 136) already in merged tokens... replacing in IDS...
+with.. id.. 379
+
+Pair: (358, 185) already in merged tokens... replacing in IDS...
+with.. id.. 387
+
+Pair: (360, 129) already in merged tokens... replacing in IDS...
+with.. id.. 400
+
+Pair: (358, 178) already in merged tokens... replacing in IDS...
+with.. id.. 385
+
+Pair: (362, 364) already in merged tokens... replacing in IDS...
+with.. id.. 374
+
+Pair: (358, 174) already in merged tokens... replacing in IDS...
+with.. id.. 388
+
+Pair: (378, 379) already in merged tokens... replacing in IDS...
+with.. id.. 394
+
+Pair: (365, 362) already in merged tokens... replacing in IDS...
+with.. id.. 416
+
+Pair: (359, 172) already in merged tokens... replacing in IDS...
+with.. id.. 381
+
+Pair: (361, 363) already in merged tokens... replacing in IDS...
+with.. id.. 384
+
+Pair: (368, 363) already in merged tokens... replacing in IDS...
+with.. id.. 399
+
+Pair: (359, 156) already in merged tokens... replacing in IDS...
+with.. id.. 390
+
+Pair: (358, 151) already in merged tokens... replacing in IDS...
+with.. id.. 404
+
+Pair: (358, 170) already in merged tokens... replacing in IDS...
+with.. id.. 419
+
+Pair: (359, 168) already in merged tokens... replacing in IDS...
+with.. id.. 389
+
+Pair: (359, 166) already in merged tokens... replacing in IDS...
+with.. id.. 403
+
+Pair: (359, 133) already in merged tokens... replacing in IDS...
+with.. id.. 422
+
+Pair: (359, 178) already in merged tokens... replacing in IDS...
+with.. id.. 401
+
+Pair: (377, 374) already in merged tokens... replacing in IDS...
+with.. id.. 391
+
+Pair: (359, 181) already in merged tokens... replacing in IDS...
+with.. id.. 437
+
+Pair: (359, 176) already in merged tokens... replacing in IDS...
+with.. id.. 395
+
+Pair: (358, 166) already in merged tokens... replacing in IDS...
+with.. id.. 410
+
+Pair: (360, 130) already in merged tokens... replacing in IDS...
+with.. id.. 408
+
+Pair: (367, 168) already in merged tokens... replacing in IDS...
+with.. id.. 392
+
+Pair: (371, 364) already in merged tokens... replacing in IDS...
+with.. id.. 407
+
+Pair: (358, 181) already in merged tokens... replacing in IDS...
+with.. id.. 517
+
+Pair: (365, 366) already in merged tokens... replacing in IDS...
+with.. id.. 398
+
+Pair: (359, 134) already in merged tokens... replacing in IDS...
+with.. id.. 421
+
+Pair: (372, 175) already in merged tokens... replacing in IDS...
+with.. id.. 417
+
+Pair: (358, 175) already in merged tokens... replacing in IDS...
+with.. id.. 462
+
+Pair: (373, 362) already in merged tokens... replacing in IDS...
+with.. id.. 430
+
+Pair: (370, 175) already in merged tokens... replacing in IDS...
+with.. id.. 450
+
+Pair: (365, 371) already in merged tokens... replacing in IDS...
+with.. id.. 420
+
+Pair: (359, 164) already in merged tokens... replacing in IDS...
+with.. id.. 402
+
+Pair: (363, 372) already in merged tokens... replacing in IDS...
+with.. id.. 436
+
+Pair: (358, 172) already in merged tokens... replacing in IDS...
+with.. id.. 415
+
+Pair: (358, 156) already in merged tokens... replacing in IDS...
+with.. id.. 428
+
+Pair: (376, 362) already in merged tokens... replacing in IDS...
+with.. id.. 405
+
+Pair: (365, 363) already in merged tokens... replacing in IDS...
+with.. id.. 409
+
+Pair: (359, 137) already in merged tokens... replacing in IDS...
+with.. id.. 446
+
+Pair: (358, 159) already in merged tokens... replacing in IDS...
+with.. id.. 414
+
+Pair: (359, 173) already in merged tokens... replacing in IDS...
+with.. id.. 425
+
+Pair: (359, 151) already in merged tokens... replacing in IDS...
+with.. id.. 452
+
+Pair: (358, 161) already in merged tokens... replacing in IDS...
+with.. id.. 406
+
+Pair: (359, 135) already in merged tokens... replacing in IDS...
+with.. id.. 397
+
+Pair: (359, 148) already in merged tokens... replacing in IDS...
+with.. id.. 631
+
+Pair: (631, 363) already in merged tokens... replacing in IDS...
+with.. id.. 632
+
+Pair: (358, 182) already in merged tokens... replacing in IDS...
+with.. id.. 542
+
+Pair: (370, 149) already in merged tokens... replacing in IDS...
+with.. id.. 441
+
+Pair: (367, 178) already in merged tokens... replacing in IDS...
+with.. id.. 438
+
+Pair: (358, 154) already in merged tokens... replacing in IDS...
+with.. id.. 492
+
+Pair: (359, 175) already in merged tokens... replacing in IDS...
+with.. id.. 411
+
+Pair: (383, 363) already in merged tokens... replacing in IDS...
+with.. id.. 435
+
+Pair: (365, 361) already in merged tokens... replacing in IDS...
+with.. id.. 426
+
+Pair: (400, 358) already in merged tokens... replacing in IDS...
+with.. id.. 570
+
+Pair: (358, 188) already in merged tokens... replacing in IDS...
+with.. id.. 412
+
+Pair: (372, 164) already in merged tokens... replacing in IDS...
+with.. id.. 540
+
+Pair: (359, 154) already in merged tokens... replacing in IDS...
+with.. id.. 457
+
+Pair: (359, 143) already in merged tokens... replacing in IDS...
+with.. id.. 483
+
+Pair: (383, 399) already in merged tokens... replacing in IDS...
+with.. id.. 470
+
+Pair: (378, 371) already in merged tokens... replacing in IDS...
+with.. id.. 427
+
+Pair: (367, 164) already in merged tokens... replacing in IDS...
+with.. id.. 576
+
+Pair: (359, 182) already in merged tokens... replacing in IDS...
+with.. id.. 439
+
+Pair: (370, 178) already in merged tokens... replacing in IDS...
+with.. id.. 442
+
+Pair: (397, 380) already in merged tokens... replacing in IDS...
+with.. id.. 633
+
+Pair: (370, 164) already in merged tokens... replacing in IDS...
+with.. id.. 465
+
+Pair: (387, 366) already in merged tokens... replacing in IDS...
+with.. id.. 448
+
+Pair: (382, 361) already in merged tokens... replacing in IDS...
+with.. id.. 440
+
+Pair: (394, 364) already in merged tokens... replacing in IDS...
+with.. id.. 445
+
+Pair: (389, 362) already in merged tokens... replacing in IDS...
+with.. id.. 447
+
+Pair: (370, 143) already in merged tokens... replacing in IDS...
+with.. id.. 434
+
+Pair: (450, 361) already in merged tokens... replacing in IDS...
+with.. id.. 634
+
+Pair: (359, 165) already in merged tokens... replacing in IDS...
+with.. id.. 605
+
+Pair: (358, 167) already in merged tokens... replacing in IDS...
+with.. id.. 523
+
+Pair: (367, 174) already in merged tokens... replacing in IDS...
+with.. id.. 581
+
+Pair: (367, 130) already in merged tokens... replacing in IDS...
+with.. id.. 600
+
+Pair: (372, 159) already in merged tokens... replacing in IDS...
+with.. id.. 418
+
+
+Batch number=====================================================: 44
+
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Pair: (359, 149) already in merged tokens... replacing in IDS...
+with.. id.. 365
+
+Pair: (360, 141) already in merged tokens... replacing in IDS...
+with.. id.. 368
+
+Pair: (361, 358) already in merged tokens... replacing in IDS...
+with.. id.. 367
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3_792_873 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1_204_003 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1_081_009 occurrences
+
+
+merge 4/200: (358, 190) -> 361 (b'\xe0\xa4\xbe') had 431_588 occurrences
+
+
+merge 5/200: (360, 135) -> 362 (b'\xe0\xa5\x87') had 371_593 occurrences
+
+
+merge 6/200: (358, 176) -> 363 (b'\xe0\xa4\xb0') had 277_700 occurrences
+
+
+merge 7/200: (358, 130) -> 364 (b'\xe0\xa4\x82') had 243_222 occurrences
+
+
+merge 8/200: (359, 149) -> 365 (b' \xe0\xa4\x95') had 203_832 occurrences
+
+
+merge 9/200: (360, 128) -> 366 (b'\xe0\xa5\x80') had 201_859 occurrences
+
+
+merge 10/200: (361, 358) -> 367 (b'\xe0\xa4\xbe\xe0\xa4') had 191_532 occurrences
+
+
+merge 11/200: (360, 141) -> 368 (b'\xe0\xa5\x8d') had 179_787 occurrences
+
+
+merge 12/200: (358, 191) -> 369 (b'\xe0\xa4\xbf') had 161_840 occurrences
+
+
+merge 13/200: (369, 358) -> 370 (b'\xe0\xa4\xbf\xe0\xa4') had 150_459 occurrences
+
+
+merge 14/200: (360, 139) -> 371 (b'\xe0\xa5\x8b') had 143_426 occurrences
+
+
+merge 15/200: (368, 358) -> 372 (b'\xe0\xa5\x8d\xe0\xa4') had 138_673 occurrences
+
+
+merge 16/200: (358, 168) -> 373 (b'\xe0\xa4\xa8') had 117_067 occurrences
+
+
+merge 17/200: (362, 364) -> 374 (b'\xe0\xa5\x87\xe0\xa4\x82') had 112_075 occurrences
+
+
+merge 18/200: (358, 149) -> 375 (b'\xe0\xa4\x95') had 101_693 occurrences
+
+
+merge 19/200: (359, 184) -> 376 (b' \xe0\xa4\xb8') had 98_861 occurrences
+
+
+merge 20/200: (359, 185) -> 377 (b' \xe0\xa4\xb9') had 93_052 occurrences
+
+
+merge 21/200: (359, 174) -> 378 (b' \xe0\xa4\xae') had 92_726 occurrences
+
+
+merge 22/200: (360, 136) -> 379 (b'\xe0\xa5\x88') had 81_931 occurrences
+
+
+merge 23/200: (358, 184) -> 380 (b'\xe0\xa4\xb8') had 78_792 occurrences
+
+
+merge 24/200: (358, 164) -> 381 (b'\xe0\xa4\xa4') had 71_779 occurrences
+
+
+merge 25/200: (359, 172) -> 382 (b' \xe0\xa4\xac') had 71_495 occurrences
+
+
+merge 26/200: (359, 170) -> 383 (b' \xe0\xa4\xaa') had 68_905 occurrences
+
+
+merge 27/200: (361, 363) -> 384 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 65_475 occurrences
+
+
+merge 28/200: (358, 178) -> 385 (b'\xe0\xa4\xb2') had 65_015 occurrences
+
+
+merge 29/200: (362, 358) -> 386 (b'\xe0\xa5\x87\xe0\xa4') had 57_796 occurrences
+
+
+merge 30/200: (358, 185) -> 387 (b'\xe0\xa4\xb9') had 54_335 occurrences
+
+
+merge 31/200: (358, 174) -> 388 (b'\xe0\xa4\xae') had 53_672 occurrences
+
+
+merge 32/200: (359, 168) -> 389 (b' \xe0\xa4\xa8') had 52_754 occurrences
+
+
+merge 33/200: (359, 156) -> 390 (b' \xe0\xa4\x9c') had 49_898 occurrences
+
+
+merge 34/200: (378, 374) -> 391 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 49_684 occurrences
+
+
+merge 35/200: (367, 168) -> 392 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 49_465 occurrences
+
+
+merge 36/200: (175, 361) -> 393 (b'\xaf\xe0\xa4\xbe') had 45_070 occurrences
+
+
+merge 37/200: (377, 379) -> 394 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 44_112 occurrences
+
+
+merge 38/200: (359, 176) -> 395 (b' \xe0\xa4\xb0') had 43_042 occurrences
+
+
+merge 39/200: (358, 151) -> 396 (b'\xe0\xa4\x97') had 41_715 occurrences
+
+
+merge 40/200: (359, 135) -> 397 (b' \xe0\xa4\x87') had 40_257 occurrences
+
+
+merge 41/200: (358, 161) -> 398 (b'\xe0\xa4\xa1') had 38_844 occurrences
+
+
+merge 42/200: (365, 366) -> 399 (b' \xe0\xa4\x95\xe0\xa5\x80') had 38_573 occurrences
+
+
+merge 43/200: (368, 363) -> 400 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 38_554 occurrences
+
+
+merge 44/200: (360, 129) -> 401 (b'\xe0\xa5\x81') had 38_493 occurrences
+
+
+merge 45/200: (359, 178) -> 402 (b' \xe0\xa4\xb2') had 36_955 occurrences
+
+
+merge 46/200: (358, 170) -> 403 (b'\xe0\xa4\xaa') had 34_587 occurrences
+
+
+merge 47/200: (359, 164) -> 404 (b' \xe0\xa4\xa4') had 34_499 occurrences
+
+
+merge 48/200: (358, 166) -> 405 (b'\xe0\xa4\xa6') had 33_778 occurrences
+
+
+merge 49/200: (359, 166) -> 406 (b' \xe0\xa4\xa6') had 33_454 occurrences
+
+
+merge 50/200: (376, 362) -> 407 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 31_776 occurrences
+
+
+merge 51/200: (371, 364) -> 408 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 30_711 occurrences
+
+
+merge 52/200: (360, 130) -> 409 (b'\xe0\xa5\x82') had 30_271 occurrences
+
+
+merge 53/200: (365, 363) -> 410 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 30_008 occurrences
+
+
+merge 54/200: (358, 159) -> 411 (b'\xe0\xa4\x9f') had 28_169 occurrences
+
+
+merge 55/200: (359, 175) -> 412 (b' \xe0\xa4\xaf') had 27_589 occurrences
+
+
+merge 56/200: (358, 188) -> 413 (b'\xe0\xa4\xbc') had 27_171 occurrences
+
+
+merge 57/200: (358, 172) -> 414 (b'\xe0\xa4\xac') had 27_095 occurrences
+
+
+merge 58/200: (390, 392) -> 415 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8') had 26_920 occurrences
+
+
+merge 59/200: (365, 362) -> 416 (b' \xe0\xa4\x95\xe0\xa5\x87') had 25_919 occurrences
+
+
+merge 60/200: (372, 175) -> 417 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 25_644 occurrences
+
+
+merge 61/200: (372, 159) -> 418 (b'\xe0\xa5\x8d\xe0\xa4\x9f') had 24_579 occurrences
+
+
+merge 62/200: (359, 133) -> 419 (b' \xe0\xa4\x85') had 24_096 occurrences
+
+
+merge 63/200: (365, 371) -> 420 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 23_956 occurrences
+
+
+merge 64/200: (359, 134) -> 421 (b' \xe0\xa4\x86') had 23_945 occurrences
+
+
+merge 65/200: (358, 156) -> 422 (b'\xe0\xa4\x9c') had 23_220 occurrences
+
+
+merge 66/200: (397, 373) -> 423 (b' \xe0\xa4\x87\xe0\xa4\xa8') had 23_197 occurrences
+
+
+merge 67/200: (370, 393) -> 424 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 22_793 occurrences
+
+
+merge 68/200: (359, 173) -> 425 (b' \xe0\xa4\xad') had 22_239 occurrences
+
+
+merge 69/200: (365, 361) -> 426 (b' \xe0\xa4\x95\xe0\xa4\xbe') had 21_610 occurrences
+
+
+merge 70/200: (377, 371) -> 427 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 20_611 occurrences
+
+
+merge 71/200: (373, 362) -> 428 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 20_594 occurrences
+
+
+merge 72/200: (367, 135) -> 429 (b'\xe0\xa4\xbe\xe0\xa4\x87') had 20_201 occurrences
+
+
+merge 73/200: (360, 137) -> 430 (b'\xe0\xa5\x89') had 19_669 occurrences
+
+
+merge 74/200: (359, 171) -> 431 (b' \xe0\xa4\xab') had 19_538 occurrences
+
+
+merge 75/200: (398, 413) -> 432 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 19_301 occurrences
+
+
+merge 76/200: (370, 143) -> 433 (b'\xe0\xa4\xbf\xe0\xa4\x8f') had 19_052 occurrences
+
+
+merge 77/200: (383, 363) -> 434 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 19_040 occurrences
+
+
+merge 78/200: (363, 372) -> 435 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 18_728 occurrences
+
+
+merge 79/200: (359, 181) -> 436 (b' \xe0\xa4\xb5') had 17_944 occurrences
+
+
+merge 80/200: (367, 178) -> 437 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 17_648 occurrences
+
+
+merge 81/200: (359, 182) -> 438 (b' \xe0\xa4\xb6') had 17_128 occurrences
+
+
+merge 82/200: (381, 361) -> 439 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 17_010 occurrences
+
+
+merge 83/200: (370, 149) -> 440 (b'\xe0\xa4\xbf\xe0\xa4\x95') had 16_817 occurrences
+
+
+merge 84/200: (370, 178) -> 441 (b'\xe0\xa4\xbf\xe0\xa4\xb2') had 16_765 occurrences
+
+
+merge 85/200: (394, 364) -> 442 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 16_664 occurrences
+
+
+merge 86/200: (361, 364) -> 443 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 16_663 occurrences
+
+
+merge 87/200: (363, 366) -> 444 (b'\xe0\xa4\xb0\xe0\xa5\x80') had 16_647 occurrences
+
+
+merge 88/200: (359, 137) -> 445 (b' \xe0\xa4\x89') had 16_640 occurrences
+
+
+merge 89/200: (372, 184) -> 446 (b'\xe0\xa5\x8d\xe0\xa4\xb8') had 16_609 occurrences
+
+
+merge 90/200: (389, 362) -> 447 (b' \xe0\xa4\xa8\xe0\xa5\x87') had 15_454 occurrences
+
+
+merge 91/200: (387, 366) -> 448 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 15_084 occurrences
+
+
+merge 92/200: (359, 159) -> 449 (b' \xe0\xa4\x9f') had 14_683 occurrences
+
+
+merge 93/200: (370, 175) -> 450 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 14_549 occurrences
+
+
+merge 94/200: (359, 151) -> 451 (b' \xe0\xa4\x97') had 14_057 occurrences
+
+
+merge 95/200: (380, 362) -> 452 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 13_921 occurrences
+
+
+merge 96/200: (367, 136) -> 453 (b'\xe0\xa4\xbe\xe0\xa4\x88') had 13_647 occurrences
+
+
+merge 97/200: (417, 367) -> 454 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4') had 13_546 occurrences
+
+
+merge 98/200: (359, 145) -> 455 (b' \xe0\xa4\x91') had 13_527 occurrences
+
+
+merge 99/200: (359, 154) -> 456 (b' \xe0\xa4\x9a') had 13_516 occurrences
+
+
+merge 100/200: (448, 364) -> 457 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13_511 occurrences
+
+
+merge 101/200: (386, 159) -> 458 (b'\xe0\xa5\x87\xe0\xa4\x9f') had 13_393 occurrences
+
+
+merge 102/200: (358, 175) -> 459 (b'\xe0\xa4\xaf') had 13_358 occurrences
+
+
+merge 103/200: (382, 367) -> 460 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4') had 13_272 occurrences
+
+
+merge 104/200: (386, 182) -> 461 (b'\xe0\xa5\x87\xe0\xa4\xb6') had 13_210 occurrences
+
+
+merge 105/200: (389, 457) -> 462 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13_194 occurrences
+
+
+merge 106/200: (358, 143) -> 463 (b'\xe0\xa4\x8f') had 12_875 occurrences
+
+
+merge 107/200: (370, 164) -> 464 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 12_720 occurrences
+
+
+merge 108/200: (410, 374) -> 465 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x82') had 12_658 occurrences
+
+
+merge 109/200: (415, 433) -> 466 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\x8f') had 12_083 occurrences
+
+
+merge 110/200: (384, 381) -> 467 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 11_888 occurrences
+
+
+merge 111/200: (383, 400) -> 468 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 11_817 occurrences
+
+
+merge 112/200: (358, 171) -> 469 (b'\xe0\xa4\xab') had 11_779 occurrences
+
+
+merge 113/200: (367, 181) -> 470 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 11_651 occurrences
+
+
+merge 114/200: (359, 161) -> 471 (b' \xe0\xa4\xa1') had 11_622 occurrences
+
+
+merge 115/200: (148, 363) -> 472 (b'\x94\xe0\xa4\xb0') had 11_332 occurrences
+
+
+merge 116/200: (372, 393) -> 473 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 11_087 occurrences
+
+
+merge 117/200: (395, 387) -> 474 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 10_932 occurrences
+
+
+merge 118/200: (373, 361) -> 475 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 10_929 occurrences
+
+
+merge 119/200: (382, 379) -> 476 (b' \xe0\xa4\xac\xe0\xa5\x88') had 10_507 occurrences
+
+
+merge 120/200: (425, 467) -> 477 (b' \xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 10_433 occurrences
+
+
+merge 121/200: (358, 154) -> 478 (b'\xe0\xa4\x9a') had 10_414 occurrences
+
+
+merge 122/200: (396, 362) -> 479 (b'\xe0\xa4\x97\xe0\xa5\x87') had 10_383 occurrences
+
+
+merge 123/200: (365, 473) -> 480 (b' \xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 10_279 occurrences
+
+
+merge 124/200: (359, 143) -> 481 (b' \xe0\xa4\x8f') had 10_224 occurrences
+
+
+merge 125/200: (385, 362) -> 482 (b'\xe0\xa4\xb2\xe0\xa5\x87') had 10_183 occurrences
+
+
+merge 126/200: (372, 174) -> 483 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 10_151 occurrences
+
+
+merge 127/200: (376, 375) -> 484 (b' \xe0\xa4\xb8\xe0\xa4\x95') had 10_033 occurrences
+
+
+merge 128/200: (364, 403) -> 485 (b'\xe0\xa4\x82\xe0\xa4\xaa') had 9_975 occurrences
+
+
+merge 129/200: (358, 136) -> 486 (b'\xe0\xa4\x88') had 9_952 occurrences
+
+
+merge 130/200: (415, 374) -> 487 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87\xe0\xa4\x82') had 9_849 occurrences
+
+
+merge 131/200: (370, 181) -> 488 (b'\xe0\xa4\xbf\xe0\xa4\xb5') had 9_639 occurrences
+
+
+merge 132/200: (359, 472) -> 489 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 9_631 occurrences
+
+
+merge 133/200: (370, 159) -> 490 (b'\xe0\xa4\xbf\xe0\xa4\x9f') had 9_630 occurrences
+
+
+merge 134/200: (412, 362) -> 491 (b' \xe0\xa4\xaf\xe0\xa5\x87') had 9_467 occurrences
+
+
+merge 135/200: (384, 366) -> 492 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x80') had 9_294 occurrences
+
+
+merge 136/200: (365, 384) -> 493 (b' \xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 9_234 occurrences
+
+
+merge 137/200: (378, 441) -> 494 (b' \xe0\xa4\xae\xe0\xa4\xbf\xe0\xa4\xb2') had 9_046 occurrences
+
+
+merge 138/200: (396, 366) -> 495 (b'\xe0\xa4\x97\xe0\xa5\x80') had 9_018 occurrences
+
+
+merge 139/200: (396, 361) -> 496 (b'\xe0\xa4\x97\xe0\xa4\xbe') had 8_981 occurrences
+
+
+merge 140/200: (404, 375) -> 497 (b' \xe0\xa4\xa4\xe0\xa4\x95') had 8_964 occurrences
+
+
+merge 141/200: (390, 367) -> 498 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4') had 8_963 occurrences
+
+
+merge 142/200: (375, 446) -> 499 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb8') had 8_877 occurrences
+
+
+merge 143/200: (380, 418) -> 500 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 8_807 occurrences
+
+
+merge 144/200: (382, 432) -> 501 (b' \xe0\xa4\xac\xe0\xa4\xa1\xe0\xa4\xbc') had 8_710 occurrences
+
+
+merge 145/200: (388, 381) -> 502 (b'\xe0\xa4\xae\xe0\xa4\xa4') had 8_704 occurrences
+
+
+merge 146/200: (358, 173) -> 503 (b'\xe0\xa4\xad') had 8_588 occurrences
+
+
+merge 147/200: (445, 358) -> 504 (b' \xe0\xa4\x89\xe0\xa4') had 8_533 occurrences
+
+
+merge 148/200: (399, 502) -> 505 (b' \xe0\xa4\x95\xe0\xa5\x80\xe0\xa4\xae\xe0\xa4\xa4') had 8_518 occurrences
+
+
+merge 149/200: (386, 151) -> 506 (b'\xe0\xa5\x87\xe0\xa4\x97') had 8_486 occurrences
+
+
+merge 150/200: (373, 366) -> 507 (b'\xe0\xa4\xa8\xe0\xa5\x80') had 8_405 occurrences
+
+
+merge 151/200: (358, 182) -> 508 (b'\xe0\xa4\xb6') had 8_339 occurrences
+
+
+merge 152/200: (405, 366) -> 509 (b'\xe0\xa4\xa6\xe0\xa5\x80') had 8_293 occurrences
+
+
+merge 153/200: (376, 418) -> 510 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 8_289 occurrences
+
+
+merge 154/200: (358, 181) -> 511 (b'\xe0\xa4\xb5') had 8_170 occurrences
+
+
+merge 155/200: (392, 362) -> 512 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87') had 8_052 occurrences
+
+
+merge 156/200: (360, 140) -> 513 (b'\xe0\xa5\x8c') had 8_022 occurrences
+
+
+merge 157/200: (364, 375) -> 514 (b'\xe0\xa4\x82\xe0\xa4\x95') had 8_013 occurrences
+
+
+merge 158/200: (365, 485) -> 515 (b' \xe0\xa4\x95\xe0\xa4\x82\xe0\xa4\xaa') had 7_985 occurrences
+
+
+merge 159/200: (375, 371) -> 516 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 7_839 occurrences
+
+
+merge 160/200: (358, 167) -> 517 (b'\xe0\xa4\xa7') had 7_806 occurrences
+
+
+merge 161/200: (364, 398) -> 518 (b'\xe0\xa4\x82\xe0\xa4\xa1') had 7_794 occurrences
+
+
+merge 162/200: (401, 363) -> 519 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 7_785 occurrences
+
+
+merge 163/200: (404, 371) -> 520 (b' \xe0\xa4\xa4\xe0\xa5\x8b') had 7_751 occurrences
+
+
+merge 164/200: (412, 387) -> 521 (b' \xe0\xa4\xaf\xe0\xa4\xb9') had 7_711 occurrences
+
+
+merge 165/200: (435, 168) -> 522 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7_701 occurrences
+
+
+merge 166/200: (490, 522) -> 523 (b'\xe0\xa4\xbf\xe0\xa4\x9f\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7_600 occurrences
+
+
+merge 167/200: (359, 150) -> 524 (b' \xe0\xa4\x96') had 7_459 occurrences
+
+
+merge 168/200: (372, 149) -> 525 (b'\xe0\xa5\x8d\xe0\xa4\x95') had 7_266 occurrences
+
+
+merge 169/200: (371, 432) -> 526 (b'\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc') had 7_225 occurrences
+
+
+merge 170/200: (476, 514) -> 527 (b' \xe0\xa4\xac\xe0\xa5\x88\xe0\xa4\x82\xe0\xa4\x95') had 7_192 occurrences
+
+
+merge 171/200: (395, 523) -> 528 (b' \xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\x9f\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7_103 occurrences
+
+
+merge 172/200: (379, 380) -> 529 (b'\xe0\xa5\x88\xe0\xa4\xb8') had 7_092 occurrences
+
+
+merge 173/200: (382, 373) -> 530 (b' \xe0\xa4\xac\xe0\xa4\xa8') had 6_919 occurrences
+
+
+merge 174/200: (372, 164) -> 531 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 6_863 occurrences
+
+
+merge 175/200: (367, 150) -> 532 (b'\xe0\xa4\xbe\xe0\xa4\x96') had 6_827 occurrences
+
+
+merge 176/200: (358, 393) -> 533 (b'\xe0\xa4\xaf\xe0\xa4\xbe') had 6_783 occurrences
+
+
+merge 177/200: (498, 143) -> 534 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\x8f') had 6_748 occurrences
+
+
+merge 178/200: (370, 161) -> 535 (b'\xe0\xa4\xbf\xe0\xa4\xa1') had 6_724 occurrences
+
+
+merge 179/200: (454, 156) -> 536 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x9c') had 6_684 occurrences
+
+
+merge 180/200: (386, 156) -> 537 (b'\xe0\xa5\x87\xe0\xa4\x9c') had 6_676 occurrences
+
+
+merge 181/200: (382, 536) -> 538 (b' \xe0\xa4\xac\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x9c') had 6_675 occurrences
+
+
+merge 182/200: (374, 479) -> 539 (b'\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\x97\xe0\xa5\x87') had 6_628 occurrences
+
+
+merge 183/200: (377, 366) -> 540 (b' \xe0\xa4\xb9\xe0\xa5\x80') had 6_561 occurrences
+
+
+merge 184/200: (474, 362) -> 541 (b' \xe0\xa4\xb0\xe0\xa4\xb9\xe0\xa5\x87') had 6_555 occurrences
+
+
+merge 185/200: (405, 384) -> 542 (b'\xe0\xa4\xa6\xe0\xa4\xbe\xe0\xa4\xb0') had 6_357 occurrences
+
+
+merge 186/200: (383, 387) -> 543 (b' \xe0\xa4\xaa\xe0\xa4\xb9') had 6_350 occurrences
+
+
+merge 187/200: (365, 387) -> 544 (b' \xe0\xa4\x95\xe0\xa4\xb9') had 6_343 occurrences
+
+
+merge 188/200: (429, 373) -> 545 (b'\xe0\xa4\xbe\xe0\xa4\x87\xe0\xa4\xa8') had 6_172 occurrences
+
+
+merge 189/200: (450, 408) -> 546 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x8b\xe0\xa4\x82') had 6_167 occurrences
+
+
+merge 190/200: (381, 362) -> 547 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 6_050 occurrences
+
+
+merge 191/200: (375, 362) -> 548 (b'\xe0\xa4\x95\xe0\xa5\x87') had 6_040 occurrences
+
+
+merge 192/200: (460, 164) -> 549 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4\xa4') had 6_026 occurrences
+
+
+merge 193/200: (375, 361) -> 550 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 5_887 occurrences
+
+
+merge 194/200: (376, 437) -> 551 (b' \xe0\xa4\xb8\xe0\xa4\xbe\xe0\xa4\xb2') had 5_852 occurrences
+
+
+merge 195/200: (402, 433) -> 552 (b' \xe0\xa4\xb2\xe0\xa4\xbf\xe0\xa4\x8f') had 5_766 occurrences
+
+
+merge 196/200: (401, 373) -> 553 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 5_727 occurrences
+
+
+merge 197/200: (543, 482) -> 554 (b' \xe0\xa4\xaa\xe0\xa4\xb9\xe0\xa4\xb2\xe0\xa5\x87') had 5_669 occurrences
+
+
+merge 198/200: (388, 366) -> 555 (b'\xe0\xa4\xae\xe0\xa5\x80') had 5_642 occurrences
+
+
+merge 199/200: (425, 366) -> 556 (b' \xe0\xa4\xad\xe0\xa5\x80') had 5_573 occurrences
+
+
+merge 200/200: (412, 371) -> 557 (b' \xe0\xa4\xaf\xe0\xa5\x8b') had 5_563 occurrences
+Saving tokenizer...
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3_792_873 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1_204_003 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1_081_009 occurrences
+
+
+merge 4/200: (358, 190) -> 361 (b'\xe0\xa4\xbe') had 431_588 occurrences
+
+
+merge 5/200: (360, 135) -> 362 (b'\xe0\xa5\x87') had 371_593 occurrences
+
+
+merge 6/200: (358, 176) -> 363 (b'\xe0\xa4\xb0') had 277_700 occurrences
+
+
+merge 7/200: (358, 130) -> 364 (b'\xe0\xa4\x82') had 243_222 occurrences
+
+
+merge 8/200: (359, 149) -> 365 (b' \xe0\xa4\x95') had 203_832 occurrences
+
+
+merge 9/200: (360, 128) -> 366 (b'\xe0\xa5\x80') had 201_859 occurrences
+
+
+merge 10/200: (361, 358) -> 367 (b'\xe0\xa4\xbe\xe0\xa4') had 191_532 occurrences
+
+
+merge 11/200: (360, 141) -> 368 (b'\xe0\xa5\x8d') had 179_787 occurrences
+
+
+merge 12/200: (358, 191) -> 369 (b'\xe0\xa4\xbf') had 161_840 occurrences
+
+
+merge 13/200: (369, 358) -> 370 (b'\xe0\xa4\xbf\xe0\xa4') had 150_459 occurrences
+
+
+merge 14/200: (360, 139) -> 371 (b'\xe0\xa5\x8b') had 143_426 occurrences
+
+
+merge 15/200: (368, 358) -> 372 (b'\xe0\xa5\x8d\xe0\xa4') had 138_673 occurrences
+
+
+merge 16/200: (358, 168) -> 373 (b'\xe0\xa4\xa8') had 117_067 occurrences
+
+
+merge 17/200: (362, 364) -> 374 (b'\xe0\xa5\x87\xe0\xa4\x82') had 112_075 occurrences
+
+
+merge 18/200: (358, 149) -> 375 (b'\xe0\xa4\x95') had 101_693 occurrences
+
+
+merge 19/200: (359, 184) -> 376 (b' \xe0\xa4\xb8') had 98_861 occurrences
+
+
+merge 20/200: (359, 185) -> 377 (b' \xe0\xa4\xb9') had 93_052 occurrences
+
+
+merge 21/200: (359, 174) -> 378 (b' \xe0\xa4\xae') had 92_726 occurrences
+
+
+merge 22/200: (360, 136) -> 379 (b'\xe0\xa5\x88') had 81_931 occurrences
+
+
+merge 23/200: (358, 184) -> 380 (b'\xe0\xa4\xb8') had 78_792 occurrences
+
+
+merge 24/200: (358, 164) -> 381 (b'\xe0\xa4\xa4') had 71_779 occurrences
+
+
+merge 25/200: (359, 172) -> 382 (b' \xe0\xa4\xac') had 71_495 occurrences
+
+
+merge 26/200: (359, 170) -> 383 (b' \xe0\xa4\xaa') had 68_905 occurrences
+
+
+merge 27/200: (361, 363) -> 384 (b'\xe0\xa4\xbe\xe0\xa4\xb0') had 65_475 occurrences
+
+
+merge 28/200: (358, 178) -> 385 (b'\xe0\xa4\xb2') had 65_015 occurrences
+
+
+merge 29/200: (362, 358) -> 386 (b'\xe0\xa5\x87\xe0\xa4') had 57_796 occurrences
+
+
+merge 30/200: (358, 185) -> 387 (b'\xe0\xa4\xb9') had 54_335 occurrences
+
+
+merge 31/200: (358, 174) -> 388 (b'\xe0\xa4\xae') had 53_672 occurrences
+
+
+merge 32/200: (359, 168) -> 389 (b' \xe0\xa4\xa8') had 52_754 occurrences
+
+
+merge 33/200: (359, 156) -> 390 (b' \xe0\xa4\x9c') had 49_898 occurrences
+
+
+merge 34/200: (378, 374) -> 391 (b' \xe0\xa4\xae\xe0\xa5\x87\xe0\xa4\x82') had 49_684 occurrences
+
+
+merge 35/200: (367, 168) -> 392 (b'\xe0\xa4\xbe\xe0\xa4\xa8') had 49_465 occurrences
+
+
+merge 36/200: (175, 361) -> 393 (b'\xaf\xe0\xa4\xbe') had 45_070 occurrences
+
+
+merge 37/200: (377, 379) -> 394 (b' \xe0\xa4\xb9\xe0\xa5\x88') had 44_112 occurrences
+
+
+merge 38/200: (359, 176) -> 395 (b' \xe0\xa4\xb0') had 43_042 occurrences
+
+
+merge 39/200: (358, 151) -> 396 (b'\xe0\xa4\x97') had 41_715 occurrences
+
+
+merge 40/200: (359, 135) -> 397 (b' \xe0\xa4\x87') had 40_257 occurrences
+
+
+merge 41/200: (358, 161) -> 398 (b'\xe0\xa4\xa1') had 38_844 occurrences
+
+
+merge 42/200: (365, 366) -> 399 (b' \xe0\xa4\x95\xe0\xa5\x80') had 38_573 occurrences
+
+
+merge 43/200: (368, 363) -> 400 (b'\xe0\xa5\x8d\xe0\xa4\xb0') had 38_554 occurrences
+
+
+merge 44/200: (360, 129) -> 401 (b'\xe0\xa5\x81') had 38_493 occurrences
+
+
+merge 45/200: (359, 178) -> 402 (b' \xe0\xa4\xb2') had 36_955 occurrences
+
+
+merge 46/200: (358, 170) -> 403 (b'\xe0\xa4\xaa') had 34_587 occurrences
+
+
+merge 47/200: (359, 164) -> 404 (b' \xe0\xa4\xa4') had 34_499 occurrences
+
+
+merge 48/200: (358, 166) -> 405 (b'\xe0\xa4\xa6') had 33_778 occurrences
+
+
+merge 49/200: (359, 166) -> 406 (b' \xe0\xa4\xa6') had 33_454 occurrences
+
+
+merge 50/200: (376, 362) -> 407 (b' \xe0\xa4\xb8\xe0\xa5\x87') had 31_776 occurrences
+
+
+merge 51/200: (371, 364) -> 408 (b'\xe0\xa5\x8b\xe0\xa4\x82') had 30_711 occurrences
+
+
+merge 52/200: (360, 130) -> 409 (b'\xe0\xa5\x82') had 30_271 occurrences
+
+
+merge 53/200: (365, 363) -> 410 (b' \xe0\xa4\x95\xe0\xa4\xb0') had 30_008 occurrences
+
+
+merge 54/200: (358, 159) -> 411 (b'\xe0\xa4\x9f') had 28_169 occurrences
+
+
+merge 55/200: (359, 175) -> 412 (b' \xe0\xa4\xaf') had 27_589 occurrences
+
+
+merge 56/200: (358, 188) -> 413 (b'\xe0\xa4\xbc') had 27_171 occurrences
+
+
+merge 57/200: (358, 172) -> 414 (b'\xe0\xa4\xac') had 27_095 occurrences
+
+
+merge 58/200: (390, 392) -> 415 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8') had 26_920 occurrences
+
+
+merge 59/200: (365, 362) -> 416 (b' \xe0\xa4\x95\xe0\xa5\x87') had 25_919 occurrences
+
+
+merge 60/200: (372, 175) -> 417 (b'\xe0\xa5\x8d\xe0\xa4\xaf') had 25_644 occurrences
+
+
+merge 61/200: (372, 159) -> 418 (b'\xe0\xa5\x8d\xe0\xa4\x9f') had 24_579 occurrences
+
+
+merge 62/200: (359, 133) -> 419 (b' \xe0\xa4\x85') had 24_096 occurrences
+
+
+merge 63/200: (365, 371) -> 420 (b' \xe0\xa4\x95\xe0\xa5\x8b') had 23_956 occurrences
+
+
+merge 64/200: (359, 134) -> 421 (b' \xe0\xa4\x86') had 23_945 occurrences
+
+
+merge 65/200: (358, 156) -> 422 (b'\xe0\xa4\x9c') had 23_220 occurrences
+
+
+merge 66/200: (397, 373) -> 423 (b' \xe0\xa4\x87\xe0\xa4\xa8') had 23_197 occurrences
+
+
+merge 67/200: (370, 393) -> 424 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 22_793 occurrences
+
+
+merge 68/200: (359, 173) -> 425 (b' \xe0\xa4\xad') had 22_239 occurrences
+
+
+merge 69/200: (365, 361) -> 426 (b' \xe0\xa4\x95\xe0\xa4\xbe') had 21_610 occurrences
+
+
+merge 70/200: (377, 371) -> 427 (b' \xe0\xa4\xb9\xe0\xa5\x8b') had 20_611 occurrences
+
+
+merge 71/200: (373, 362) -> 428 (b'\xe0\xa4\xa8\xe0\xa5\x87') had 20_594 occurrences
+
+
+merge 72/200: (367, 135) -> 429 (b'\xe0\xa4\xbe\xe0\xa4\x87') had 20_201 occurrences
+
+
+merge 73/200: (360, 137) -> 430 (b'\xe0\xa5\x89') had 19_669 occurrences
+
+
+merge 74/200: (359, 171) -> 431 (b' \xe0\xa4\xab') had 19_538 occurrences
+
+
+merge 75/200: (398, 413) -> 432 (b'\xe0\xa4\xa1\xe0\xa4\xbc') had 19_301 occurrences
+
+
+merge 76/200: (370, 143) -> 433 (b'\xe0\xa4\xbf\xe0\xa4\x8f') had 19_052 occurrences
+
+
+merge 77/200: (383, 363) -> 434 (b' \xe0\xa4\xaa\xe0\xa4\xb0') had 19_040 occurrences
+
+
+merge 78/200: (363, 372) -> 435 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4') had 18_728 occurrences
+
+
+merge 79/200: (359, 181) -> 436 (b' \xe0\xa4\xb5') had 17_944 occurrences
+
+
+merge 80/200: (367, 178) -> 437 (b'\xe0\xa4\xbe\xe0\xa4\xb2') had 17_648 occurrences
+
+
+merge 81/200: (359, 182) -> 438 (b' \xe0\xa4\xb6') had 17_128 occurrences
+
+
+merge 82/200: (381, 361) -> 439 (b'\xe0\xa4\xa4\xe0\xa4\xbe') had 17_010 occurrences
+
+
+merge 83/200: (370, 149) -> 440 (b'\xe0\xa4\xbf\xe0\xa4\x95') had 16_817 occurrences
+
+
+merge 84/200: (370, 178) -> 441 (b'\xe0\xa4\xbf\xe0\xa4\xb2') had 16_765 occurrences
+
+
+merge 85/200: (394, 364) -> 442 (b' \xe0\xa4\xb9\xe0\xa5\x88\xe0\xa4\x82') had 16_664 occurrences
+
+
+merge 86/200: (361, 364) -> 443 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 16_663 occurrences
+
+
+merge 87/200: (363, 366) -> 444 (b'\xe0\xa4\xb0\xe0\xa5\x80') had 16_647 occurrences
+
+
+merge 88/200: (359, 137) -> 445 (b' \xe0\xa4\x89') had 16_640 occurrences
+
+
+merge 89/200: (372, 184) -> 446 (b'\xe0\xa5\x8d\xe0\xa4\xb8') had 16_609 occurrences
+
+
+merge 90/200: (389, 362) -> 447 (b' \xe0\xa4\xa8\xe0\xa5\x87') had 15_454 occurrences
+
+
+merge 91/200: (387, 366) -> 448 (b'\xe0\xa4\xb9\xe0\xa5\x80') had 15_084 occurrences
+
+
+merge 92/200: (359, 159) -> 449 (b' \xe0\xa4\x9f') had 14_683 occurrences
+
+
+merge 93/200: (370, 175) -> 450 (b'\xe0\xa4\xbf\xe0\xa4\xaf') had 14_549 occurrences
+
+
+merge 94/200: (359, 151) -> 451 (b' \xe0\xa4\x97') had 14_057 occurrences
+
+
+merge 95/200: (380, 362) -> 452 (b'\xe0\xa4\xb8\xe0\xa5\x87') had 13_921 occurrences
+
+
+merge 96/200: (367, 136) -> 453 (b'\xe0\xa4\xbe\xe0\xa4\x88') had 13_647 occurrences
+
+
+merge 97/200: (417, 367) -> 454 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4') had 13_546 occurrences
+
+
+merge 98/200: (359, 145) -> 455 (b' \xe0\xa4\x91') had 13_527 occurrences
+
+
+merge 99/200: (359, 154) -> 456 (b' \xe0\xa4\x9a') had 13_516 occurrences
+
+
+merge 100/200: (448, 364) -> 457 (b'\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13_511 occurrences
+
+
+merge 101/200: (386, 159) -> 458 (b'\xe0\xa5\x87\xe0\xa4\x9f') had 13_393 occurrences
+
+
+merge 102/200: (358, 175) -> 459 (b'\xe0\xa4\xaf') had 13_358 occurrences
+
+
+merge 103/200: (382, 367) -> 460 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4') had 13_272 occurrences
+
+
+merge 104/200: (386, 182) -> 461 (b'\xe0\xa5\x87\xe0\xa4\xb6') had 13_210 occurrences
+
+
+merge 105/200: (389, 457) -> 462 (b' \xe0\xa4\xa8\xe0\xa4\xb9\xe0\xa5\x80\xe0\xa4\x82') had 13_194 occurrences
+
+
+merge 106/200: (358, 143) -> 463 (b'\xe0\xa4\x8f') had 12_875 occurrences
+
+
+merge 107/200: (370, 164) -> 464 (b'\xe0\xa4\xbf\xe0\xa4\xa4') had 12_720 occurrences
+
+
+merge 108/200: (410, 374) -> 465 (b' \xe0\xa4\x95\xe0\xa4\xb0\xe0\xa5\x87\xe0\xa4\x82') had 12_658 occurrences
+
+
+merge 109/200: (415, 433) -> 466 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa4\xbf\xe0\xa4\x8f') had 12_083 occurrences
+
+
+merge 110/200: (384, 381) -> 467 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 11_888 occurrences
+
+
+merge 111/200: (383, 400) -> 468 (b' \xe0\xa4\xaa\xe0\xa5\x8d\xe0\xa4\xb0') had 11_817 occurrences
+
+
+merge 112/200: (358, 171) -> 469 (b'\xe0\xa4\xab') had 11_779 occurrences
+
+
+merge 113/200: (367, 181) -> 470 (b'\xe0\xa4\xbe\xe0\xa4\xb5') had 11_651 occurrences
+
+
+merge 114/200: (359, 161) -> 471 (b' \xe0\xa4\xa1') had 11_622 occurrences
+
+
+merge 115/200: (148, 363) -> 472 (b'\x94\xe0\xa4\xb0') had 11_332 occurrences
+
+
+merge 116/200: (372, 393) -> 473 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 11_087 occurrences
+
+
+merge 117/200: (395, 387) -> 474 (b' \xe0\xa4\xb0\xe0\xa4\xb9') had 10_932 occurrences
+
+
+merge 118/200: (373, 361) -> 475 (b'\xe0\xa4\xa8\xe0\xa4\xbe') had 10_929 occurrences
+
+
+merge 119/200: (382, 379) -> 476 (b' \xe0\xa4\xac\xe0\xa5\x88') had 10_507 occurrences
+
+
+merge 120/200: (425, 467) -> 477 (b' \xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa4\xa4') had 10_433 occurrences
+
+
+merge 121/200: (358, 154) -> 478 (b'\xe0\xa4\x9a') had 10_414 occurrences
+
+
+merge 122/200: (396, 362) -> 479 (b'\xe0\xa4\x97\xe0\xa5\x87') had 10_383 occurrences
+
+
+merge 123/200: (365, 473) -> 480 (b' \xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe') had 10_279 occurrences
+
+
+merge 124/200: (359, 143) -> 481 (b' \xe0\xa4\x8f') had 10_224 occurrences
+
+
+merge 125/200: (385, 362) -> 482 (b'\xe0\xa4\xb2\xe0\xa5\x87') had 10_183 occurrences
+
+
+merge 126/200: (372, 174) -> 483 (b'\xe0\xa5\x8d\xe0\xa4\xae') had 10_151 occurrences
+
+
+merge 127/200: (376, 375) -> 484 (b' \xe0\xa4\xb8\xe0\xa4\x95') had 10_033 occurrences
+
+
+merge 128/200: (364, 403) -> 485 (b'\xe0\xa4\x82\xe0\xa4\xaa') had 9_975 occurrences
+
+
+merge 129/200: (358, 136) -> 486 (b'\xe0\xa4\x88') had 9_952 occurrences
+
+
+merge 130/200: (415, 374) -> 487 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87\xe0\xa4\x82') had 9_849 occurrences
+
+
+merge 131/200: (370, 181) -> 488 (b'\xe0\xa4\xbf\xe0\xa4\xb5') had 9_639 occurrences
+
+
+merge 132/200: (359, 472) -> 489 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 9_631 occurrences
+
+
+merge 133/200: (370, 159) -> 490 (b'\xe0\xa4\xbf\xe0\xa4\x9f') had 9_630 occurrences
+
+
+merge 134/200: (412, 362) -> 491 (b' \xe0\xa4\xaf\xe0\xa5\x87') had 9_467 occurrences
+
+
+merge 135/200: (384, 366) -> 492 (b'\xe0\xa4\xbe\xe0\xa4\xb0\xe0\xa5\x80') had 9_294 occurrences
+
+
+merge 136/200: (365, 384) -> 493 (b' \xe0\xa4\x95\xe0\xa4\xbe\xe0\xa4\xb0') had 9_234 occurrences
+
+
+merge 137/200: (378, 441) -> 494 (b' \xe0\xa4\xae\xe0\xa4\xbf\xe0\xa4\xb2') had 9_046 occurrences
+
+
+merge 138/200: (396, 366) -> 495 (b'\xe0\xa4\x97\xe0\xa5\x80') had 9_018 occurrences
+
+
+merge 139/200: (396, 361) -> 496 (b'\xe0\xa4\x97\xe0\xa4\xbe') had 8_981 occurrences
+
+
+merge 140/200: (404, 375) -> 497 (b' \xe0\xa4\xa4\xe0\xa4\x95') had 8_964 occurrences
+
+
+merge 141/200: (390, 367) -> 498 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4') had 8_963 occurrences
+
+
+merge 142/200: (375, 446) -> 499 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4\xb8') had 8_877 occurrences
+
+
+merge 143/200: (380, 418) -> 500 (b'\xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 8_807 occurrences
+
+
+merge 144/200: (382, 432) -> 501 (b' \xe0\xa4\xac\xe0\xa4\xa1\xe0\xa4\xbc') had 8_710 occurrences
+
+
+merge 145/200: (388, 381) -> 502 (b'\xe0\xa4\xae\xe0\xa4\xa4') had 8_704 occurrences
+
+
+merge 146/200: (358, 173) -> 503 (b'\xe0\xa4\xad') had 8_588 occurrences
+
+
+merge 147/200: (445, 358) -> 504 (b' \xe0\xa4\x89\xe0\xa4') had 8_533 occurrences
+
+
+merge 148/200: (399, 502) -> 505 (b' \xe0\xa4\x95\xe0\xa5\x80\xe0\xa4\xae\xe0\xa4\xa4') had 8_518 occurrences
+
+
+merge 149/200: (386, 151) -> 506 (b'\xe0\xa5\x87\xe0\xa4\x97') had 8_486 occurrences
+
+
+merge 150/200: (373, 366) -> 507 (b'\xe0\xa4\xa8\xe0\xa5\x80') had 8_405 occurrences
+
+
+merge 151/200: (358, 182) -> 508 (b'\xe0\xa4\xb6') had 8_339 occurrences
+
+
+merge 152/200: (405, 366) -> 509 (b'\xe0\xa4\xa6\xe0\xa5\x80') had 8_293 occurrences
+
+
+merge 153/200: (376, 418) -> 510 (b' \xe0\xa4\xb8\xe0\xa5\x8d\xe0\xa4\x9f') had 8_289 occurrences
+
+
+merge 154/200: (358, 181) -> 511 (b'\xe0\xa4\xb5') had 8_170 occurrences
+
+
+merge 155/200: (392, 362) -> 512 (b'\xe0\xa4\xbe\xe0\xa4\xa8\xe0\xa5\x87') had 8_052 occurrences
+
+
+merge 156/200: (360, 140) -> 513 (b'\xe0\xa5\x8c') had 8_022 occurrences
+
+
+merge 157/200: (364, 375) -> 514 (b'\xe0\xa4\x82\xe0\xa4\x95') had 8_013 occurrences
+
+
+merge 158/200: (365, 485) -> 515 (b' \xe0\xa4\x95\xe0\xa4\x82\xe0\xa4\xaa') had 7_985 occurrences
+
+
+merge 159/200: (375, 371) -> 516 (b'\xe0\xa4\x95\xe0\xa5\x8b') had 7_839 occurrences
+
+
+merge 160/200: (358, 167) -> 517 (b'\xe0\xa4\xa7') had 7_806 occurrences
+
+
+merge 161/200: (364, 398) -> 518 (b'\xe0\xa4\x82\xe0\xa4\xa1') had 7_794 occurrences
+
+
+merge 162/200: (401, 363) -> 519 (b'\xe0\xa5\x81\xe0\xa4\xb0') had 7_785 occurrences
+
+
+merge 163/200: (404, 371) -> 520 (b' \xe0\xa4\xa4\xe0\xa5\x8b') had 7_751 occurrences
+
+
+merge 164/200: (412, 387) -> 521 (b' \xe0\xa4\xaf\xe0\xa4\xb9') had 7_711 occurrences
+
+
+merge 165/200: (435, 168) -> 522 (b'\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7_701 occurrences
+
+
+merge 166/200: (490, 522) -> 523 (b'\xe0\xa4\xbf\xe0\xa4\x9f\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7_600 occurrences
+
+
+merge 167/200: (359, 150) -> 524 (b' \xe0\xa4\x96') had 7_459 occurrences
+
+
+merge 168/200: (372, 149) -> 525 (b'\xe0\xa5\x8d\xe0\xa4\x95') had 7_266 occurrences
+
+
+merge 169/200: (371, 432) -> 526 (b'\xe0\xa5\x8b\xe0\xa4\xa1\xe0\xa4\xbc') had 7_225 occurrences
+
+
+merge 170/200: (476, 514) -> 527 (b' \xe0\xa4\xac\xe0\xa5\x88\xe0\xa4\x82\xe0\xa4\x95') had 7_192 occurrences
+
+
+merge 171/200: (395, 523) -> 528 (b' \xe0\xa4\xb0\xe0\xa4\xbf\xe0\xa4\x9f\xe0\xa4\xb0\xe0\xa5\x8d\xe0\xa4\xa8') had 7_103 occurrences
+
+
+merge 172/200: (379, 380) -> 529 (b'\xe0\xa5\x88\xe0\xa4\xb8') had 7_092 occurrences
+
+
+merge 173/200: (382, 373) -> 530 (b' \xe0\xa4\xac\xe0\xa4\xa8') had 6_919 occurrences
+
+
+merge 174/200: (372, 164) -> 531 (b'\xe0\xa5\x8d\xe0\xa4\xa4') had 6_863 occurrences
+
+
+merge 175/200: (367, 150) -> 532 (b'\xe0\xa4\xbe\xe0\xa4\x96') had 6_827 occurrences
+
+
+merge 176/200: (358, 393) -> 533 (b'\xe0\xa4\xaf\xe0\xa4\xbe') had 6_783 occurrences
+
+
+merge 177/200: (498, 143) -> 534 (b' \xe0\xa4\x9c\xe0\xa4\xbe\xe0\xa4\x8f') had 6_748 occurrences
+
+
+merge 178/200: (370, 161) -> 535 (b'\xe0\xa4\xbf\xe0\xa4\xa1') had 6_724 occurrences
+
+
+merge 179/200: (454, 156) -> 536 (b'\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x9c') had 6_684 occurrences
+
+
+merge 180/200: (386, 156) -> 537 (b'\xe0\xa5\x87\xe0\xa4\x9c') had 6_676 occurrences
+
+
+merge 181/200: (382, 536) -> 538 (b' \xe0\xa4\xac\xe0\xa5\x8d\xe0\xa4\xaf\xe0\xa4\xbe\xe0\xa4\x9c') had 6_675 occurrences
+
+
+merge 182/200: (374, 479) -> 539 (b'\xe0\xa5\x87\xe0\xa4\x82\xe0\xa4\x97\xe0\xa5\x87') had 6_628 occurrences
+
+
+merge 183/200: (377, 366) -> 540 (b' \xe0\xa4\xb9\xe0\xa5\x80') had 6_561 occurrences
+
+
+merge 184/200: (474, 362) -> 541 (b' \xe0\xa4\xb0\xe0\xa4\xb9\xe0\xa5\x87') had 6_555 occurrences
+
+
+merge 185/200: (405, 384) -> 542 (b'\xe0\xa4\xa6\xe0\xa4\xbe\xe0\xa4\xb0') had 6_357 occurrences
+
+
+merge 186/200: (383, 387) -> 543 (b' \xe0\xa4\xaa\xe0\xa4\xb9') had 6_350 occurrences
+
+
+merge 187/200: (365, 387) -> 544 (b' \xe0\xa4\x95\xe0\xa4\xb9') had 6_343 occurrences
+
+
+merge 188/200: (429, 373) -> 545 (b'\xe0\xa4\xbe\xe0\xa4\x87\xe0\xa4\xa8') had 6_172 occurrences
+
+
+merge 189/200: (450, 408) -> 546 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa5\x8b\xe0\xa4\x82') had 6_167 occurrences
+
+
+merge 190/200: (381, 362) -> 547 (b'\xe0\xa4\xa4\xe0\xa5\x87') had 6_050 occurrences
+
+
+merge 191/200: (375, 362) -> 548 (b'\xe0\xa4\x95\xe0\xa5\x87') had 6_040 occurrences
+
+
+merge 192/200: (460, 164) -> 549 (b' \xe0\xa4\xac\xe0\xa4\xbe\xe0\xa4\xa4') had 6_026 occurrences
+
+
+merge 193/200: (375, 361) -> 550 (b'\xe0\xa4\x95\xe0\xa4\xbe') had 5_887 occurrences
+
+
+merge 194/200: (376, 437) -> 551 (b' \xe0\xa4\xb8\xe0\xa4\xbe\xe0\xa4\xb2') had 5_852 occurrences
+
+
+merge 195/200: (402, 433) -> 552 (b' \xe0\xa4\xb2\xe0\xa4\xbf\xe0\xa4\x8f') had 5_766 occurrences
+
+
+merge 196/200: (401, 373) -> 553 (b'\xe0\xa5\x81\xe0\xa4\xa8') had 5_727 occurrences
+
+
+merge 197/200: (543, 482) -> 554 (b' \xe0\xa4\xaa\xe0\xa4\xb9\xe0\xa4\xb2\xe0\xa5\x87') had 5_669 occurrences
+
+
+merge 198/200: (388, 366) -> 555 (b'\xe0\xa4\xae\xe0\xa5\x80') had 5_642 occurrences
+
+
+merge 199/200: (425, 366) -> 556 (b' \xe0\xa4\xad\xe0\xa5\x80') had 5_573 occurrences
+
+
+merge 200/200: (412, 371) -> 557 (b' \xe0\xa4\xaf\xe0\xa5\x8b') had 5_563 occurrences
+Saving tokenizer...
+
+
+Batch number=====================================================: 1
+
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Pair: (361, 358) already in merged tokens... replacing in IDS...
+with.. id.. 367
+
+Pair: (359, 149) already in merged tokens... replacing in IDS...
+with.. id.. 365
+
+Pair: (360, 128) already in merged tokens... replacing in IDS...
+with.. id.. 366
+
+Pair: (360, 141) already in merged tokens... replacing in IDS...
+with.. id.. 368
+
+Pair: (358, 130) already in merged tokens... replacing in IDS...
+with.. id.. 364
+
+Pair: (358, 191) already in merged tokens... replacing in IDS...
+with.. id.. 369
+
+Pair: (368, 358) already in merged tokens... replacing in IDS...
+with.. id.. 372
+
+Pair: (369, 358) already in merged tokens... replacing in IDS...
+with.. id.. 370
+
+Pair: (360, 139) already in merged tokens... replacing in IDS...
+with.. id.. 371
+
+Pair: (358, 168) already in merged tokens... replacing in IDS...
+with.. id.. 373
+
+Pair: (359, 184) already in merged tokens... replacing in IDS...
+with.. id.. 376
+
+Pair: (358, 149) already in merged tokens... replacing in IDS...
+with.. id.. 375
+
+Pair: (359, 185) already in merged tokens... replacing in IDS...
+with.. id.. 377
+
+Pair: (359, 174) already in merged tokens... replacing in IDS...
+with.. id.. 378
+
+Pair: (362, 364) already in merged tokens... replacing in IDS...
+with.. id.. 374
+
+Pair: (358, 164) already in merged tokens... replacing in IDS...
+with.. id.. 381
+
+Pair: (358, 184) already in merged tokens... replacing in IDS...
+with.. id.. 380
+
+Pair: (360, 136) already in merged tokens... replacing in IDS...
+with.. id.. 379
+
+Pair: (359, 170) already in merged tokens... replacing in IDS...
+with.. id.. 383
+
+Pair: (358, 178) already in merged tokens... replacing in IDS...
+with.. id.. 385
+
+Pair: (358, 185) already in merged tokens... replacing in IDS...
+with.. id.. 387
+
+Pair: (359, 172) already in merged tokens... replacing in IDS...
+with.. id.. 382
+
+Pair: (361, 363) already in merged tokens... replacing in IDS...
+with.. id.. 384
+
+Pair: (358, 174) already in merged tokens... replacing in IDS...
+with.. id.. 388
+
+Pair: (360, 129) already in merged tokens... replacing in IDS...
+with.. id.. 401
+
+Pair: (359, 156) already in merged tokens... replacing in IDS...
+with.. id.. 390
+
+Pair: (359, 168) already in merged tokens... replacing in IDS...
+with.. id.. 389
+
+Pair: (358, 151) already in merged tokens... replacing in IDS...
+with.. id.. 396
+
+Pair: (377, 379) already in merged tokens... replacing in IDS...
+with.. id.. 394
+
+Pair: (368, 363) already in merged tokens... replacing in IDS...
+with.. id.. 400
+
+Pair: (378, 374) already in merged tokens... replacing in IDS...
+with.. id.. 391
+
+Pair: (367, 168) already in merged tokens... replacing in IDS...
+with.. id.. 392
+
+Pair: (358, 170) already in merged tokens... replacing in IDS...
+with.. id.. 403
+
+Pair: (359, 176) already in merged tokens... replacing in IDS...
+with.. id.. 395
+
+Pair: (362, 358) already in merged tokens... replacing in IDS...
+with.. id.. 386
+
+Pair: (175, 361) already in merged tokens... replacing in IDS...
+with.. id.. 393
+
+Pair: (359, 166) already in merged tokens... replacing in IDS...
+with.. id.. 406
+
+Pair: (359, 178) already in merged tokens... replacing in IDS...
+with.. id.. 402
+
+Pair: (358, 166) already in merged tokens... replacing in IDS...
+with.. id.. 405
+
+Pair: (365, 362) already in merged tokens... replacing in IDS...
+with.. id.. 416
+
+Pair: (365, 366) already in merged tokens... replacing in IDS...
+with.. id.. 399
+
+Pair: (360, 130) already in merged tokens... replacing in IDS...
+with.. id.. 409
+
+Pair: (359, 135) already in merged tokens... replacing in IDS...
+with.. id.. 397
+
+Pair: (358, 161) already in merged tokens... replacing in IDS...
+with.. id.. 398
+
+Pair: (359, 133) already in merged tokens... replacing in IDS...
+with.. id.. 419
+
+Pair: (359, 164) already in merged tokens... replacing in IDS...
+with.. id.. 404
+
+Pair: (371, 364) already in merged tokens... replacing in IDS...
+with.. id.. 408
+
+Pair: (359, 181) already in merged tokens... replacing in IDS...
+with.. id.. 436
+
+Pair: (358, 172) already in merged tokens... replacing in IDS...
+with.. id.. 414
+
+Pair: (376, 362) already in merged tokens... replacing in IDS...
+with.. id.. 407
+
+Pair: (359, 134) already in merged tokens... replacing in IDS...
+with.. id.. 421
+
+Pair: (365, 363) already in merged tokens... replacing in IDS...
+with.. id.. 410
+
+Pair: (372, 175) already in merged tokens... replacing in IDS...
+with.. id.. 417
+
+Pair: (365, 371) already in merged tokens... replacing in IDS...
+with.. id.. 420
+
+Pair: (358, 156) already in merged tokens... replacing in IDS...
+with.. id.. 422
+
+Pair: (358, 159) already in merged tokens... replacing in IDS...
+with.. id.. 411
+
+Pair: (358, 188) already in merged tokens... replacing in IDS...
+with.. id.. 413
+
+Pair: (359, 173) already in merged tokens... replacing in IDS...
+with.. id.. 425
+
+Pair: (373, 362) already in merged tokens... replacing in IDS...
+with.. id.. 428
+
+Pair: (363, 372) already in merged tokens... replacing in IDS...
+with.. id.. 435
+
+Pair: (359, 175) already in merged tokens... replacing in IDS...
+with.. id.. 412
+
+Pair: (365, 361) already in merged tokens... replacing in IDS...
+with.. id.. 426
+
+Pair: (358, 181) already in merged tokens... replacing in IDS...
+with.. id.. 511
+
+Pair: (359, 151) already in merged tokens... replacing in IDS...
+with.. id.. 451
+
+Pair: (359, 137) already in merged tokens... replacing in IDS...
+with.. id.. 445
+
+Pair: (372, 159) already in merged tokens... replacing in IDS...
+with.. id.. 418
+
+Pair: (367, 178) already in merged tokens... replacing in IDS...
+with.. id.. 437
+
+Pair: (377, 371) already in merged tokens... replacing in IDS...
+with.. id.. 427
+
+Pair: (358, 175) already in merged tokens... replacing in IDS...
+with.. id.. 459
+
+Pair: (370, 393) already in merged tokens... replacing in IDS...
+with.. id.. 424
+
+Pair: (370, 149) already in merged tokens... replacing in IDS...
+with.. id.. 440
+
+Pair: (383, 363) already in merged tokens... replacing in IDS...
+with.. id.. 434
+
+Pair: (359, 182) already in merged tokens... replacing in IDS...
+with.. id.. 438
+
+Pair: (370, 143) already in merged tokens... replacing in IDS...
+with.. id.. 433
+
+Pair: (390, 392) already in merged tokens... replacing in IDS...
+with.. id.. 415
+
+Pair: (370, 178) already in merged tokens... replacing in IDS...
+with.. id.. 441
+
+Pair: (370, 175) already in merged tokens... replacing in IDS...
+with.. id.. 450
+
+Pair: (359, 171) already in merged tokens... replacing in IDS...
+with.. id.. 431
+
+Pair: (148, 363) already in merged tokens... replacing in IDS...
+with.. id.. 472
+
+
+merge 1/50: (367, 130) -> 558 (b'\xe0\xa4\xbe\xe0\xa4\x82') had 15_460 occurrences
+
+Pair: (381, 361) already in merged tokens... replacing in IDS...
+with.. id.. 439
+
+Pair: (394, 364) already in merged tokens... replacing in IDS...
+with.. id.. 442
+
+Pair: (359, 154) already in merged tokens... replacing in IDS...
+with.. id.. 456
+
+Pair: (389, 362) already in merged tokens... replacing in IDS...
+with.. id.. 447
+
+Pair: (359, 472) already in merged tokens... replacing in IDS...
+with.. id.. 489
+
+Pair: (387, 366) already in merged tokens... replacing in IDS...
+with.. id.. 448
+
+Pair: (358, 154) already in merged tokens... replacing in IDS...
+with.. id.. 478
+
+Pair: (360, 137) already in merged tokens... replacing in IDS...
+with.. id.. 430
+
+Pair: (398, 413) already in merged tokens... replacing in IDS...
+with.. id.. 432
+
+Pair: (370, 164) already in merged tokens... replacing in IDS...
+with.. id.. 464
+
+Pair: (383, 400) already in merged tokens... replacing in IDS...
+with.. id.. 468
+
+Pair: (367, 135) already in merged tokens... replacing in IDS...
+with.. id.. 429
+
+Pair: (397, 373) already in merged tokens... replacing in IDS...
+with.. id.. 423
+
+Pair: (363, 366) already in merged tokens... replacing in IDS...
+with.. id.. 444
+
+Pair: (359, 143) already in merged tokens... replacing in IDS...
+with.. id.. 481
+
+
+merge 2/50: (401, 358) -> 559 (b'\xe0\xa5\x81\xe0\xa4') had 12_517 occurrences
+
+
+merge 3/50: (367, 164) -> 560 (b'\xe0\xa4\xbe\xe0\xa4\xa4') had 12_142 occurrences
+
+
+merge 4/50: (375, 372) -> 561 (b'\xe0\xa4\x95\xe0\xa5\x8d\xe0\xa4') had 12_035 occurrences
+Saving tokenizer...
+
+
+Batch number=====================================================: 2
+
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Pair: (361, 358) already in merged tokens... replacing in IDS...
+with.. id.. 367
+
+Pair: (359, 149) already in merged tokens... replacing in IDS...
+with.. id.. 365
+
+Pair: (360, 128) already in merged tokens... replacing in IDS...
+with.. id.. 366
+
+Pair: (360, 141) already in merged tokens... replacing in IDS...
+with.. id.. 368
+
+Pair: (358, 130) already in merged tokens... replacing in IDS...
+with.. id.. 364
+
+Pair: (358, 191) already in merged tokens... replacing in IDS...
+with.. id.. 369
+
+Pair: (368, 358) already in merged tokens... replacing in IDS...
+with.. id.. 372
+
+Pair: (369, 358) already in merged tokens... replacing in IDS...
+with.. id.. 370
+
+Pair: (360, 139) already in merged tokens... replacing in IDS...
+with.. id.. 371
+
+Pair: (358, 168) already in merged tokens... replacing in IDS...
+with.. id.. 373
+
+Pair: (359, 184) already in merged tokens... replacing in IDS...
+with.. id.. 376
+
+Pair: (358, 149) already in merged tokens... replacing in IDS...
+with.. id.. 375
+
+Pair: (359, 185) already in merged tokens... replacing in IDS...
+with.. id.. 377
+
+Pair: (359, 174) already in merged tokens... replacing in IDS...
+with.. id.. 378
+
+Pair: (362, 364) already in merged tokens... replacing in IDS...
+with.. id.. 374
+
+Pair: (358, 164) already in merged tokens... replacing in IDS...
+with.. id.. 381
+
+Pair: (358, 184) already in merged tokens... replacing in IDS...
+with.. id.. 380
+
+Pair: (360, 136) already in merged tokens... replacing in IDS...
+with.. id.. 379
+
+Pair: (359, 170) already in merged tokens... replacing in IDS...
+with.. id.. 383
+
+Pair: (358, 178) already in merged tokens... replacing in IDS...
+with.. id.. 385
+
+Pair: (358, 185) already in merged tokens... replacing in IDS...
+with.. id.. 387
+
+Pair: (359, 172) already in merged tokens... replacing in IDS...
+with.. id.. 382
+
+Pair: (361, 363) already in merged tokens... replacing in IDS...
+with.. id.. 384
+
+Pair: (358, 174) already in merged tokens... replacing in IDS...
+with.. id.. 388
+
+Pair: (360, 129) already in merged tokens... replacing in IDS...
+with.. id.. 401
+
+Pair: (359, 156) already in merged tokens... replacing in IDS...
+with.. id.. 390
+
+Pair: (359, 168) already in merged tokens... replacing in IDS...
+with.. id.. 389
+
+Pair: (358, 151) already in merged tokens... replacing in IDS...
+with.. id.. 396
+
+Pair: (377, 379) already in merged tokens... replacing in IDS...
+with.. id.. 394
+
+Pair: (368, 363) already in merged tokens... replacing in IDS...
+with.. id.. 400
+
+Pair: (378, 374) already in merged tokens... replacing in IDS...
+with.. id.. 391
+
+Pair: (367, 168) already in merged tokens... replacing in IDS...
+with.. id.. 392
+
+Pair: (358, 170) already in merged tokens... replacing in IDS...
+with.. id.. 403
+
+Pair: (359, 176) already in merged tokens... replacing in IDS...
+with.. id.. 395
+
+Pair: (362, 358) already in merged tokens... replacing in IDS...
+with.. id.. 386
+
+Pair: (175, 361) already in merged tokens... replacing in IDS...
+with.. id.. 393
+
+Pair: (359, 166) already in merged tokens... replacing in IDS...
+with.. id.. 406
+
+Pair: (359, 178) already in merged tokens... replacing in IDS...
+with.. id.. 402
+
+Pair: (358, 166) already in merged tokens... replacing in IDS...
+with.. id.. 405
+
+Pair: (365, 362) already in merged tokens... replacing in IDS...
+with.. id.. 416
+
+Pair: (365, 366) already in merged tokens... replacing in IDS...
+with.. id.. 399
+
+Pair: (360, 130) already in merged tokens... replacing in IDS...
+with.. id.. 409
+
+Pair: (359, 135) already in merged tokens... replacing in IDS...
+with.. id.. 397
+
+Pair: (358, 161) already in merged tokens... replacing in IDS...
+with.. id.. 398
+
+Pair: (359, 133) already in merged tokens... replacing in IDS...
+with.. id.. 419
+
+Pair: (359, 164) already in merged tokens... replacing in IDS...
+with.. id.. 404
+
+Pair: (371, 364) already in merged tokens... replacing in IDS...
+with.. id.. 408
+
+Pair: (359, 181) already in merged tokens... replacing in IDS...
+with.. id.. 436
+
+Pair: (358, 172) already in merged tokens... replacing in IDS...
+with.. id.. 414
+
+Pair: (376, 362) already in merged tokens... replacing in IDS...
+with.. id.. 407
+
+Pair: (359, 134) already in merged tokens... replacing in IDS...
+with.. id.. 421
+
+Pair: (365, 363) already in merged tokens... replacing in IDS...
+with.. id.. 410
+
+Pair: (372, 175) already in merged tokens... replacing in IDS...
+with.. id.. 417
+
+Pair: (365, 371) already in merged tokens... replacing in IDS...
+with.. id.. 420
+
+Pair: (358, 156) already in merged tokens... replacing in IDS...
+with.. id.. 422
+
+Pair: (358, 159) already in merged tokens... replacing in IDS...
+with.. id.. 411
+
+Pair: (358, 188) already in merged tokens... replacing in IDS...
+with.. id.. 413
+
+Pair: (359, 173) already in merged tokens... replacing in IDS...
+with.. id.. 425
+
+Pair: (373, 362) already in merged tokens... replacing in IDS...
+with.. id.. 428
+
+Pair: (363, 372) already in merged tokens... replacing in IDS...
+with.. id.. 435
+
+Pair: (359, 175) already in merged tokens... replacing in IDS...
+with.. id.. 412
+
+Pair: (365, 361) already in merged tokens... replacing in IDS...
+with.. id.. 426
+
+Pair: (358, 181) already in merged tokens... replacing in IDS...
+with.. id.. 511
+
+Pair: (359, 151) already in merged tokens... replacing in IDS...
+with.. id.. 451
+
+Pair: (359, 137) already in merged tokens... replacing in IDS...
+with.. id.. 445
+
+Pair: (372, 159) already in merged tokens... replacing in IDS...
+with.. id.. 418
+
+Pair: (367, 178) already in merged tokens... replacing in IDS...
+with.. id.. 437
+
+Pair: (377, 371) already in merged tokens... replacing in IDS...
+with.. id.. 427
+
+Pair: (358, 175) already in merged tokens... replacing in IDS...
+with.. id.. 459
+
+Pair: (370, 393) already in merged tokens... replacing in IDS...
+with.. id.. 424
+
+Pair: (370, 149) already in merged tokens... replacing in IDS...
+with.. id.. 440
+
+Pair: (383, 363) already in merged tokens... replacing in IDS...
+with.. id.. 434
+
+Pair: (359, 182) already in merged tokens... replacing in IDS...
+with.. id.. 438
+
+Pair: (370, 143) already in merged tokens... replacing in IDS...
+with.. id.. 433
+
+Pair: (390, 392) already in merged tokens... replacing in IDS...
+with.. id.. 415
+
+Pair: (370, 178) already in merged tokens... replacing in IDS...
+with.. id.. 441
+
+Pair: (370, 175) already in merged tokens... replacing in IDS...
+with.. id.. 450
+
+Pair: (359, 171) already in merged tokens... replacing in IDS...
+with.. id.. 431
+
+Pair: (148, 363) already in merged tokens... replacing in IDS...
+with.. id.. 472
+
+Pair: (367, 130) already in merged tokens... replacing in IDS...
+with.. id.. 558
+
+Pair: (381, 361) already in merged tokens... replacing in IDS...
+with.. id.. 439
+
+Pair: (394, 364) already in merged tokens... replacing in IDS...
+with.. id.. 442
+
+Pair: (359, 154) already in merged tokens... replacing in IDS...
+with.. id.. 456
+
+Pair: (389, 362) already in merged tokens... replacing in IDS...
+with.. id.. 447
+
+Pair: (359, 472) already in merged tokens... replacing in IDS...
+with.. id.. 489
+
+Pair: (387, 366) already in merged tokens... replacing in IDS...
+with.. id.. 448
+
+Pair: (358, 154) already in merged tokens... replacing in IDS...
+with.. id.. 478
+
+Pair: (360, 137) already in merged tokens... replacing in IDS...
+with.. id.. 430
+
+Pair: (398, 413) already in merged tokens... replacing in IDS...
+with.. id.. 432
+
+Pair: (370, 164) already in merged tokens... replacing in IDS...
+with.. id.. 464
+
+Pair: (383, 400) already in merged tokens... replacing in IDS...
+with.. id.. 468
+
+Pair: (367, 135) already in merged tokens... replacing in IDS...
+with.. id.. 429
+
+Pair: (397, 373) already in merged tokens... replacing in IDS...
+with.. id.. 423
+
+Pair: (363, 366) already in merged tokens... replacing in IDS...
+with.. id.. 444
+Saving tokenizer...
+
+Final counter value: 2
+
+=========
+Reading dataset done
+=============
+
+==============
+
+Time taken for running BPE on entire dataset : 791.2976834999936 seconds
+Total len of text in Hindi from entire dataset: 18760684
+
+Running tokenizer for encoding raw data...
+=================
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+==============
+Encoded batch: 1
+==============
+Encoded batch: 2
+==============
+Encoded batch: 3
+
+Final counter value: 2
+
+=========
+Reading dataset done
+=============
+Encoded total len: 10585694
+Ratio of raw data compressed: 1.7722677417276562

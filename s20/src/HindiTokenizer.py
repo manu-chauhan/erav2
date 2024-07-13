@@ -70,7 +70,7 @@ class HindiTokenizer:
                     ० १ २ ३ ४ ५ ६ ७ ८ ९ 
                     ॥
                     """)
-
+        self.special_tokens = {}
         super().__init__()
 
     def _build_vocab(self):
