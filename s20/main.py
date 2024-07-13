@@ -9,7 +9,16 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 @utilities.log_to_file("main.log")
 def main():
     BATCH_SIZE = 30_000
-    NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
+    NUMBER_OF_BATCHES = 2  # None  # None --> read all batches of entire data from all files present in `dataset` dir
+
+    '''
+       initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
+    initial_vocab_size = 200
+    """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
+    vocab_increase_size = 50
+
+    FILE_SAVE_PREFIX = (f"Hindi_Tokenizer-test-{NUMBER_OF_BATCHES}_batches-{BATCH_SIZE:_}_batchsize"
+                        f"-initial_vocab_size_{initial_vocab_size}-vocab_size_increase_per-batch_{vocab_increase_size}")
 
     """
     HINDI_BASIC_UNITS_COUNT = 109
@@ -48,11 +57,6 @@ def main():
     # TODO joblib's Parallel should be used to use all CPU cores and update shared data structure to build vocab : to reduce time
 
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
-    '''
-    initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
-    initial_vocab_size = 200
-    """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
-    vocab_increase_size = 50
 
     total_raw_text_len = 0
     start = time.perf_counter()
@@ -66,18 +70,28 @@ def main():
         total_raw_text_len += len(batch_text)
 
         if batch_idx == 0:
-            tokenizer.train(text=batch_text, vocab_size=initial_vocab_size + 256,
+            tokenizer.train(text=batch_text,
+                            vocab_size=initial_vocab_size + 256,
                             verbose=True,
+                            current_batch_num=batch_idx + 1,
+                            save_tokenizer_at_train_end=True,
+                            prefix_for_save=FILE_SAVE_PREFIX
                             )
         else:
-            tokenizer.train(text=batch_text, vocab_size=vocab_increase_size + 256,
+            tokenizer.train(text=batch_text,
+                            vocab_size=vocab_increase_size + 256,
+                            current_batch_num=batch_idx + 1,
+                            save_tokenizer_at_train_end=True,
+                            prefix_for_save=FILE_SAVE_PREFIX,
+                            just_replacing_already_seen_tokens_counter_threshold=100,
+                            minting_new_token_for_merge_threshold=10,
                             verbose=True)
 
     end = time.perf_counter()
     print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
 
     # save the tokenizer object
-    tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-200_initial_vocab-50_next_batches")
+    # tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-200_initial_vocab-50_next_batches")
 
     print(f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
 

@@ -66,7 +66,7 @@ def read_from_all_files(all_files_to_read: List[Union[str, pathlib.Path]], batch
                 all_files_to_read.pop(idx)
 
     print(f"\nCount of files to read...{len(all_files_to_read)}")
-
+    all_files_to_read = sorted(all_files_to_read)
     with fileinput.input(files=all_files_to_read,
                          encoding=encoding) as f:  # in-built fileinput to read all files, efficient, handles things internally
 

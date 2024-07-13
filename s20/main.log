@@ -1,3 +1,15 @@
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
 
 ====================================
 
@@ -608,6 +620,10 @@ merge 199/200: (411, 371) -> 556 (b' \xe0\xa4\xaf\xe0\xa5\x8b') had 5806 occurre
 
 merge 200/200: (431, 385) -> 557 (b'\xe0\xa5\x89\xe0\xa4\xb2') had 5748 occurrences
 
+
+Batch number=====================================================: 1
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -924,6 +940,10 @@ with.. id.. 459
 
 Pair: (367, 136) already in merged tokens... replacing in IDS...
 with.. id.. 453
+
+
+Batch number=====================================================: 2
+
 
 `Training`...for HindiTokenizer
 
@@ -1314,6 +1334,10 @@ merge 49/50: (359, 167) -> 611 (b' \xe0\xa4\xa7') had 2334 occurrences
 
 merge 50/50: (358, 133) -> 612 (b'\xe0\xa4\x85') had 2330 occurrences
 
+
+Batch number=====================================================: 3
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -1622,6 +1646,10 @@ with.. id.. 599
 Pair: (376, 388) already in merged tokens... replacing in IDS...
 with.. id.. 593
 
+
+Batch number=====================================================: 4
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -1924,6 +1952,10 @@ with.. id.. 597
 Pair: (378, 371) already in merged tokens... replacing in IDS...
 with.. id.. 427
 
+
+Batch number=====================================================: 5
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -2225,6 +2257,10 @@ with.. id.. 427
 
 Pair: (148, 363) already in merged tokens... replacing in IDS...
 with.. id.. 473
+
+
+Batch number=====================================================: 6
+
 
 `Training`...for HindiTokenizer
 
@@ -2537,6 +2573,10 @@ with.. id.. 589
 Pair: (373, 540) already in merged tokens... replacing in IDS...
 with.. id.. 597
 
+
+Batch number=====================================================: 7
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -2841,6 +2881,10 @@ merge 1/50: (226, 128) -> 618 (b'\xe2\x80') had 3792 occurrences
 
 Pair: (372, 183) already in merged tokens... replacing in IDS...
 with.. id.. 588
+
+
+Batch number=====================================================: 8
+
 
 `Training`...for HindiTokenizer
 
@@ -3153,6 +3197,10 @@ with.. id.. 602
 Pair: (377, 387) already in merged tokens... replacing in IDS...
 with.. id.. 609
 
+
+Batch number=====================================================: 9
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -3454,6 +3502,10 @@ with.. id.. 415
 
 Pair: (373, 372) already in merged tokens... replacing in IDS...
 with.. id.. 579
+
+
+Batch number=====================================================: 10
+
 
 `Training`...for HindiTokenizer
 
@@ -3760,6 +3812,10 @@ with.. id.. 586
 Pair: (382, 362) already in merged tokens... replacing in IDS...
 with.. id.. 551
 
+
+Batch number=====================================================: 11
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -4061,6 +4117,10 @@ with.. id.. 619
 
 Pair: (359, 134) already in merged tokens... replacing in IDS...
 with.. id.. 421
+
+
+Batch number=====================================================: 12
+
 
 `Training`...for HindiTokenizer
 
@@ -4367,6 +4427,10 @@ with.. id.. 421
 Pair: (375, 371) already in merged tokens... replacing in IDS...
 with.. id.. 515
 
+
+Batch number=====================================================: 13
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -4668,6 +4732,10 @@ with.. id.. 401
 
 Pair: (359, 151) already in merged tokens... replacing in IDS...
 with.. id.. 452
+
+
+Batch number=====================================================: 14
+
 
 `Training`...for HindiTokenizer
 
@@ -4974,6 +5042,10 @@ with.. id.. 523
 Pair: (359, 134) already in merged tokens... replacing in IDS...
 with.. id.. 421
 
+
+Batch number=====================================================: 15
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -5275,6 +5347,10 @@ with.. id.. 515
 
 Pair: (32, 124) already in merged tokens... replacing in IDS...
 with.. id.. 584
+
+
+Batch number=====================================================: 16
+
 
 `Training`...for HindiTokenizer
 
@@ -5596,6 +5672,10 @@ merge 6/50: (437, 370) -> 630 (b' \xe0\xa4\xb5\xe0\xa4\xbf\xe0\xa4') had 6260 oc
 Pair: (382, 362) already in merged tokens... replacing in IDS...
 with.. id.. 551
 
+
+Batch number=====================================================: 17
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -5916,6 +5996,10 @@ merge 6/50: (370, 168) -> 636 (b'\xe0\xa4\xbf\xe0\xa4\xa8') had 16684 occurrence
 Pair: (425, 366) already in merged tokens... replacing in IDS...
 with.. id.. 620
 
+
+Batch number=====================================================: 18
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -6218,6 +6302,10 @@ with.. id.. 563
 Pair: (370, 184) already in merged tokens... replacing in IDS...
 with.. id.. 635
 
+
+Batch number=====================================================: 19
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -6520,6 +6608,10 @@ with.. id.. 605
 Pair: (358, 167) already in merged tokens... replacing in IDS...
 with.. id.. 523
 
+
+Batch number=====================================================: 20
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -6822,6 +6914,10 @@ with.. id.. 523
 Pair: (367, 130) already in merged tokens... replacing in IDS...
 with.. id.. 600
 
+
+Batch number=====================================================: 21
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -7123,6 +7219,10 @@ with.. id.. 605
 
 Pair: (360, 164) already in merged tokens... replacing in IDS...
 with.. id.. 563
+
+
+Batch number=====================================================: 22
+
 
 `Training`...for HindiTokenizer
 
@@ -7425,6 +7525,10 @@ with.. id.. 635
 
 Pair: (367, 130) already in merged tokens... replacing in IDS...
 with.. id.. 600
+
+
+Batch number=====================================================: 23
+
 
 `Training`...for HindiTokenizer
 
@@ -7727,6 +7831,10 @@ with.. id.. 563
 
 Pair: (370, 184) already in merged tokens... replacing in IDS...
 with.. id.. 635
+
+
+Batch number=====================================================: 24
+
 
 `Training`...for HindiTokenizer
 
@@ -8030,6 +8138,10 @@ with.. id.. 523
 Pair: (370, 143) already in merged tokens... replacing in IDS...
 with.. id.. 434
 
+
+Batch number=====================================================: 25
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -8332,6 +8444,10 @@ with.. id.. 434
 Pair: (358, 167) already in merged tokens... replacing in IDS...
 with.. id.. 523
 
+
+Batch number=====================================================: 26
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -8634,6 +8750,10 @@ with.. id.. 635
 Pair: (370, 143) already in merged tokens... replacing in IDS...
 with.. id.. 434
 
+
+Batch number=====================================================: 27
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -8936,6 +9056,10 @@ with.. id.. 434
 Pair: (367, 130) already in merged tokens... replacing in IDS...
 with.. id.. 600
 
+
+Batch number=====================================================: 28
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -9237,6 +9361,10 @@ with.. id.. 563
 
 Pair: (358, 167) already in merged tokens... replacing in IDS...
 with.. id.. 523
+
+
+Batch number=====================================================: 29
+
 
 `Training`...for HindiTokenizer
 
@@ -9540,6 +9668,10 @@ with.. id.. 635
 Pair: (367, 130) already in merged tokens... replacing in IDS...
 with.. id.. 600
 
+
+Batch number=====================================================: 30
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -9841,6 +9973,10 @@ with.. id.. 585
 
 Pair: (367, 130) already in merged tokens... replacing in IDS...
 with.. id.. 600
+
+
+Batch number=====================================================: 31
+
 
 `Training`...for HindiTokenizer
 
@@ -10144,6 +10280,10 @@ with.. id.. 585
 Pair: (370, 184) already in merged tokens... replacing in IDS...
 with.. id.. 635
 
+
+Batch number=====================================================: 32
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -10446,6 +10586,10 @@ with.. id.. 600
 Pair: (373, 361) already in merged tokens... replacing in IDS...
 with.. id.. 475
 
+
+Batch number=====================================================: 33
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -10748,6 +10892,10 @@ with.. id.. 563
 Pair: (367, 175) already in merged tokens... replacing in IDS...
 with.. id.. 585
 
+
+Batch number=====================================================: 34
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -11050,6 +11198,10 @@ with.. id.. 523
 Pair: (359, 165) already in merged tokens... replacing in IDS...
 with.. id.. 605
 
+
+Batch number=====================================================: 35
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -11351,6 +11503,10 @@ with.. id.. 605
 
 Pair: (358, 167) already in merged tokens... replacing in IDS...
 with.. id.. 523
+
+
+Batch number=====================================================: 36
+
 
 `Training`...for HindiTokenizer
 
@@ -11654,6 +11810,10 @@ with.. id.. 434
 Pair: (367, 175) already in merged tokens... replacing in IDS...
 with.. id.. 585
 
+
+Batch number=====================================================: 37
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -11730,6 +11890,36 @@ with.. id.. 379
 
 Pair: (358, 185) already in merged tokens... replacing in IDS...
 with.. id.. 387
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3915224 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1242389 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1114998 occurrences
 
 Pair: (360, 129) already in merged tokens... replacing in IDS...
 with.. id.. 400
@@ -11956,6 +12146,10 @@ with.. id.. 523
 Pair: (370, 143) already in merged tokens... replacing in IDS...
 with.. id.. 434
 
+
+Batch number=====================================================: 38
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -12017,6 +12211,141 @@ with.. id.. 375
 
 Pair: (358, 164) already in merged tokens... replacing in IDS...
 with.. id.. 382
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3915224 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1242389 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1114998 occurrences
+
+
+merge 4/200: (358, 190) -> 361 (b'\xe0\xa4\xbe') had 445898 occurrences
+
+
+merge 5/200: (360, 135) -> 362 (b'\xe0\xa5\x87') had 384337 occurrences
+
+
+merge 6/200: (358, 176) -> 363 (b'\xe0\xa4\xb0') had 286031 occurrences
+
+
+merge 7/200: (358, 130) -> 364 (b'\xe0\xa4\x82') had 252543 occurrences
+
+
+merge 8/200: (359, 149) -> 365 (b' \xe0\xa4\x95') had 210946 occurrences
+
+
+merge 9/200: (360, 128) -> 366 (b'\xe0\xa5\x80') had 208433 occurrences
+
+
+merge 10/200: (361, 358) -> 367 (b'\xe0\xa4\xbe\xe0\xa4') had 197717 occurrences
+
+
+merge 11/200: (360, 141) -> 368 (b'\xe0\xa5\x8d') had 184052 occurrences
+
+
+merge 12/200: (358, 191) -> 369 (b'\xe0\xa4\xbf') had 167393 occurrences
+
+
+merge 13/200: (369, 358) -> 370 (b'\xe0\xa4\xbf\xe0\xa4') had 156068 occurrences
+
+
+merge 14/200: (360, 139) -> 371 (b'\xe0\xa5\x8b') had 148105 occurrences
+
+
+merge 15/200: (368, 358) -> 372 (b'\xe0\xa5\x8d\xe0\xa4') had 142197 occurrences
+
+
+merge 16/200: (358, 168) -> 373 (b'\xe0\xa4\xa8') had 120807 occurrences
+
+
+merge 17/200: (362, 364) -> 374 (b'\xe0\xa5\x87\xe0\xa4\x82') had 116684 occurrences
+
+
+merge 18/200: (358, 149) -> 375 (b'\xe0\xa4\x95') had 104962 occurrences
+
+
+merge 19/200: (359, 184) -> 376 (b' \xe0\xa4\xb8') had 102103 occurrences
+
+
+merge 20/200: (359, 174) -> 377 (b' \xe0\xa4\xae') had 95992 occurrences
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3915224 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1242389 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1114998 occurrences
+
+
+merge 4/200: (358, 190) -> 361 (b'\xe0\xa4\xbe') had 445898 occurrences
+
+
+merge 5/200: (360, 135) -> 362 (b'\xe0\xa5\x87') had 384337 occurrences
+
+
+merge 6/200: (358, 176) -> 363 (b'\xe0\xa4\xb0') had 286031 occurrences
+
+
+merge 7/200: (358, 130) -> 364 (b'\xe0\xa4\x82') had 252543 occurrences
+
+
+merge 8/200: (359, 149) -> 365 (b' \xe0\xa4\x95') had 210946 occurrences
+
+
+merge 9/200: (360, 128) -> 366 (b'\xe0\xa5\x80') had 208433 occurrences
+
+
+merge 10/200: (361, 358) -> 367 (b'\xe0\xa4\xbe\xe0\xa4') had 197717 occurrences
+
+
+merge 11/200: (360, 141) -> 368 (b'\xe0\xa5\x8d') had 184052 occurrences
 
 Pair: (359, 174) already in merged tokens... replacing in IDS...
 with.. id.. 377
@@ -12258,6 +12587,10 @@ with.. id.. 523
 Pair: (367, 175) already in merged tokens... replacing in IDS...
 with.. id.. 585
 
+
+Batch number=====================================================: 39
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -12304,6 +12637,141 @@ with.. id.. 370
 
 Pair: (360, 139) already in merged tokens... replacing in IDS...
 with.. id.. 371
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3915224 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1242389 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1114998 occurrences
+
+
+merge 4/200: (358, 190) -> 361 (b'\xe0\xa4\xbe') had 445898 occurrences
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+
+merge 1/200: (224, 164) -> 358 (b'\xe0\xa4') had 3_915_224 occurrences
+
+
+merge 2/200: (32, 358) -> 359 (b' \xe0\xa4') had 1_242_389 occurrences
+
+
+merge 3/200: (224, 165) -> 360 (b'\xe0\xa5') had 1_114_998 occurrences
+
+
+merge 4/200: (358, 190) -> 361 (b'\xe0\xa4\xbe') had 445_898 occurrences
+
+
+merge 5/200: (360, 135) -> 362 (b'\xe0\xa5\x87') had 384_337 occurrences
+
+
+merge 6/200: (358, 176) -> 363 (b'\xe0\xa4\xb0') had 286_031 occurrences
+
+
+merge 7/200: (358, 130) -> 364 (b'\xe0\xa4\x82') had 252_543 occurrences
+
+
+merge 8/200: (359, 149) -> 365 (b' \xe0\xa4\x95') had 210_946 occurrences
+
+
+merge 9/200: (360, 128) -> 366 (b'\xe0\xa5\x80') had 208_433 occurrences
+
+
+merge 10/200: (361, 358) -> 367 (b'\xe0\xa4\xbe\xe0\xa4') had 197_717 occurrences
+
+
+merge 11/200: (360, 141) -> 368 (b'\xe0\xa5\x8d') had 184_052 occurrences
+
+
+merge 12/200: (358, 191) -> 369 (b'\xe0\xa4\xbf') had 167_393 occurrences
+
+
+merge 13/200: (369, 358) -> 370 (b'\xe0\xa4\xbf\xe0\xa4') had 156_068 occurrences
+b'fetch: 33 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
 
 Pair: (358, 168) already in merged tokens... replacing in IDS...
 with.. id.. 373
@@ -12560,6 +13028,10 @@ with.. id.. 600
 Pair: (373, 361) already in merged tokens... replacing in IDS...
 with.. id.. 475
 
+
+Batch number=====================================================: 40
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -12861,6 +13333,10 @@ with.. id.. 475
 
 Pair: (359, 165) already in merged tokens... replacing in IDS...
 with.. id.. 605
+
+
+Batch number=====================================================: 41
+
 
 `Training`...for HindiTokenizer
 
@@ -13164,6 +13640,10 @@ with.. id.. 434
 Pair: (358, 167) already in merged tokens... replacing in IDS...
 with.. id.. 523
 
+
+Batch number=====================================================: 42
+
+
 `Training`...for HindiTokenizer
 
 Pair: (224, 164) already in merged tokens... replacing in IDS...
@@ -13453,317 +13933,3 @@ with.. id.. 634
 
 Pair: (370, 143) already in merged tokens... replacing in IDS...
 with.. id.. 434
-
-Pair: (367, 174) already in merged tokens... replacing in IDS...
-with.. id.. 581
-
-Pair: (370, 184) already in merged tokens... replacing in IDS...
-with.. id.. 635
-
-Pair: (373, 361) already in merged tokens... replacing in IDS...
-with.. id.. 475
-
-Pair: (367, 130) already in merged tokens... replacing in IDS...
-with.. id.. 600
-
-`Training`...for HindiTokenizer
-
-Pair: (224, 164) already in merged tokens... replacing in IDS...
-with.. id.. 358
-
-Pair: (32, 358) already in merged tokens... replacing in IDS...
-with.. id.. 359
-
-Pair: (224, 165) already in merged tokens... replacing in IDS...
-with.. id.. 360
-
-Pair: (358, 190) already in merged tokens... replacing in IDS...
-with.. id.. 361
-
-Pair: (360, 135) already in merged tokens... replacing in IDS...
-with.. id.. 362
-
-Pair: (358, 176) already in merged tokens... replacing in IDS...
-with.. id.. 363
-
-Pair: (360, 141) already in merged tokens... replacing in IDS...
-with.. id.. 368
-
-Pair: (359, 149) already in merged tokens... replacing in IDS...
-with.. id.. 365
-
-Pair: (361, 358) already in merged tokens... replacing in IDS...
-with.. id.. 367
-
-Pair: (360, 128) already in merged tokens... replacing in IDS...
-with.. id.. 366
-
-Pair: (358, 191) already in merged tokens... replacing in IDS...
-with.. id.. 369
-
-Pair: (358, 130) already in merged tokens... replacing in IDS...
-with.. id.. 364
-
-Pair: (368, 358) already in merged tokens... replacing in IDS...
-with.. id.. 372
-
-Pair: (369, 358) already in merged tokens... replacing in IDS...
-with.. id.. 370
-
-Pair: (360, 139) already in merged tokens... replacing in IDS...
-with.. id.. 371
-
-Pair: (358, 168) already in merged tokens... replacing in IDS...
-with.. id.. 373
-
-Pair: (359, 184) already in merged tokens... replacing in IDS...
-with.. id.. 376
-
-Pair: (358, 149) already in merged tokens... replacing in IDS...
-with.. id.. 375
-
-Pair: (359, 185) already in merged tokens... replacing in IDS...
-with.. id.. 378
-
-Pair: (359, 174) already in merged tokens... replacing in IDS...
-with.. id.. 377
-
-Pair: (358, 164) already in merged tokens... replacing in IDS...
-with.. id.. 382
-
-Pair: (358, 184) already in merged tokens... replacing in IDS...
-with.. id.. 380
-
-Pair: (359, 170) already in merged tokens... replacing in IDS...
-with.. id.. 383
-
-Pair: (360, 136) already in merged tokens... replacing in IDS...
-with.. id.. 379
-
-Pair: (358, 185) already in merged tokens... replacing in IDS...
-with.. id.. 387
-
-Pair: (360, 129) already in merged tokens... replacing in IDS...
-with.. id.. 400
-
-Pair: (358, 178) already in merged tokens... replacing in IDS...
-with.. id.. 385
-
-Pair: (362, 364) already in merged tokens... replacing in IDS...
-with.. id.. 374
-
-Pair: (358, 174) already in merged tokens... replacing in IDS...
-with.. id.. 388
-
-Pair: (378, 379) already in merged tokens... replacing in IDS...
-with.. id.. 394
-
-Pair: (365, 362) already in merged tokens... replacing in IDS...
-with.. id.. 416
-
-Pair: (359, 172) already in merged tokens... replacing in IDS...
-with.. id.. 381
-
-Pair: (361, 363) already in merged tokens... replacing in IDS...
-with.. id.. 384
-
-Pair: (368, 363) already in merged tokens... replacing in IDS...
-with.. id.. 399
-
-Pair: (359, 156) already in merged tokens... replacing in IDS...
-with.. id.. 390
-
-Pair: (358, 151) already in merged tokens... replacing in IDS...
-with.. id.. 404
-
-Pair: (358, 170) already in merged tokens... replacing in IDS...
-with.. id.. 419
-
-Pair: (359, 168) already in merged tokens... replacing in IDS...
-with.. id.. 389
-
-Pair: (359, 166) already in merged tokens... replacing in IDS...
-with.. id.. 403
-
-Pair: (359, 133) already in merged tokens... replacing in IDS...
-with.. id.. 422
-
-Pair: (359, 178) already in merged tokens... replacing in IDS...
-with.. id.. 401
-
-Pair: (377, 374) already in merged tokens... replacing in IDS...
-with.. id.. 391
-
-Pair: (359, 181) already in merged tokens... replacing in IDS...
-with.. id.. 437
-
-Pair: (359, 176) already in merged tokens... replacing in IDS...
-with.. id.. 395
-
-Pair: (358, 166) already in merged tokens... replacing in IDS...
-with.. id.. 410
-
-Pair: (360, 130) already in merged tokens... replacing in IDS...
-with.. id.. 408
-
-Pair: (367, 168) already in merged tokens... replacing in IDS...
-with.. id.. 392
-
-Pair: (371, 364) already in merged tokens... replacing in IDS...
-with.. id.. 407
-
-Pair: (358, 181) already in merged tokens... replacing in IDS...
-with.. id.. 517
-
-Pair: (365, 366) already in merged tokens... replacing in IDS...
-with.. id.. 398
-
-Pair: (359, 134) already in merged tokens... replacing in IDS...
-with.. id.. 421
-
-Pair: (372, 175) already in merged tokens... replacing in IDS...
-with.. id.. 417
-
-Pair: (358, 175) already in merged tokens... replacing in IDS...
-with.. id.. 462
-
-Pair: (373, 362) already in merged tokens... replacing in IDS...
-with.. id.. 430
-
-Pair: (370, 175) already in merged tokens... replacing in IDS...
-with.. id.. 450
-
-Pair: (365, 371) already in merged tokens... replacing in IDS...
-with.. id.. 420
-
-Pair: (359, 164) already in merged tokens... replacing in IDS...
-with.. id.. 402
-
-Pair: (363, 372) already in merged tokens... replacing in IDS...
-with.. id.. 436
-
-Pair: (358, 172) already in merged tokens... replacing in IDS...
-with.. id.. 415
-
-Pair: (358, 156) already in merged tokens... replacing in IDS...
-with.. id.. 428
-
-Pair: (376, 362) already in merged tokens... replacing in IDS...
-with.. id.. 405
-
-Pair: (365, 363) already in merged tokens... replacing in IDS...
-with.. id.. 409
-
-Pair: (359, 137) already in merged tokens... replacing in IDS...
-with.. id.. 446
-
-Pair: (358, 159) already in merged tokens... replacing in IDS...
-with.. id.. 414
-
-Pair: (359, 173) already in merged tokens... replacing in IDS...
-with.. id.. 425
-
-Pair: (359, 151) already in merged tokens... replacing in IDS...
-with.. id.. 452
-
-Pair: (358, 161) already in merged tokens... replacing in IDS...
-with.. id.. 406
-
-Pair: (359, 135) already in merged tokens... replacing in IDS...
-with.. id.. 397
-
-Pair: (359, 148) already in merged tokens... replacing in IDS...
-with.. id.. 631
-
-Pair: (631, 363) already in merged tokens... replacing in IDS...
-with.. id.. 632
-
-Pair: (358, 182) already in merged tokens... replacing in IDS...
-with.. id.. 542
-
-Pair: (370, 149) already in merged tokens... replacing in IDS...
-with.. id.. 441
-
-Pair: (367, 178) already in merged tokens... replacing in IDS...
-with.. id.. 438
-
-Pair: (358, 154) already in merged tokens... replacing in IDS...
-with.. id.. 492
-
-Pair: (359, 175) already in merged tokens... replacing in IDS...
-with.. id.. 411
-
-Pair: (383, 363) already in merged tokens... replacing in IDS...
-with.. id.. 435
-
-Pair: (365, 361) already in merged tokens... replacing in IDS...
-with.. id.. 426
-
-Pair: (400, 358) already in merged tokens... replacing in IDS...
-with.. id.. 570
-
-Pair: (358, 188) already in merged tokens... replacing in IDS...
-with.. id.. 412
-
-Pair: (372, 164) already in merged tokens... replacing in IDS...
-with.. id.. 540
-
-Pair: (359, 154) already in merged tokens... replacing in IDS...
-with.. id.. 457
-
-Pair: (359, 143) already in merged tokens... replacing in IDS...
-with.. id.. 483
-
-Pair: (383, 399) already in merged tokens... replacing in IDS...
-with.. id.. 470
-
-Pair: (378, 371) already in merged tokens... replacing in IDS...
-with.. id.. 427
-
-Pair: (367, 164) already in merged tokens... replacing in IDS...
-with.. id.. 576
-
-Pair: (359, 182) already in merged tokens... replacing in IDS...
-with.. id.. 439
-
-Pair: (370, 178) already in merged tokens... replacing in IDS...
-with.. id.. 442
-
-Pair: (397, 380) already in merged tokens... replacing in IDS...
-with.. id.. 633
-
-Pair: (370, 164) already in merged tokens... replacing in IDS...
-with.. id.. 465
-
-Pair: (387, 366) already in merged tokens... replacing in IDS...
-with.. id.. 448
-
-Pair: (382, 361) already in merged tokens... replacing in IDS...
-with.. id.. 440
-
-Pair: (394, 364) already in merged tokens... replacing in IDS...
-with.. id.. 445
-
-Pair: (389, 362) already in merged tokens... replacing in IDS...
-with.. id.. 447
-
-Pair: (370, 143) already in merged tokens... replacing in IDS...
-with.. id.. 434
-
-Pair: (450, 361) already in merged tokens... replacing in IDS...
-with.. id.. 634
-
-Pair: (359, 165) already in merged tokens... replacing in IDS...
-with.. id.. 605
-
-Pair: (358, 167) already in merged tokens... replacing in IDS...
-with.. id.. 523
-
-Pair: (367, 174) already in merged tokens... replacing in IDS...
-with.. id.. 581
-
-Pair: (367, 130) already in merged tokens... replacing in IDS...
-with.. id.. 600
-
-Pair: (372, 159) already in merged tokens... replacing in IDS...
-with.. id.. 418

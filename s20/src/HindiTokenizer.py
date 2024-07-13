@@ -96,11 +96,36 @@ class HindiTokenizer:
 
         print("\n=================\nVocab initialisation done...")
 
-    @utilities.log_to_file("HindiTokenizer-train.log")
-    def train(self, text, vocab_size, verbose=False, default_initial_vocab_size=256, encoding="utf-8",
+    # @utilities.log_to_file("HindiTokenizer-train.log")
+    def train(self, text, vocab_size, verbose=False,
+              default_initial_vocab_size=256,
+              encoding="utf-8",
               save_tokenizer_at_train_end: bool = False,
-              prefix_for_save: str = "Hindi_Tokenizer"):
+              prefix_for_save: str = "Hindi_Tokenizer",
+              just_replacing_already_seen_tokens_counter_threshold=50,
+              minting_new_token_for_merge_threshold=10,
+              current_batch_num=None
+              ):
+        """
+        text: the incoming text sata in str
 
+        vocab_size: int: the new target vocab size to build, used to determine how many merges to run
+
+        verbose: bool: to print when a new token is generated and used to merge pairs in the data' ids
+
+        encoding: str="utf-8" : the encoding to use
+
+        save_tokenizer_at_train_end: bool: a flag to save incrementing vocab and merges dictionaries so later can be resumed and re-used
+
+        prefix_for_save: str: the prefix for saving tokenizer files
+
+        just_replacing_already_seen_tokens_counter_threshold: int = 50: a threshold int value to check if number of replacements in current batch is for existing pairs created previously
+            the idea is if a new data batch has no or very few pairs that can be generated as new entries then quickly stop and move to new data batch
+
+        minting_new_token_for_merge_threshold: int=10: another threshold for checking if new minted tokens are below or above this, used in conjunction with previous threshold value
+
+        current_batch_num: int or None, to indicate what batch number is currently running, for print logs and save files options
+        """
         if self.vocab is None:
             self._build_vocab()
 
@@ -109,7 +134,6 @@ class HindiTokenizer:
         assert vocab_size >= default_initial_vocab_size
         num_merges = vocab_size - default_initial_vocab_size
 
-        minting_new_token_merge = 0
         stop_this_batch = False
 
         # split the text up into text chunks
@@ -122,7 +146,11 @@ class HindiTokenizer:
         # use same merge dict if exists
         self.merges = {} if self.merges is None else self.merges  # to hold all merges (int, int) -> int
 
-        just_replacing_counter = 0
+        '''Some counters for helping to check running batch's work if all is into replacing already 
+        created tokens/existing ones OR actually finding something new to mint new token & add to merge and vocab'''
+        minting_new_token_for_merge_counter = 0
+        just_replacing_already_seen_tokens_counter = 0
+
         # run merging iteratively
         for i in range(num_merges):
             # count the number of times every consecutive pair appears
@@ -135,9 +163,10 @@ class HindiTokenizer:
             pair = max(stats, key=stats.get)
 
             while pair in self.merges:
-                just_replacing_counter += 1
+                just_replacing_already_seen_tokens_counter += 1
 
-                if just_replacing_counter > 100 and minting_new_token_merge < 10:
+                if just_replacing_already_seen_tokens_counter > just_replacing_already_seen_tokens_counter_threshold \
+                        and minting_new_token_for_merge_counter < minting_new_token_for_merge_threshold:
                     stop_this_batch = True
                     break
 
@@ -170,7 +199,7 @@ class HindiTokenizer:
             # mint a new token as the pair was already not in merges: assign it the next available id
             idx = len(self.vocab) + 1
 
-            minting_new_token_merge += 1
+            minting_new_token_for_merge_counter += 1
 
             # replace all occurrences of pair in ids with idx
             ids = [merge(chunk_ids, pair, idx) for chunk_ids in ids]
@@ -181,10 +210,12 @@ class HindiTokenizer:
 
             if verbose:
                 print(
-                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]} occurrences")
+                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]:_} occurrences")
 
         if save_tokenizer_at_train_end:
-            self.save(file_prefix=prefix_for_save)
+            if current_batch_num is not None and isinstance(current_batch_num, int):
+                current_batch_num = "batch_" + str(current_batch_num) + "_"
+            self.save(file_prefix=current_batch_num + prefix_for_save)
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int
