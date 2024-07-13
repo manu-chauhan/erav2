@@ -9,15 +9,14 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 30_000
+    BATCH_SIZE = 50_000
     NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
 
     '''
        initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
-    initial_vocab_size = 500
+    initial_vocab_size = 2500
     """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
-    vocab_increase_size = 200
-    updated_vocab_size = 0  # just for changing vocab_increase_size usage based on how many batches hav passed
+    vocab_increase_size = 500  # considering that added check if most are just replacements and very low new tokens then loop breaks before this number is reached
 
     if NUMBER_OF_BATCHES is None:
 
@@ -43,7 +42,7 @@ def main():
                     ॥
                     
     """
-    # HINDI_BASIC_UNITS_COUNT = 101  # read above comments: hindi_varnmala_and_basic_units.strip().split() removed | , ? ; . as special ones are already in first 256 bytes
+    HINDI_BASIC_UNITS_COUNT = 101  # hindi_varnmala_and_basic_units.strip().split() -> removed | , ? ; . as special ones are already in first 256 bytes
 
     tokenizer = HindiTokenizer(pattern=SIMPLE_HINDI_PATTERN)
 
@@ -80,31 +79,21 @@ def main():
 
         if batch_idx == 0:
             tokenizer.train(text=batch_text,
-                            vocab_size=initial_vocab_size + 256,
+                            vocab_size=initial_vocab_size + (256 + HINDI_BASIC_UNITS_COUNT),
+                            # 256 + 101 ; characters [ह़] -> 345,  [९] -> 355,  [॥] -> 356
                             verbose=True,
                             current_batch_num=batch_idx + 1,
                             save_tokenizer_at_train_end=True,
                             prefix_for_save=FILE_SAVE_PREFIX
                             )
         else:
-            if batch_idx > 10:
-                updated_vocab_size = vocab_increase_size // 2
-            elif batch_idx > 20:
-                updated_vocab_size = vocab_increase_size // 3
-            elif batch_idx > 40:
-                updated_vocab_size = vocab_increase_size // 4
-            elif batch_idx > 60:
-                updated_vocab_size = 20
-            else:
-                updated_vocab_size = vocab_increase_size
-
             tokenizer.train(text=batch_text,
-                            vocab_size=updated_vocab_size + 256,
+                            vocab_size=vocab_increase_size + (256 + HINDI_BASIC_UNITS_COUNT),  # 256 + 101
                             current_batch_num=batch_idx + 1,
                             save_tokenizer_at_train_end=True,
                             prefix_for_save=FILE_SAVE_PREFIX,
-                            just_replacing_already_seen_tokens_counter_threshold=100,
-                            minting_new_token_for_merge_threshold=10,
+                            just_replacing_already_seen_tokens_counter_threshold=200,
+                            minting_new_token_for_merge_threshold=5,
                             verbose=True)
 
         encoded = tokenizer.encode(text=batch_text)
