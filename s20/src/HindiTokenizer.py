@@ -222,7 +222,7 @@ class HindiTokenizer:
         if save_tokenizer_at_train_end:
             if current_batch_num is not None and isinstance(current_batch_num, int):
                 current_batch_num = "batch_" + str(current_batch_num) + "_"
-            self.save(file_prefix=current_batch_num + prefix_for_save, save_to_folder=pathlib.Path("../saved_vocabs"))
+            self.save(file_prefix=current_batch_num + prefix_for_save, save_to_folder=pathlib.Path("saved_vocabs"))
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int
@@ -335,7 +335,7 @@ class HindiTokenizer:
                                                          pathlib.Path), "the Path passed to store vocab and models seems to be wrong"
 
         model_file = file_prefix + ".model"
-        model_file = os.path.join(save_to_folder, model_file)
+        model_file = os.path.join(os.path.abspath(save_to_folder), model_file)
 
         with open(model_file, 'w') as f:
             f.write(f"{self.pattern}\n")

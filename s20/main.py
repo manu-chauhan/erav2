@@ -9,7 +9,7 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 50_000
+    BATCH_SIZE = 30_000
     NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
 
     '''
@@ -63,8 +63,11 @@ def main():
     # TODO joblib's Parallel should be used to use all CPU cores and update shared data structure to build vocab : to reduce time
 
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
+
     os.makedirs("saved_vocabs", exist_ok=True)
-    total_raw_text_len = 0
+
+    total_raw_text_len = total_encoded_len = 0
+
     start = time.perf_counter()
 
     '''run Tokenizer "train" on each batch ... using same Tokenizer object AND vocab !'''
@@ -102,43 +105,22 @@ def main():
                             minting_new_token_for_merge_threshold=10,
                             verbose=True)
 
+        encoded = tokenizer.encode(text=batch_text)
+
+        total_encoded_len += len(encoded)
+
+        # print(f"\n\nbatch len:{len(batch_text)}...encoded len: {len(encoded)}...\n")
+
     end = time.perf_counter()
+
     print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
 
     # save the tokenizer object
     # tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-200_initial_vocab-50_next_batches")
 
     print(f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
-
-    result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE,
-                                           batch_num=NUMBER_OF_BATCHES)
-
-    total_encoded_len = 0
-
-    print("\nRunning tokenizer for encoding raw data...\n=================")
-    for batch_idx, data_batch in enumerate(result):
-        batch_text = "".join(data_batch)
-        encoded = tokenizer.encode(text=batch_text)
-        print(f"==============\nEncoded batch: {batch_idx + 1}")
-        total_encoded_len += len(encoded)
-
     print(f"Encoded total len: {total_encoded_len}")
-
     print(f"Ratio of raw data compressed: {total_raw_text_len / total_encoded_len}")
-    # print(data_batch)
-    # print(len(data_batch))
-    # break
-
-    # print(all_files)
-    # for file in all_files:
-    #     chunk = read_in_chunks(file)
-    #     for t in chunk:
-    #         print(t)
-    #         if len(t) > 2:
-    #             tokenizer.train(text=t, verbose=True, vocab_size=300)
-    # dataset = get_data_batch(all_files)
-    # print(dataset)
-    # print(list(get_data_batch(all_files=dataset)))
 
 
 if __name__ == "__main__":
