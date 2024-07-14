@@ -10,7 +10,7 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 10_000
+    BATCH_SIZE = 20_000
     NUMBER_OF_BATCHES = 10  # None --> read all batches of entire data from all files present in `dataset` dir
     train = False
 
@@ -137,11 +137,12 @@ def main():
 
     print(f"\n\n================================\n"
           f"Total len of text in Hindi ran for {str(NUMBER_OF_BATCHES) + ' batches'
-            if isinstance(NUMBER_OF_BATCHES, int) else 'all batches for entire dataset'} is : {total_raw_text_len}")
+          if isinstance(NUMBER_OF_BATCHES, int) else 'all batches for entire dataset'} is : {total_raw_text_len}")
 
     print(f"Encoded total len: {total_encoded_len}")
 
-    print(f"Ratio of entire raw data compressed: {total_raw_text_len / total_encoded_len}")
+    print(f"Ratio of raw data for : {str(NUMBER_OF_BATCHES) + ' for each batch size :' + str({BATCH_SIZE})
+    if isinstance(NUMBER_OF_BATCHES, int) else 'entire dataset'} compressed: {total_raw_text_len / total_encoded_len}")
 
 
 if __name__ == "__main__":

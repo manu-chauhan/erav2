@@ -21428,3 +21428,77 @@ batch len:2630353...encoded len: 842129...
 
 batch len:3276191...encoded len: 1008453...
 
+b'fetch: 35 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (34/34), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+loaded vocab and merges...
+
+====Running batches on entire data to be read for encoding now...
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+batch : 0 len:1868186...encoded len: 507029...
+
+
+batch : 1 len:2186270...encoded len: 477418...
+
+
+batch : 2 len:2114263...encoded len: 464234...
+
+
+batch : 3 len:2004147...encoded len: 443866...
+
+
+batch : 4 len:1568822...encoded len: 373630...
+
+
+batch : 5 len:2630353...encoded len: 842129...
+
+
+batch : 6 len:3276191...encoded len: 1008453...
+
+
+batch : 7 len:3203446...encoded len: 989028...
+
+
+batch : 8 len:3140297...encoded len: 978158...
+
+
+batch : 9 len:3192998...encoded len: 986338...
+
+
+batch : 10 len:3192998...encoded len: 986338...
+
+
+Final counter value: 10
+
+=========
+Reading dataset done
+=============
+
+
+================================
+Total len of text in Hindi ran for 10 batches is : 28377971
+Encoded total len: 8056621
+Ratio of entire raw data compressed: 3.522316737997232
