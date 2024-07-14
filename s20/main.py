@@ -92,8 +92,8 @@ def main():
                             current_batch_num=batch_idx + 1,
                             save_tokenizer_at_train_end=True,
                             prefix_for_save=FILE_SAVE_PREFIX,
-                            just_replacing_already_seen_tokens_counter_threshold=200,
-                            minting_new_token_for_merge_threshold=5,
+                            just_replacing_already_seen_tokens_counter_threshold=5000,
+                            minting_new_token_for_merge_threshold=2,
                             verbose=True)
 
         encoded = tokenizer.encode(text=batch_text)
