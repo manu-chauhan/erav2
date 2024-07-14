@@ -182,7 +182,8 @@ src: https://www.regular-expressions.info/unicode.html
 
 ## Resources for dataset preparation:
 
-#### Note: Used Git Large File System, easy to use and track specific files
+##### Note: Used Git Large File System, easy to use and track specific files
+GDrive link for dataset: [Dataset Download](https://drive.google.com/drive/folders/1KD7v4eW2ZKQ0Re_6lXRuaaVswvS3IFIh?usp=sharing)
 
 1. [hindi_text_ltrc](https://github.com/cltk/hindi_text_ltrc/tree/master)
     1. contains classical texts
@@ -265,6 +266,28 @@ steps:
 
 > To run :$ scrapy runspider spiders/myspider.py -o crawled-new-hindi-data-mix.json
 
+### How dataset is read in code:
+1. First get all files which are .json (combined web crawler output) and convert to .txt file by reading entire list of dictionaries each with keyword 'text'. 
+2. Read all .txt files from the dataset directory specified :function in utilities.py
+            
+               ```def get_all_text_dataset(path: str | pathlib.Path, file_type=".txt") -> List:
+                      files = []
+                      # first convert json data to text and then process text
+                      convert_json_data_to_text_and_process_text(dir_path="./web-scrapper",
+                                                                 file_type=".json",
+                                                                 output_file_path="./dataset/combined_from_crawler-json.txt")
+   
+                      for txt_file in pathlib.Path(path).rglob('*' + file_type):
+                          files.append(txt_file)
+                      return files
+               ```
+3. Use Python's in-built `fileinput` to read a list of files with same file object and `yield` list of lines when batch size is reached, check `def read_from_all_files` in utilities.py
+   ```
+   with fileinput.input(files=all_files_to_read,
+                         encoding=encoding) as f:```
+4. Use each batch from the generator and run train on it to build vocab and merge dictionaries.
+5. Re-use same tokenizer object for subsequent batches
+
 
 ## Notes:
 
@@ -295,14 +318,15 @@ The key idea was:
 4. Some `dependent vowels and sub-words` are still leaned in higher (later) ranges ([ै][र] -> [ैर]) ([ि�][�] -> [िद] 2325
 [िश][न] -> [िशन] 2326)
 
-## `Benchmarking`:
-### System Specs:
-(a tiny humble brag... PC assembled myself : )  ) 
 
-Ryzen 7 5800x, 64 GB DDR4 RAM, C drive is M.2 NVME (Python processes and IDE) (gen 3.0 drive in Gen 4.0 slot... I know 🤦‍♂️)
+## `Benchmarking`:
+#### System Specs: (a tiny humble brag... PC assembled myself : )  ) 
+
+Ryzen 7 5800x, 64 GB DDR4 RAM, C drive is M.2 NVME (Python processes and IDE) (gen 3.0 drive in Gen 4.0 M.2 slot... yeah...I know 🤦‍♂️)
 
 Time for each merge did not increase linearly with increase in batch size... eg: for 70K batch size, 1st merge took 10.5 seconds and 10th merge around 6.5 seconds... But when batchsize was 70K*3 time increased to 40 seconds for 1st merge and 30.2 seconds for 10th merge... I mean obvious it will not scale linearly... but wanted to test handling capacity. for 700_000 batch size 1st merge 148.97 seconds
 
+>Final run was for 5000 initial vocab size and 500 (upper limit, if can be generated, for subsequent batches)
 
 ### 2000 vocab test for 1st batch:
 > [\u0000] 0
