@@ -20400,3 +20400,87 @@ Count of files to read...30
 
 Batch number=====================================================: 0
 
+b'fetch: 34 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+Skipping first batch as it resume from existing vocab and merges.
+
+
+Batch number=====================================================: 1
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Replacing existing pair:(224, 164) in IDs took :35.18221420000191 seconds
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Replacing existing pair:(32, 358) in IDs took :16.571640399997705 seconds
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Replacing existing pair:(224, 165) in IDs took :10.276651000000129 seconds
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Replacing existing pair:(358, 190) in IDs took :10.274364299999434 seconds
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Replacing existing pair:(360, 135) in IDs took :8.549156699999003 seconds
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Replacing existing pair:(358, 176) in IDs took :9.777680099999998 seconds
+b'fetch: 34 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+Skipping first batch as it resume from existing vocab and merges.
+
+
+Batch number=====================================================: 1
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer

@@ -106,6 +106,9 @@ class HindiTokenizer:
             self.vocab[idx] = tok.encode("utf-8")
 
         print("\n=================\nVocab initialisation done...")
+        # verified the resumed letter from .model file  b'\xe0\xa4\x85'.decode("utf-8") is indeed character 'अ' ;
+        # One index extra is skipped (number idx 357 so had to add +1 where needed when re-building vocab 😅)
+        # not needed here though.
         return self.vocab
 
     # @utilities.log_to_file("HindiTokenizer-train.log")
@@ -408,7 +411,8 @@ class HindiTokenizer:
         # read the model file
         merges = {}
         special_tokens = {}
-        idx = 256 + 101 + 1
+        # 256 for default first 256 chars and their bytes next 101 for Hindi
+        idx = 256 + 101 + 1  # One index extra is skipped initially when creating merges (number idx 357 so had to add +1 where needed when re-building vocab 😅)
         with open(model_file_path, 'r', encoding="utf-8") as f:
             # read the version
             version = f.readline().strip()

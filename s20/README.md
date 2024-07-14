@@ -287,6 +287,7 @@ steps:
                          encoding=encoding) as f:```
 4. Use each batch from the generator and run train on it to build vocab and merge dictionaries.
 5. Re-use same tokenizer object for subsequent batches
+6. Added `resume` feature to re-build vocab and merges from a given .model file. Tested this, works on 5k vocab file previously created. Since I had combined merges from first batch for 5k tokens, I skip the first batch when resumed.
 
 
 ## Notes:

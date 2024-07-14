@@ -87,7 +87,7 @@ def main():
                                 prefix_for_save=FILE_SAVE_PREFIX
                                 )
             else:
-                print("Skipping first batch as it resume from existing vocab and merges.")
+                print("Skipping first batch as it resumes from existing vocab and merges.")
                 continue
         else:
             if resume and not resumed:
