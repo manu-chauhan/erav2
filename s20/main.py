@@ -1,4 +1,5 @@
 import os
+import pathlib
 import subprocess
 import time
 
@@ -17,6 +18,8 @@ def main():
     initial_vocab_size = 5000
     """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
     vocab_increase_size = 100  # considering that added check if most are just replacements and very low new tokens then loop breaks before this number is reached
+    resume = True  # resume building vocab from already saved file
+    resumed = False  # a flag to check if resume process already began
 
     if NUMBER_OF_BATCHES is None:
 
@@ -65,8 +68,6 @@ def main():
 
     os.makedirs("saved_vocabs", exist_ok=True)
 
-    total_raw_text_len = total_encoded_len = 0
-
     start = time.perf_counter()
 
     '''run Tokenizer "train" on each batch ... using same Tokenizer object AND vocab !'''
@@ -76,23 +77,32 @@ def main():
         batch_text = "".join(data_batch)  # need to join to get single str as batch is list of lines of text
 
         if batch_idx == 0:
-            tokenizer.train(text=batch_text,
-                            vocab_size=initial_vocab_size + (256 + HINDI_BASIC_UNITS_COUNT),
-                            # 256 + 101 ; characters [ह़] -> 345,  [९] -> 355,  [॥] -> 356
-                            verbose=True,
-                            current_batch_num=batch_idx + 1,
-                            save_tokenizer_at_train_end=True,
-                            prefix_for_save=FILE_SAVE_PREFIX
-                            )
+            if not resume:
+                tokenizer.train(text=batch_text,
+                                vocab_size=initial_vocab_size + (256 + HINDI_BASIC_UNITS_COUNT),
+                                # 256 + 101 ; characters [ह़] -> 345,  [९] -> 355,  [॥] -> 356
+                                verbose=True,
+                                current_batch_num=batch_idx + 1,
+                                save_tokenizer_at_train_end=True,
+                                prefix_for_save=FILE_SAVE_PREFIX
+                                )
+            else:
+                continue
         else:
+            if resume and not resumed:
+                tokenizer.load(
+                    model_file_path=pathlib.Path(
+                        "saved_vocabs/batch_1_Hindi_Tokenizer-test-all_batches-100_000_batchsize-initial_vocab_size_5000.model"))
+                resumed = True
+
             tokenizer.train(text=batch_text,
                             vocab_size=vocab_increase_size + (256 + HINDI_BASIC_UNITS_COUNT),  # 256 + 101
                             current_batch_num=batch_idx + 1,
                             save_tokenizer_at_train_end=True,
                             prefix_for_save=FILE_SAVE_PREFIX,
-                            just_replacing_already_seen_tokens_counter_threshold=5000,
-                            minting_new_token_for_merge_threshold=2,
-                            save_at_every_nth_iteration=100,
+                            just_replacing_already_seen_tokens_counter_threshold=1000,
+                            minting_new_token_for_merge_threshold=5,
+                            save_at_every_nth_iteration=50,
                             verbose=True)
 
     end = time.perf_counter()
@@ -105,6 +115,7 @@ def main():
     print("\n====Running batches on entire data to be read for encoding now...")
 
     result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
+    total_raw_text_len = total_encoded_len = 0
 
     for batch_idx, batch_data in enumerate(result):
         batch_text = "".join(batch_data)  # need to join to get single str as batch is list of lines of text

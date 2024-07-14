@@ -326,7 +326,7 @@ Ryzen 7 5800x, 64 GB DDR4 RAM, C drive is M.2 NVME (Python processes and IDE) (g
 
 Time for each merge did not increase linearly with increase in batch size... eg: for 70K batch size, 1st merge took 10.5 seconds and 10th merge around 6.5 seconds... But when batchsize was 70K*3 time increased to 40 seconds for 1st merge and 30.2 seconds for 10th merge... I mean obvious it will not scale linearly... but wanted to test handling capacity. for 700_000 batch size 1st merge 148.97 seconds
 
->Final run was for 5000 initial vocab size and 500 (upper limit, if can be generated, for subsequent batches)
+>Final run was for 5000 initial vocab size and 500 (upper limit, if can be generated, for subsequent batches) with Batch size of 100_000 lines of text
 
 ### 2000 vocab test for 1st batch:
 > [\u0000] 0

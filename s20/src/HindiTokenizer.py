@@ -97,7 +97,16 @@ class HindiTokenizer:
             new_idx = idx + max_idx
             self.vocab[new_idx] = encoded_char
 
+        for (pos0, pos1), idx in self.merges.items():
+            self.vocab[idx] = self.vocab[pos0] + self.vocab[pos1]
+
+        # NOW add special tokens defined in __init__()
+        # NOTE encode special tokens using .encode with UTF-8 encoding
+        for tok, idx in self.special_tokens.items():
+            self.vocab[idx] = tok.encode("utf-8")
+
         print("\n=================\nVocab initialisation done...")
+        return self.vocab
 
     # @utilities.log_to_file("HindiTokenizer-train.log")
     def train(self, text, vocab_size, verbose=False,
@@ -331,7 +340,7 @@ class HindiTokenizer:
         return ids
 
     # directly from BPE repo
-    def save(self, file_prefix, save_to_folder: pathlib.Path):
+    def save(self, file_prefix, save_to_folder: pathlib.Path, version=1):
         """
         Saves two files: file_prefix.vocab and file_prefix.model
         This is inspired (but not equivalent to!) sentencepiece's model saving:
@@ -341,12 +350,14 @@ class HindiTokenizer:
         print("Saving tokenizer...")
         # write the model: to be used in load() later
         assert save_to_folder is not None and isinstance(save_to_folder,
-                                                         pathlib.Path), "the Path passed to store vocab and models seems to be wrong"
+                                                         pathlib.Path), \
+            "the Path passed to store vocab and models seems to be wrong"
 
         model_file = file_prefix + ".model"
         model_file = os.path.join(os.path.abspath(save_to_folder), model_file)
 
         with open(model_file, 'w') as f:
+            f.write(f"version:{version}\n")
             f.write(f"{self.pattern}\n")
             # write the special tokens, first the number of them, then each one
             f.write(f"{len(self.special_tokens)}\n")
@@ -380,7 +391,36 @@ class HindiTokenizer:
                     # (this should just be the first 256 tokens, the bytes)
                     f.write(f"[{s}] {idx}\n")
 
-    #
+    def load(self, model_file_path):
+        """Inverse of save() but only for the model file"""
+        if isinstance(model_file_path, pathlib.Path):
+            model_file_path = str(model_file_path.absolute())
+        assert model_file_path.endswith(".model")
+        # read the model file
+        merges = {}
+        special_tokens = {}
+        idx = 256 + 101 + 1
+        with open(model_file_path, 'r', encoding="utf-8") as f:
+            # read the version
+            version = f.readline().strip()
+            print(version)
+
+            # read the pattern
+            self.pattern = f.readline().strip()
+
+            # read the special tokens
+            num_special = int(f.readline().strip())
+            for _ in range(num_special):
+                special, special_idx = f.readline().strip().split()
+                special_tokens[special] = int(special_idx)
+            # read the merges
+            for line in f:
+                idx1, idx2 = map(int, line.split())
+                merges[(idx1, idx2)] = idx
+                idx += 1
+        self.merges = merges
+        self.special_tokens = special_tokens
+        self.vocab = self._build_vocab()
 
 # if __name__ == "__main__":
 #     custom_text = """
