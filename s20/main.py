@@ -87,6 +87,7 @@ def main():
                                 prefix_for_save=FILE_SAVE_PREFIX
                                 )
             else:
+                print("Skipping first batch as it resume from existing vocab and merges.")
                 continue
         else:
             if resume and not resumed:
@@ -100,7 +101,7 @@ def main():
                             current_batch_num=batch_idx + 1,
                             save_tokenizer_at_train_end=True,
                             prefix_for_save=FILE_SAVE_PREFIX,
-                            just_replacing_already_seen_tokens_counter_threshold=1000,
+                            just_replacing_already_seen_tokens_counter_threshold=100,
                             minting_new_token_for_merge_threshold=5,
                             save_at_every_nth_iteration=50,
                             verbose=True)

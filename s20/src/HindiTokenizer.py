@@ -169,7 +169,7 @@ class HindiTokenizer:
 
         # run merging iteratively
         for i in range(num_merges):
-            if i % save_at_every_nth_iteration == 0:
+            if i + 1 % save_at_every_nth_iteration == 0:
                 self.save(file_prefix=prefix_for_save + f"_at_{i}_iteration_",
                           save_to_folder=pathlib.Path("saved_vocabs"))
 
@@ -184,6 +184,7 @@ class HindiTokenizer:
             pair = max(stats, key=stats.get)
 
             while pair in self.merges:
+                replacing_time_start = time.perf_counter()
                 just_replacing_already_seen_tokens_counter += 1
 
                 '''A simple check that says: If  pairs are already seen in this batch 
@@ -193,6 +194,9 @@ class HindiTokenizer:
 
                 if just_replacing_already_seen_tokens_counter > just_replacing_already_seen_tokens_counter_threshold \
                         and minting_new_token_for_merge_counter < minting_new_token_for_merge_threshold:
+                    print("\n\n===========\nStopping current batch as replacing previously learned merges is way"
+                          f" higher than creating new merges\njust_replacing_already_seen_tokens_counter:{just_replacing_already_seen_tokens_counter}"
+                          f"and minting_new_token_for_merge_counter: {minting_new_token_for_merge_counter}")
                     stop_this_batch = True
                     break
 
@@ -204,6 +208,9 @@ class HindiTokenizer:
 
                 # just replace already merged pairs in ids and get new ids and no need to again add to merges and vocab
                 ids = [merge(chunk_ids, pair, already_merged_idx) for chunk_ids in ids]
+
+                print(
+                    f"\nReplacing existing pair:{pair} in IDs took :{time.perf_counter() - replacing_time_start} seconds")
 
                 # get updated stats now, here ids are list of lists, so use above way of updating stats
                 stats = {}
@@ -217,6 +224,7 @@ class HindiTokenizer:
                 else:
                     # no new merges found in this incoming data batch
                     print(f"\n\nstopping merges as no new byte pair found in the current batch")
+                    stop_this_batch = True
                     break
 
             if stop_this_batch is True:
@@ -236,7 +244,8 @@ class HindiTokenizer:
 
             if verbose:
                 print(
-                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]:_} occurrences."
+                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had"
+                    f" {stats[pair]:_} occurrences."
                     f"\ntime taken: {time.perf_counter() - merge_start_time} seconds")
 
         if save_tokenizer_at_train_end:
