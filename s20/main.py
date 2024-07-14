@@ -9,12 +9,12 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 50_000
+    BATCH_SIZE = 70_000 * 10
     NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
 
     '''
        initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
-    initial_vocab_size = 2500
+    initial_vocab_size = 5000
     """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
     vocab_increase_size = 500  # considering that added check if most are just replacements and very low new tokens then loop breaks before this number is reached
 

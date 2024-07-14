@@ -1,5 +1,6 @@
 import os
 import pathlib
+import time
 from textwrap import dedent
 
 import regex as re
@@ -100,11 +101,11 @@ class HindiTokenizer:
 
     # @utilities.log_to_file("HindiTokenizer-train.log")
     def train(self, text, vocab_size, verbose=False,
-              default_initial_vocab_size=256,
+              default_initial_vocab_size=256 + 101,
               encoding="utf-8",
               save_tokenizer_at_train_end: bool = False,
               prefix_for_save: str = "Hindi_Tokenizer",
-              just_replacing_already_seen_tokens_counter_threshold=50,
+              just_replacing_already_seen_tokens_counter_threshold=100,
               minting_new_token_for_merge_threshold=10,
               current_batch_num=None
               ):
@@ -155,6 +156,7 @@ class HindiTokenizer:
 
         # run merging iteratively
         for i in range(num_merges):
+            merge_start_time = time.perf_counter()
             # count the number of times every consecutive pair appears
             stats = {}
             for chunk_ids in ids:
@@ -217,7 +219,8 @@ class HindiTokenizer:
 
             if verbose:
                 print(
-                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]:_} occurrences")
+                    f"\n\nmerge {i + 1}/{num_merges}: {pair} -> {idx} ({self.vocab[idx]}) had {stats[pair]:_} occurrences."
+                    f"\ntime taken: {time.perf_counter() - merge_start_time} seconds")
 
         if save_tokenizer_at_train_end:
             if current_batch_num is not None and isinstance(current_batch_num, int):
