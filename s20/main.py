@@ -92,6 +92,7 @@ def main():
                             prefix_for_save=FILE_SAVE_PREFIX,
                             just_replacing_already_seen_tokens_counter_threshold=5000,
                             minting_new_token_for_merge_threshold=2,
+                            save_at_every_nth_iteration=100,
                             verbose=True)
 
     end = time.perf_counter()

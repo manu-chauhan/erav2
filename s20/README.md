@@ -57,6 +57,8 @@ https://www.easyhindityping.com/hindi-alphabet
 > comprise the Unicode character set.
 ----
 
+### A great source for learning on Tokenization and BPE: [Andrej Karpathy's lecture](https://www.youtube.com/watch?v=zduSFxRajkE&themeRefresh=1)
+
 ## Fun with glitch tokens:
 
 #### Taken on 29th June 2024 (Andrej's Tokenization video is 4th month old now... these issues still on ChatGPT, hackerNews discussion 1 year old !)

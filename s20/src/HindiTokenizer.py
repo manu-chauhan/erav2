@@ -107,7 +107,8 @@ class HindiTokenizer:
               prefix_for_save: str = "Hindi_Tokenizer",
               just_replacing_already_seen_tokens_counter_threshold=100,
               minting_new_token_for_merge_threshold=10,
-              current_batch_num=None
+              current_batch_num=None,
+              save_at_every_nth_iteration=100
               ):
         """
         text: the incoming text sata in str
@@ -136,8 +137,11 @@ class HindiTokenizer:
 
         assert vocab_size >= default_initial_vocab_size
         num_merges = vocab_size - default_initial_vocab_size
-
         stop_this_batch = False
+
+        if current_batch_num is not None and isinstance(current_batch_num, int):
+            current_batch_num = "batch_" + str(current_batch_num) + "_"
+            prefix_for_save = current_batch_num + prefix_for_save
 
         # split the text up into text chunks
         text_chunks = re.findall(self.compiled_pattern, text)
@@ -156,6 +160,10 @@ class HindiTokenizer:
 
         # run merging iteratively
         for i in range(num_merges):
+            if i % save_at_every_nth_iteration == 0:
+                self.save(file_prefix=prefix_for_save + f"_at_{i}_iteration_",
+                          save_to_folder=pathlib.Path("saved_vocabs"))
+
             merge_start_time = time.perf_counter()
             # count the number of times every consecutive pair appears
             stats = {}
@@ -223,9 +231,7 @@ class HindiTokenizer:
                     f"\ntime taken: {time.perf_counter() - merge_start_time} seconds")
 
         if save_tokenizer_at_train_end:
-            if current_batch_num is not None and isinstance(current_batch_num, int):
-                current_batch_num = "batch_" + str(current_batch_num) + "_"
-            self.save(file_prefix=current_batch_num + prefix_for_save, save_to_folder=pathlib.Path("saved_vocabs"))
+            self.save(file_prefix=prefix_for_save, save_to_folder=pathlib.Path("saved_vocabs"))
 
     def register_special_tokens(self, special_tokens):
         # special_tokens is a dictionary of str -> int
