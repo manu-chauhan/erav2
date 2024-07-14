@@ -10,8 +10,8 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 100_000
-    NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
+    BATCH_SIZE = 10_000
+    NUMBER_OF_BATCHES = 10  # None --> read all batches of entire data from all files present in `dataset` dir
     train = False
 
     '''
@@ -127,17 +127,17 @@ def main():
     for batch_idx, batch_data in enumerate(result):
         batch_text = "".join(batch_data)  # need to join to get single str as batch is list of lines of text
         raw_batch_data_len = len(batch_text)
-
         total_raw_text_len += raw_batch_data_len
-        encoded = tokenizer.encode(text=batch_text)
 
+        encoded = tokenizer.encode(text=batch_text)
         encoded_batch_data_len = len(encoded)
         total_encoded_len += encoded_batch_data_len
 
-        print(f"\n\nbatch len:{raw_batch_data_len}...encoded len: {encoded_batch_data_len}...\n")
+        print(f"\nbatch : {batch_idx} len:{raw_batch_data_len}...encoded len: {encoded_batch_data_len}...\n")
 
     print(f"\n\n================================\n"
-          f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
+          f"Total len of text in Hindi ran for {str(NUMBER_OF_BATCHES) + ' batches'
+            if isinstance(NUMBER_OF_BATCHES, int) else 'all batches for entire dataset'} is : {total_raw_text_len}")
 
     print(f"Encoded total len: {total_encoded_len}")
 

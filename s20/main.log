@@ -21309,3 +21309,122 @@ Replacing existing pair:(371, 175) in IDs took :6.943409799998335 seconds
 
 Pair: (365, 372) already in merged tokens... replacing in IDS...
 with.. id.. 417
+b'fetch: 35 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (34/34), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+loaded vocab and merges...
+
+====Running batches on entire data to be read for encoding now...
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+b'fetch: 35 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (34/34), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+loaded vocab and merges...
+
+====Running batches on entire data to be read for encoding now...
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+batch len:25184973...encoded len: 7070283...
+
+b'fetch: 35 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (34/34), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+loaded vocab and merges...
+
+====Running batches on entire data to be read for encoding now...
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+batch len:1868186...encoded len: 507029...
+
+
+
+batch len:2186270...encoded len: 477418...
+
+
+
+batch len:2114263...encoded len: 464234...
+
+
+
+batch len:2004147...encoded len: 443866...
+
+
+
+batch len:1568822...encoded len: 373630...
+
+
+
+batch len:2630353...encoded len: 842129...
+
+
+
+batch len:3276191...encoded len: 1008453...
+
