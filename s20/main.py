@@ -9,14 +9,14 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 
 @utilities.log_to_file("main.log")
 def main():
-    BATCH_SIZE = 70_000 * 10
+    BATCH_SIZE = 100_000
     NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
 
     '''
        initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
     initial_vocab_size = 5000
     """increase vocab size by this much for every batch, will reuse same tokenizer object and vocab"""
-    vocab_increase_size = 500  # considering that added check if most are just replacements and very low new tokens then loop breaks before this number is reached
+    vocab_increase_size = 100  # considering that added check if most are just replacements and very low new tokens then loop breaks before this number is reached
 
     if NUMBER_OF_BATCHES is None:
 
@@ -75,8 +75,6 @@ def main():
 
         batch_text = "".join(data_batch)  # need to join to get single str as batch is list of lines of text
 
-        total_raw_text_len += len(batch_text)
-
         if batch_idx == 0:
             tokenizer.train(text=batch_text,
                             vocab_size=initial_vocab_size + (256 + HINDI_BASIC_UNITS_COUNT),
@@ -96,12 +94,6 @@ def main():
                             minting_new_token_for_merge_threshold=2,
                             verbose=True)
 
-        encoded = tokenizer.encode(text=batch_text)
-
-        total_encoded_len += len(encoded)
-
-        # print(f"\n\nbatch len:{len(batch_text)}...encoded len: {len(encoded)}...\n")
-
     end = time.perf_counter()
 
     print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
@@ -109,9 +101,28 @@ def main():
     # save the tokenizer object
     # tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-200_initial_vocab-50_next_batches")
 
-    print(f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
+    print("\n====Running batches on entire data to be read for encoding now...")
+
+    result = utilities.read_from_all_files(all_files, batch_size=BATCH_SIZE, batch_num=NUMBER_OF_BATCHES)
+
+    for batch_idx, batch_data in enumerate(result):
+        batch_text = "".join(batch_data)  # need to join to get single str as batch is list of lines of text
+        raw_batch_data_len = len(batch_text)
+
+        total_raw_text_len += raw_batch_data_len
+        encoded = tokenizer.encode(text=batch_text)
+
+        encoded_batch_data_len = len(encoded)
+        total_encoded_len += encoded_batch_data_len
+
+        print(f"\n\nbatch len:{raw_batch_data_len}...encoded len: {encoded_batch_data_len}...\n")
+
+    print(f"\n\n================================\n"
+          f"Total len of text in Hindi from entire dataset: {total_raw_text_len}")
+
     print(f"Encoded total len: {total_encoded_len}")
-    print(f"Ratio of raw data compressed: {total_raw_text_len / total_encoded_len}")
+
+    print(f"Ratio of entire raw data compressed: {total_raw_text_len / total_encoded_len}")
 
 
 if __name__ == "__main__":

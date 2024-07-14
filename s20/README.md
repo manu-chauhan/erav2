@@ -1,10 +1,11 @@
-# 🤗 welcoooooooooommmee wwwwwwwwwwwwwelcome !! 🤗🙂
+#  welcoooooooooommmee !! 🙂
+ 
+Come, get to experience, understand and live with Unicode code points (read as drown 🤨)
 
-## Come, get to experience, understand and live with Unicode code points (read as drown 🤨)
+# Taming Tokenization
+### (for Hindi [Devanagari script])
 
-# Tokenization (for Hindi [Devanagari script])
-
-#### (the gnarly part of every NLP model ... with NLTK back in pre-transformer days and now with LLMs)
+#### (Tokenization... the gnarly part of every NLP model ... with NLTK back in pre-transformer days and now with LLMs)
 
 For example, the string Hello world! gets encoded by the GPT-2 tokenizer as the sequence [15496, 995, 0], meaning that
 it's a sequence of three tokens, the first of which is the 15,946th token of the vocabulary, or Hello, the second of
@@ -262,8 +263,6 @@ steps:
 
 > To run :$ scrapy runspider spiders/myspider.py -o crawled-new-hindi-data-mix.json
 
-> Wrote code to pick dictionaries from this json and extract relevant data and join each sentence before writing to .txt
-> file again as final step.
 
 ## Notes:
 
@@ -291,16 +290,14 @@ The key idea was:
    transcribed and stored into DB, OR get multilingual keyboards(less likely to work and adopted ?)
 3. Finding `diverse enough` dataset is the key... and for language(s) such as Hindi (or even other Indian languages)
    which are (nowadays) a little less in written form (although Wikipedia in Hindi is really helpful).
-4. Local languages especially Asian (apart from Chinese, Japanese) need to focused upon for long term
-   preservation/storage/usage.
-5. Some `dependent vowels and sub-words` are still leaned in higher (later) ranges ([ै][र] -> [ैर]) ([ि�][�] -> [िद] 2325
+4. Some `dependent vowels and sub-words` are still leaned in higher (later) ranges ([ै][र] -> [ैर]) ([ि�][�] -> [िद] 2325
 [िश][न] -> [िशन] 2326)
 
 ## `Benchmarking`:
 ### System Specs:
-(PC assembled myself : )  ) 
+(a tiny humble brag... PC assembled myself : )  ) 
 
-Ryzen 7 5800x, 64 GB DDR4 RAM, C drive is M.2 NVME (Python process and Pycharm) (gen 3.0 drive in Gen 4.0 slot I know 🤦‍♂️)
+Ryzen 7 5800x, 64 GB DDR4 RAM, C drive is M.2 NVME (Python processes and IDE) (gen 3.0 drive in Gen 4.0 slot... I know 🤦‍♂️)
 
 Time for each merge did not increase linearly with increase in batch size... eg: for 70K batch size, 1st merge took 10.5 seconds and 10th merge around 6.5 seconds... But when batchsize was 70K*3 time increased to 40 seconds for 1st merge and 30.2 seconds for 10th merge... I mean obvious it will not scale linearly... but wanted to test handling capacity. for 700_000 batch size 1st merge 148.97 seconds
 
