@@ -12,6 +12,7 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 def main():
     BATCH_SIZE = 100_000
     NUMBER_OF_BATCHES = None  # None --> read all batches of entire data from all files present in `dataset` dir
+    train = False
 
     '''
        initial vocab size to start with, basic Hindi chars/tokens/units of alphabet'''
@@ -76,7 +77,7 @@ def main():
 
         batch_text = "".join(data_batch)  # need to join to get single str as batch is list of lines of text
 
-        if batch_idx == 0:
+        if batch_idx == 0 and train is True:
             if not resume:
                 tokenizer.train(text=batch_text,
                                 vocab_size=initial_vocab_size + (256 + HINDI_BASIC_UNITS_COUNT),
@@ -95,20 +96,25 @@ def main():
                     model_file_path=pathlib.Path(
                         "saved_vocabs/batch_1_Hindi_Tokenizer-test-all_batches-100_000_batchsize-initial_vocab_size_5000.model"))
                 resumed = True
-
-            tokenizer.train(text=batch_text,
-                            vocab_size=vocab_increase_size + (256 + HINDI_BASIC_UNITS_COUNT),  # 256 + 101
-                            current_batch_num=batch_idx + 1,
-                            save_tokenizer_at_train_end=True,
-                            prefix_for_save=FILE_SAVE_PREFIX,
-                            just_replacing_already_seen_tokens_counter_threshold=100,
-                            minting_new_token_for_merge_threshold=5,
-                            save_at_every_nth_iteration=50,
-                            verbose=True)
+            if train is True:
+                tokenizer.train(text=batch_text,
+                                vocab_size=vocab_increase_size + (256 + HINDI_BASIC_UNITS_COUNT),  # 256 + 101
+                                current_batch_num=batch_idx + 1,
+                                save_tokenizer_at_train_end=True,
+                                prefix_for_save=FILE_SAVE_PREFIX,
+                                just_replacing_already_seen_tokens_counter_threshold=100,
+                                minting_new_token_for_merge_threshold=5,
+                                save_at_every_nth_iteration=50,
+                                verbose=True)
+            else:
+                break
 
     end = time.perf_counter()
 
-    print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
+    if train:
+        print(f"\n==============\n\nTime taken for running BPE on entire dataset : {(end - start)} seconds")
+    elif not train and resume:
+        print("loaded vocab and merges...")
 
     # save the tokenizer object
     # tokenizer.save(file_prefix="hindi-30k_batchsize-all_batches-200_initial_vocab-50_next_batches")

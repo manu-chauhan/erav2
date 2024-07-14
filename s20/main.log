@@ -20484,3 +20484,828 @@ Building initial Hindi vocabulary with basic Hindi letters and key tokens
 Vocab initialisation done...
 
 `Training`...for HindiTokenizer
+b'fetch: 34 objects found, done.\nfetch: Fetching all references...\n'
+b'Checking out LFS objects: 100% (33/33), 9.6 GB | 0 B/s, done.\n'
+
+=========
+Reading dataset
+=============
+
+Count of files to read...30
+
+
+Batch number=====================================================: 0
+
+Skipping first batch as it resumes from existing vocab and merges.
+
+
+Batch number=====================================================: 1
+
+version:1
+
+====================================
+
+Building initial Hindi vocabulary with basic Hindi letters and key tokens
+
+=================
+Vocab initialisation done...
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Replacing existing pair:(224, 164) in IDs took :11.638030699999945 seconds
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Replacing existing pair:(32, 358) in IDs took :10.313003899995238 seconds
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Replacing existing pair:(224, 165) in IDs took :9.462583900000027 seconds
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Replacing existing pair:(358, 190) in IDs took :9.350125900004059 seconds
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Replacing existing pair:(360, 135) in IDs took :9.167704100000265 seconds
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Replacing existing pair:(358, 176) in IDs took :8.42867390000174 seconds
+
+Pair: (360, 141) already in merged tokens... replacing in IDS...
+with.. id.. 366
+
+Replacing existing pair:(360, 141) in IDs took :8.067673999998078 seconds
+
+Pair: (359, 149) already in merged tokens... replacing in IDS...
+with.. id.. 365
+
+Replacing existing pair:(359, 149) in IDs took :8.653755300001649 seconds
+
+Pair: (361, 358) already in merged tokens... replacing in IDS...
+with.. id.. 364
+
+Replacing existing pair:(361, 358) in IDs took :8.71890859999985 seconds
+
+Pair: (360, 128) already in merged tokens... replacing in IDS...
+with.. id.. 367
+
+Replacing existing pair:(360, 128) in IDs took :8.880489399998623 seconds
+
+Pair: (358, 191) already in merged tokens... replacing in IDS...
+with.. id.. 369
+
+Replacing existing pair:(358, 191) in IDs took :8.902004199997464 seconds
+
+Pair: (358, 130) already in merged tokens... replacing in IDS...
+with.. id.. 368
+
+Replacing existing pair:(358, 130) in IDs took :7.889147800000501 seconds
+
+Pair: (366, 358) already in merged tokens... replacing in IDS...
+with.. id.. 370
+
+Replacing existing pair:(366, 358) in IDs took :8.018548499996541 seconds
+
+Pair: (369, 358) already in merged tokens... replacing in IDS...
+with.. id.. 371
+
+Replacing existing pair:(369, 358) in IDs took :7.764790299996093 seconds
+
+Pair: (360, 139) already in merged tokens... replacing in IDS...
+with.. id.. 372
+
+Replacing existing pair:(360, 139) in IDs took :7.751674099999946 seconds
+
+Pair: (358, 168) already in merged tokens... replacing in IDS...
+with.. id.. 373
+
+Replacing existing pair:(358, 168) in IDs took :6.863993600003596 seconds
+
+Pair: (359, 184) already in merged tokens... replacing in IDS...
+with.. id.. 374
+
+Replacing existing pair:(359, 184) in IDs took :7.4388541000007535 seconds
+
+Pair: (359, 185) already in merged tokens... replacing in IDS...
+with.. id.. 376
+
+Replacing existing pair:(359, 185) in IDs took :7.673354800004745 seconds
+
+Pair: (358, 149) already in merged tokens... replacing in IDS...
+with.. id.. 375
+
+Replacing existing pair:(358, 149) in IDs took :6.803796100000909 seconds
+
+Pair: (358, 164) already in merged tokens... replacing in IDS...
+with.. id.. 378
+
+Replacing existing pair:(358, 164) in IDs took :7.701239000001806 seconds
+
+Pair: (359, 174) already in merged tokens... replacing in IDS...
+with.. id.. 377
+
+Replacing existing pair:(359, 174) in IDs took :6.620340599998599 seconds
+
+Pair: (358, 184) already in merged tokens... replacing in IDS...
+with.. id.. 381
+
+Replacing existing pair:(358, 184) in IDs took :7.265344299994467 seconds
+
+Pair: (359, 170) already in merged tokens... replacing in IDS...
+with.. id.. 382
+
+Replacing existing pair:(359, 170) in IDs took :6.82240389999788 seconds
+
+Pair: (360, 136) already in merged tokens... replacing in IDS...
+with.. id.. 380
+
+Replacing existing pair:(360, 136) in IDs took :7.0105910999991465 seconds
+
+Pair: (358, 185) already in merged tokens... replacing in IDS...
+with.. id.. 383
+
+Replacing existing pair:(358, 185) in IDs took :7.303925600004732 seconds
+
+Pair: (360, 129) already in merged tokens... replacing in IDS...
+with.. id.. 386
+
+Replacing existing pair:(360, 129) in IDs took :6.457579999994778 seconds
+
+Pair: (358, 178) already in merged tokens... replacing in IDS...
+with.. id.. 384
+
+Replacing existing pair:(358, 178) in IDs took :6.238492100004805 seconds
+
+Pair: (362, 368) already in merged tokens... replacing in IDS...
+with.. id.. 379
+
+Replacing existing pair:(362, 368) in IDs took :6.635611800003971 seconds
+
+Pair: (358, 174) already in merged tokens... replacing in IDS...
+with.. id.. 388
+
+Replacing existing pair:(358, 174) in IDs took :6.607549899999867 seconds
+
+Pair: (376, 380) already in merged tokens... replacing in IDS...
+with.. id.. 389
+
+Replacing existing pair:(376, 380) in IDs took :6.491019699999015 seconds
+
+Pair: (361, 363) already in merged tokens... replacing in IDS...
+with.. id.. 387
+
+Replacing existing pair:(361, 363) in IDs took :6.5199124999999185 seconds
+
+Pair: (365, 362) already in merged tokens... replacing in IDS...
+with.. id.. 396
+
+Replacing existing pair:(365, 362) in IDs took :7.248568599999999 seconds
+
+Pair: (366, 363) already in merged tokens... replacing in IDS...
+with.. id.. 393
+
+Replacing existing pair:(366, 363) in IDs took :6.144270600001619 seconds
+
+Pair: (359, 172) already in merged tokens... replacing in IDS...
+with.. id.. 385
+
+Replacing existing pair:(359, 172) in IDs took :7.315258800001175 seconds
+
+Pair: (359, 156) already in merged tokens... replacing in IDS...
+with.. id.. 391
+
+Replacing existing pair:(359, 156) in IDs took :6.287808099994436 seconds
+
+Pair: (358, 170) already in merged tokens... replacing in IDS...
+with.. id.. 395
+
+Replacing existing pair:(358, 170) in IDs took :5.98839350000344 seconds
+
+Pair: (358, 151) already in merged tokens... replacing in IDS...
+with.. id.. 392
+
+Replacing existing pair:(358, 151) in IDs took :6.345698500001163 seconds
+
+Pair: (359, 168) already in merged tokens... replacing in IDS...
+with.. id.. 390
+
+Replacing existing pair:(359, 168) in IDs took :6.59959340000205 seconds
+
+Pair: (359, 166) already in merged tokens... replacing in IDS...
+with.. id.. 400
+
+Replacing existing pair:(359, 166) in IDs took :6.358578199993644 seconds
+
+Pair: (359, 133) already in merged tokens... replacing in IDS...
+with.. id.. 406
+
+Replacing existing pair:(359, 133) in IDs took :6.382109300000593 seconds
+
+Pair: (359, 178) already in merged tokens... replacing in IDS...
+with.. id.. 399
+
+Replacing existing pair:(359, 178) in IDs took :6.777124500003993 seconds
+
+Pair: (377, 379) already in merged tokens... replacing in IDS...
+with.. id.. 394
+
+Replacing existing pair:(377, 379) in IDs took :5.735785899996699 seconds
+
+Pair: (359, 181) already in merged tokens... replacing in IDS...
+with.. id.. 408
+
+Replacing existing pair:(359, 181) in IDs took :6.412739799998235 seconds
+
+Pair: (359, 176) already in merged tokens... replacing in IDS...
+with.. id.. 398
+
+Replacing existing pair:(359, 176) in IDs took :5.729976099995838 seconds
+
+Pair: (358, 166) already in merged tokens... replacing in IDS...
+with.. id.. 401
+
+Replacing existing pair:(358, 166) in IDs took :6.221319700001914 seconds
+
+Pair: (360, 130) already in merged tokens... replacing in IDS...
+with.. id.. 405
+
+Replacing existing pair:(360, 130) in IDs took :6.304009899999073 seconds
+
+Pair: (364, 168) already in merged tokens... replacing in IDS...
+with.. id.. 397
+
+Replacing existing pair:(364, 168) in IDs took :5.676006499998039 seconds
+
+Pair: (358, 181) already in merged tokens... replacing in IDS...
+with.. id.. 423
+
+Replacing existing pair:(358, 181) in IDs took :6.277151299997058 seconds
+
+Pair: (372, 368) already in merged tokens... replacing in IDS...
+with.. id.. 407
+
+Replacing existing pair:(372, 368) in IDs took :5.705269199999748 seconds
+
+Pair: (365, 367) already in merged tokens... replacing in IDS...
+with.. id.. 404
+
+Replacing existing pair:(365, 367) in IDs took :6.388781600006041 seconds
+
+Pair: (370, 175) already in merged tokens... replacing in IDS...
+with.. id.. 416
+
+Replacing existing pair:(370, 175) in IDs took :5.6572257000007085 seconds
+
+Pair: (359, 134) already in merged tokens... replacing in IDS...
+with.. id.. 412
+
+Replacing existing pair:(359, 134) in IDs took :6.268657500004338 seconds
+
+Pair: (358, 175) already in merged tokens... replacing in IDS...
+with.. id.. 430
+
+Replacing existing pair:(358, 175) in IDs took :6.325046099998872 seconds
+
+Pair: (373, 362) already in merged tokens... replacing in IDS...
+with.. id.. 418
+
+Replacing existing pair:(373, 362) in IDs took :5.626537599993753 seconds
+
+Pair: (371, 175) already in merged tokens... replacing in IDS...
+with.. id.. 445
+
+Replacing existing pair:(371, 175) in IDs took :5.488806999994267 seconds
+
+Pair: (365, 372) already in merged tokens... replacing in IDS...
+with.. id.. 417
+
+Replacing existing pair:(365, 372) in IDs took :5.96993410000141 seconds
+
+Pair: (358, 172) already in merged tokens... replacing in IDS...
+with.. id.. 415
+
+Replacing existing pair:(358, 172) in IDs took :6.711198900004092 seconds
+
+Pair: (359, 164) already in merged tokens... replacing in IDS...
+with.. id.. 409
+
+Replacing existing pair:(359, 164) in IDs took :5.59837449999759 seconds
+
+Pair: (363, 370) already in merged tokens... replacing in IDS...
+with.. id.. 421
+
+Replacing existing pair:(363, 370) in IDs took :5.3963641000009375 seconds
+
+Pair: (358, 156) already in merged tokens... replacing in IDS...
+with.. id.. 419
+
+Replacing existing pair:(358, 156) in IDs took :5.937060399999609 seconds
+
+Pair: (374, 362) already in merged tokens... replacing in IDS...
+with.. id.. 413
+
+Replacing existing pair:(374, 362) in IDs took :5.891552299995965 seconds
+
+Pair: (365, 363) already in merged tokens... replacing in IDS...
+with.. id.. 414
+
+Replacing existing pair:(365, 363) in IDs took :6.08374090000143 seconds
+
+Pair: (359, 137) already in merged tokens... replacing in IDS...
+with.. id.. 425
+
+Replacing existing pair:(359, 137) in IDs took :5.411301499996625 seconds
+
+Pair: (358, 159) already in merged tokens... replacing in IDS...
+with.. id.. 422
+
+Replacing existing pair:(358, 159) in IDs took :5.853777099997387 seconds
+
+Pair: (359, 173) already in merged tokens... replacing in IDS...
+with.. id.. 420
+
+Replacing existing pair:(359, 173) in IDs took :5.894752699998207 seconds
+
+Pair: (359, 151) already in merged tokens... replacing in IDS...
+with.. id.. 427
+
+Replacing existing pair:(359, 151) in IDs took :5.988568599997961 seconds
+
+Pair: (359, 135) already in merged tokens... replacing in IDS...
+with.. id.. 410
+
+Replacing existing pair:(359, 135) in IDs took :5.238564899998892 seconds
+
+Pair: (358, 161) already in merged tokens... replacing in IDS...
+with.. id.. 411
+
+Replacing existing pair:(358, 161) in IDs took :5.707522400000016 seconds
+
+Pair: (359, 148) already in merged tokens... replacing in IDS...
+with.. id.. 2340
+
+Replacing existing pair:(359, 148) in IDs took :5.6811464999991586 seconds
+
+
+merge 1/100: (2340, 363) -> 5358 (b' \xe0\xa4\x94\xe0\xa4\xb0') had 105_199 occurrences.
+time taken: 851.4121679000018 seconds
+
+Pair: (358, 182) already in merged tokens... replacing in IDS...
+with.. id.. 479
+
+Replacing existing pair:(358, 182) in IDs took :5.637837700000091 seconds
+
+Pair: (364, 178) already in merged tokens... replacing in IDS...
+with.. id.. 429
+
+Replacing existing pair:(364, 178) in IDs took :6.37199099999998 seconds
+
+Pair: (371, 149) already in merged tokens... replacing in IDS...
+with.. id.. 431
+
+Replacing existing pair:(371, 149) in IDs took :5.354855199999292 seconds
+
+Pair: (358, 154) already in merged tokens... replacing in IDS...
+with.. id.. 446
+
+Replacing existing pair:(358, 154) in IDs took :5.202673399995547 seconds
+
+Pair: (359, 175) already in merged tokens... replacing in IDS...
+with.. id.. 426
+
+Replacing existing pair:(359, 175) in IDs took :5.590589100000216 seconds
+
+Pair: (382, 363) already in merged tokens... replacing in IDS...
+with.. id.. 432
+
+Replacing existing pair:(382, 363) in IDs took :5.627717900002608 seconds
+
+Pair: (365, 361) already in merged tokens... replacing in IDS...
+with.. id.. 428
+
+Replacing existing pair:(365, 361) in IDs took :5.767684200000076 seconds
+
+Pair: (370, 164) already in merged tokens... replacing in IDS...
+with.. id.. 456
+
+Replacing existing pair:(370, 164) in IDs took :5.129277100000763 seconds
+
+Pair: (386, 358) already in merged tokens... replacing in IDS...
+with.. id.. 451
+
+Replacing existing pair:(386, 358) in IDs took :5.616426300002786 seconds
+
+Pair: (359, 154) already in merged tokens... replacing in IDS...
+with.. id.. 441
+
+Replacing existing pair:(359, 154) in IDs took :5.723266299995885 seconds
+
+Pair: (382, 393) already in merged tokens... replacing in IDS...
+with.. id.. 447
+
+Replacing existing pair:(382, 393) in IDs took :5.637606700001925 seconds
+
+Pair: (376, 372) already in merged tokens... replacing in IDS...
+with.. id.. 433
+
+Replacing existing pair:(376, 372) in IDs took :5.701270700003079 seconds
+
+Pair: (359, 143) already in merged tokens... replacing in IDS...
+with.. id.. 452
+
+Replacing existing pair:(359, 143) in IDs took :5.606534500002454 seconds
+
+Pair: (358, 188) already in merged tokens... replacing in IDS...
+with.. id.. 424
+
+Replacing existing pair:(358, 188) in IDs took :5.898602599998412 seconds
+
+Pair: (364, 164) already in merged tokens... replacing in IDS...
+with.. id.. 454
+
+Replacing existing pair:(364, 164) in IDs took :5.198737400001846 seconds
+
+Pair: (359, 182) already in merged tokens... replacing in IDS...
+with.. id.. 436
+
+Replacing existing pair:(359, 182) in IDs took :5.038837499996589 seconds
+
+Pair: (371, 178) already in merged tokens... replacing in IDS...
+with.. id.. 439
+
+Replacing existing pair:(371, 178) in IDs took :5.416057100002945 seconds
+
+Pair: (378, 361) already in merged tokens... replacing in IDS...
+with.. id.. 440
+
+Replacing existing pair:(378, 361) in IDs took :5.367100100003881 seconds
+
+Pair: (389, 368) already in merged tokens... replacing in IDS...
+with.. id.. 443
+
+Replacing existing pair:(389, 368) in IDs took :5.357841900004132 seconds
+
+Pair: (410, 381) already in merged tokens... replacing in IDS...
+with.. id.. 469
+
+Replacing existing pair:(410, 381) in IDs took :5.404599100002088 seconds
+
+Pair: (383, 367) already in merged tokens... replacing in IDS...
+with.. id.. 448
+
+Replacing existing pair:(383, 367) in IDs took :5.637669199997617 seconds
+
+Pair: (371, 164) already in merged tokens... replacing in IDS...
+with.. id.. 453
+
+Replacing existing pair:(371, 164) in IDs took :5.019113499998639 seconds
+
+Pair: (390, 362) already in merged tokens... replacing in IDS...
+with.. id.. 449
+
+Replacing existing pair:(390, 362) in IDs took :5.523969699999725 seconds
+
+Pair: (364, 174) already in merged tokens... replacing in IDS...
+with.. id.. 488
+
+Replacing existing pair:(364, 174) in IDs took :5.579452899997705 seconds
+
+
+merge 2/100: (445, 361) -> 5359 (b'\xe0\xa4\xbf\xe0\xa4\xaf\xe0\xa4\xbe') had 66_150 occurrences.
+time taken: 242.6375556999992 seconds
+
+Pair: (371, 143) already in merged tokens... replacing in IDS...
+with.. id.. 442
+
+Replacing existing pair:(371, 143) in IDs took :5.488671699997212 seconds
+
+Pair: (364, 130) already in merged tokens... replacing in IDS...
+with.. id.. 444
+
+Replacing existing pair:(364, 130) in IDs took :4.996576099998492 seconds
+
+Pair: (358, 167) already in merged tokens... replacing in IDS...
+with.. id.. 465
+
+Replacing existing pair:(358, 167) in IDs took :5.59624349999649 seconds
+
+Pair: (360, 164) already in merged tokens... replacing in IDS...
+with.. id.. 472
+
+Replacing existing pair:(360, 164) in IDs took :4.957880799993291 seconds
+
+Pair: (359, 165) already in merged tokens... replacing in IDS...
+with.. id.. 489
+
+Replacing existing pair:(359, 165) in IDs took :5.403344099999231 seconds
+
+Pair: (373, 361) already in merged tokens... replacing in IDS...
+with.. id.. 461
+
+Replacing existing pair:(373, 361) in IDs took :4.865451700003177 seconds
+
+Pair: (371, 184) already in merged tokens... replacing in IDS...
+with.. id.. 481
+
+Replacing existing pair:(371, 184) in IDs took :5.5691032000031555 seconds
+
+
+===========
+Stopping current batch as replacing previously learned merges is way higher than creating new merges
+just_replacing_already_seen_tokens_counter:101and minting_new_token_for_merge_counter: 2
+Saving tokenizer...
+
+
+Batch number=====================================================: 2
+
+
+`Training`...for HindiTokenizer
+
+Pair: (224, 164) already in merged tokens... replacing in IDS...
+with.. id.. 358
+
+Replacing existing pair:(224, 164) in IDs took :13.095215200002713 seconds
+
+Pair: (32, 358) already in merged tokens... replacing in IDS...
+with.. id.. 359
+
+Replacing existing pair:(32, 358) in IDs took :9.931050300001516 seconds
+
+Pair: (224, 165) already in merged tokens... replacing in IDS...
+with.. id.. 360
+
+Replacing existing pair:(224, 165) in IDs took :9.014235899994674 seconds
+
+Pair: (358, 190) already in merged tokens... replacing in IDS...
+with.. id.. 361
+
+Replacing existing pair:(358, 190) in IDs took :9.250470099999802 seconds
+
+Pair: (360, 135) already in merged tokens... replacing in IDS...
+with.. id.. 362
+
+Replacing existing pair:(360, 135) in IDs took :9.124297099995601 seconds
+
+Pair: (358, 176) already in merged tokens... replacing in IDS...
+with.. id.. 363
+
+Replacing existing pair:(358, 176) in IDs took :9.011987900004897 seconds
+
+Pair: (360, 141) already in merged tokens... replacing in IDS...
+with.. id.. 366
+
+Replacing existing pair:(360, 141) in IDs took :7.978494400005729 seconds
+
+Pair: (359, 149) already in merged tokens... replacing in IDS...
+with.. id.. 365
+
+Replacing existing pair:(359, 149) in IDs took :8.62858419999975 seconds
+
+Pair: (361, 358) already in merged tokens... replacing in IDS...
+with.. id.. 364
+
+Replacing existing pair:(361, 358) in IDs took :7.503268600004958 seconds
+
+Pair: (360, 128) already in merged tokens... replacing in IDS...
+with.. id.. 367
+
+Replacing existing pair:(360, 128) in IDs took :7.292412799994054 seconds
+
+Pair: (358, 191) already in merged tokens... replacing in IDS...
+with.. id.. 369
+
+Replacing existing pair:(358, 191) in IDs took :7.849824600001739 seconds
+
+Pair: (358, 130) already in merged tokens... replacing in IDS...
+with.. id.. 368
+
+Replacing existing pair:(358, 130) in IDs took :8.679058699999587 seconds
+
+Pair: (366, 358) already in merged tokens... replacing in IDS...
+with.. id.. 370
+
+Replacing existing pair:(366, 358) in IDs took :7.1310461000030045 seconds
+
+Pair: (369, 358) already in merged tokens... replacing in IDS...
+with.. id.. 371
+
+Replacing existing pair:(369, 358) in IDs took :6.732586500002071 seconds
+
+Pair: (360, 139) already in merged tokens... replacing in IDS...
+with.. id.. 372
+
+Replacing existing pair:(360, 139) in IDs took :9.091528600001766 seconds
+
+Pair: (358, 168) already in merged tokens... replacing in IDS...
+with.. id.. 373
+
+Replacing existing pair:(358, 168) in IDs took :6.998806600000535 seconds
+
+Pair: (359, 184) already in merged tokens... replacing in IDS...
+with.. id.. 374
+
+Replacing existing pair:(359, 184) in IDs took :6.672541400002956 seconds
+
+Pair: (359, 185) already in merged tokens... replacing in IDS...
+with.. id.. 376
+
+Replacing existing pair:(359, 185) in IDs took :7.297683299999335 seconds
+
+Pair: (358, 149) already in merged tokens... replacing in IDS...
+with.. id.. 375
+
+Replacing existing pair:(358, 149) in IDs took :7.600594199997431 seconds
+
+Pair: (358, 164) already in merged tokens... replacing in IDS...
+with.. id.. 378
+
+Replacing existing pair:(358, 164) in IDs took :7.2736321999982465 seconds
+
+Pair: (359, 174) already in merged tokens... replacing in IDS...
+with.. id.. 377
+
+Replacing existing pair:(359, 174) in IDs took :7.121393200002785 seconds
+
+Pair: (359, 170) already in merged tokens... replacing in IDS...
+with.. id.. 382
+
+Replacing existing pair:(359, 170) in IDs took :6.400518300004478 seconds
+
+Pair: (358, 184) already in merged tokens... replacing in IDS...
+with.. id.. 381
+
+Replacing existing pair:(358, 184) in IDs took :6.955021599998872 seconds
+
+Pair: (360, 136) already in merged tokens... replacing in IDS...
+with.. id.. 380
+
+Replacing existing pair:(360, 136) in IDs took :6.941593699993973 seconds
+
+Pair: (358, 185) already in merged tokens... replacing in IDS...
+with.. id.. 383
+
+Replacing existing pair:(358, 185) in IDs took :7.159884799999418 seconds
+
+Pair: (360, 129) already in merged tokens... replacing in IDS...
+with.. id.. 386
+
+Replacing existing pair:(360, 129) in IDs took :6.83703599999717 seconds
+
+Pair: (358, 178) already in merged tokens... replacing in IDS...
+with.. id.. 384
+
+Replacing existing pair:(358, 178) in IDs took :6.9620223000019905 seconds
+
+Pair: (362, 368) already in merged tokens... replacing in IDS...
+with.. id.. 379
+
+Replacing existing pair:(362, 368) in IDs took :6.5270565999962855 seconds
+
+Pair: (358, 174) already in merged tokens... replacing in IDS...
+with.. id.. 388
+
+Replacing existing pair:(358, 174) in IDs took :6.558522700004687 seconds
+
+Pair: (376, 380) already in merged tokens... replacing in IDS...
+with.. id.. 389
+
+Replacing existing pair:(376, 380) in IDs took :6.5606320000006235 seconds
+
+Pair: (361, 363) already in merged tokens... replacing in IDS...
+with.. id.. 387
+
+Replacing existing pair:(361, 363) in IDs took :6.646278299995174 seconds
+
+Pair: (365, 362) already in merged tokens... replacing in IDS...
+with.. id.. 396
+
+Replacing existing pair:(365, 362) in IDs took :5.931059200003801 seconds
+
+Pair: (366, 363) already in merged tokens... replacing in IDS...
+with.. id.. 393
+
+Replacing existing pair:(366, 363) in IDs took :6.750507099997776 seconds
+
+Pair: (359, 172) already in merged tokens... replacing in IDS...
+with.. id.. 385
+
+Replacing existing pair:(359, 172) in IDs took :5.937526700006856 seconds
+
+Pair: (359, 156) already in merged tokens... replacing in IDS...
+with.. id.. 391
+
+Replacing existing pair:(359, 156) in IDs took :6.253495699995256 seconds
+
+Pair: (358, 151) already in merged tokens... replacing in IDS...
+with.. id.. 392
+
+Replacing existing pair:(358, 151) in IDs took :6.562416900000244 seconds
+
+Pair: (359, 168) already in merged tokens... replacing in IDS...
+with.. id.. 390
+
+Replacing existing pair:(359, 168) in IDs took :7.18914329999825 seconds
+
+Pair: (358, 170) already in merged tokens... replacing in IDS...
+with.. id.. 395
+
+Replacing existing pair:(358, 170) in IDs took :6.453103400002874 seconds
+
+Pair: (359, 166) already in merged tokens... replacing in IDS...
+with.. id.. 400
+
+Replacing existing pair:(359, 166) in IDs took :5.921926299997722 seconds
+
+Pair: (359, 133) already in merged tokens... replacing in IDS...
+with.. id.. 406
+
+Replacing existing pair:(359, 133) in IDs took :6.4744608999972115 seconds
+
+Pair: (359, 181) already in merged tokens... replacing in IDS...
+with.. id.. 408
+
+Replacing existing pair:(359, 181) in IDs took :6.979190499994729 seconds
+
+Pair: (359, 178) already in merged tokens... replacing in IDS...
+with.. id.. 399
+
+Replacing existing pair:(359, 178) in IDs took :6.29921689999901 seconds
+
+Pair: (377, 379) already in merged tokens... replacing in IDS...
+with.. id.. 394
+
+Replacing existing pair:(377, 379) in IDs took :5.513525800000934 seconds
+
+Pair: (359, 176) already in merged tokens... replacing in IDS...
+with.. id.. 398
+
+Replacing existing pair:(359, 176) in IDs took :6.015970200001902 seconds
+
+Pair: (358, 166) already in merged tokens... replacing in IDS...
+with.. id.. 401
+
+Replacing existing pair:(358, 166) in IDs took :6.6462342999948305 seconds
+
+Pair: (360, 130) already in merged tokens... replacing in IDS...
+with.. id.. 405
+
+Replacing existing pair:(360, 130) in IDs took :5.919669200004137 seconds
+
+Pair: (358, 181) already in merged tokens... replacing in IDS...
+with.. id.. 423
+
+Replacing existing pair:(358, 181) in IDs took :5.812084900004265 seconds
+
+Pair: (364, 168) already in merged tokens... replacing in IDS...
+with.. id.. 397
+
+Replacing existing pair:(364, 168) in IDs took :6.81313520000549 seconds
+
+Pair: (372, 368) already in merged tokens... replacing in IDS...
+with.. id.. 407
+
+Replacing existing pair:(372, 368) in IDs took :6.1064145999989705 seconds
+
+Pair: (365, 367) already in merged tokens... replacing in IDS...
+with.. id.. 404
+
+Replacing existing pair:(365, 367) in IDs took :5.431715400001849 seconds
+
+Pair: (370, 175) already in merged tokens... replacing in IDS...
+with.. id.. 416
+
+Replacing existing pair:(370, 175) in IDs took :6.585312900002464 seconds
+
+Pair: (359, 134) already in merged tokens... replacing in IDS...
+with.. id.. 412
+
+Replacing existing pair:(359, 134) in IDs took :6.491809699997248 seconds
+
+Pair: (358, 175) already in merged tokens... replacing in IDS...
+with.. id.. 430
+
+Replacing existing pair:(358, 175) in IDs took :6.536301899999671 seconds
+
+Pair: (373, 362) already in merged tokens... replacing in IDS...
+with.. id.. 418
+
+Replacing existing pair:(373, 362) in IDs took :5.8453930000032415 seconds
+
+Pair: (371, 175) already in merged tokens... replacing in IDS...
+with.. id.. 445
+
+Replacing existing pair:(371, 175) in IDs took :6.943409799998335 seconds
+
+Pair: (365, 372) already in merged tokens... replacing in IDS...
+with.. id.. 417

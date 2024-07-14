@@ -198,8 +198,9 @@ class HindiTokenizer:
                 if just_replacing_already_seen_tokens_counter > just_replacing_already_seen_tokens_counter_threshold \
                         and minting_new_token_for_merge_counter < minting_new_token_for_merge_threshold:
                     print("\n\n===========\nStopping current batch as replacing previously learned merges is way"
-                          f" higher than creating new merges\njust_replacing_already_seen_tokens_counter:{just_replacing_already_seen_tokens_counter}"
-                          f"and minting_new_token_for_merge_counter: {minting_new_token_for_merge_counter}")
+                          f" higher than creating new merges\njust_replacing_already_seen_tokens_counter:"
+                          f" {just_replacing_already_seen_tokens_counter}"
+                          f" and minting_new_token_for_merge_counter: {minting_new_token_for_merge_counter}")
                     stop_this_batch = True
                     break
 
