@@ -102,9 +102,9 @@ def main():
                                 current_batch_num=batch_idx + 1,
                                 save_tokenizer_at_train_end=True,
                                 prefix_for_save=FILE_SAVE_PREFIX,
-                                just_replacing_already_seen_tokens_counter_threshold=100,
+                                just_replacing_already_seen_tokens_counter_threshold=500,
                                 minting_new_token_for_merge_threshold=5,
-                                save_at_every_nth_iteration=50,
+                                save_at_every_nth_iteration=100,
                                 verbose=True)
             else:
                 break
