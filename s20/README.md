@@ -20,10 +20,28 @@ In general, a long string being represented by a single token implies that that 
 set (or whatever corpus was used to build the tokenizer), because otherwise it wouldn't have been "worth it" to give
 that string its own token.
 
+#### Used basic Hindi alphabet as part of vocab initialization:
+[Code line](https://github.com/manu-chauhan/erav2/blob/5586fa005749cba7a2f1c46dfd693ee886a5133c/s20/src/HindiTokenizer.py#L92)
+```
+self.hindi_varnmala_and_key_units = dedent("""
+                    अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ
+                    ा ि ी ु ू ृॄ ॅॆ े ैॉ ॊ ो ौ                     
+                    क ख ग घ ङ क़ ख़ ग़ घ़ ङ़
+                    च छ ज झ ञ ज़ झ़ ञ़
+                    ट ठ ड ढ ण ड़ ढ़ ण़
+                    त थ द ध न त़ थ़ द़ ध़ ऩ
+                    प फ ब भ म प़ फ़ ब़ म़
+                    य र ल ळ व य़ ऱ ल़ ऴ व़
+                    श ष ॺ स ह श़ ष़ स़ ह़
+                    ० १ २ ३ ४ ५ ६ ७ ८ ९ 
+                    ॥
+                    """)
+```
+
+
 ![img.png](images/img-eng-hin.png)
 
 ![img.png](images/img4.png)
-
 
 ## Some info about devanagari script:
 
@@ -37,7 +55,7 @@ src : https://hindilanguage.info/devanagari/
 
 https://www.easyhindityping.com/hindi-alphabet
 
-### nostalgia !!
+#### nostalgia !!
 
 ![hindi alphabet](images/Hindi_Alphabet.png)
 
