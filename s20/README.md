@@ -305,7 +305,7 @@ steps:
                           files.append(txt_file)
                       return files
                ```
-3. Use Python's in-built `fileinput` to read a list of files with same file object and `yield` list of lines when batch size is reached, check `def read_from_all_files` in utilities.py
+3. Use Python's in-built `fileinput` to read a list of files with same file object and `yield` list of lines when batch size is reached, check `def read_from_all_files` in utilities.py [here](https://github.com/manu-chauhan/erav2/blob/bcdc5a9562ca77b2766b878e5b485c07c5617ec7/s20/utilities.py#L90)
    ```
    with fileinput.input(files=all_files_to_read,
                          encoding=encoding) as f:```
