@@ -55,7 +55,7 @@ src : https://hindilanguage.info/devanagari/
 
 https://www.easyhindityping.com/hindi-alphabet
 
-#### nostalgia !!
+##### nostalgia !!
 
 ![hindi alphabet](images/Hindi_Alphabet.png)
 
@@ -85,14 +85,14 @@ https://www.easyhindityping.com/hindi-alphabet
 
 ## Fun with glitch tokens:
 
-#### Taken on 29th June 2024 (Andrej's Tokenization video is 4th month old now... these issues still on ChatGPT, hackerNews discussion 1 year old !)
+##### Taken on 29th June 2024 (Andrej's Tokenization video is 4th month old now... these issues still on ChatGPT, hackerNews discussion 1 year old !)
 
 1. ![img1](images/Screenshot-2024-06-29-131202.png)
 2. ![img2](images/Screenshot-2024-06-29-131228.png)
 3. ![img3](images/Screenshot-2024-06-29-131410.png)
 4. ![img4](images/Screenshot-2024-06-29-132208.png)
 
-### Why this breaks things???
+#### Why this breaks things???
 
 src: https://news.ycombinator.com/item?id=36245187
 "But why would that break things like this? Answer from londons_explore on Hacker News:
@@ -153,6 +153,9 @@ src: https://news.ycombinator.com/item?id=36245187
 2. [Devanagari Extended](https://unicode.org/charts/PDF/UA8E0.pdf)  Range: A8E0–A8FF
 3. https://en.wikipedia.org/wiki/Plane_%28Unicode%29#Basic_Multilingual_Plane
 4. https://en.wikipedia.org/wiki/Devanagari_(Unicode_block)
+5. Finding 'अ' Unicode code point value
+   ![](images/img_4.png)
+
 
 ## Regex info for code point classes:
 
