@@ -5,6 +5,11 @@ Come, get to experience, understand and live with Unicode code points (read as d
 # Taming Tokenization
 ### (for Hindi [Devanagari script])
 
+
+### HuggingFace App
+[🤗 Spaces App](https://huggingface.co/spaces/Manu101/HindiTokenizer)
+
+
 #### (Tokenization... the gnarly part of every NLP model ... with NLTK back in pre-transformer days and now with LLMs)
 
 For example, the string Hello world! gets encoded by the GPT-2 tokenizer as the sequence [15496, 995, 0], meaning that
@@ -18,6 +23,7 @@ that string its own token.
 ![img.png](images/img-eng-hin.png)
 
 ![img.png](images/img4.png)
+
 
 ## Some info about devanagari script:
 
