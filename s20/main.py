@@ -11,7 +11,7 @@ from src.HindiTokenizer import SIMPLE_HINDI_PATTERN
 @utilities.log_to_file("main.log")
 def main():
     BATCH_SIZE = 20_000
-    NUMBER_OF_BATCHES = 10  # None --> read all batches of entire data from all files present in `dataset` dir
+    NUMBER_OF_BATCHES = None # None --> read all batches of entire data from all files present in `dataset` dir
     train = False
 
     '''

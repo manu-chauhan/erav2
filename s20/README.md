@@ -354,9 +354,64 @@ Ryzen 7 5800x, 64 GB DDR4 RAM, C drive is M.2 NVME (Python processes and IDE) (g
 
 Time for each merge did increase (but more with larger batch) : for 70K batch size, 1st merge took 10.5 seconds and 10th merge around 6.5 seconds... But when batchsize was 70K*3 time increased to 40 seconds for 1st merge and 30.2 seconds for 10th merge... I mean obvious it will not scale directly and some bottleneck with larger text... but wanted to test handling capacity. for 700_000 batch size 1st merge 148.97 seconds
 
->Final run was for 5000 initial vocab size and 500 (upper limit, if can be generated, for subsequent batches) with Batch size of 100_000 lines of text
+#### Final 'train' run for 5k Merges and 500 (upper limit, if can be generated, for subsequent batches, batched stopped before even merging 5 new) with Batch size of 100_000 lines of text
+  ```
+   Count of files to read...30
 
-### 2000 vocab test for 1st batch:
+batch : 0 len:4054456...encoded len: 984447...
+
+
+batch : 1 len:4118410...encoded len: 908100...
+
+
+batch : 2 len:4199175...encoded len: 1215759...
+
+
+batch : 3 len:6479637...encoded len: 1997481...
+
+
+batch : 4 len:6333295...encoded len: 1964496...
+
+
+batch : 5 len:6659662...encoded len: 2055685...
+
+
+batch : 6 len:6613018...encoded len: 2040732...
+
+
+batch : 7 len:6423853...encoded len: 2008547...
+
+
+batch : 8 len:6520954...encoded len: 2013728...
+
+
+batch : 9 len:6610659...encoded len: 2036789...
+
+
+batch : 10 len:6610659...encoded len: 2036789...
+
+
+Final counter value: 10
+
+=========
+Reading dataset done
+=============
+
+
+================================
+Total len of text in Hindi ran for 10 batches is : 64623778
+Encoded total len: 19262553
+Ratio of raw data for : 10 for each batch size :{20000} compressed: 3.3548916387147645
+```
+---
+#### This specific run for encoding entire dataset tested on 5000 merges vocab: (complete logs in `main.log` file)
+   ```
+   Total len of text in Hindi ran for all batches for entire dataset is : 3831718033
+   Encoded total len: 1191304089
+   Ratio of raw data for : entire dataset compressed: 3.2164063469440505
+```
+
+### An older test of 2000 vocab for 1st batch:
 > [\u0000] 0
 [\u0001] 1
 [\u0002] 2
