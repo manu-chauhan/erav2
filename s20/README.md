@@ -212,6 +212,9 @@ src: https://www.regular-expressions.info/unicode.html
 ##### Note: Used Git Large File System, easy to use and track specific files
 GDrive link for dataset: [Dataset Download](https://drive.google.com/drive/folders/1KD7v4eW2ZKQ0Re_6lXRuaaVswvS3IFIh?usp=sharing)
 
+Note: file named as 01... and Z are intentional to order reading those specific files, for example 01 has Hindi alphabets (again) and their overview.
+
+
 1. [hindi_text_ltrc](https://github.com/cltk/hindi_text_ltrc/tree/master)
     1. contains classical texts
     2. Kabeera
