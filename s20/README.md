@@ -339,8 +339,8 @@ The key idea was:
 
 ## Observation:
 
-1. Hinglish (in real use cases) would pose another challenge !!!! But must be included. Bcoz aaj|aj kal|kl yhi|yehi
-   normal|norm hai|h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi
+1. Hinglish (in real use cases) would pose another challenge !!!! But must be included. Bcoz aaj/aj kal/kl yhi/yehi
+   normal/norm hai/h ! See how varying pronunciation AND enunciation results in varying english representation of Hindi
    language these days.
 2. Any other language than English is under threat now unless Neuralink is adopted so thoughts and speech are
    transcribed and stored into DB, OR get multilingual keyboards(less likely to work and adopted ?)
