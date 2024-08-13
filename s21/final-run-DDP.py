@@ -281,7 +281,7 @@ def get_lr(iteration):
 
 model = GPT(GPTConfig()).to(device=device)
 
-model = torch.compile(model)
+model = torch.compile(model, mode='default')
 
 if ddp:
     print("\n\n====================================\nDDP")
@@ -313,6 +313,9 @@ train_loader = DataLoaderLite(B=B, T=T, process_rank=ddp_rank, num_processes=ddp
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 
+log_dir = "logs"
+os.makedirs(log_dir, exist_ok=True)
+
 start= time.time()
 
 for step in range(max_steps):
@@ -337,7 +340,15 @@ for step in range(max_steps):
         loss.backward()
     if ddp:
         dist.all_reduce(loss_mini, op=dist.ReduceOp.AVG)
-    
+    if master_process and step%50==0 and step > 100:
+            print(f"saving at: {step}")            
+            checkpoint_path = os.path.join(log_dir, f"model_{step:05d}.pt")
+            checkpoint = {
+                'model': raw_model.state_dict(),
+                'config': raw_model.config,
+                'step': step
+            }
+            torch.save(checkpoint, checkpoint_path)
     # grad clip
     norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 
