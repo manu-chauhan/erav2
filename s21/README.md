@@ -9,9 +9,10 @@
   - Optimizer
   - grad clipping 
   - cosine LR
+  - gradient accumulation
   
 - Ran training for 5000 steps on `input.txt` -> did not converge to < 0.09
 
-- Final run via DDP on cloud with 2 x RTX 4090 with Gradient accumulation, loss went below 0.09
+- Final run via DDP on cloud with 2 x RTX 4090 with Gradient accumulation, loss went below 0.09 around epoch 394
 
   
